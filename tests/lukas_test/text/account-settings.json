@@ -2,7 +2,8 @@
     "visibility": {
         "description": "By choosing your account visibility you control who sees what. ‘Publish your profile’ means that others can visit your profile URL (this is your unique internet address). Make sure both ‘Publish your profile’ and the ‘Connect with me’ setting has the status ‘On’ so others can request to connect with you. ‘Visible for search’ means others can find you in the Society.",
         "settings": {
-            "public_profile": {
+            "publish_profile": {
+                "display_name": "Publish profile",
                 "description": "Allows others to view your profile.",
                 "recommended_action": "Enable to let others find you.",
                 "actions": [
@@ -11,6 +12,7 @@
                 ]
             },
             "connect_with_me": {
+                "display_name": "Connect with me",
                 "description": "Allows others to send you connection requests.",
                 "recommended_action": "Enable to let others connect with you.",
                 "actions": [
@@ -19,6 +21,7 @@
                 ]
             },
             "visible_for_search": {
+                "display_name": "Visible for search",
                 "description": "Controls whether your profile shows up in search results.",
                 "recommended_action": "Enable to let others find you.",
                 "actions": [
@@ -27,7 +30,8 @@
                 ]
             },
             "who_can_find_you": {
-                "description": "Controls who can find your profile.",
+                "display_name": "Who can find you",
+                "description": "Controls who can find your profile. This option requires the 'Visible for search' setting to be enabled.",
                 "recommended_action": "Set to 'Logged on only' to only allow platform users to find you.",
                 "actions": [
                     "Set to 'Everyone' to let everyone find you.",
