@@ -1,0 +1,89 @@
+{
+    "privacy_policy": [
+        {
+            "text": "Can you summarize the privacy policy for me?",
+            "sub_level_label": "summarization"
+        },
+        {
+            "text": "What information does the privacy policy collect?",
+            "sub_level_label": "question_answering",
+            "sub_level_category": "collection"
+        },
+        {
+            "text": "How can I opt out of data sharing?",
+            "sub_level_label": "question_answering",
+            "sub_level_category": "opt_out"
+        }
+    ],
+    "legal_statement": [
+        {
+            "text": "What are the terms of service for this platform?",
+            "sub_level_label": "question_answering",
+            "sub_level_category": "terms_of_service"
+        },
+        {
+            "text": "Can you summarize the liability section of the terms of service?",
+            "sub_level_label": "summarization",
+            "sub_level_category": "liability"
+        }
+    ],
+    "platform_settings": [
+        {
+            "text": "Where can I change my account password?",
+            "sub_level_label": "question_answering",
+            "sub_level_category": "password_change"
+        },
+        {
+            "text": "I'd like to change my password?",
+            "sub_level_label": "question_answering",
+            "sub_level_category": "password_change"
+        },
+        {
+            "text": "Is it possible to change my password?",
+            "sub_level_label": "question_answering",
+            "sub_level_category": "password_change"
+        },
+        {
+            "text": "Where can i change my password?",
+            "sub_level_label": "question_answering",
+            "sub_level_category": "password_change"
+        },
+        {
+            "text": "How do I reset my password?",
+            "sub_level_label": "question_answering",
+            "sub_level_category": "password_reset"
+            },
+            {
+            "text": "I forgot my password, what do I do?",
+            "sub_level_label": "question_answering",
+            "sub_level_category": "password_reset"
+            },
+            {
+            "text": "Can you help me change my password?",
+            "sub_level_label": "question_answering",
+            "sub_level_category": "password_change"
+            },
+            {
+            "text": "Why can't I change my password?",
+            "sub_level_label": "question_answering",
+            "sub_level_category": "password_change"
+            },
+            {
+            "text": "I need to update my password, how do I do that?",
+            "sub_level_label": "question_answering",
+            "sub_level_category": "password_change"
+            }
+    ],
+    "external_platform_settings": [
+        {
+            "text": "Can you explain the process for linking external accounts?",
+            "sub_level_label": "question_answering",
+            "sub_level_category": "account_linking"
+        },
+        {
+            "text": "What data is shared with third-party platforms?",
+            "sub_level_label": "question_answering",
+            "sub_level_category": "data_sharing"
+        }
+    ]
+}
