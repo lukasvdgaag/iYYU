@@ -9,6 +9,7 @@ from openai.embeddings_utils import distances_from_embeddings
 
 class GPT:
     max_tokens = 500
+    df = None
 
     def __init__(self):
         load_dotenv()
@@ -36,26 +37,26 @@ class GPT:
                 texts.append((file, text))
 
         # Create a dataframe from the list of texts
-        df = pd.DataFrame(texts, columns=['fname', 'text'])
+        self.df = pd.DataFrame(texts, columns=['fname', 'text'])
 
         # Set the text column to be the raw text with the newlines removed
-        df['text'] = self.remove_newlines(df.text)
-        df.to_csv('processed/scraped.csv')
+        self.df['text'] = self.remove_newlines(self.df.text)
+        self.df.to_csv('processed/scraped.csv')
 
     def data_preprocessing(self):
         # De cl100k_base tokenizer inladen, die is ontworpen om te werken met het ada-002 model.
         tokenizer = tiktoken.get_encoding("cl100k_base")
 
-        df = pd.read_csv('processed/scraped.csv', index_col=0)
-        df.columns = ['title', 'text']
+        self.df = pd.read_csv('processed/scraped.csv', index_col=0)
+        self.df.columns = ['title', 'text']
 
         # Een nieuwe kolom genaamd 'n_tokens' toevoegen aan de dataframe, die de lengte van de tokenized text bevat.
-        df['n_tokens'] = df.text.apply(lambda x: len(tokenizer.encode(x)))
+        self.df['n_tokens'] = self.df.text.apply(lambda x: len(tokenizer.encode(x)))
 
         shortened = []
 
         # Loop through the dataframe
-        for row in df.iterrows():
+        for row in self.df.iterrows():
 
             # If the text is None, go to the next row
             if row[1]['text'] is None:
@@ -69,10 +70,10 @@ class GPT:
             else:
                 shortened.append(row[1]['text'])
 
-        df = pd.DataFrame(shortened, columns=['text'])
-        df['n_tokens'] = df.text.apply(lambda x: len(tokenizer.encode(x)))
+        self.df = pd.DataFrame(shortened, columns=['text'])
+        self.df['n_tokens'] = self.df.text.apply(lambda x: len(tokenizer.encode(x)))
 
-        self.create_embeddings(df)
+        self.create_embeddings()
 
     # Function to split the text into chunks of a maximum number of tokens
     def split_into_many(self, text, tokenizer, max_tokens=max_tokens):
@@ -108,36 +109,30 @@ class GPT:
 
         return chunks
 
-    def create_embeddings(self, df):
+    def create_embeddings(self):
 
-        df['embeddings'] = df.text.apply(
+        self.df['embeddings'] = self.df.text.apply(
             lambda x: openai.Embedding.create(input=x, engine='text-embedding-ada-002')['data'][0]['embedding'])
-        df.to_csv('processed/embeddings.csv')
-        print(df.shape)
-        print(df.head())
+        self.df.to_csv('processed/embeddings.csv')
 
     def create_context(
-            self, question, df, max_len=1800, size="ada"
+            self, question, max_len=1800, size="ada"
     ):
         """
         Create a context for a question by finding the most similar context from the dataframe
         """
 
-        print("starting creating embeddings")
-
-        print(df['embeddings'].values.shape)
         # Get the embeddings for the question
         q_embeddings = openai.Embedding.create(input=question, engine='text-embedding-ada-002')['data'][0]['embedding']
-        print(q_embeddings)
 
         # Get the distances from the embeddings
-        df['distances'] = distances_from_embeddings(q_embeddings, df['embeddings'].values, distance_metric='cosine')
+        self.df['distances'] = distances_from_embeddings(q_embeddings, self.df['embeddings'].values, distance_metric='cosine')
 
         returns = []
         cur_len = 0
 
         # Sort by distance and add the text to the context until the context is too long
-        for i, row in df.sort_values('distances', ascending=True).iterrows():
+        for i, row in self.df.sort_values('distances', ascending=True).iterrows():
 
             # Add the length of the text to the current length
             cur_len += row['n_tokens'] + 4
@@ -149,8 +144,6 @@ class GPT:
             # Else add it to the text that is being returned
             returns.append(row["text"])
 
-        print(returns)
-
         # Return the context
         return "\n\n###\n\n".join(returns)
 
@@ -160,7 +153,7 @@ class GPT:
             question="",
             max_len=1800,
             size="ada",
-            debug=True,
+            debug=False,
             max_tokens=150,
             stop_sequence=None
     ):
@@ -168,11 +161,8 @@ class GPT:
         Answer a question based on the most similar context from the dataframe texts
         """
 
-        print('hello')
-
         context = self.create_context(
-            question,
-            pd.read_csv('./processed/embeddings.csv'),
+            question=question,
             max_len=1000,
             size=size,
         )
