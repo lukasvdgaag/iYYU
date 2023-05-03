@@ -6,18 +6,15 @@
         },
         {
             "text": "What information does the privacy policy collect?",
-            "sub_level_label": "question_answering",
-            "sub_level_category": "collection"
+            "sub_level_label": "question_answering"
         },
         {
             "text": "How can I opt out of data sharing?",
-            "sub_level_label": "question_answering",
-            "sub_level_category": "opt_out"
+            "sub_level_label": "question_answering" 
         },
         {
             "text": "Is my personal information shared with third parties?",
-            "sub_level_label": "question_answering",
-            "sub_level_category": "sharing"
+            "sub_level_label": "question_answering"
         },
         {
             "text": "What information does the privacy policy collect?",
@@ -103,13 +100,11 @@
     "legal_statement": [
         {
             "text": "What are the terms of service for this platform?",
-            "sub_level_category": "question_answering",
             "sub_level_label": "terms_of_service"
         },
         {
             "text": "Can you summarize the liability section of the terms of service?",
-            "sub_level_label": "summarization",
-            "sub_level_category": "liability"
+            "sub_level_label": "summarization"
         },
         {
             "text": "What are the terms of service for this platform?",
@@ -178,49 +173,44 @@
     ],
     "platform_settings": [
         {
+            "text": "where can i find the notifications centre",
+            "sub_level_label": "test_sentiment"
+        },
+        {
             "text": "Where can I change my account password?",
-            "sub_level_label": "question_answering",
-            "sub_level_category": "password_change"
+            "sub_level_label": "question_answering"
         },
         {
             "text": "I'd like to change my password?",
-            "sub_level_label": "question_answering",
-            "sub_level_category": "password_change"
+            "sub_level_label": "question_answering"
         },
         {
             "text": "Is it possible to change my password?",
-            "sub_level_label": "question_answering",
-            "sub_level_category": "password_change"
+            "sub_level_label": "question_answering"
         },
         {
             "text": "Where can i change my password?",
-            "sub_level_label": "question_answering",
-            "sub_level_category": "password_change"
+            "sub_level_label": "question_answering"
         },
         {
             "text": "How do I reset my password?",
-            "sub_level_label": "question_answering",
-            "sub_level_category": "password_reset"
+            "sub_level_label": "question_answering"
         },
         {
             "text": "I forgot my password, what do I do?",
-            "sub_level_label": "question_answering",
-            "sub_level_category": "password_reset"
+            "sub_level_label": "question_answering"
         },
         {
             "text": "Can you help me change my password?",
-            "sub_level_label": "question_answering",
-            "sub_level_category": "password_change"
+            "sub_level_label": "question_answering"
         },
         {
             "text": "Why can't I change my password?",
-            "sub_level_label": "question_answering",
-            "sub_level_category": "password_change"
+            "sub_level_label": "question_answering"
         },
         {
             "text": "I need to update my password, how do I do that?",
-            "sub_level_label": "question_answering",
-            "sub_level_category": "password_change"
+            "sub_level_label": "question_answering"
         }
     ],
     "external_platform_settings": [
