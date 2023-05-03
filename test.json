@@ -1,6 +1,6 @@
 {
-    'privacy_policy': ['summarization', 'question_answering', 'question_answering', 'question_answering', 'collection', 'usage', 'sharing', 'storage_security', 'rights', 'access', 'deletion', 'cookie_policies', 'compliance', 'updates', 'summarization', 'age_requirement', 'geolocation', 'mergers_acquisitions', 'data_breach', 'opt_out', 'contact', 'consequences', 'selling', 'account_termination'], 
-    'legal_statement': ['terms_of_service', 'summarization', 'terms_of_service', 'governing_law', 'liability', 'dispute_resolution', 'arbitration', 'small_claims_court', 'user_obligations', 'intellectual_property', 'use_restrictions', 'transfer', 'cancellation', 'warranty_disclaimers', 'limitations_of_liability', 'third_party_content', 'refunds', 'violations'], 
-    'platform_settings': ['question_answering', 'question_answering', 'question_answering', 'question_answering', 'question_answering', 'question_answering', 'question_answering', 'question_answering', 'question_answering'], 
-    'external_platform_settings': ['question_answering', 'question_answering']
+    "privacy_policy": ["summarization", "question_answering", "question_answering", "question_answering", "collection", "usage", "sharing", "storage_security", "rights", "access", "deletion", "cookie_policies", "compliance", "updates", "summarization", "age_requirement", "geolocation", "mergers_acquisitions", "data_breach", "opt_out", "contact", "consequences", "selling", "account_termination"], 
+    "legal_statement": ["terms_of_service", "summarization", "terms_of_service", "governing_law", "liability", "dispute_resolution", "arbitration", "small_claims_court", "user_obligations", "intellectual_property", "use_restrictions", "transfer", "cancellation", "warranty_disclaimers", "limitations_of_liability", "third_party_content", "refunds", "violations"], 
+    "platform_settings": ["question_answering", "question_answering", "question_answering", "question_answering", "question_answering", "question_answering", "question_answering", "question_answering", "question_answering"], 
+    "external_platform_settings": ["question_answering", "question_answering"]
 }
