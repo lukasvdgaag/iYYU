@@ -5,6 +5,18 @@
             "sub_level_label": "summarization"
         },
         {
+            "text": "Can you summarize the privacy policy",
+            "sub_level_label": "summarization"
+        },
+        {
+            "text": "What os the privacy policy?",
+            "sub_level_label": "summarization"
+        },
+        {
+            "text": "Cexplain privacy policy",
+            "sub_level_label": "summarization"
+        },
+        {
             "text": "What information does the privacy policy collect?",
             "sub_level_label": "question_answering",
             "sub_level_category": "collection"
@@ -15,7 +27,62 @@
             "sub_level_category": "opt_out"
         },
         {
+            "text": "How can I stop sharing my data?",
+            "sub_level_label": "question_answering",
+            "sub_level_category": "opt_out"
+        },
+        {
+            "text": "How can cancel sharing my data?",
+            "sub_level_label": "question_answering",
+            "sub_level_category": "opt_out"
+        },
+        {
+            "text": "cancel sharing data",
+            "sub_level_label": "question_answering",
+            "sub_level_category": "opt_out"
+        },
+        {
+            "text": "cancel data sharing",
+            "sub_level_label": "question_answering",
+            "sub_level_category": "opt_out"
+        },
+        {
+            "text": "stop data sharing",
+            "sub_level_label": "question_answering",
+            "sub_level_category": "opt_out"
+        },
+        {
+            "text": "stop sharing data",
+            "sub_level_label": "question_answering",
+            "sub_level_category": "opt_out"
+        },
+        {
+            "text": "opt sharing data",
+            "sub_level_label": "question_answering",
+            "sub_level_category": "opt_out"
+        },
+        {
+            "text": "opt data sharing",
+            "sub_level_label": "question_answering",
+            "sub_level_category": "opt_out"
+        },
+        {
             "text": "Is my personal information shared with third parties?",
+            "sub_level_label": "question_answering",
+            "sub_level_category": "sharing"
+        },
+        {
+            "text": "Is my personal information shared?",
+            "sub_level_label": "question_answering",
+            "sub_level_category": "sharing"
+        },
+        {
+            "text": "does mu personal information get shared?",
+            "sub_level_label": "question_answering",
+            "sub_level_category": "sharing"
+        },
+        {
+            "text": "what happens with my personal information?",
             "sub_level_label": "question_answering",
             "sub_level_category": "sharing"
         },
@@ -60,6 +127,14 @@
             "sub_level_label": "updates"
         },
         {
+            "text": "does the privacy policy change?",
+            "sub_level_label": "updates"
+        },
+        {
+            "text": "did the privacy policy change?",
+            "sub_level_label": "updates"
+        },
+        {
             "text": "Can you summarize the privacy policy for me?",
             "sub_level_label": "summarization"
         },
@@ -98,6 +173,11 @@
         {
             "text": "What happens to my personal information when I terminate my account?",
             "sub_level_label": "account_termination"
+        },
+        {
+            "text": "What happens to my personal information?",
+            "sub_level_label": "question_answering",
+            "sub_level_category": "collection"
         }
     ],
     "legal_statement": [
@@ -226,6 +306,16 @@
     "external_platform_settings": [
         {
             "text": "Can you explain the process for linking external accounts?",
+            "sub_level_label": "question_answering",
+            "sub_level_category": "account_linking"
+        },
+        {
+            "text": "How do I link with external accounts?",
+            "sub_level_label": "question_answering",
+            "sub_level_category": "account_linking"
+        },
+        {
+            "text": "How do I link external accounts?",
             "sub_level_label": "question_answering",
             "sub_level_category": "account_linking"
         },
