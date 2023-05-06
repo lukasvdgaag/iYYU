@@ -9,11 +9,11 @@
             "sub_level_label": "summarization"
         },
         {
-            "text": "What os the privacy policy?",
+            "text": "What is the privacy policy?",
             "sub_level_label": "summarization"
         },
         {
-            "text": "Cexplain privacy policy",
+            "text": "explain privacy policy",
             "sub_level_label": "summarization"
         },
         {
@@ -22,7 +22,7 @@
             "sub_level_category": "collection"
         },
         {
-            "text": "How can I opt out of data sharing?",
+            "text": "How can I out out of data sharing?",
             "sub_level_label": "question_answering",
             "sub_level_category": "opt_out"
         },
@@ -301,11 +301,26 @@
             "text": "I need to update my password, how do I do that?",
             "sub_level_label": "question_answering",
             "sub_level_category": "password_change"
+        },
+        {
+            "text": "How to change password",
+            "sub_level_label": "question_answering",
+            "sub_level_category": "password_change"
+        },
+        {
+            "text": "How do I change my password",
+            "sub_level_label": "question_answering",
+            "sub_level_category": "password_change"
         }
     ],
     "external_platform_settings": [
         {
             "text": "Can you explain the process for linking external accounts?",
+            "sub_level_label": "question_answering",
+            "sub_level_category": "account_linking"
+        },
+        {
+            "text": "explain the process for linking external accounts?",
             "sub_level_label": "question_answering",
             "sub_level_category": "account_linking"
         },
@@ -323,6 +338,16 @@
             "text": "What data is shared with third-party platforms?",
             "sub_level_label": "question_answering",
             "sub_level_category": "data_sharing"
+        },
+        {
+            "text": "How does external data linking work?",
+            "sub_level_label": "question_answering",
+            "sub_level_category": "account_linking"
+        },
+        {
+            "text": "How do I link an external account?",
+            "sub_level_label": "question_answering",
+            "sub_level_category": "account_linking"
         }
     ]
 }
