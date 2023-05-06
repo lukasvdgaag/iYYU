@@ -111,6 +111,18 @@
             "sub_level_label": "access"
         },
         {
+            "text": "How can I see my personal information?",
+            "sub_level_label": "access"
+        },
+        {
+            "text": "How can I access my personal information?",
+            "sub_level_label": "access"
+        },
+        {
+            "text": "How can I check my personal information?",
+            "sub_level_label": "access"
+        },
+        {
             "text": "Can I delete my personal information from the company's records?",
             "sub_level_label": "deletion"
         },
@@ -128,6 +140,14 @@
         },
         {
             "text": "does the privacy policy change?",
+            "sub_level_label": "updates"
+        },
+        {
+            "text": "when does the privacy policy change?",
+            "sub_level_label": "updates"
+        },
+        {
+            "text": "when did the privacy policy change?",
             "sub_level_label": "updates"
         },
         {
@@ -156,6 +176,14 @@
         },
         {
             "text": "Can I opt-out of targeted advertising?",
+            "sub_level_label": "opt_out"
+        },
+        {
+            "text": "how can I stop targeted advertising?",
+            "sub_level_label": "opt_out"
+        },
+        {
+            "text": "how do I stop targeted advertising?",
             "sub_level_label": "opt_out"
         },
         {
