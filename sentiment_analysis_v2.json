@@ -178,5 +178,212 @@
         ],
         "responses": [],
         "use_gpt": true
+    },
+    {
+        "intent": "question_answering",
+        "category": "legal_statement",
+        "text": [
+            "What are the terms of service for this platform?"
+        ],
+        "responses": [],
+        "use_gpt": true
+    },
+    {
+        "intent": "summarization_legal_statement",
+        "category": "legal_statement",
+        "text": [
+            "Can you summarize the liability section of the terms of service?"
+        ],
+        "responses": [],
+        "use_gpt": true
+    },
+    {
+        "intent": "terms_of_service_legal_statement",
+        "category": "legal_statement",
+        "text": [
+            "What are the terms of service for this platform?"
+        ],
+        "responses": [],
+        "use_gpt": true
+    },
+    {
+        "intent": "governing_law_legal_statement",
+        "category": "legal_statement",
+        "text": [
+            "What is the governing law for the legal agreement?"
+        ],
+        "responses": [],
+        "use_gpt": true
+    },
+    {
+        "intent": "liability_legal_statement",
+        "category": "legal_statement",
+        "text": [
+            "Can you summarize the liability section of the legal agreement?"
+        ],
+        "responses": [],
+        "use_gpt": true
+    },
+    {
+        "intent": "dispute_resolution_legal_statement",
+        "category": "legal_statement",
+        "text": [
+            "What is the dispute resolution process outlined in the legal agreement?"
+        ],
+        "responses": [],
+        "use_gpt": true
+    },
+    {
+        "intent": "arbitration_legal_statement",
+        "category": "legal_statement",
+        "text": [
+            "Can I opt-out of arbitration?"
+        ],
+        "responses": [],
+        "use_gpt": true
+    },
+    {
+        "intent": "small_claims_court_legal_statement",
+        "category": "legal_statement",
+        "text": [
+            "How are disputes handled in small claims court?"
+        ],
+        "responses": [],
+        "use_gpt": true
+    },
+    {
+        "intent": "user_obligations_legal_statement",
+        "category": "legal_statement",
+        "text": [
+            "What are my obligations as a user under the legal agreement?"
+        ],
+        "responses": [],
+        "use_gpt": true
+    },
+    {
+        "intent": "intellectual_property_legal_statement",
+        "category": "legal_statement",
+        "text": [
+            "How does the legal agreement apply to intellectual property rights?"
+        ],
+        "responses": [],
+        "use_gpt": true
+    },
+    {
+        "intent": "use_restrictions_legal_statement",
+        "category": "legal_statement",
+        "text": [
+            "What are the restrictions on my use of the platform or service?"
+        ],
+        "responses": [],
+        "use_gpt": true
+    },
+    {
+        "intent": "transfer_legal_statement",
+        "category": "legal_statement",
+        "text": [
+            "Can I transfer my account or subscription to someone else?"
+        ],
+        "responses": [],
+        "use_gpt": true
+    },
+    {
+        "intent": "cancellation_legal_statement",
+        "category": "legal_statement",
+        "text": [
+            "What is the cancellation policy for subscriptions or services?"
+        ],
+        "responses": [],
+        "use_gpt": true
+    },
+    {
+        "intent": "warranty_disclaimers_legal_statement",
+        "category": "legal_statement",
+        "text": [
+            "Are there any warranty disclaimers in the legal agreement?"
+        ],
+        "responses": [],
+        "use_gpt": true
+    },
+    {
+        "intent": "limitations_of_liability_legal_statement",
+        "category": "legal_statement",
+        "text": [
+            "What are the limitations of liability in the legal agreement?"
+        ],
+        "responses": [],
+        "use_gpt": true
+    },
+    {
+        "intent": "third_party_content_legal_statement",
+        "category": "legal_statement",
+        "text": [
+            "How does the legal agreement apply to third-party content or services?"
+        ],
+        "responses": [],
+        "use_gpt": true
+    },
+    {
+        "intent": "refunds_legal_statement",
+        "category": "legal_statement",
+        "text": [
+            "What is the company's policy on refunds?"
+        ],
+        "responses": [],
+        "use_gpt": true
+    },
+    {
+        "intent": "violations_legal_statement",
+        "category": "legal_statement",
+        "text": [
+            "What happens if I violate the legal agreement?"
+        ],
+        "responses": [],
+        "use_gpt": true
+    },
+    {
+        "intent": "location_password_change",
+        "category": "platform_settings",
+        "text": [
+            "Where can I change my account password?",
+            "Where can i change my password?"
+        ],
+        "responses": [],
+        "use_gpt": false
+    },
+    {
+        "intent": "reset_password_change",
+        "category": "platform_settings",
+        "text": [
+           "I forgot my password, what do I do?",
+            "Is it possible to change my password?",
+            "I'd like to change my password?"
+        ],
+        "responses": [
+            "It is possible to change your password. You can go to the settings and click on...  "
+        ],
+        "use_gpt": false
+    },
+    {
+        "intent": "update_password_change",
+        "category": "platform_settings",
+        "text": [
+            "I need to update my password, how do I do that?",
+            "How do I change my password",
+            "How to change password",
+            "How do I reset my password?",
+            "Can you help me change my password?"
+        ],
+        "responses": [],
+        "use_gpt": false
+    },
+    {
+        "intent": "problem_update_password_change",
+        "category": "platform_settings",
+        "text": [
+            "Why can't I change my password?"
+        ],
+        "responses": [],
+        "use_gpt": false
     }
 ]
