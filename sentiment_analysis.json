@@ -5,11 +5,6 @@
             "sub_level_label": "summarization"
         },
         {
-            "text": "What information does the privacy policy collect?",
-            "sub_level_label": "question_answering",
-            "sub_level_category": "collection"
-        },
-        {
             "text": "How can I opt out of data sharing?",
             "sub_level_label": "question_answering",
             "sub_level_category": "opt_out"

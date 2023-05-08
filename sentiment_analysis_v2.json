@@ -1,0 +1,182 @@
+[
+    {
+        "intent": "summarization_privacy",
+        "category": "privacy_policy",
+        "text": [
+            "Can you summarize the privacy policy for me?"
+        ],
+        "responses": [],
+        "use_gpt": true
+    },
+    {
+        "intent": "opt_out",
+        "category": "privacy_policy",
+        "text": [
+            "How can I opt out of data sharing?"
+        ],
+        "responses": [],
+        "use_gpt": true
+    },
+    {
+        "intent": "third_parties",
+        "category": "privacy_policy",
+        "text": [
+            "Is my personal information shared with third parties?"
+        ],
+        "responses": [],
+        "use_gpt": true
+    },
+    {
+        "intent": "data_collection",
+        "category": "privacy_policy",
+        "text": [
+            "What information does the privacy policy collect?"
+        ],
+        "responses": [],
+        "use_gpt": true
+    },
+    {
+        "intent": "personal_information",
+        "category": "privacy_policy",
+        "text": [
+            "How does the company use my personal information?"
+        ],
+        "responses": [],
+        "use_gpt": true
+    },
+    {
+        "intent": "personal_information_third_parties",
+        "category": "privacy_policy",
+        "text": [
+            "Is my personal information shared with third parties?"
+        ],
+        "responses": [],
+        "use_gpt": true
+    },
+    {
+        "intent": "data_storage",
+        "category": "privacy_policy",
+        "text": [
+            "How is my personal information stored and secured?"
+        ],
+        "responses": [],
+        "use_gpt": true
+    },
+    {
+        "intent": "personal_information_rights",
+        "category": "privacy_policy",
+        "text": [
+            "What are my rights regarding my personal information?"
+        ],
+        "responses": [],
+        "use_gpt": true
+    },
+    {
+        "intent": "access_personal_data",
+        "category": "privacy_policy",
+        "text": [
+            "How can I request access to my personal information?"
+        ],
+        "responses": [],
+        "use_gpt": true
+    },
+    {
+        "intent": "delete_personal_information",
+        "category": "privacy_policy",
+        "text": [
+            "Can I delete my personal information from the company's records?"
+        ],
+        "responses": [],
+        "use_gpt": true
+    },
+    {
+        "intent": "cookie_policy",
+        "category": "privacy_policy",
+        "text": [
+            "What are the company's cookie policies?"
+        ],
+        "responses": [],
+        "use_gpt": true
+    },
+    {
+        "intent": "privacy_regulations",
+        "category": "privacy_policy",
+        "text": [
+            "Does the company comply with privacy regulations?"
+        ],
+        "responses": [],
+        "use_gpt": true
+    },
+    {
+        "intent": "privacy_policy_updates",
+        "category": "privacy_policy",
+        "text": [
+            "How often is the privacy policy updated?"
+        ],
+        "responses": [],
+        "use_gpt": true
+    },
+    {
+        "intent": "minimum_age",
+        "category": "privacy_policy",
+        "text": [
+            "What is the minimum age requirement for using the company's services?"
+        ],
+        "responses": [],
+        "use_gpt": true
+    },
+    {
+        "intent": "data_breaches",
+        "category": "privacy_policy",
+        "text": [
+            "How does the company handle data breaches?"
+        ],
+        "responses": [],
+        "use_gpt": true
+    },
+    {
+        "intent": "opt_out_targeted_advertising",
+        "category": "privacy_policy",
+        "text": [
+            "Can I opt-out of targeted advertising?"
+        ],
+        "responses": [],
+        "use_gpt": true
+    },
+    {
+        "intent": "contact_privacy_concerns",
+        "category": "privacy_policy",
+        "text": [
+            "How can I contact the company for privacy-related concerns?"
+        ],
+        "responses": [],
+        "use_gpt": true
+    },
+    {
+        "intent": "disagree_privacy_consequences",
+        "category": "privacy_policy",
+        "text": [
+            "What are the consequences of not agreeing to the privacy policy?"
+        ],
+        "responses": [],
+        "use_gpt": true
+    },
+    {
+        "intent": "selling_personal_data",
+        "category": "privacy_policy",
+        "text": [
+            "Does the company sell my personal information?"
+        ],
+        "responses": [],
+        "use_gpt": true
+    },
+    {
+        "intent": "personal_data_account_deletion",
+        "category": "privacy_policy",
+        "text": [
+            "What happens to my personal information when I terminate my account?"
+        ],
+        "responses": [],
+        "use_gpt": true
+    }
+]
