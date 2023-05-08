@@ -5,12 +5,84 @@
             "sub_level_label": "summarization"
         },
         {
-            "text": "How can I opt out of data sharing?",
+            "text": "Can you summarize the privacy policy",
+            "sub_level_label": "summarization"
+        },
+        {
+            "text": "What is the privacy policy?",
+            "sub_level_label": "summarization"
+        },
+        {
+            "text": "explain privacy policy",
+            "sub_level_label": "summarization"
+        },
+        {
+            "text": "What information does the privacy policy collect?",
+            "sub_level_label": "question_answering",
+            "sub_level_category": "collection"
+        },
+        {
+            "text": "How can I out out of data sharing?",
+            "sub_level_label": "question_answering",
+            "sub_level_category": "opt_out"
+        },
+        {
+            "text": "How can I stop sharing my data?",
+            "sub_level_label": "question_answering",
+            "sub_level_category": "opt_out"
+        },
+        {
+            "text": "How can cancel sharing my data?",
+            "sub_level_label": "question_answering",
+            "sub_level_category": "opt_out"
+        },
+        {
+            "text": "cancel sharing data",
+            "sub_level_label": "question_answering",
+            "sub_level_category": "opt_out"
+        },
+        {
+            "text": "cancel data sharing",
+            "sub_level_label": "question_answering",
+            "sub_level_category": "opt_out"
+        },
+        {
+            "text": "stop data sharing",
+            "sub_level_label": "question_answering",
+            "sub_level_category": "opt_out"
+        },
+        {
+            "text": "stop sharing data",
+            "sub_level_label": "question_answering",
+            "sub_level_category": "opt_out"
+        },
+        {
+            "text": "opt sharing data",
+            "sub_level_label": "question_answering",
+            "sub_level_category": "opt_out"
+        },
+        {
+            "text": "opt data sharing",
             "sub_level_label": "question_answering",
             "sub_level_category": "opt_out"
         },
         {
             "text": "Is my personal information shared with third parties?",
+            "sub_level_label": "question_answering",
+            "sub_level_category": "sharing"
+        },
+        {
+            "text": "Is my personal information shared?",
+            "sub_level_label": "question_answering",
+            "sub_level_category": "sharing"
+        },
+        {
+            "text": "does mu personal information get shared?",
+            "sub_level_label": "question_answering",
+            "sub_level_category": "sharing"
+        },
+        {
+            "text": "what happens with my personal information?",
             "sub_level_label": "question_answering",
             "sub_level_category": "sharing"
         },
@@ -39,6 +111,18 @@
             "sub_level_label": "access"
         },
         {
+            "text": "How can I see my personal information?",
+            "sub_level_label": "access"
+        },
+        {
+            "text": "How can I access my personal information?",
+            "sub_level_label": "access"
+        },
+        {
+            "text": "How can I check my personal information?",
+            "sub_level_label": "access"
+        },
+        {
             "text": "Can I delete my personal information from the company's records?",
             "sub_level_label": "deletion"
         },
@@ -52,6 +136,22 @@
         },
         {
             "text": "How often is the privacy policy updated?",
+            "sub_level_label": "updates"
+        },
+        {
+            "text": "does the privacy policy change?",
+            "sub_level_label": "updates"
+        },
+        {
+            "text": "when does the privacy policy change?",
+            "sub_level_label": "updates"
+        },
+        {
+            "text": "when did the privacy policy change?",
+            "sub_level_label": "updates"
+        },
+        {
+            "text": "did the privacy policy change?",
             "sub_level_label": "updates"
         },
         {
@@ -79,6 +179,14 @@
             "sub_level_label": "opt_out"
         },
         {
+            "text": "how can I stop targeted advertising?",
+            "sub_level_label": "opt_out"
+        },
+        {
+            "text": "how do I stop targeted advertising?",
+            "sub_level_label": "opt_out"
+        },
+        {
             "text": "How can I contact the company for privacy-related concerns?",
             "sub_level_label": "contact"
         },
@@ -93,6 +201,11 @@
         {
             "text": "What happens to my personal information when I terminate my account?",
             "sub_level_label": "account_termination"
+        },
+        {
+            "text": "What happens to my personal information?",
+            "sub_level_label": "question_answering",
+            "sub_level_category": "collection"
         }
     ],
     "legal_statement": [
@@ -216,6 +329,16 @@
             "text": "I need to update my password, how do I do that?",
             "sub_level_label": "question_answering",
             "sub_level_category": "password_change"
+        },
+        {
+            "text": "How to change password",
+            "sub_level_label": "question_answering",
+            "sub_level_category": "password_change"
+        },
+        {
+            "text": "How do I change my password",
+            "sub_level_label": "question_answering",
+            "sub_level_category": "password_change"
         }
     ],
     "external_platform_settings": [
@@ -225,9 +348,34 @@
             "sub_level_category": "account_linking"
         },
         {
+            "text": "explain the process for linking external accounts?",
+            "sub_level_label": "question_answering",
+            "sub_level_category": "account_linking"
+        },
+        {
+            "text": "How do I link with external accounts?",
+            "sub_level_label": "question_answering",
+            "sub_level_category": "account_linking"
+        },
+        {
+            "text": "How do I link external accounts?",
+            "sub_level_label": "question_answering",
+            "sub_level_category": "account_linking"
+        },
+        {
             "text": "What data is shared with third-party platforms?",
             "sub_level_label": "question_answering",
             "sub_level_category": "data_sharing"
+        },
+        {
+            "text": "How does external data linking work?",
+            "sub_level_label": "question_answering",
+            "sub_level_category": "account_linking"
+        },
+        {
+            "text": "How do I link an external account?",
+            "sub_level_label": "question_answering",
+            "sub_level_category": "account_linking"
         }
     ]
 }

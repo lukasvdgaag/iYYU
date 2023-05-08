@@ -1,0 +1,12 @@
+.gradio-container {
+    background-color: white;
+}
+
+.gradio-chat-box {
+    background-color: white;
+}
+
+.gradio-chat-message.from-user {
+    background-color: orange;
+}
+
