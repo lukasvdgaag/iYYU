@@ -1,5 +1,4 @@
 # iYYU Chatbot
-iYYU AI project
 
 ## Handige links
 - [Mattermost](https://iyyu-infra.cloud.mattermost.com/)
@@ -22,3 +21,5 @@ De vragen van gebruikers zijn verdeeld in drie groepen: privacy statements, lega
 Om de chatbot te trainen, hebben we gebruik gemaakt van een dataset van privacy gerelateerde vragen en antwoorden. We hebben deze dataset gebruikt de intent recognition te trainen. Het ChatGPT-3 model is een pre-trained language model waardoor wij zelf geen data nodig hebben. Dit omdat dit voor ons de beste optie was, aangezien wij op kleine schaal niet een beter model kunnen maken.
 
 Een probleem waar we tijdens het project tegenaan liepen is de hoeveelheid data. Om een model goed te trainen, heb je veel data nodig. We hebben wel een beetje data van de privacy statements van iYYU zelf, maar dit is niet genoeg om een chatbot te bouwen die aan onze eisen voldoet. We hebben vervolgens gekeken naar verschillende manieren om ons trainingsdata te verrijken, maar vonden het lastig om voldoende data te vinden die relevant was voor onze specifieke situatie. Uiteindelijk hebben we besloten om gebruik te maken van een model zoals ChatGPT om zelf data te genereren die we konden gebruiken om onze chatbot te trainen
+
+
