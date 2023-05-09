@@ -185,7 +185,16 @@
         "intent": "cookie_policy",
         "category": "privacy_policy",
         "text": [
-            "What are the company's cookie policies?"
+            "What is the policy regarding cookies at this company?",
+            "Can you explain the company's policy on cookies?",
+            "What are the company's guidelines for cookies?",
+            "How does the company handle cookies?",
+            "Can you tell me about the company's cookie policies?",
+            "What is the official policy on cookies for the company?",
+            "What are the rules around cookies for this company?",
+            "What are the regulations for cookies at this company?",
+            "What are the company's protocols for handling cookies?",
+            "Can you provide information on the company's cookie policies?"
         ],
         "responses": [],
         "use_gpt": true
@@ -194,7 +203,16 @@
         "intent": "privacy_regulations",
         "category": "privacy_policy",
         "text": [
-            "Does the company comply with privacy regulations?"
+            "Is the company in compliance with privacy regulations?",
+            "Does the company follow privacy regulations?",
+            "What is the company's stance on privacy regulations?",
+            "Are the company's privacy policies in line with regulations?",
+            "How does the company ensure compliance with privacy regulations?",
+            "Are there any privacy violations by the company?",
+            "What measures has the company taken to comply with privacy regulations?",
+            "Can you tell me if the company adheres to privacy regulations?",
+            "What are the company's policies on privacy compliance?",
+            "Has the company faced any penalties for not complying with privacy regulations?"
         ],
         "responses": [],
         "use_gpt": true
@@ -203,7 +221,17 @@
         "intent": "privacy_policy_updates",
         "category": "privacy_policy",
         "text": [
-            "How often is the privacy policy updated?"
+            "How often is the privacy policy updated?",
+            "What is the frequency of updates to the privacy policy?",
+            "How frequently is the privacy policy updated?",
+            "Is there a regular schedule for updating the privacy policy?",
+            "What is the policy on updating the privacy policy?",
+            "How often are changes made to the privacy policy?",
+            "Are there any rules around updating the privacy policy?",
+            "What is the timeline for updating the privacy policy?",
+            "Is there a set schedule for reviewing the privacy policy?",
+            "Can you provide information on the update frequency for the privacy policy?",
+            "What are the guidelines for updating the privacy policy?"
         ],
         "responses": [],
         "use_gpt": true
@@ -212,7 +240,17 @@
         "intent": "minimum_age",
         "category": "privacy_policy",
         "text": [
-            "What is the minimum age requirement for using the company's services?"
+            "What is the minimum age requirement for using the company's services?",
+            "What is the age limit for using the company's services?",
+            "Is there a minimum age requirement to use the company's services?",
+            "What is the company's policy on age requirements?",
+            "How old do you have to be to use the company's services?",
+            "Are there any age restrictions for using the company's services?",
+            "What is the company's policy on age restrictions?",
+            "Is there an age limit for accessing the company's services?",
+            "Can you tell me about the age requirements for using the company's services?",
+            "What is the minimum age to use the company's services?",
+            "What are the rules regarding the age limit for using the company's services?"
         ],
         "responses": [],
         "use_gpt": true
@@ -221,7 +259,17 @@
         "intent": "data_breaches",
         "category": "privacy_policy",
         "text": [
-            "How does the company handle data breaches?"
+            "How does the company handle data breaches?",
+            "What is the company's protocol for handling data breaches?",
+            "In the event of a data breach, what steps does the company take?",
+            "Can you explain the company's approach to dealing with data breaches?",
+            "How does the company respond to data breaches?",
+            "What measures does the company have in place to handle data breaches?",
+            "If there is a data breach, what actions does the company take?",
+            "What policies does the company have in place for managing data breaches?",
+            "How is a data breach handled by the company?",
+            "What is the company's plan of action in the event of a data breach?",
+            "Can you tell me how the company manages data breaches?"
         ],
         "responses": [],
         "use_gpt": true
@@ -230,7 +278,17 @@
         "intent": "opt_out_targeted_advertising",
         "category": "privacy_policy",
         "text": [
-            "Can I opt-out of targeted advertising?"
+            "Can I opt-out of targeted advertising?",
+            "How can I opt-out of targeted advertising?",
+            "Is it possible to stop receiving targeted ads?",
+            "What are my options for opting out of targeted advertising?",
+            "Can I disable targeted advertising?",
+            "How do I opt-out of personalized ads?",
+            "Is there a way to opt-out of targeted marketing?",
+            "Can I choose not to receive targeted ads?",
+            "What is the process for opting out of targeted advertising?",
+            "Can I decline targeted advertising?",
+            "How does one go about opting out of targeted advertising?"
         ],
         "responses": [],
         "use_gpt": true
@@ -239,7 +297,17 @@
         "intent": "contact_privacy_concerns",
         "category": "privacy_policy",
         "text": [
-            "How can I contact the company for privacy-related concerns?"
+            "How can I contact the company for privacy-related concerns?",
+            "What are the ways to contact the company regarding privacy issues?",
+            "Is there a specific contact point for privacy concerns within the company?",
+            "How do I get in touch with the company if I have privacy-related questions?",
+            "Can you tell me how to contact the company for privacy concerns?",
+            "What is the process for contacting the company about privacy matters?",
+            "Who should I contact if I have privacy concerns with the company's services?",
+            "How can I report a privacy issue to the company?",
+            "Is there a privacy hotline or email address for the company?",
+            "Can you provide me with the contact information for the company's privacy department?",
+            "What are the available channels to raise privacy concerns with the company?"
         ],
         "responses": [],
         "use_gpt": true
@@ -248,7 +316,18 @@
         "intent": "disagree_privacy_consequences",
         "category": "privacy_policy",
         "text": [
-            "What are the consequences of not agreeing to the privacy policy?"
+            "What are the consequences of not agreeing to the privacy policy?",
+            "Are there any repercussions for refusing to accept the privacy policy?",
+            "What happens if I don't agree to the privacy policy?",
+            "Could you explain the consequences of declining the privacy policy?",
+            "What are the implications of not consenting to the privacy policy?",
+            "Is it mandatory to accept the privacy policy? What are the consequences if I don't?",
+            "If I don't agree to the privacy policy, will there be any consequences?",
+            "Are there any penalties for not accepting the privacy policy?",
+            "Can you tell me what happens if I choose not to accept the privacy policy?",
+            "What are the risks of not accepting the privacy policy?",
+            "Is there anything I should know about the consequences of declining the privacy policy?"
+
         ],
         "responses": [],
         "use_gpt": true
@@ -257,7 +336,17 @@
         "intent": "selling_personal_data",
         "category": "privacy_policy",
         "text": [
-            "Does the company sell my personal information?"
+            "Does the company sell my personal information?",
+            "Does the company share or sell my personal information?",
+            "Is my personal information sold by the company?",
+            "What happens to my personal information, is it sold by the company?",
+            "Can my personal information be sold by the company?",
+            "Is my personal information safe from being sold by the company?",
+            "Is the company permitted to sell my personal information?",
+            "Does the company have a policy on selling personal information?",
+            "How does the company handle the selling of personal information?",
+            "What is the company's stance on selling personal information?",
+            "Is it possible for my personal information to be sold by the company without my consent?"
         ],
         "responses": [],
         "use_gpt": true
@@ -266,7 +355,17 @@
         "intent": "personal_data_account_deletion",
         "category": "privacy_policy",
         "text": [
-            "What happens to my personal information when I terminate my account?"
+            "What happens to my personal information when I terminate my account?",
+            "What occurs with my personal information after I close my account?",
+            "Does my personal information get deleted when I terminate my account?",
+            "How is my personal information handled once I cancel my account?",
+            "Will my personal information be retained after I terminate my account?",
+            "What is done with my personal information when I end my account?",
+            "Is my personal information kept after I cancel my account?",
+            "What happens to my personal data when I terminate my account?",
+            "How is my personal data managed when I close my account?",
+            "Will my personal data be erased after I end my account?",
+            "What is the fate of my personal information when I terminate my account?"
         ],
         "responses": [],
         "use_gpt": true
@@ -275,7 +374,16 @@
         "intent": "question_answering",
         "category": "legal_statement",
         "text": [
-            "What are the terms of service for this platform?"
+            "What are the terms of service for this platform?",
+            "Where can I find the terms of service for this platform?",
+            "What is covered in the platform's terms of service?",
+            "Can you explain the terms of service for this platform?",
+            "What are the rules I need to follow according to the platform's terms of service?",
+            "Are there any restrictions outlined in the platform's terms of service?",
+            "What are my rights under the platform's terms of service?",
+            "Is it mandatory to agree to the terms of service before using the platform?",
+            "What are the consequences of violating the platform's terms of service?",
+            "What happens if I don't understand something in the platform's terms of service?"
         ],
         "responses": [],
         "use_gpt": true
@@ -284,7 +392,17 @@
         "intent": "summarization_legal_statement",
         "category": "legal_statement",
         "text": [
-            "Can you summarize the liability section of the terms of service?"
+            "Can you summarize the liability section of the terms of service?",
+            "Could you provide a brief overview of the liability section in the terms of service?",
+            "How would you summarize the liability section of the terms of service?",
+            "Can you give me a summary of the terms of service's liability section?",
+            "What is the liability section of the terms of service and can you summarize it?",
+            "Would you mind summarizing the liability section of the terms of service for me?",
+            "Can you provide a quick summary of the liability section in the terms of service?",
+            "How does the liability section in the terms of service read, and could you give me a brief summary?",
+            "Could you explain the liability section of the terms of service in a nutshell?",
+            "What does the liability section of the terms of service say, and could you summarize it for me?",
+            "I'm curious about the liability section of the terms of service. Would you be able to provide a summary?"
         ],
         "responses": [],
         "use_gpt": true
@@ -293,7 +411,16 @@
         "intent": "terms_of_service_legal_statement",
         "category": "legal_statement",
         "text": [
-            "What are the terms of service for this platform?"
+            "What are the terms of service for this platform?",
+            "Where can I find the terms of service for this platform?",
+            "Are there any specific terms I should be aware of for using this platform?",
+            "How can I access the terms of service for this platform?",
+            "Can you explain the terms of service for this platform?",
+            "What rules do I need to follow when using this platform?",
+            "What are the guidelines for using this platform?",
+            "Do the terms of service for this platform include a refund policy?",
+            "What are my rights and responsibilities under the terms of service for this platform?",
+            "Are there any restrictions on using this platform according to the terms of service?"
         ],
         "responses": [],
         "use_gpt": true
@@ -302,7 +429,16 @@
         "intent": "governing_law_legal_statement",
         "category": "legal_statement",
         "text": [
-            "What is the governing law for the legal agreement?"
+            "What is the governing law for the legal agreement?",
+            "Which law governs the legal agreement?",
+            "Under which law is the legal agreement governed?",
+            "What law is applicable to the legal agreement?",
+            "What is the applicable law for the legal agreement?",
+            "What law applies to the legal agreement?",
+            "What is the legal agreement governed by?",
+            "What is the applicable governing law for the legal agreement?",
+            "What law regulates the legal agreement?",
+            "What law controls the legal agreement?"
         ],
         "responses": [],
         "use_gpt": true
@@ -311,7 +447,17 @@
         "intent": "liability_legal_statement",
         "category": "legal_statement",
         "text": [
-            "Can you summarize the liability section of the legal agreement?"
+            "Can you summarize the liability section of the legal agreement?",
+            "Can you provide a brief summary of the liability section in the legal agreement?",
+            "What is the liability section of the legal agreement about?",
+            "Could you summarize the legal agreement's section on liability?",
+            "Can you explain the liability section of the legal agreement in simple terms?",
+            "What does the liability section of the legal agreement cover?",
+            "May I have a summary of the legal agreement's liability section?",
+            "What are the key points of the liability section in the legal agreement?",
+            "Can you give me an overview of the legal agreement's liability section?",
+            "What is included in the liability section of the legal agreement?",
+            "Can you briefly describe the liability section of the legal agreement?"
         ],
         "responses": [],
         "use_gpt": true
@@ -320,7 +466,17 @@
         "intent": "dispute_resolution_legal_statement",
         "category": "legal_statement",
         "text": [
-            "What is the dispute resolution process outlined in the legal agreement?"
+            "What is the dispute resolution process outlined in the legal agreement?",
+            "Can you explain the dispute resolution process described in the legal agreement?",
+            "What is the procedure for resolving disputes outlined in the legal agreement?",
+            "How does the legal agreement specify disputes should be resolved?",
+            "What are the steps outlined in the legal agreement for dispute resolution?",
+            "Could you provide an overview of the dispute resolution process as described in the legal agreement?",
+            "What mechanisms are in place to resolve disputes according to the legal agreement?",
+            "What is the protocol for resolving disputes laid out in the legal agreement?",
+            "What does the legal agreement say about the process for settling disputes?",
+            "How are disputes addressed in the legal agreement?",
+            "Can you give me a summary of the dispute resolution process outlined in the legal agreement?"
         ],
         "responses": [],
         "use_gpt": true
@@ -329,7 +485,17 @@
         "intent": "arbitration_legal_statement",
         "category": "legal_statement",
         "text": [
-            "Can I opt-out of arbitration?"
+            "Can I opt-out of arbitration?",
+            "Is there an option to opt-out of arbitration?",
+            "Can I choose not to participate in arbitration?",
+            "How can I avoid arbitration?",
+            "Am I required to participate in arbitration or can I opt-out?",
+            "What are my options regarding arbitration?",
+            "Is there a way to decline arbitration?",
+            "Can I refuse to go through arbitration?",
+            "What if I don't want to go through arbitration?",
+            "Is it mandatory to go through arbitration or can I opt-out?",
+            "What are the alternatives to arbitration and can I opt-out of it?"
         ],
         "responses": [],
         "use_gpt": true
@@ -338,7 +504,16 @@
         "intent": "small_claims_court_legal_statement",
         "category": "legal_statement",
         "text": [
-            "How are disputes handled in small claims court?"
+            "How are disputes handled in small claims court?",
+            "What is the process for small claims court?",
+            "What is the procedure for small claims court?",
+            "Can you explain how small claims court works?",
+            "What happens in small claims court?",
+            "How does small claims court work?",
+            "How do I file a claim in small claims court?",
+            "What are the rules for small claims court?",
+            "What is the jurisdiction of small claims court?",
+            "What are the limitations of small claims court?"
         ],
         "responses": [],
         "use_gpt": true
@@ -347,7 +522,17 @@
         "intent": "user_obligations_legal_statement",
         "category": "legal_statement",
         "text": [
-            "What are my obligations as a user under the legal agreement?"
+            "What are my obligations as a user under the legal agreement?",
+            "What am I required to do as a user according to the legal agreement?",
+            "What are the user responsibilities outlined in the legal agreement?",
+            "What are the terms of use for users outlined in the legal agreement?",
+            "What are my duties and responsibilities under the legal agreement?",
+            "What are the obligations of users in the legal agreement?",
+            "What actions are prohibited under the legal agreement?",
+            "What are the rules and regulations that I must follow as a user?",
+            "What are the guidelines that I need to adhere to under the legal agreement?",
+            "What are the limitations on user behavior in the legal agreement?",
+            "What are the expectations for users according to the legal agreement?"
         ],
         "responses": [],
         "use_gpt": true
@@ -356,7 +541,17 @@
         "intent": "intellectual_property_legal_statement",
         "category": "legal_statement",
         "text": [
-            "How does the legal agreement apply to intellectual property rights?"
+            "How does the legal agreement apply to intellectual property rights?",
+            "What are the terms regarding intellectual property rights in the legal agreement?",
+            "Can you explain how the legal agreement applies to intellectual property?",
+            "What are my rights regarding intellectual property under the legal agreement?",
+            "Does the legal agreement address intellectual property rights?",
+            "How is intellectual property addressed in the legal agreement?",
+            "Are there any provisions in the legal agreement concerning intellectual property?",
+            "What are the legal implications for intellectual property under the agreement?",
+            "How does the legal agreement protect my intellectual property?",
+            "What rights do I retain for my intellectual property under the legal agreement?",
+            "What are the restrictions on intellectual property outlined in the legal agreement?"
         ],
         "responses": [],
         "use_gpt": true
@@ -365,7 +560,16 @@
         "intent": "use_restrictions_legal_statement",
         "category": "legal_statement",
         "text": [
-            "What are the restrictions on my use of the platform or service?"
+            "What are the restrictions on my use of the platform or service?",
+            "What limitations are there on my use of the platform or service?",
+            "Are there any restrictions or limitations on my use of the platform or service?",
+            "What are the terms and conditions for using the platform or service?",
+            "What are the rules for using the platform or service?",
+            "What usage restrictions are specified in the legal agreement?",
+            "What prohibitions or limitations apply to my use of the platform or service?",
+            "What are the terms of use for the platform or service?",
+            "What are the guidelines for using the platform or service?",
+            "What are the terms and conditions for accessing and using the platform or service?"
         ],
         "responses": [],
         "use_gpt": true
@@ -374,7 +578,17 @@
         "intent": "transfer_legal_statement",
         "category": "legal_statement",
         "text": [
-            "Can I transfer my account or subscription to someone else?"
+            "Can I transfer my account or subscription to someone else?",
+            "Is it possible to transfer my account or subscription to another person?",
+            "Can I assign my account or subscription to someone else?",
+            "Am I allowed to transfer ownership of my account or subscription to another individual?",
+            "How can I transfer my account or subscription to a different person?",
+            "What is the process for transferring my account or subscription to someone else?",
+            "Is there a way to change the ownership of my account or subscription to someone else's name?",
+            "Can I give my account or subscription to another person as a gift?",
+            "What are the requirements for transferring my account or subscription to another individual?",
+            "Is it permissible to sell my account or subscription to someone else?",
+            "Can I pass on my account or subscription to a family member or friend?"
         ],
         "responses": [],
         "use_gpt": true
@@ -383,7 +597,17 @@
         "intent": "cancellation_legal_statement",
         "category": "legal_statement",
         "text": [
-            "What is the cancellation policy for subscriptions or services?"
+            "What is the cancellation policy for subscriptions or services?",
+            "How can I cancel my subscription?",
+            "What is the process for cancelling a service?",
+            "Can I get a refund if I cancel my subscription?",
+            "Is there a fee for cancelling a subscription?",
+            "What happens to my subscription if I cancel before it ends?",
+            "Are there any restrictions on cancelling a subscription or service?",
+            "When will my subscription be cancelled if I request it?",
+            "What information do I need to provide when cancelling my subscription?",
+            "Can I cancel my subscription at any time?"
+
         ],
         "responses": [],
         "use_gpt": true
@@ -392,7 +616,17 @@
         "intent": "warranty_disclaimers_legal_statement",
         "category": "legal_statement",
         "text": [
-            "Are there any warranty disclaimers in the legal agreement?"
+            "Are there any warranty disclaimers in the legal agreement?",
+            "Does the legal agreement contain any disclaimers of warranties?",
+            "Are there any warranty exemptions specified in the legal agreement?",
+            "Are warranties disclaimed in the legal agreement?",
+            "Does the legal agreement have any provisions that limit the warranties provided?",
+            "Are there any warranty limitations in the legal agreement?",
+            "What is the warranty disclaimer policy in the legal agreement?",
+            "Are there any warranties that are not provided in the legal agreement?",
+            "Does the legal agreement include a warranty disclaimer clause?",
+            "Are there any warranties that are expressly disclaimed in the legal agreement?"
+
         ],
         "responses": [],
         "use_gpt": true
@@ -401,7 +635,16 @@
         "intent": "limitations_of_liability_legal_statement",
         "category": "legal_statement",
         "text": [
-            "What are the limitations of liability in the legal agreement?"
+            "What are the limitations of liability in the legal agreement?",
+            "What is the extent of liability limitations in the legal agreement?",
+            "How does the legal agreement limit liability?",
+            "Are there any liability restrictions outlined in the legal agreement?",
+            "What liabilities are excluded or limited in the legal agreement?",
+            "What types of liability are exempted in the legal agreement?",
+            "Can you explain the liability limitations in the legal agreement?",
+            "What are the specific liability caps outlined in the legal agreement?",
+            "How are liability limitations determined in the legal agreement?",
+            "Is there a section in the legal agreement that covers limitations of liability?"
         ],
         "responses": [],
         "use_gpt": true
@@ -410,7 +653,17 @@
         "intent": "third_party_content_legal_statement",
         "category": "legal_statement",
         "text": [
-            "How does the legal agreement apply to third-party content or services?"
+            "How does the legal agreement apply to third-party content or services?",
+            "What is the legal agreement's stance on third-party content or services?",
+            "Does the legal agreement cover third-party content or services?",
+            "How are third-party content or services addressed in the legal agreement?",
+            "Are there any provisions in the legal agreement regarding third-party content or services?",
+            "What are the legal implications of using third-party content or services under the legal agreement?",
+            "Can you explain how the legal agreement applies to third-party content or services?",
+            "What are the rules around using third-party content or services under the legal agreement?",
+            "Is there any protection for users regarding third-party content or services under the legal agreement?",
+            "How does the legal agreement regulate the use of third-party content or services?",
+            "What is the legal responsibility of users for third-party content or services under the legal agreement?"
         ],
         "responses": [],
         "use_gpt": true
@@ -419,7 +672,17 @@
         "intent": "refunds_legal_statement",
         "category": "legal_statement",
         "text": [
-            "What is the company's policy on refunds?"
+            "What is the company's policy on refunds?",
+            "What is the refund policy for this company?",
+            "Can I get a refund on my purchase?",
+            "How do I request a refund?",
+            "Are there any conditions for getting a refund?",
+            "What are the refund options available to me?",
+            "Is there a time limit for requesting a refund?",
+            "What is the process for obtaining a refund?",
+            "Does the company offer full or partial refunds?",
+            "Are there any fees associated with requesting a refund?",
+            "What are the criteria for a refund to be issued?"
         ],
         "responses": [],
         "use_gpt": true
@@ -428,7 +691,17 @@
         "intent": "violations_legal_statement",
         "category": "legal_statement",
         "text": [
-            "What happens if I violate the legal agreement?"
+            "What happens if I violate the legal agreement?",
+            "What are the consequences of breaching the legal agreement?",
+            "What are the penalties for violating the legal agreement?",
+            "What actions will the company take if I violate the legal agreement?",
+            "Is there a penalty for breaking the legal agreement?",
+            "How does the company respond to legal agreement violations?",
+            "What are the repercussions of not following the legal agreement?",
+            "Can I be penalized for violating the legal agreement?",
+            "What happens if I fail to comply with the legal agreement?",
+            "How does the company enforce the legal agreement?",
+            "Are there any sanctions for not abiding by the legal agreement?"
         ],
         "responses": [],
         "use_gpt": true
@@ -438,7 +711,15 @@
         "category": "platform_settings",
         "text": [
             "Where can I change my account password?",
-            "Where can i change my password?"
+            "How can I modify my password?",
+            "Is there a way to change my password?",
+            "Can you tell me where to change my password?",
+            "How do I update my account password?",
+            "What is the process for changing my password?",
+            "I would like to change my account password, where can I do that?",
+            "Could you please guide me to the password modification section?",
+            "What steps should I follow to change my account password?",
+            "Is there a password update option available?"
         ],
         "responses": [],
         "use_gpt": false
@@ -447,9 +728,16 @@
         "intent": "reset_password_change",
         "category": "platform_settings",
         "text": [
-            "I forgot my password, what do I do?",
-            "Is it possible to change my password?",
-            "I'd like to change my password?"
+            "I forgot my password, how can I reset it?",
+            "What should I do if I forget my password?",
+            "How do I recover my account if I forgot my password?",
+            "What are the steps to reset my forgotten password?",
+            "I can't remember my password, how can I get a new one?",
+            "Is there a way to retrieve my password if I forgot it?",
+            "How to reset my password if I can't remember it?",
+            "What is the process to recover a forgotten password?",
+            "Can you help me reset my password?",
+            "What's the procedure for resetting a lost password?"
         ],
         "responses": [
             "It is possible to change your password. You can go to the settings and click on...  "
@@ -461,10 +749,16 @@
         "category": "platform_settings",
         "text": [
             "I need to update my password, how do I do that?",
-            "How do I change my password",
-            "How to change password",
-            "How do I reset my password?",
-            "Can you help me change my password?"
+            "How can I change my password for my account?",
+            "What is the process for updating my password?",
+            "What are the steps to update my password?",
+            "How do I reset my account password?",
+            "What is the procedure for changing my password?",
+            "Can you guide me through changing my account password?",
+            "How do I modify my password for my account?",
+            "What is the method for updating my password?",
+            "I want to change my account password, what is the process?",
+            "What do I need to do to update my password for my account?"
         ],
         "responses": [],
         "use_gpt": false
@@ -473,7 +767,17 @@
         "intent": "problem_update_password_change",
         "category": "platform_settings",
         "text": [
-            "Why can't I change my password?"
+            "Why can't I change my password?",
+            "What are the reasons I might not be able to change my password?",
+            "What could be preventing me from changing my password?",
+            "Is there a specific error message that appears when I try to change my password?",
+            "Are there any restrictions on changing passwords?",
+            "Is it possible that my account has been compromised and that's why I can't change my password?",
+            "Do I need to meet certain criteria to change my password?",
+            "Can you provide me with some troubleshooting steps if I can't change my password?",
+            "What steps should I take if I'm having trouble changing my password?",
+            "Is there a customer support team that can assist me with changing my password?",
+            "Are there any known issues with changing passwords that I should be aware of?"
         ],
         "responses": [],
         "use_gpt": false
