@@ -22,4 +22,6 @@ Om de chatbot te trainen, hebben we gebruik gemaakt van een dataset van privacy 
 
 Een probleem waar we tijdens het project tegenaan liepen is de hoeveelheid data. Om een model goed te trainen, heb je veel data nodig. We hebben wel een beetje data van de privacy statements van iYYU zelf, maar dit is niet genoeg om een chatbot te bouwen die aan onze eisen voldoet. We hebben vervolgens gekeken naar verschillende manieren om ons trainingsdata te verrijken, maar vonden het lastig om voldoende data te vinden die relevant was voor onze specifieke situatie. Uiteindelijk hebben we besloten om gebruik te maken van een model zoals ChatGPT om zelf data te genereren die we konden gebruiken om onze chatbot te trainen
 
-
+### Flowchart
+![Blank diagram](https://github.com/lukasvdgaag/iYYU/assets/22807647/fe3541d3-db57-4e2c-ad3b-a02942659819)
+[Klik hier voor de link naar deze flowchart](https://github.com/lukasvdgaag/iYYU/assets/22807647/fe3541d3-db57-4e2c-ad3b-a02942659819)
