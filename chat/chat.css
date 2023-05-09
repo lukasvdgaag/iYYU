@@ -1,12 +1,6 @@
-.gradio-container {
-    background-color: white;
+.logo {
+    background: transparent !important;
 }
-
-.gradio-chat-box {
-    background-color: white;
+.logo .download {
+    display: none !important;
 }
-
-.gradio-chat-message.from-user {
-    background-color: orange;
-}
-
