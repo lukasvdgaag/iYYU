@@ -721,7 +721,7 @@
             "What steps should I follow to change my account password?",
             "Is there a password update option available?"
         ],
-        "responses": [],
+        "responses": ["To change your password, go into your account settings and click on..."],
         "use_gpt": false
     },
     {
@@ -760,7 +760,7 @@
             "I want to change my account password, what is the process?",
             "What do I need to do to update my password for my account?"
         ],
-        "responses": [],
+        "responses": ["It is possible to change your password. You can go to the settings and click on...  "],
         "use_gpt": false
     },
     {
@@ -779,7 +779,7 @@
             "Is there a customer support team that can assist me with changing my password?",
             "Are there any known issues with changing passwords that I should be aware of?"
         ],
-        "responses": [],
+        "responses": ["If you are having trouble changing your password, please contact our customer support team at..."],
         "use_gpt": false
     }
 ]
