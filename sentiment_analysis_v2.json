@@ -3,7 +3,12 @@
         "intent": "summarization_privacy",
         "category": "privacy_policy",
         "text": [
-            "Can you summarize the privacy policy for me?"
+            "Could you provide a summary of your privacy policy?",
+            "What are the key points of your privacy policy?",
+            "In a few sentences, what does your privacy policy say?",
+            "Can you give me an overview of your privacy policy?",
+            "What is your privacy policy about?",
+            "Can you give me a brief explanation of your privacy policy?"
         ],
         "responses": [],
         "use_gpt": true
@@ -12,7 +17,12 @@
         "intent": "opt_out",
         "category": "privacy_policy",
         "text": [
-            "How can I opt out of data sharing?"
+            "How do I opt out of data sharing?",
+            "Is there a way to opt out of sharing my data?",
+            "What are my options for opting out of data sharing?",
+            "Can you explain how to opt out of data sharing?",
+            "How can I prevent my data from being shared?",
+            "Can I choose not to have my data shared?"
         ],
         "responses": [],
         "use_gpt": true
@@ -21,7 +31,12 @@
         "intent": "third_parties",
         "category": "privacy_policy",
         "text": [
-            "Is my personal information shared with third parties?"
+            "Do you share my personal information with third parties?",
+            "Who do you share my personal information with?",
+            "Are there any third parties that have access to my personal information?",
+            "What third parties have access to my personal information?",
+            "What happens to my personal information after it is shared with a third party?",
+            "How is my personal information protected when it is shared with third parties?"
         ],
         "responses": [],
         "use_gpt": true
@@ -30,7 +45,12 @@
         "intent": "data_collection",
         "category": "privacy_policy",
         "text": [
-            "What information does the privacy policy collect?"
+            "What kind of information does your privacy policy collect?",
+            "What data do you collect through your privacy policy?",
+            "What personal information is collected by your privacy policy?",
+            "What types of data does your privacy policy ask for?",
+            "What kind of user data does your privacy policy require?",
+            "What are the data collection policies in your privacy policy?"
         ],
         "responses": [],
         "use_gpt": true
@@ -39,7 +59,16 @@
         "intent": "personal_information",
         "category": "privacy_policy",
         "text": [
-            "How does the company use my personal information?"
+            "How does the company use my personal information?",
+            "What does the company do with my personal information?",
+            "In what ways is my personal information used by the company?",
+            "What is the company's policy on using my personal information?",
+            "What kind of personal information does the company collect from me?",
+            "Can I choose how my personal information is used by the company?",
+            "Is my personal information used for any other purposes besides what I agreed to?",
+            "How long does the company retain my personal information?",
+            "Who within the company has access to my personal information?",
+            "What happens to my personal information if I stop using the company's services?"
         ],
         "responses": [],
         "use_gpt": true
@@ -48,7 +77,16 @@
         "intent": "personal_information_third_parties",
         "category": "privacy_policy",
         "text": [
-            "Is my personal information shared with third parties?"
+            "Is my personal information shared with third parties?",
+            "Does the company share my personal information with anyone else?",
+            "Who else has access to my personal information?",
+            "How is my personal information protected when it is shared with third parties?",
+            "What kind of third parties does the company share my personal information with?",
+            "Do I have any control over who the company shares my personal information with?",
+            "Is my personal information sold to third parties?",
+            "How does the company ensure that third parties protect my personal information?",
+            "What happens to my personal information if a third party is acquired by or merges with the company?",
+            "Can I opt-out of having my personal information shared with third parties?"
         ],
         "responses": [],
         "use_gpt": true
@@ -57,7 +95,16 @@
         "intent": "data_storage",
         "category": "privacy_policy",
         "text": [
-            "How is my personal information stored and secured?"
+            "How is my personal information stored and secured?",
+            "What measures does the company take to protect my personal information?",
+            "What kind of security protocols are in place for my personal information?",
+            "Who has access to my personal information?",
+            "How is my personal information encrypted?",
+            "Where is my personal information stored?",
+            "What happens to my personal information if there is a security breach?",
+            "How often is my personal information backed up?",
+            "How long is my personal information retained for?",
+            "Can I request that my personal information be deleted?"
         ],
         "responses": [],
         "use_gpt": true
@@ -66,7 +113,16 @@
         "intent": "personal_information_rights",
         "category": "privacy_policy",
         "text": [
-            "What are my rights regarding my personal information?"
+            "What are my rights regarding my personal information?",
+            "Can I access my personal information?",
+            "Can I update or correct my personal information?",
+            "Can I delete my personal information?",
+            "What happens to my personal information if I delete my account?",
+            "Can I request a copy of my personal information?",
+            "How long does it take for the company to respond to my personal information requests?",
+            "What information does the company need from me to process my personal information requests?",
+            "Can I object to the company processing my personal information?",
+            "What can I do if the company violates my personal information rights?"
         ],
         "responses": [],
         "use_gpt": true
@@ -75,7 +131,34 @@
         "intent": "access_personal_data",
         "category": "privacy_policy",
         "text": [
-            "How can I request access to my personal information?"
+            "How can I request access to my personal information?",
+            "What is the process for requesting access to my personal information?",
+            "How do I go about requesting access to my personal information?",
+            "How can I access my personal information?",
+            "Can you tell me how to request access to my personal information?",
+            "What steps should I take to request access to my personal data?",
+            "How do I obtain access to my personal information?",
+            "What is the procedure to request access to my personal information?",
+            "Can you guide me on how to access my personal information?",
+            "What do I need to do to gain access to my personal information?"
+        ],
+        "responses": [],
+        "use_gpt": true
+    },
+    {
+        "intent": "update_personal_data",
+        "category": "privacy_policy",
+        "text": [
+            "How can I update my personal information?",
+            "What is the process to update my personal information?",
+            "How do I go about updating my personal information?",
+            "Can you tell me how to update my personal information?",
+            "What steps should I take to update my personal data?",
+            "How do I make changes to my personal information?",
+            "What is the procedure to update my personal information?",
+            "Can you guide me on how to update my personal information?",
+            "What do I need to do to modify my personal information?",
+            "How can I make changes to my personal information?"
         ],
         "responses": [],
         "use_gpt": true
@@ -84,7 +167,16 @@
         "intent": "delete_personal_information",
         "category": "privacy_policy",
         "text": [
-            "Can I delete my personal information from the company's records?"
+            "How can I delete my personal information?",
+            "What is the process to delete my personal information?",
+            "How do I go about deleting my personal information?",
+            "Can you tell me how to delete my personal information?",
+            "What steps should I take to delete my personal data?",
+            "How do I remove my personal information?",
+            "What is the procedure to delete my personal information?",
+            "Can you guide me on how to delete my personal information?",
+            "What do I need to do to erase my personal information?",
+            "How can I request the removal of my personal information?"
         ],
         "responses": [],
         "use_gpt": true
@@ -355,7 +447,7 @@
         "intent": "reset_password_change",
         "category": "platform_settings",
         "text": [
-           "I forgot my password, what do I do?",
+            "I forgot my password, what do I do?",
             "Is it possible to change my password?",
             "I'd like to change my password?"
         ],
