@@ -1,2 +1,3 @@
 .idea/
 .env
+models/trained_bert.pth
