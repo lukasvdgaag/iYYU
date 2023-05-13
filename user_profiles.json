@@ -1,0 +1,48 @@
+[
+    {
+        "user_id": "0",
+        "profile_published": false,
+        "open_to_connecting": false,
+        "visibile_in_search": false,
+        "findable_to": "logged_on_only",
+        "individual_user_viewability": [
+            {
+                "user_id": "1",
+                "profile_card_component_0_visible": true,
+                "profile_card_component_1_visible": true,
+                "profile_card_component_2_visible": true,
+                "profile_card_component_3_visible": true,
+                "profile_card_component_4_visible": true
+            },
+            {
+                "user_id": "2",
+                "profile_card_component_0_visible": true,
+                "profile_card_component_1_visible": false,
+                "profile_card_component_2_visible": false,
+                "profile_card_component_3_visible": false,
+                "profile_card_component_4_visible": false
+            }
+        ]
+    },
+    {
+        "user_id": "1",
+        "profile_published": true,
+        "open_to_connecting": true,
+        "visibile_in_search": true,
+        "findable_to": "everyone"
+    },
+    {
+        "user_id": "2",
+        "profile_published": false,
+        "open_to_connecting": false,
+        "visibile_in_search": false,
+        "findable_to": "logged_on_only"
+    },
+    {
+        "user_id": "3",
+        "profile_published": false,
+        "open_to_connecting": false,
+        "visibile_in_search": false,
+        "findable_to": "logged_on_only"
+    }
+]

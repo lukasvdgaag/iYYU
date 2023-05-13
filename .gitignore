@@ -1,2 +1,5 @@
 .idea/
 .env
+models/trained_bert.pth
+
+intent_recognition.pt

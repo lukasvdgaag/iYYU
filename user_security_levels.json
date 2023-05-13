@@ -1,0 +1,20 @@
+{
+    "low_security": {
+        "profile_published": true,
+        "open_to_connecting": true,
+        "visibile_in_search": true,
+        "findable_to": "everyone"
+    },
+    "medium_security": {
+        "profile_published": false,
+        "open_to_connecting": true,
+        "visibile_in_search": true,
+        "findable_to": "logged_on_only"
+    },
+    "high_security":{
+        "profile_published": false,
+        "open_to_connecting": false,
+        "visibile_in_search": false,
+        "findable_to": "logged_on_only"
+    }
+}
