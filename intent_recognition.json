@@ -843,7 +843,7 @@
         "use_gpt": false
     },
     {
-        "intent": "Interaction_notifications",
+        "intent": "interaction_notifications",
         "category": "system_notifications",
         "text": [
             "How can I recieve notifications when someone sends me a message?",
@@ -865,5 +865,253 @@
         ],
         "responses": ["To change your connecttion notifications, please open the settings and go to the Connect settings. You will see that you may select 3 different buttons. One button is to recieve a notification when someone wants to connect with you, the second one is a notification for when someone accepts or declines your request to connect and the last one is to get notified whenever someone follows your notes. You can click on the buttons to turn the notifications on or off. The colour of the buttons indicate if it's on or off. If the buttons are blue, it means that you will recieve notifications, if it's gray it means you will not."],
         "use_gpt": false
-    }
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+    {
+        "intent": "change_system_critical_notification_setting",
+        "category": "system notifications",
+        "platform_setting": "system critical notifications",
+        "text": [
+          "How can I enable system critical notifications?",
+          "Is there a way to receive system critical notifications?",
+          "What steps do I need to take to set up system critical notifications?",
+          "Where can I go to adjust the notification setting for system critical notifications?",
+          "How do I change the platform setting to receive system critical notifications?",
+          "Can I customize the notification options for system critical events?",
+          "What is the process for modifying the platform setting related to receiving system critical notifications?",
+          "Can you guide me through the steps to enable system critical notifications?",
+          "Where can I find the option to change my preference for receiving system critical notifications?",
+          "How do I enable or disable system critical notifications?"
+        ],
+        "responses": [
+          "The platform's system critical notifications setting cannot be changed due to the importance of these notifications. Rest assured, system critical notifications, such as password resets and authentication emails, are sent properly to ensure the security and integrity of your account."
+        ],
+        "use_gpt": false
+      },
+      {
+        "intent": "change_iYYU_news_notification_setting",
+        "category": "system notifications",
+        "platform_setting": "receive notifications about news shared by iYYU.com",
+        "text": [
+          "How can I enable notifications for news shared by iYYU.com?",
+          "Is there a way to receive notifications about news updates from iYYU.com?",
+          "What steps do I need to take to set up notifications for news shared by iYYU.com?",
+          "Where can I go to adjust the notification setting for news updates from iYYU.com?",
+          "How do I change the platform setting to receive notifications about news shared by iYYU.com?",
+          "Can I customize the notification options for news updates from iYYU.com?",
+          "What is the process for modifying the platform setting related to receiving notifications about news shared by iYYU.com?",
+          "Can you guide me through the steps to enable notifications for news updates from iYYU.com?",
+          "Where can I find the option to change my preference for receiving notifications about news shared by iYYU.com?",
+          "How do I enable or disable notifications for news updates from iYYU.com?"
+        ],
+        "responses": [
+          "To receive notifications about news shared by iYYU.com, please follow these steps:\n1. Go to your 'Settings' or 'Preferences' within the platform.\n2. Look for the 'Notification Settings' or 'News Settings' option.\n3. Within the settings, locate the option related to receiving notifications for news updates from iYYU.com.\n4. Adjust the setting to your preferred choice, enabling or disabling the notification feature.\n5. Save the changes, and you will start receiving notifications about news shared by iYYU.com."
+        ],
+        "use_gpt": false
+      },
+      {
+        "intent": "change_update_notification_setting",
+        "category": "system notifications",
+        "platform_setting": "receive notifications when updates are released",
+        "text": [
+          "How can I enable notifications for when updates are released?",
+          "Is there a way to receive notifications when new updates are available?",
+          "What steps do I need to take to set up notifications for released updates?",
+          "Where can I go to adjust the notification setting for update releases?",
+          "How do I change the platform setting to receive notifications when updates are released?",
+          "Can I customize the notification options for update releases?",
+          "What is the process for modifying the platform setting related to receiving notifications for updates?",
+          "Can you guide me through the steps to enable notifications for update releases?",
+          "Where can I find the option to change my preference for receiving notifications when updates are released?",
+          "How do I enable or disable notifications for new updates?"
+        ],
+        "responses": [
+          "To enable notifications for when updates are released, please follow these steps:\n1. Go to your 'Settings' or 'Preferences' within the platform.\n2. Look for the 'Notification Settings' or 'Update Settings' option.\n3. Within the settings, locate the option related to receiving notifications for update releases.\n4. Adjust the setting to your preferred choice, enabling or disabling the notification feature.\n5. Save the changes, and you will start receiving notifications when updates are released."
+        ],
+        "use_gpt": false
+      },      
+    {
+        "intent": "change_note_follower_notification_setting",
+        "category": "connect",
+        "platform_setting": "receive a notification when someone starts following your notes",
+        "text": [
+          "How can I enable notifications for when someone starts following my notes?",
+          "Is there a way to receive notifications when someone begins following my notes?",
+          "What steps do I need to take to set up notifications for followers of my notes?",
+          "Where can I go to adjust the notification setting for note followers?",
+          "How do I change the platform setting to receive notifications when someone starts following my notes?",
+          "Can I customize the notification options for note followers?",
+          "What is the process for modifying the platform setting related to receiving notifications for note followers?",
+          "Can you guide me through the steps to enable notifications for note followers?",
+          "Where can I find the option to change my preference for receiving notifications when someone starts following my notes?",
+          "How do I enable or disable notifications for followers of my notes?"
+        ],
+        "responses": [
+          "To enable notifications for when someone starts following your notes, please follow these steps:\n1. Go to your 'Settings' or 'Preferences' within the platform.\n2. Look for the 'Notification Settings' or 'Note Settings' option.\n3. Within the settings, locate the option related to receiving notifications for note followers.\n4. Adjust the setting to your preferred choice, enabling or disabling the notification feature.\n5. Save the changes, and you will start receiving notifications when someone starts following your notes."
+        ],
+        "use_gpt": false
+      },      
+    {
+        "intent": "change_connection_response_notification_setting",
+        "category": "connect",
+        "platform_setting": "receive a notification when someone accepts or declines your request to connect",
+        "text": [
+          "How can I enable notifications for when someone accepts or declines my connection request?",
+          "Is there a way to receive notifications when someone responds to my connection request?",
+          "What steps do I need to take to set up notifications for accepted or declined connection requests from other users?",
+          "Where can I go to adjust the notification setting for incoming connection responses?",
+          "How do I change the platform setting to receive notifications when someone accepts or declines my request to connect?",
+          "Can I customize the notification options for incoming connection responses?",
+          "What is the process for modifying the platform setting related to receiving notifications for accepted or declined connection requests?",
+          "Can you guide me through the steps to enable notifications for connection responses?",
+          "Where can I find the option to change my preference for receiving notifications when someone accepts or declines my connection request?",
+          "How do I enable or disable notifications for incoming connection responses?"
+        ],
+        "responses": [
+          "To enable notifications for when someone accepts or declines your connection request, please follow these steps:\n1. Go to your 'Settings' or 'Preferences' within the platform.\n2. Look for the 'Notification Settings' or 'Connection Settings' option.\n3. Within the settings, locate the option related to receiving notifications for connection responses.\n4. Adjust the setting to your preferred choice, enabling or disabling the notification feature.\n5. Save the changes, and you will start receiving notifications for incoming connection responses."
+        ],
+        "use_gpt": false
+      },      
+    {
+        "intent": "change_connection_request_notification_setting",
+        "category": "connect",
+        "platform_setting": "receive a notification when someone wants to connect with you",
+        "text": [
+          "How can I enable notifications for when someone wants to connect with me?",
+          "Is there a way to receive notifications when someone sends me a connection request?",
+          "What steps do I need to take to set up notifications for connection requests from other users?",
+          "Where can I go to adjust the notification setting for incoming connection requests?",
+          "How do I change the platform setting to receive notifications when someone wants to connect with me?",
+          "Can I customize the notification options for incoming connection requests?",
+          "What is the process for modifying the platform setting related to receiving notifications for connection requests?",
+          "Can you guide me through the steps to enable notifications for connection requests?",
+          "Where can I find the option to change my preference for receiving notifications when someone wants to connect with me?",
+          "How do I enable or disable notifications for incoming connection requests?"
+        ],
+        "responses": [
+          "To enable notifications for when someone wants to connect with you, please follow these steps:\n1. Go to your 'Settings' or 'Preferences' within the platform.\n2. Look for the 'Notification Settings' or 'Connection Settings' option.\n3. Within the settings, locate the option related to receiving notifications for connection requests.\n4. Adjust the setting to your preferred choice, enabling or disabling the notification feature.\n5. Save the changes, and you will start receiving notifications for incoming connection requests."
+        ],
+        "use_gpt": false
+      },      
+    {
+        "intent": "change_followed_user_note_notification_setting",
+        "category": "interact",
+        "platform_setting": "receive notification when someone you follow publishes a note",
+        "text": [
+          "How can I enable notifications for when someone I follow publishes a note?",
+          "Is there a way to receive notifications when someone I'm following posts a note?",
+          "What steps do I need to take to set up notifications for published notes from users I follow?",
+          "Where can I go to adjust the notification setting for notes published by people I follow?",
+          "How do I change the platform setting to receive notifications when someone I follow publishes a note?",
+          "Can I customize the notification options for notes posted by users I follow?",
+          "What is the process for modifying the platform setting related to receiving notifications for published notes from followed users?",
+          "Can you guide me through the steps to enable notifications for notes published by the people I follow?",
+          "Where can I find the option to change my preference for receiving notifications when someone I follow publishes a note?",
+          "How do I enable or disable notifications for published notes from the people I follow?"
+        ],
+        "responses": [
+          "To enable notifications for when someone you follow publishes a note, please follow these steps:\n1. Go to your 'Settings' or 'Preferences' within the platform.\n2. Look for the 'Notification Settings' or 'Note Settings' option.\n3. Within the settings, locate the option related to receiving notifications for published notes from users you follow.\n4. Adjust the setting to your preferred choice, enabling or disabling the notification feature.\n5. Save the changes, and you will start receiving notifications for published notes from the people you follow."
+        ],
+        "use_gpt": false
+      },
+    {
+        "intent": "change_message_notification_preference",
+        "category": "interact",
+        "platform_setting": "receive notification when someone sends you a message",
+        "text": [
+          "How can I modify the setting to receive notifications when someone sends me a message?",
+          "Is there a way to change the notification preference for incoming messages on this platform?",
+          "What steps do I need to take to update my notification settings for incoming messages?",
+          "Where can I go to adjust the setting that controls message notification alerts?",
+          "How do I change the platform setting to receive notifications when someone sends me a message?",
+          "Is it possible to customize the notification options for incoming messages?",
+          "What is the process for modifying the platform setting related to receiving message notifications?",
+          "Can you guide me through the steps to alter the setting for message notification alerts?",
+          "Where can I find the option to change my preference for receiving notifications when I receive a message?",
+          "How do I enable or disable the notification feature for incoming messages?"
+        ],
+        "responses": [
+          "To change the setting for receiving notifications when someone sends you a message, please follow these steps:\n1. Go to the 'Settings' or 'Preferences' section of the platform.\n2. Look for the 'Notification Settings' or 'Message Settings' option.\n3. Within the settings, locate the option related to receiving notifications for incoming messages.\n4. Adjust the setting to your preferred choice, enabling or disabling the notification feature.\n5. Save the changes, and your notification preferences for incoming messages will be updated accordingly."
+        ],
+        "use_gpt": false
+      },
+      {
+        "intent": "yes_response",
+        "category": "generic",
+        "text": [
+          "Yes, I am available tomorrow.",
+          "Absolutely! I will attend the event.",
+          "Yes, I want to proceed with the purchase.",
+          "Sure, I can meet you at 5 PM.",
+          "Yes, this is the correct address.",
+          "Yes, I would like a refill.",
+          "Yes, I received the package.",
+          "Definitely! I am interested in the new product.",
+          "Yes, I can confirm the reservation.",
+          "Yes, I agree with the terms and conditions."
+        ],
+        "responses": [
+            "Okay, understood"
+        ],
+        "use_gpt": false
+      },
+      {
+        "intent": "no_response",
+        "category": "generic",
+        "text": [
+          "No, I'm not available tomorrow.",
+          "Sorry, I won't be able to attend the event.",
+          "No, I don't want to proceed with the purchase.",
+          "Unfortunately, I can't meet you at 5 PM.",
+          "No, this is not the correct address.",
+          "No, I don't need a refill.",
+          "No, I haven't received the package.",
+          "No, I'm not interested in the new product.",
+          "Sorry, I can't confirm the reservation.",
+          "No, I don't agree with the terms and conditions."
+        ],
+        "responses": [
+            "Okay, understood"
+        ],
+        "use_gpt": false
+      }
 ]
