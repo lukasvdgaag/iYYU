@@ -2,21 +2,22 @@ import json
 
 
 class Settings:
-
-    def __init__(self) -> None:
+    def __init__(self):
         self.load_user_data()
         self.load_security_levels()
-        print('User profiles:',self.user_profiles)
-        print('Low security:',self.low_security)
-        print('Medium security:',self.medium_security)
-        print('High security:',self.high_security)
+        self.current_user = None
+
+        print('User profiles:', self.user_profiles)
+        print('Low security:', self.low_security)
+        print('Medium security:', self.medium_security)
+        print('High security:', self.high_security)
 
     def load_user_data(self):
         with open('user_profiles.json', 'r') as file:
             user_profiles = json.load(file)
 
         self.user_profiles = user_profiles
-    
+
     def load_security_levels(self):
         with open('user_security_levels.json', 'r') as file:
             user_security_levels = json.load(file)
@@ -26,19 +27,23 @@ class Settings:
         self.medium_security = user_security_levels['medium_security']
         self.high_security = user_security_levels['high_security']
 
+    def set_current_user(self, user_id):
+        for user in self.user_profiles:
+            if user['user_id'] == user_id:
+                self.current_user = user
+                break
 
+    def estimate_user_security_level(self):
+        if not self.current_user:
+            print("No current user set. Please set the current user using set_current_user(user_id).")
+            return None
 
+        begin_questions = [
+            "Do you want your profile to be high, medium, or low secured?",
+            "Do you want help with setting up your account settings?"
+        ]
 
-    def estimate_user_security_level(self, user_id):
-        begin_questions = ["Do you want a high your profile to be high, medium or low secured",
-                       "Do you want help with setting up your account settings?"]
-
-        # questions = [
-        #     "Do your account to be public?",
-        #     "Do you want that your account is visible for search?"
-        # ]
         answers = {}
-
         security = self.low_security
 
         for question in begin_questions:
@@ -46,17 +51,17 @@ class Settings:
             answers[question] = answer
 
         permission_change_settings = answers["Do you want help with setting up your account settings?"]
-        if permission_change_settings == "No":
+        if permission_change_settings.lower() == "no":
             return security
         else:
-            predefined_settings = answers["Do you want a high your profile to be high, medium or low secured?"]
-            if predefined_settings == "high":
+            predefined_settings = answers["Do you want your profile to be high, medium, or low secured?"]
+            if predefined_settings.lower() == "high":
                 security = self.high_security
-            elif predefined_settings == "medium":
+            elif predefined_settings.lower() == "medium":
                 security = self.medium_security
-            else:
-                return security
-            return None
+
+        return security
+    
 
     def update_user_setting(user_id, update_data):
         '''
