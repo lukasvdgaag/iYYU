@@ -783,5 +783,66 @@
         ],
         "responses": ["If you are having trouble changing your password, please contact our customer support team at..."],
         "use_gpt": false
+    },
+    {
+        "intent": "visibility_publish_profile_status",
+        "category": "My_visibility_settings",
+        "text": [
+            "Can people see me?",
+            "Am I visible for other people?",
+            "Can other people find me?",
+            "Can other people see me?",
+            "Why can't other people see me?",
+            "Why are other users uncapable of finding me?"
+            "Why can't other people find me?",
+            "Are other users able to see my profile?",
+            "Are other people able to find my profile",
+            "Are other people able to see my profile?",
+            "Is my profile published?",
+            "Did I publish my profile?"
+        ],
+        "responses": ["Other people are currently able/unable to find your profile. To change it, go to the settings and please open the My visibility settings. After opening the My visibility settings, proceed to click on publish profile. If the background of the button is blue, it suggests that your profile is visible for other users. If it's grey, it suggests that your profile is not visible for other users. "],
+        "use_gpt": false
+    },
+    {
+        "intent": "visibility_publish_profile_how_to",
+        "category": "My_visibility_settings",
+        "text": [
+            "How do I change my visibility?",
+            "Where can I change my visibility settings?",
+            "Can I change my visibility settings?",
+            "Is it possible for me to change my visibility settings?",
+            "Can I be visible for other users?"
+        ],
+        "responses": ["To change your visibility settings, please go to the settings and open the My visibility settings. After opening the My visibility settings, proceed to click on publish profile. If the background of the button is blue, it suggests that your profile is visible for other users. If it's grey, it suggests that your profile is not visible for other users. "],
+        "use_gpt": false
+    },
+    {
+        "intent": "news_and_updates",
+        "category": "system_notifications",
+        "text": [
+            "Can I recieve news?",
+            "Can I recieve the new updates?",
+            "How do I turn off the news",
+            "How do I turn off the updates",
+            "How do I turn off the news and updates",
+            "Can I change my notification settings?",
+            "How can I stop my notifications?",
+            "How do I turn off my notifications"
+        ],
+        "responses": ["To change your notification settings, please go to the settings and open the system_notification settings. After opening the My visibility settings, You will see a button for the News and for the Updates. If the backgrounds of the buttons are blue, it suggests that you will recieve notifications for the given category. If it's grey, it suggests that will not recieve the notifications for the given category."],
+        "use_gpt": false
+    },
+    {
+        "intent": "news_and_updates_statius",
+        "category": "system_notifications",
+        "text": [
+            "Are my news settings on?",
+            "Are my news settings off?",
+            "What notification settings do I have?",
+            "What are my current notifications?"
+        ],
+        "responses": ["From the system notifications, your news notifications are on/off and your update notifications are on/off. To Change this, please go to the settings and open the system_notification settings. After opening the My visibility settings, You will see a button for the News and for the Updates. If the backgrounds of the buttons are blue, it suggests that you will recieve notifications for the given category. If it's grey, it suggests that will not recieve the notifications for the given category."],
+        "use_gpt": false
     }
 ]
