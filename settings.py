@@ -71,16 +71,40 @@ class Settings:
         return None
 
     def set_user_calling_card_visibility(user_id, second_user_id):
-        '''
-        This function should be called with the user_id and the second_user_id and the calling card visibility should be updated
-        this can be done by using a json functionality to update the file. As can been seen in the user profiles json, each user has an array that contains objects
-        each of the objects contains the id of the user who's the settings are for, as well as the personal visbility for the target user
+        
+        with open('user_profiles.json', 'r') as file:
+        user_profiles = json.load(file)
 
-        Example:
-        User Frank (id: 0) want User (Lukas id: 1) to only be able to see select elements of their calling card. This function does that by taking the user id's and updating the
-        calling card visiblities accordingly to the intent that's recognised
-        '''
-        return None
+    # Find the user by user_id
+    user_index = None
+    for i, user in enumerate(user_profiles):
+        if user['user_id'] == user_id:
+            user_index = i
+            break
+
+    if user_index is None:
+        print("User not found.")
+        return
+
+    # Find the user by second_user_id
+    second_user_index = None
+    for i, viewability in enumerate(user_profiles[user_index]['individual_user_viewability']):
+        if viewability['user_id'] == second_user_id:
+            second_user_index = i
+            break
+
+    if second_user_index is None:
+        print("Second user not found.")
+        return
+
+    visibility = input("Enter visibility (true/false) for the calling card: ")
+    visibility = bool(visibility)
+
+    # Update the visibility for the second_user_id
+    user_profiles[user_index]['individual_user_viewability'][second_user_index]['profile_card_component_0_visible'] = visibility
+
+    with open('user_profiles.json', 'w') as file:
+        json.dump(user_profiles, file, indent=4)
     
     def handle_setting_questions(self) :
         
