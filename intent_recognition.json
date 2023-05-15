@@ -758,7 +758,9 @@
             "How do I modify my password for my account?",
             "What is the method for updating my password?",
             "I want to change my account password, what is the process?",
-            "What do I need to do to update my password for my account?"
+            "What do I need to do to update my password for my account?",
+            "How do I change my password?",
+            "Is it possible for me to change my password?"
         ],
         "responses": ["It is possible to change your password. You can go to the settings and click on...  "],
         "use_gpt": false
