@@ -825,10 +825,7 @@
             "Can I recieve the new updates?",
             "How do I turn off the news",
             "How do I turn off the updates",
-            "How do I turn off the news and updates",
-            "Can I change my notification settings?",
-            "How can I stop my notifications?",
-            "How do I turn off my notifications"
+            "How do I turn off the news and updates"
         ],
         "responses": ["To change your notification settings, please go to the settings and open the system_notification settings. After opening the My visibility settings, You will see a button for the News and for the Updates. If the backgrounds of the buttons are blue, it suggests that you will recieve notifications for the given category. If it's grey, it suggests that will not recieve the notifications for the given category."],
         "use_gpt": false
@@ -843,6 +840,31 @@
             "What are my current notifications?"
         ],
         "responses": ["From the system notifications, your news notifications are on/off and your update notifications are on/off. To Change this, please go to the settings and open the system_notification settings. After opening the My visibility settings, You will see a button for the News and for the Updates. If the backgrounds of the buttons are blue, it suggests that you will recieve notifications for the given category. If it's grey, it suggests that will not recieve the notifications for the given category."],
+        "use_gpt": false
+    },
+    //new for when I'm back to finish
+    {
+        "intent": "Interaction_notifications",
+        "category": "system_notifications",
+        "text": [
+            "How can I recieve notifications when someone sends me a message?",
+            "How do I ercieve notifications when someone I follow publishes a note?",
+            "How do I turn on notifications for my messages?",
+            "How do I turn on the notifications for notes?"
+        ],
+        "responses": ["To change your interaction notifications, please open the settings and go to the Interact settings. You will see that you may select 2 different buttons. One button is to recieve a notification when someone sends you a message and the second one is to recieve a notification when someone you follow publishes a note. You can click on the buttons to turn the notifications on or off. The colour of the buttons indicate if it's on or off. If the buttons are blue, it means that you will recieve notifications, if it's gray it means you will not."],
+        "use_gpt": false
+    },
+    {
+        "intent": "connection_notifications",
+        "category": "system_notifications",
+        "text": [
+            "How do I recieve notifications when someone wants to connect with me?",
+            "How do I recieve notifications when someone accepts my request to connect?",
+            "How do I recieve notifications when someone rejects my request to connect?",
+            "How do I recieve notifications when someone follows my notes?",
+        ],
+        "responses": ["To change your connecttion notifications, please open the settings and go to the Connect settings. You will see that you may select 3 different buttons. One button is to recieve a notification when someone wants to connect with you, the second one is a notification for when someone accepts or declines your request to connect and the last one is to get notified whenever someone follows your notes. You can click on the buttons to turn the notifications on or off. The colour of the buttons indicate if it's on or off. If the buttons are blue, it means that you will recieve notifications, if it's gray it means you will not."],
         "use_gpt": false
     }
 ]
