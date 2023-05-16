@@ -36,7 +36,7 @@
         "test_questions": [],
         "test_questions_advanced": [],
         "train_questions_results": "6 out of 6 correct",
-        "total_correctness": "100.0%"
+        "total_correctness": 100
     },
     {
         "correct_intent": "opt_out",
@@ -75,7 +75,7 @@
         "test_questions": [],
         "test_questions_advanced": [],
         "train_questions_results": "6 out of 6 correct",
-        "total_correctness": "100.0%"
+        "total_correctness": 100
     },
     {
         "correct_intent": "third_parties",
@@ -114,7 +114,7 @@
         "test_questions": [],
         "test_questions_advanced": [],
         "train_questions_results": "5 out of 6 correct",
-        "total_correctness": "83.33333333333334%"
+        "total_correctness": 83
     },
     {
         "correct_intent": "data_collection",
@@ -153,7 +153,7 @@
         "test_questions": [],
         "test_questions_advanced": [],
         "train_questions_results": "4 out of 6 correct",
-        "total_correctness": "66.66666666666666%"
+        "total_correctness": 67
     },
     {
         "correct_intent": "personal_information",
@@ -212,7 +212,7 @@
         "test_questions": [],
         "test_questions_advanced": [],
         "train_questions_results": "10 out of 10 correct",
-        "total_correctness": "100.0%"
+        "total_correctness": 100
     },
     {
         "correct_intent": "personal_information_third_parties",
@@ -271,7 +271,7 @@
         "test_questions": [],
         "test_questions_advanced": [],
         "train_questions_results": "10 out of 10 correct",
-        "total_correctness": "100.0%"
+        "total_correctness": 100
     },
     {
         "correct_intent": "data_storage",
@@ -330,7 +330,7 @@
         "test_questions": [],
         "test_questions_advanced": [],
         "train_questions_results": "10 out of 10 correct",
-        "total_correctness": "100.0%"
+        "total_correctness": 100
     },
     {
         "correct_intent": "personal_information_rights",
@@ -389,7 +389,7 @@
         "test_questions": [],
         "test_questions_advanced": [],
         "train_questions_results": "9 out of 10 correct",
-        "total_correctness": "90.0%"
+        "total_correctness": 90
     },
     {
         "correct_intent": "access_personal_data",
@@ -448,7 +448,7 @@
         "test_questions": [],
         "test_questions_advanced": [],
         "train_questions_results": "10 out of 10 correct",
-        "total_correctness": "100.0%"
+        "total_correctness": 100
     },
     {
         "correct_intent": "update_personal_data",
@@ -507,7 +507,7 @@
         "test_questions": [],
         "test_questions_advanced": [],
         "train_questions_results": "10 out of 10 correct",
-        "total_correctness": "100.0%"
+        "total_correctness": 100
     },
     {
         "correct_intent": "delete_personal_information",
@@ -566,7 +566,7 @@
         "test_questions": [],
         "test_questions_advanced": [],
         "train_questions_results": "10 out of 10 correct",
-        "total_correctness": "100.0%"
+        "total_correctness": 100
     },
     {
         "correct_intent": "cookie_policy",
@@ -625,7 +625,7 @@
         "test_questions": [],
         "test_questions_advanced": [],
         "train_questions_results": "10 out of 10 correct",
-        "total_correctness": "100.0%"
+        "total_correctness": 100
     },
     {
         "correct_intent": "privacy_regulations",
@@ -684,7 +684,7 @@
         "test_questions": [],
         "test_questions_advanced": [],
         "train_questions_results": "10 out of 10 correct",
-        "total_correctness": "100.0%"
+        "total_correctness": 100
     },
     {
         "correct_intent": "privacy_policy_updates",
@@ -748,7 +748,7 @@
         "test_questions": [],
         "test_questions_advanced": [],
         "train_questions_results": "11 out of 11 correct",
-        "total_correctness": "100.0%"
+        "total_correctness": 100
     },
     {
         "correct_intent": "minimum_age",
@@ -812,7 +812,7 @@
         "test_questions": [],
         "test_questions_advanced": [],
         "train_questions_results": "11 out of 11 correct",
-        "total_correctness": "100.0%"
+        "total_correctness": 100
     },
     {
         "correct_intent": "data_breaches",
@@ -876,7 +876,7 @@
         "test_questions": [],
         "test_questions_advanced": [],
         "train_questions_results": "11 out of 11 correct",
-        "total_correctness": "100.0%"
+        "total_correctness": 100
     },
     {
         "correct_intent": "opt_out_targeted_advertising",
@@ -940,7 +940,7 @@
         "test_questions": [],
         "test_questions_advanced": [],
         "train_questions_results": "11 out of 11 correct",
-        "total_correctness": "100.0%"
+        "total_correctness": 100
     },
     {
         "correct_intent": "contact_privacy_concerns",
@@ -1004,7 +1004,7 @@
         "test_questions": [],
         "test_questions_advanced": [],
         "train_questions_results": "11 out of 11 correct",
-        "total_correctness": "100.0%"
+        "total_correctness": 100
     },
     {
         "correct_intent": "disagree_privacy_consequences",
@@ -1068,7 +1068,7 @@
         "test_questions": [],
         "test_questions_advanced": [],
         "train_questions_results": "11 out of 11 correct",
-        "total_correctness": "100.0%"
+        "total_correctness": 100
     },
     {
         "correct_intent": "selling_personal_data",
@@ -1132,7 +1132,7 @@
         "test_questions": [],
         "test_questions_advanced": [],
         "train_questions_results": "11 out of 11 correct",
-        "total_correctness": "100.0%"
+        "total_correctness": 100
     },
     {
         "correct_intent": "personal_data_account_deletion",
@@ -1196,7 +1196,7 @@
         "test_questions": [],
         "test_questions_advanced": [],
         "train_questions_results": "11 out of 11 correct",
-        "total_correctness": "100.0%"
+        "total_correctness": 100
     },
     {
         "correct_intent": "question_answering",
@@ -1255,7 +1255,7 @@
         "test_questions": [],
         "test_questions_advanced": [],
         "train_questions_results": "7 out of 10 correct",
-        "total_correctness": "70.0%"
+        "total_correctness": 70
     },
     {
         "correct_intent": "summarization_legal_statement",
@@ -1319,7 +1319,7 @@
         "test_questions": [],
         "test_questions_advanced": [],
         "train_questions_results": "11 out of 11 correct",
-        "total_correctness": "100.0%"
+        "total_correctness": 100
     },
     {
         "correct_intent": "terms_of_service_legal_statement",
@@ -1378,7 +1378,7 @@
         "test_questions": [],
         "test_questions_advanced": [],
         "train_questions_results": "10 out of 10 correct",
-        "total_correctness": "100.0%"
+        "total_correctness": 100
     },
     {
         "correct_intent": "governing_law_legal_statement",
@@ -1437,7 +1437,7 @@
         "test_questions": [],
         "test_questions_advanced": [],
         "train_questions_results": "10 out of 10 correct",
-        "total_correctness": "100.0%"
+        "total_correctness": 100
     },
     {
         "correct_intent": "liability_legal_statement",
@@ -1501,7 +1501,7 @@
         "test_questions": [],
         "test_questions_advanced": [],
         "train_questions_results": "11 out of 11 correct",
-        "total_correctness": "100.0%"
+        "total_correctness": 100
     },
     {
         "correct_intent": "dispute_resolution_legal_statement",
@@ -1565,7 +1565,7 @@
         "test_questions": [],
         "test_questions_advanced": [],
         "train_questions_results": "11 out of 11 correct",
-        "total_correctness": "100.0%"
+        "total_correctness": 100
     },
     {
         "correct_intent": "arbitration_legal_statement",
@@ -1629,7 +1629,7 @@
         "test_questions": [],
         "test_questions_advanced": [],
         "train_questions_results": "11 out of 11 correct",
-        "total_correctness": "100.0%"
+        "total_correctness": 100
     },
     {
         "correct_intent": "small_claims_court_legal_statement",
@@ -1688,7 +1688,7 @@
         "test_questions": [],
         "test_questions_advanced": [],
         "train_questions_results": "10 out of 10 correct",
-        "total_correctness": "100.0%"
+        "total_correctness": 100
     },
     {
         "correct_intent": "user_obligations_legal_statement",
@@ -1752,7 +1752,7 @@
         "test_questions": [],
         "test_questions_advanced": [],
         "train_questions_results": "11 out of 11 correct",
-        "total_correctness": "100.0%"
+        "total_correctness": 100
     },
     {
         "correct_intent": "intellectual_property_legal_statement",
@@ -1816,7 +1816,7 @@
         "test_questions": [],
         "test_questions_advanced": [],
         "train_questions_results": "11 out of 11 correct",
-        "total_correctness": "100.0%"
+        "total_correctness": 100
     },
     {
         "correct_intent": "use_restrictions_legal_statement",
@@ -1875,7 +1875,7 @@
         "test_questions": [],
         "test_questions_advanced": [],
         "train_questions_results": "10 out of 10 correct",
-        "total_correctness": "100.0%"
+        "total_correctness": 100
     },
     {
         "correct_intent": "transfer_legal_statement",
@@ -1939,7 +1939,7 @@
         "test_questions": [],
         "test_questions_advanced": [],
         "train_questions_results": "11 out of 11 correct",
-        "total_correctness": "100.0%"
+        "total_correctness": 100
     },
     {
         "correct_intent": "cancellation_legal_statement",
@@ -1998,7 +1998,7 @@
         "test_questions": [],
         "test_questions_advanced": [],
         "train_questions_results": "10 out of 10 correct",
-        "total_correctness": "100.0%"
+        "total_correctness": 100
     },
     {
         "correct_intent": "warranty_disclaimers_legal_statement",
@@ -2057,7 +2057,7 @@
         "test_questions": [],
         "test_questions_advanced": [],
         "train_questions_results": "10 out of 10 correct",
-        "total_correctness": "100.0%"
+        "total_correctness": 100
     },
     {
         "correct_intent": "limitations_of_liability_legal_statement",
@@ -2116,7 +2116,7 @@
         "test_questions": [],
         "test_questions_advanced": [],
         "train_questions_results": "10 out of 10 correct",
-        "total_correctness": "100.0%"
+        "total_correctness": 100
     },
     {
         "correct_intent": "third_party_content_legal_statement",
@@ -2180,7 +2180,7 @@
         "test_questions": [],
         "test_questions_advanced": [],
         "train_questions_results": "11 out of 11 correct",
-        "total_correctness": "100.0%"
+        "total_correctness": 100
     },
     {
         "correct_intent": "refunds_legal_statement",
@@ -2244,7 +2244,7 @@
         "test_questions": [],
         "test_questions_advanced": [],
         "train_questions_results": "11 out of 11 correct",
-        "total_correctness": "100.0%"
+        "total_correctness": 100
     },
     {
         "correct_intent": "violations_legal_statement",
@@ -2308,7 +2308,7 @@
         "test_questions": [],
         "test_questions_advanced": [],
         "train_questions_results": "11 out of 11 correct",
-        "total_correctness": "100.0%"
+        "total_correctness": 100
     },
     {
         "correct_intent": "location_password_change",
@@ -2367,7 +2367,7 @@
         "test_questions": [],
         "test_questions_advanced": [],
         "train_questions_results": "9 out of 10 correct",
-        "total_correctness": "90.0%"
+        "total_correctness": 90
     },
     {
         "correct_intent": "reset_password_change",
@@ -2426,7 +2426,7 @@
         "test_questions": [],
         "test_questions_advanced": [],
         "train_questions_results": "10 out of 10 correct",
-        "total_correctness": "100.0%"
+        "total_correctness": 100
     },
     {
         "correct_intent": "update_password_change",
@@ -2500,7 +2500,7 @@
         "test_questions": [],
         "test_questions_advanced": [],
         "train_questions_results": "8 out of 13 correct",
-        "total_correctness": "61.53846153846154%"
+        "total_correctness": 62
     },
     {
         "correct_intent": "problem_update_password_change",
@@ -2564,7 +2564,7 @@
         "test_questions": [],
         "test_questions_advanced": [],
         "train_questions_results": "11 out of 11 correct",
-        "total_correctness": "100.0%"
+        "total_correctness": 100
     },
     {
         "correct_intent": "visibility_publish_profile_status",
@@ -2633,7 +2633,7 @@
         "test_questions": [],
         "test_questions_advanced": [],
         "train_questions_results": "12 out of 12 correct",
-        "total_correctness": "100.0%"
+        "total_correctness": 100
     },
     {
         "correct_intent": "visibility_publish_profile_how_to",
@@ -2667,7 +2667,7 @@
         "test_questions": [],
         "test_questions_advanced": [],
         "train_questions_results": "5 out of 5 correct",
-        "total_correctness": "100.0%"
+        "total_correctness": 100
     },
     {
         "correct_intent": "change_system_critical_notification_setting",
@@ -2785,7 +2785,7 @@
         "train_questions_results": "10 out of 10 correct",
         "test_questions_results": "5 out of 5 correct",
         "test_questions_advanced_results": "6 out of 6 correct",
-        "total_correctness": "100.0%"
+        "total_correctness": 100
     },
     {
         "correct_intent": "change_iYYU_news_notification_setting",
@@ -2903,7 +2903,7 @@
         "train_questions_results": "10 out of 10 correct",
         "test_questions_results": "4 out of 5 correct",
         "test_questions_advanced_results": "5 out of 6 correct",
-        "total_correctness": "90.47619047619048%"
+        "total_correctness": 90
     },
     {
         "correct_intent": "change_update_notification_setting",
@@ -3021,7 +3021,7 @@
         "train_questions_results": "10 out of 10 correct",
         "test_questions_results": "5 out of 5 correct",
         "test_questions_advanced_results": "6 out of 6 correct",
-        "total_correctness": "100.0%"
+        "total_correctness": 100
     },
     {
         "correct_intent": "change_note_follower_notification_setting",
@@ -3139,7 +3139,7 @@
         "train_questions_results": "10 out of 10 correct",
         "test_questions_results": "5 out of 5 correct",
         "test_questions_advanced_results": "6 out of 6 correct",
-        "total_correctness": "100.0%"
+        "total_correctness": 100
     },
     {
         "correct_intent": "change_connection_response_notification_setting",
@@ -3257,7 +3257,7 @@
         "train_questions_results": "2 out of 10 correct",
         "test_questions_results": "0 out of 5 correct",
         "test_questions_advanced_results": "0 out of 6 correct",
-        "total_correctness": "9.523809523809524%"
+        "total_correctness": 10
     },
     {
         "correct_intent": "change_connection_request_notification_setting",
@@ -3375,7 +3375,7 @@
         "train_questions_results": "10 out of 10 correct",
         "test_questions_results": "5 out of 5 correct",
         "test_questions_advanced_results": "6 out of 6 correct",
-        "total_correctness": "100.0%"
+        "total_correctness": 100
     },
     {
         "correct_intent": "change_followed_user_note_notification_setting",
@@ -3493,7 +3493,7 @@
         "train_questions_results": "10 out of 10 correct",
         "test_questions_results": "5 out of 5 correct",
         "test_questions_advanced_results": "6 out of 6 correct",
-        "total_correctness": "100.0%"
+        "total_correctness": 100
     },
     {
         "correct_intent": "change_message_notification_preference",
@@ -3611,7 +3611,7 @@
         "train_questions_results": "10 out of 10 correct",
         "test_questions_results": "5 out of 5 correct",
         "test_questions_advanced_results": "6 out of 6 correct",
-        "total_correctness": "100.0%"
+        "total_correctness": 100
     },
     {
         "correct_intent": "yes_response",
@@ -3729,7 +3729,7 @@
         "train_questions_results": "10 out of 10 correct",
         "test_questions_results": "3 out of 5 correct",
         "test_questions_advanced_results": "2 out of 6 correct",
-        "total_correctness": "71.42857142857143%"
+        "total_correctness": 71
     },
     {
         "correct_intent": "no_response",
@@ -3847,6 +3847,6 @@
         "train_questions_results": "10 out of 10 correct",
         "test_questions_results": "0 out of 5 correct",
         "test_questions_advanced_results": "0 out of 6 correct",
-        "total_correctness": "47.61904761904761%"
+        "total_correctness": 48
     }
 ]

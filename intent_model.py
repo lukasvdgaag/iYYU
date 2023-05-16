@@ -101,7 +101,8 @@ class IntentModel:
                     total_correct_counts += correct_count
                     total_counts += total_count
 
-            questions_results["total_correctness"] = f"{(total_correct_counts / total_counts) * 100}%"
+            questions_results["total_correctness"] = round((total_correct_counts / total_counts) * 100)
+
             results.append(questions_results)
 
         # Save results to a JSON file
