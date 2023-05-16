@@ -7,3 +7,5 @@ models/trained_bert.pth
 
 # Not saving the model 
 *.pth
+
+__pycache__/
