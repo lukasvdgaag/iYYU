@@ -881,54 +881,6 @@
         ],
         "use_gpt": false
     },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
     {
         "intent": "change_system_critical_notification_setting",
         "category": "system notifications",
@@ -1216,7 +1168,7 @@
             "Where I find option to change my preference for receiving message notifications?"
         ],
         "use_gpt": false
-    }    
+    },
     {
         "intent": "yes_response",
         "category": "generic",
