@@ -1,0 +1,3852 @@
+[
+    {
+        "correct_intent": "summarization_privacy",
+        "train_questions": [
+            {
+                "question": "Could you provide a summary of your privacy policy?",
+                "predicted_intent": "summarization_privacy",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What are the key points of your privacy policy?",
+                "predicted_intent": "summarization_privacy",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "In a few sentences, what does your privacy policy say?",
+                "predicted_intent": "summarization_privacy",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Can you give me an overview of your privacy policy?",
+                "predicted_intent": "summarization_privacy",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What is your privacy policy about?",
+                "predicted_intent": "summarization_privacy",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Can you give me a brief explanation of your privacy policy?",
+                "predicted_intent": "summarization_privacy",
+                "intent_correctly_predicted": true
+            }
+        ],
+        "test_questions": [],
+        "test_questions_advanced": [],
+        "train_questions_results": "6 out of 6 correct",
+        "total_correctness": 100
+    },
+    {
+        "correct_intent": "opt_out",
+        "train_questions": [
+            {
+                "question": "How do I opt out of data sharing?",
+                "predicted_intent": "opt_out",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Is there a way to opt out of sharing my data?",
+                "predicted_intent": "opt_out",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What are my options for opting out of data sharing?",
+                "predicted_intent": "opt_out",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Can you explain how to opt out of data sharing?",
+                "predicted_intent": "opt_out",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "How can I prevent my data from being shared?",
+                "predicted_intent": "opt_out",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Can I choose not to have my data shared?",
+                "predicted_intent": "opt_out",
+                "intent_correctly_predicted": true
+            }
+        ],
+        "test_questions": [],
+        "test_questions_advanced": [],
+        "train_questions_results": "6 out of 6 correct",
+        "total_correctness": 100
+    },
+    {
+        "correct_intent": "third_parties",
+        "train_questions": [
+            {
+                "question": "Do you share my personal information with third parties?",
+                "predicted_intent": "third_parties",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Who do you share my personal information with?",
+                "predicted_intent": "third_parties",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Are there any third parties that have access to my personal information?",
+                "predicted_intent": "third_parties",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What third parties have access to my personal information?",
+                "predicted_intent": "third_parties",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What happens to my personal information after it is shared with a third party?",
+                "predicted_intent": "third_parties",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "How is my personal information protected when it is shared with third parties?",
+                "predicted_intent": "personal_information_third_parties",
+                "intent_correctly_predicted": false
+            }
+        ],
+        "test_questions": [],
+        "test_questions_advanced": [],
+        "train_questions_results": "5 out of 6 correct",
+        "total_correctness": 83
+    },
+    {
+        "correct_intent": "data_collection",
+        "train_questions": [
+            {
+                "question": "What kind of information does your privacy policy collect?",
+                "predicted_intent": "summarization_privacy",
+                "intent_correctly_predicted": false
+            },
+            {
+                "question": "What data do you collect through your privacy policy?",
+                "predicted_intent": "data_collection",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What personal information is collected by your privacy policy?",
+                "predicted_intent": "summarization_privacy",
+                "intent_correctly_predicted": false
+            },
+            {
+                "question": "What types of data does your privacy policy ask for?",
+                "predicted_intent": "data_collection",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What kind of user data does your privacy policy require?",
+                "predicted_intent": "data_collection",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What are the data collection policies in your privacy policy?",
+                "predicted_intent": "data_collection",
+                "intent_correctly_predicted": true
+            }
+        ],
+        "test_questions": [],
+        "test_questions_advanced": [],
+        "train_questions_results": "4 out of 6 correct",
+        "total_correctness": 67
+    },
+    {
+        "correct_intent": "personal_information",
+        "train_questions": [
+            {
+                "question": "How does the company use my personal information?",
+                "predicted_intent": "personal_information",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What does the company do with my personal information?",
+                "predicted_intent": "personal_information",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "In what ways is my personal information used by the company?",
+                "predicted_intent": "personal_information",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What is the company's policy on using my personal information?",
+                "predicted_intent": "personal_information",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What kind of personal information does the company collect from me?",
+                "predicted_intent": "personal_information",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Can I choose how my personal information is used by the company?",
+                "predicted_intent": "personal_information",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Is my personal information used for any other purposes besides what I agreed to?",
+                "predicted_intent": "personal_information",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "How long does the company retain my personal information?",
+                "predicted_intent": "personal_information",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Who within the company has access to my personal information?",
+                "predicted_intent": "personal_information",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What happens to my personal information if I stop using the company's services?",
+                "predicted_intent": "personal_information",
+                "intent_correctly_predicted": true
+            }
+        ],
+        "test_questions": [],
+        "test_questions_advanced": [],
+        "train_questions_results": "10 out of 10 correct",
+        "total_correctness": 100
+    },
+    {
+        "correct_intent": "personal_information_third_parties",
+        "train_questions": [
+            {
+                "question": "Is my personal information shared with third parties?",
+                "predicted_intent": "personal_information_third_parties",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Does the company share my personal information with anyone else?",
+                "predicted_intent": "personal_information_third_parties",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Who else has access to my personal information?",
+                "predicted_intent": "personal_information_third_parties",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "How is my personal information protected when it is shared with third parties?",
+                "predicted_intent": "personal_information_third_parties",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What kind of third parties does the company share my personal information with?",
+                "predicted_intent": "personal_information_third_parties",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Do I have any control over who the company shares my personal information with?",
+                "predicted_intent": "personal_information_third_parties",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Is my personal information sold to third parties?",
+                "predicted_intent": "personal_information_third_parties",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "How does the company ensure that third parties protect my personal information?",
+                "predicted_intent": "personal_information_third_parties",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What happens to my personal information if a third party is acquired by or merges with the company?",
+                "predicted_intent": "personal_information_third_parties",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Can I opt-out of having my personal information shared with third parties?",
+                "predicted_intent": "personal_information_third_parties",
+                "intent_correctly_predicted": true
+            }
+        ],
+        "test_questions": [],
+        "test_questions_advanced": [],
+        "train_questions_results": "10 out of 10 correct",
+        "total_correctness": 100
+    },
+    {
+        "correct_intent": "data_storage",
+        "train_questions": [
+            {
+                "question": "How is my personal information stored and secured?",
+                "predicted_intent": "data_storage",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What measures does the company take to protect my personal information?",
+                "predicted_intent": "data_storage",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What kind of security protocols are in place for my personal information?",
+                "predicted_intent": "data_storage",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Who has access to my personal information?",
+                "predicted_intent": "data_storage",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "How is my personal information encrypted?",
+                "predicted_intent": "data_storage",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Where is my personal information stored?",
+                "predicted_intent": "data_storage",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What happens to my personal information if there is a security breach?",
+                "predicted_intent": "data_storage",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "How often is my personal information backed up?",
+                "predicted_intent": "data_storage",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "How long is my personal information retained for?",
+                "predicted_intent": "data_storage",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Can I request that my personal information be deleted?",
+                "predicted_intent": "data_storage",
+                "intent_correctly_predicted": true
+            }
+        ],
+        "test_questions": [],
+        "test_questions_advanced": [],
+        "train_questions_results": "10 out of 10 correct",
+        "total_correctness": 100
+    },
+    {
+        "correct_intent": "personal_information_rights",
+        "train_questions": [
+            {
+                "question": "What are my rights regarding my personal information?",
+                "predicted_intent": "personal_information_rights",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Can I access my personal information?",
+                "predicted_intent": "personal_information_rights",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Can I update or correct my personal information?",
+                "predicted_intent": "personal_information_rights",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Can I delete my personal information?",
+                "predicted_intent": "delete_personal_information",
+                "intent_correctly_predicted": false
+            },
+            {
+                "question": "What happens to my personal information if I delete my account?",
+                "predicted_intent": "personal_information_rights",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Can I request a copy of my personal information?",
+                "predicted_intent": "personal_information_rights",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "How long does it take for the company to respond to my personal information requests?",
+                "predicted_intent": "personal_information_rights",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What information does the company need from me to process my personal information requests?",
+                "predicted_intent": "personal_information_rights",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Can I object to the company processing my personal information?",
+                "predicted_intent": "personal_information_rights",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What can I do if the company violates my personal information rights?",
+                "predicted_intent": "personal_information_rights",
+                "intent_correctly_predicted": true
+            }
+        ],
+        "test_questions": [],
+        "test_questions_advanced": [],
+        "train_questions_results": "9 out of 10 correct",
+        "total_correctness": 90
+    },
+    {
+        "correct_intent": "access_personal_data",
+        "train_questions": [
+            {
+                "question": "How can I request access to my personal information?",
+                "predicted_intent": "access_personal_data",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What is the process for requesting access to my personal information?",
+                "predicted_intent": "access_personal_data",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "How do I go about requesting access to my personal information?",
+                "predicted_intent": "access_personal_data",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "How can I access my personal information?",
+                "predicted_intent": "access_personal_data",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Can you tell me how to request access to my personal information?",
+                "predicted_intent": "access_personal_data",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What steps should I take to request access to my personal data?",
+                "predicted_intent": "access_personal_data",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "How do I obtain access to my personal information?",
+                "predicted_intent": "access_personal_data",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What is the procedure to request access to my personal information?",
+                "predicted_intent": "access_personal_data",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Can you guide me on how to access my personal information?",
+                "predicted_intent": "access_personal_data",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What do I need to do to gain access to my personal information?",
+                "predicted_intent": "access_personal_data",
+                "intent_correctly_predicted": true
+            }
+        ],
+        "test_questions": [],
+        "test_questions_advanced": [],
+        "train_questions_results": "10 out of 10 correct",
+        "total_correctness": 100
+    },
+    {
+        "correct_intent": "update_personal_data",
+        "train_questions": [
+            {
+                "question": "How can I update my personal information?",
+                "predicted_intent": "update_personal_data",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What is the process to update my personal information?",
+                "predicted_intent": "update_personal_data",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "How do I go about updating my personal information?",
+                "predicted_intent": "update_personal_data",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Can you tell me how to update my personal information?",
+                "predicted_intent": "update_personal_data",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What steps should I take to update my personal data?",
+                "predicted_intent": "update_personal_data",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "How do I make changes to my personal information?",
+                "predicted_intent": "update_personal_data",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What is the procedure to update my personal information?",
+                "predicted_intent": "update_personal_data",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Can you guide me on how to update my personal information?",
+                "predicted_intent": "update_personal_data",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What do I need to do to modify my personal information?",
+                "predicted_intent": "update_personal_data",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "How can I make changes to my personal information?",
+                "predicted_intent": "update_personal_data",
+                "intent_correctly_predicted": true
+            }
+        ],
+        "test_questions": [],
+        "test_questions_advanced": [],
+        "train_questions_results": "10 out of 10 correct",
+        "total_correctness": 100
+    },
+    {
+        "correct_intent": "delete_personal_information",
+        "train_questions": [
+            {
+                "question": "How can I delete my personal information?",
+                "predicted_intent": "delete_personal_information",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What is the process to delete my personal information?",
+                "predicted_intent": "delete_personal_information",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "How do I go about deleting my personal information?",
+                "predicted_intent": "delete_personal_information",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Can you tell me how to delete my personal information?",
+                "predicted_intent": "delete_personal_information",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What steps should I take to delete my personal data?",
+                "predicted_intent": "delete_personal_information",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "How do I remove my personal information?",
+                "predicted_intent": "delete_personal_information",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What is the procedure to delete my personal information?",
+                "predicted_intent": "delete_personal_information",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Can you guide me on how to delete my personal information?",
+                "predicted_intent": "delete_personal_information",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What do I need to do to erase my personal information?",
+                "predicted_intent": "delete_personal_information",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "How can I request the removal of my personal information?",
+                "predicted_intent": "delete_personal_information",
+                "intent_correctly_predicted": true
+            }
+        ],
+        "test_questions": [],
+        "test_questions_advanced": [],
+        "train_questions_results": "10 out of 10 correct",
+        "total_correctness": 100
+    },
+    {
+        "correct_intent": "cookie_policy",
+        "train_questions": [
+            {
+                "question": "What is the policy regarding cookies at this company?",
+                "predicted_intent": "cookie_policy",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Can you explain the company's policy on cookies?",
+                "predicted_intent": "cookie_policy",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What are the company's guidelines for cookies?",
+                "predicted_intent": "cookie_policy",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "How does the company handle cookies?",
+                "predicted_intent": "cookie_policy",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Can you tell me about the company's cookie policies?",
+                "predicted_intent": "cookie_policy",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What is the official policy on cookies for the company?",
+                "predicted_intent": "cookie_policy",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What are the rules around cookies for this company?",
+                "predicted_intent": "cookie_policy",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What are the regulations for cookies at this company?",
+                "predicted_intent": "cookie_policy",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What are the company's protocols for handling cookies?",
+                "predicted_intent": "cookie_policy",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Can you provide information on the company's cookie policies?",
+                "predicted_intent": "cookie_policy",
+                "intent_correctly_predicted": true
+            }
+        ],
+        "test_questions": [],
+        "test_questions_advanced": [],
+        "train_questions_results": "10 out of 10 correct",
+        "total_correctness": 100
+    },
+    {
+        "correct_intent": "privacy_regulations",
+        "train_questions": [
+            {
+                "question": "Is the company in compliance with privacy regulations?",
+                "predicted_intent": "privacy_regulations",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Does the company follow privacy regulations?",
+                "predicted_intent": "privacy_regulations",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What is the company's stance on privacy regulations?",
+                "predicted_intent": "privacy_regulations",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Are the company's privacy policies in line with regulations?",
+                "predicted_intent": "privacy_regulations",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "How does the company ensure compliance with privacy regulations?",
+                "predicted_intent": "privacy_regulations",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Are there any privacy violations by the company?",
+                "predicted_intent": "privacy_regulations",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What measures has the company taken to comply with privacy regulations?",
+                "predicted_intent": "privacy_regulations",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Can you tell me if the company adheres to privacy regulations?",
+                "predicted_intent": "privacy_regulations",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What are the company's policies on privacy compliance?",
+                "predicted_intent": "privacy_regulations",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Has the company faced any penalties for not complying with privacy regulations?",
+                "predicted_intent": "privacy_regulations",
+                "intent_correctly_predicted": true
+            }
+        ],
+        "test_questions": [],
+        "test_questions_advanced": [],
+        "train_questions_results": "10 out of 10 correct",
+        "total_correctness": 100
+    },
+    {
+        "correct_intent": "privacy_policy_updates",
+        "train_questions": [
+            {
+                "question": "How often is the privacy policy updated?",
+                "predicted_intent": "privacy_policy_updates",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What is the frequency of updates to the privacy policy?",
+                "predicted_intent": "privacy_policy_updates",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "How frequently is the privacy policy updated?",
+                "predicted_intent": "privacy_policy_updates",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Is there a regular schedule for updating the privacy policy?",
+                "predicted_intent": "privacy_policy_updates",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What is the policy on updating the privacy policy?",
+                "predicted_intent": "privacy_policy_updates",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "How often are changes made to the privacy policy?",
+                "predicted_intent": "privacy_policy_updates",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Are there any rules around updating the privacy policy?",
+                "predicted_intent": "privacy_policy_updates",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What is the timeline for updating the privacy policy?",
+                "predicted_intent": "privacy_policy_updates",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Is there a set schedule for reviewing the privacy policy?",
+                "predicted_intent": "privacy_policy_updates",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Can you provide information on the update frequency for the privacy policy?",
+                "predicted_intent": "privacy_policy_updates",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What are the guidelines for updating the privacy policy?",
+                "predicted_intent": "privacy_policy_updates",
+                "intent_correctly_predicted": true
+            }
+        ],
+        "test_questions": [],
+        "test_questions_advanced": [],
+        "train_questions_results": "11 out of 11 correct",
+        "total_correctness": 100
+    },
+    {
+        "correct_intent": "minimum_age",
+        "train_questions": [
+            {
+                "question": "What is the minimum age requirement for using the company's services?",
+                "predicted_intent": "minimum_age",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What is the age limit for using the company's services?",
+                "predicted_intent": "minimum_age",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Is there a minimum age requirement to use the company's services?",
+                "predicted_intent": "minimum_age",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What is the company's policy on age requirements?",
+                "predicted_intent": "minimum_age",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "How old do you have to be to use the company's services?",
+                "predicted_intent": "minimum_age",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Are there any age restrictions for using the company's services?",
+                "predicted_intent": "minimum_age",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What is the company's policy on age restrictions?",
+                "predicted_intent": "minimum_age",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Is there an age limit for accessing the company's services?",
+                "predicted_intent": "minimum_age",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Can you tell me about the age requirements for using the company's services?",
+                "predicted_intent": "minimum_age",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What is the minimum age to use the company's services?",
+                "predicted_intent": "minimum_age",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What are the rules regarding the age limit for using the company's services?",
+                "predicted_intent": "minimum_age",
+                "intent_correctly_predicted": true
+            }
+        ],
+        "test_questions": [],
+        "test_questions_advanced": [],
+        "train_questions_results": "11 out of 11 correct",
+        "total_correctness": 100
+    },
+    {
+        "correct_intent": "data_breaches",
+        "train_questions": [
+            {
+                "question": "How does the company handle data breaches?",
+                "predicted_intent": "data_breaches",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What is the company's protocol for handling data breaches?",
+                "predicted_intent": "data_breaches",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "In the event of a data breach, what steps does the company take?",
+                "predicted_intent": "data_breaches",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Can you explain the company's approach to dealing with data breaches?",
+                "predicted_intent": "data_breaches",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "How does the company respond to data breaches?",
+                "predicted_intent": "data_breaches",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What measures does the company have in place to handle data breaches?",
+                "predicted_intent": "data_breaches",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "If there is a data breach, what actions does the company take?",
+                "predicted_intent": "data_breaches",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What policies does the company have in place for managing data breaches?",
+                "predicted_intent": "data_breaches",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "How is a data breach handled by the company?",
+                "predicted_intent": "data_breaches",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What is the company's plan of action in the event of a data breach?",
+                "predicted_intent": "data_breaches",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Can you tell me how the company manages data breaches?",
+                "predicted_intent": "data_breaches",
+                "intent_correctly_predicted": true
+            }
+        ],
+        "test_questions": [],
+        "test_questions_advanced": [],
+        "train_questions_results": "11 out of 11 correct",
+        "total_correctness": 100
+    },
+    {
+        "correct_intent": "opt_out_targeted_advertising",
+        "train_questions": [
+            {
+                "question": "Can I opt-out of targeted advertising?",
+                "predicted_intent": "opt_out_targeted_advertising",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "How can I opt-out of targeted advertising?",
+                "predicted_intent": "opt_out_targeted_advertising",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Is it possible to stop receiving targeted ads?",
+                "predicted_intent": "opt_out_targeted_advertising",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What are my options for opting out of targeted advertising?",
+                "predicted_intent": "opt_out_targeted_advertising",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Can I disable targeted advertising?",
+                "predicted_intent": "opt_out_targeted_advertising",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "How do I opt-out of personalized ads?",
+                "predicted_intent": "opt_out_targeted_advertising",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Is there a way to opt-out of targeted marketing?",
+                "predicted_intent": "opt_out_targeted_advertising",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Can I choose not to receive targeted ads?",
+                "predicted_intent": "opt_out_targeted_advertising",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What is the process for opting out of targeted advertising?",
+                "predicted_intent": "opt_out_targeted_advertising",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Can I decline targeted advertising?",
+                "predicted_intent": "opt_out_targeted_advertising",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "How does one go about opting out of targeted advertising?",
+                "predicted_intent": "opt_out_targeted_advertising",
+                "intent_correctly_predicted": true
+            }
+        ],
+        "test_questions": [],
+        "test_questions_advanced": [],
+        "train_questions_results": "11 out of 11 correct",
+        "total_correctness": 100
+    },
+    {
+        "correct_intent": "contact_privacy_concerns",
+        "train_questions": [
+            {
+                "question": "How can I contact the company for privacy-related concerns?",
+                "predicted_intent": "contact_privacy_concerns",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What are the ways to contact the company regarding privacy issues?",
+                "predicted_intent": "contact_privacy_concerns",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Is there a specific contact point for privacy concerns within the company?",
+                "predicted_intent": "contact_privacy_concerns",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "How do I get in touch with the company if I have privacy-related questions?",
+                "predicted_intent": "contact_privacy_concerns",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Can you tell me how to contact the company for privacy concerns?",
+                "predicted_intent": "contact_privacy_concerns",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What is the process for contacting the company about privacy matters?",
+                "predicted_intent": "contact_privacy_concerns",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Who should I contact if I have privacy concerns with the company's services?",
+                "predicted_intent": "contact_privacy_concerns",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "How can I report a privacy issue to the company?",
+                "predicted_intent": "contact_privacy_concerns",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Is there a privacy hotline or email address for the company?",
+                "predicted_intent": "contact_privacy_concerns",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Can you provide me with the contact information for the company's privacy department?",
+                "predicted_intent": "contact_privacy_concerns",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What are the available channels to raise privacy concerns with the company?",
+                "predicted_intent": "contact_privacy_concerns",
+                "intent_correctly_predicted": true
+            }
+        ],
+        "test_questions": [],
+        "test_questions_advanced": [],
+        "train_questions_results": "11 out of 11 correct",
+        "total_correctness": 100
+    },
+    {
+        "correct_intent": "disagree_privacy_consequences",
+        "train_questions": [
+            {
+                "question": "What are the consequences of not agreeing to the privacy policy?",
+                "predicted_intent": "disagree_privacy_consequences",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Are there any repercussions for refusing to accept the privacy policy?",
+                "predicted_intent": "disagree_privacy_consequences",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What happens if I don't agree to the privacy policy?",
+                "predicted_intent": "disagree_privacy_consequences",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Could you explain the consequences of declining the privacy policy?",
+                "predicted_intent": "disagree_privacy_consequences",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What are the implications of not consenting to the privacy policy?",
+                "predicted_intent": "disagree_privacy_consequences",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Is it mandatory to accept the privacy policy? What are the consequences if I don't?",
+                "predicted_intent": "disagree_privacy_consequences",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "If I don't agree to the privacy policy, will there be any consequences?",
+                "predicted_intent": "disagree_privacy_consequences",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Are there any penalties for not accepting the privacy policy?",
+                "predicted_intent": "disagree_privacy_consequences",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Can you tell me what happens if I choose not to accept the privacy policy?",
+                "predicted_intent": "disagree_privacy_consequences",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What are the risks of not accepting the privacy policy?",
+                "predicted_intent": "disagree_privacy_consequences",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Is there anything I should know about the consequences of declining the privacy policy?",
+                "predicted_intent": "disagree_privacy_consequences",
+                "intent_correctly_predicted": true
+            }
+        ],
+        "test_questions": [],
+        "test_questions_advanced": [],
+        "train_questions_results": "11 out of 11 correct",
+        "total_correctness": 100
+    },
+    {
+        "correct_intent": "selling_personal_data",
+        "train_questions": [
+            {
+                "question": "Does the company sell my personal information?",
+                "predicted_intent": "selling_personal_data",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Does the company share or sell my personal information?",
+                "predicted_intent": "selling_personal_data",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Is my personal information sold by the company?",
+                "predicted_intent": "selling_personal_data",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What happens to my personal information, is it sold by the company?",
+                "predicted_intent": "selling_personal_data",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Can my personal information be sold by the company?",
+                "predicted_intent": "selling_personal_data",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Is my personal information safe from being sold by the company?",
+                "predicted_intent": "selling_personal_data",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Is the company permitted to sell my personal information?",
+                "predicted_intent": "selling_personal_data",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Does the company have a policy on selling personal information?",
+                "predicted_intent": "selling_personal_data",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "How does the company handle the selling of personal information?",
+                "predicted_intent": "selling_personal_data",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What is the company's stance on selling personal information?",
+                "predicted_intent": "selling_personal_data",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Is it possible for my personal information to be sold by the company without my consent?",
+                "predicted_intent": "selling_personal_data",
+                "intent_correctly_predicted": true
+            }
+        ],
+        "test_questions": [],
+        "test_questions_advanced": [],
+        "train_questions_results": "11 out of 11 correct",
+        "total_correctness": 100
+    },
+    {
+        "correct_intent": "personal_data_account_deletion",
+        "train_questions": [
+            {
+                "question": "What happens to my personal information when I terminate my account?",
+                "predicted_intent": "personal_data_account_deletion",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What occurs with my personal information after I close my account?",
+                "predicted_intent": "personal_data_account_deletion",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Does my personal information get deleted when I terminate my account?",
+                "predicted_intent": "personal_data_account_deletion",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "How is my personal information handled once I cancel my account?",
+                "predicted_intent": "personal_data_account_deletion",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Will my personal information be retained after I terminate my account?",
+                "predicted_intent": "personal_data_account_deletion",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What is done with my personal information when I end my account?",
+                "predicted_intent": "personal_data_account_deletion",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Is my personal information kept after I cancel my account?",
+                "predicted_intent": "personal_data_account_deletion",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What happens to my personal data when I terminate my account?",
+                "predicted_intent": "personal_data_account_deletion",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "How is my personal data managed when I close my account?",
+                "predicted_intent": "personal_data_account_deletion",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Will my personal data be erased after I end my account?",
+                "predicted_intent": "personal_data_account_deletion",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What is the fate of my personal information when I terminate my account?",
+                "predicted_intent": "personal_data_account_deletion",
+                "intent_correctly_predicted": true
+            }
+        ],
+        "test_questions": [],
+        "test_questions_advanced": [],
+        "train_questions_results": "11 out of 11 correct",
+        "total_correctness": 100
+    },
+    {
+        "correct_intent": "question_answering",
+        "train_questions": [
+            {
+                "question": "What are the terms of service for this platform?",
+                "predicted_intent": "terms_of_service_legal_statement",
+                "intent_correctly_predicted": false
+            },
+            {
+                "question": "Where can I find the terms of service for this platform?",
+                "predicted_intent": "terms_of_service_legal_statement",
+                "intent_correctly_predicted": false
+            },
+            {
+                "question": "What is covered in the platform's terms of service?",
+                "predicted_intent": "question_answering",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Can you explain the terms of service for this platform?",
+                "predicted_intent": "terms_of_service_legal_statement",
+                "intent_correctly_predicted": false
+            },
+            {
+                "question": "What are the rules I need to follow according to the platform's terms of service?",
+                "predicted_intent": "question_answering",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Are there any restrictions outlined in the platform's terms of service?",
+                "predicted_intent": "question_answering",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What are my rights under the platform's terms of service?",
+                "predicted_intent": "question_answering",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Is it mandatory to agree to the terms of service before using the platform?",
+                "predicted_intent": "question_answering",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What are the consequences of violating the platform's terms of service?",
+                "predicted_intent": "question_answering",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What happens if I don't understand something in the platform's terms of service?",
+                "predicted_intent": "question_answering",
+                "intent_correctly_predicted": true
+            }
+        ],
+        "test_questions": [],
+        "test_questions_advanced": [],
+        "train_questions_results": "7 out of 10 correct",
+        "total_correctness": 70
+    },
+    {
+        "correct_intent": "summarization_legal_statement",
+        "train_questions": [
+            {
+                "question": "Can you summarize the liability section of the terms of service?",
+                "predicted_intent": "summarization_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Could you provide a brief overview of the liability section in the terms of service?",
+                "predicted_intent": "summarization_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "How would you summarize the liability section of the terms of service?",
+                "predicted_intent": "summarization_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Can you give me a summary of the terms of service's liability section?",
+                "predicted_intent": "summarization_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What is the liability section of the terms of service and can you summarize it?",
+                "predicted_intent": "summarization_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Would you mind summarizing the liability section of the terms of service for me?",
+                "predicted_intent": "summarization_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Can you provide a quick summary of the liability section in the terms of service?",
+                "predicted_intent": "summarization_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "How does the liability section in the terms of service read, and could you give me a brief summary?",
+                "predicted_intent": "summarization_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Could you explain the liability section of the terms of service in a nutshell?",
+                "predicted_intent": "summarization_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What does the liability section of the terms of service say, and could you summarize it for me?",
+                "predicted_intent": "summarization_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "I'm curious about the liability section of the terms of service. Would you be able to provide a summary?",
+                "predicted_intent": "summarization_legal_statement",
+                "intent_correctly_predicted": true
+            }
+        ],
+        "test_questions": [],
+        "test_questions_advanced": [],
+        "train_questions_results": "11 out of 11 correct",
+        "total_correctness": 100
+    },
+    {
+        "correct_intent": "terms_of_service_legal_statement",
+        "train_questions": [
+            {
+                "question": "What are the terms of service for this platform?",
+                "predicted_intent": "terms_of_service_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Where can I find the terms of service for this platform?",
+                "predicted_intent": "terms_of_service_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Are there any specific terms I should be aware of for using this platform?",
+                "predicted_intent": "terms_of_service_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "How can I access the terms of service for this platform?",
+                "predicted_intent": "terms_of_service_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Can you explain the terms of service for this platform?",
+                "predicted_intent": "terms_of_service_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What rules do I need to follow when using this platform?",
+                "predicted_intent": "terms_of_service_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What are the guidelines for using this platform?",
+                "predicted_intent": "terms_of_service_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Do the terms of service for this platform include a refund policy?",
+                "predicted_intent": "terms_of_service_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What are my rights and responsibilities under the terms of service for this platform?",
+                "predicted_intent": "terms_of_service_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Are there any restrictions on using this platform according to the terms of service?",
+                "predicted_intent": "terms_of_service_legal_statement",
+                "intent_correctly_predicted": true
+            }
+        ],
+        "test_questions": [],
+        "test_questions_advanced": [],
+        "train_questions_results": "10 out of 10 correct",
+        "total_correctness": 100
+    },
+    {
+        "correct_intent": "governing_law_legal_statement",
+        "train_questions": [
+            {
+                "question": "What is the governing law for the legal agreement?",
+                "predicted_intent": "governing_law_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Which law governs the legal agreement?",
+                "predicted_intent": "governing_law_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Under which law is the legal agreement governed?",
+                "predicted_intent": "governing_law_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What law is applicable to the legal agreement?",
+                "predicted_intent": "governing_law_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What is the applicable law for the legal agreement?",
+                "predicted_intent": "governing_law_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What law applies to the legal agreement?",
+                "predicted_intent": "governing_law_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What is the legal agreement governed by?",
+                "predicted_intent": "governing_law_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What is the applicable governing law for the legal agreement?",
+                "predicted_intent": "governing_law_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What law regulates the legal agreement?",
+                "predicted_intent": "governing_law_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What law controls the legal agreement?",
+                "predicted_intent": "governing_law_legal_statement",
+                "intent_correctly_predicted": true
+            }
+        ],
+        "test_questions": [],
+        "test_questions_advanced": [],
+        "train_questions_results": "10 out of 10 correct",
+        "total_correctness": 100
+    },
+    {
+        "correct_intent": "liability_legal_statement",
+        "train_questions": [
+            {
+                "question": "Can you summarize the liability section of the legal agreement?",
+                "predicted_intent": "liability_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Can you provide a brief summary of the liability section in the legal agreement?",
+                "predicted_intent": "liability_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What is the liability section of the legal agreement about?",
+                "predicted_intent": "liability_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Could you summarize the legal agreement's section on liability?",
+                "predicted_intent": "liability_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Can you explain the liability section of the legal agreement in simple terms?",
+                "predicted_intent": "liability_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What does the liability section of the legal agreement cover?",
+                "predicted_intent": "liability_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "May I have a summary of the legal agreement's liability section?",
+                "predicted_intent": "liability_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What are the key points of the liability section in the legal agreement?",
+                "predicted_intent": "liability_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Can you give me an overview of the legal agreement's liability section?",
+                "predicted_intent": "liability_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What is included in the liability section of the legal agreement?",
+                "predicted_intent": "liability_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Can you briefly describe the liability section of the legal agreement?",
+                "predicted_intent": "liability_legal_statement",
+                "intent_correctly_predicted": true
+            }
+        ],
+        "test_questions": [],
+        "test_questions_advanced": [],
+        "train_questions_results": "11 out of 11 correct",
+        "total_correctness": 100
+    },
+    {
+        "correct_intent": "dispute_resolution_legal_statement",
+        "train_questions": [
+            {
+                "question": "What is the dispute resolution process outlined in the legal agreement?",
+                "predicted_intent": "dispute_resolution_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Can you explain the dispute resolution process described in the legal agreement?",
+                "predicted_intent": "dispute_resolution_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What is the procedure for resolving disputes outlined in the legal agreement?",
+                "predicted_intent": "dispute_resolution_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "How does the legal agreement specify disputes should be resolved?",
+                "predicted_intent": "dispute_resolution_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What are the steps outlined in the legal agreement for dispute resolution?",
+                "predicted_intent": "dispute_resolution_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Could you provide an overview of the dispute resolution process as described in the legal agreement?",
+                "predicted_intent": "dispute_resolution_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What mechanisms are in place to resolve disputes according to the legal agreement?",
+                "predicted_intent": "dispute_resolution_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What is the protocol for resolving disputes laid out in the legal agreement?",
+                "predicted_intent": "dispute_resolution_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What does the legal agreement say about the process for settling disputes?",
+                "predicted_intent": "dispute_resolution_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "How are disputes addressed in the legal agreement?",
+                "predicted_intent": "dispute_resolution_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Can you give me a summary of the dispute resolution process outlined in the legal agreement?",
+                "predicted_intent": "dispute_resolution_legal_statement",
+                "intent_correctly_predicted": true
+            }
+        ],
+        "test_questions": [],
+        "test_questions_advanced": [],
+        "train_questions_results": "11 out of 11 correct",
+        "total_correctness": 100
+    },
+    {
+        "correct_intent": "arbitration_legal_statement",
+        "train_questions": [
+            {
+                "question": "Can I opt-out of arbitration?",
+                "predicted_intent": "arbitration_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Is there an option to opt-out of arbitration?",
+                "predicted_intent": "arbitration_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Can I choose not to participate in arbitration?",
+                "predicted_intent": "arbitration_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "How can I avoid arbitration?",
+                "predicted_intent": "arbitration_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Am I required to participate in arbitration or can I opt-out?",
+                "predicted_intent": "arbitration_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What are my options regarding arbitration?",
+                "predicted_intent": "arbitration_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Is there a way to decline arbitration?",
+                "predicted_intent": "arbitration_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Can I refuse to go through arbitration?",
+                "predicted_intent": "arbitration_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What if I don't want to go through arbitration?",
+                "predicted_intent": "arbitration_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Is it mandatory to go through arbitration or can I opt-out?",
+                "predicted_intent": "arbitration_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What are the alternatives to arbitration and can I opt-out of it?",
+                "predicted_intent": "arbitration_legal_statement",
+                "intent_correctly_predicted": true
+            }
+        ],
+        "test_questions": [],
+        "test_questions_advanced": [],
+        "train_questions_results": "11 out of 11 correct",
+        "total_correctness": 100
+    },
+    {
+        "correct_intent": "small_claims_court_legal_statement",
+        "train_questions": [
+            {
+                "question": "How are disputes handled in small claims court?",
+                "predicted_intent": "small_claims_court_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What is the process for small claims court?",
+                "predicted_intent": "small_claims_court_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What is the procedure for small claims court?",
+                "predicted_intent": "small_claims_court_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Can you explain how small claims court works?",
+                "predicted_intent": "small_claims_court_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What happens in small claims court?",
+                "predicted_intent": "small_claims_court_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "How does small claims court work?",
+                "predicted_intent": "small_claims_court_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "How do I file a claim in small claims court?",
+                "predicted_intent": "small_claims_court_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What are the rules for small claims court?",
+                "predicted_intent": "small_claims_court_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What is the jurisdiction of small claims court?",
+                "predicted_intent": "small_claims_court_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What are the limitations of small claims court?",
+                "predicted_intent": "small_claims_court_legal_statement",
+                "intent_correctly_predicted": true
+            }
+        ],
+        "test_questions": [],
+        "test_questions_advanced": [],
+        "train_questions_results": "10 out of 10 correct",
+        "total_correctness": 100
+    },
+    {
+        "correct_intent": "user_obligations_legal_statement",
+        "train_questions": [
+            {
+                "question": "What are my obligations as a user under the legal agreement?",
+                "predicted_intent": "user_obligations_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What am I required to do as a user according to the legal agreement?",
+                "predicted_intent": "user_obligations_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What are the user responsibilities outlined in the legal agreement?",
+                "predicted_intent": "user_obligations_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What are the terms of use for users outlined in the legal agreement?",
+                "predicted_intent": "user_obligations_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What are my duties and responsibilities under the legal agreement?",
+                "predicted_intent": "user_obligations_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What are the obligations of users in the legal agreement?",
+                "predicted_intent": "user_obligations_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What actions are prohibited under the legal agreement?",
+                "predicted_intent": "user_obligations_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What are the rules and regulations that I must follow as a user?",
+                "predicted_intent": "user_obligations_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What are the guidelines that I need to adhere to under the legal agreement?",
+                "predicted_intent": "user_obligations_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What are the limitations on user behavior in the legal agreement?",
+                "predicted_intent": "user_obligations_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What are the expectations for users according to the legal agreement?",
+                "predicted_intent": "user_obligations_legal_statement",
+                "intent_correctly_predicted": true
+            }
+        ],
+        "test_questions": [],
+        "test_questions_advanced": [],
+        "train_questions_results": "11 out of 11 correct",
+        "total_correctness": 100
+    },
+    {
+        "correct_intent": "intellectual_property_legal_statement",
+        "train_questions": [
+            {
+                "question": "How does the legal agreement apply to intellectual property rights?",
+                "predicted_intent": "intellectual_property_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What are the terms regarding intellectual property rights in the legal agreement?",
+                "predicted_intent": "intellectual_property_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Can you explain how the legal agreement applies to intellectual property?",
+                "predicted_intent": "intellectual_property_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What are my rights regarding intellectual property under the legal agreement?",
+                "predicted_intent": "intellectual_property_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Does the legal agreement address intellectual property rights?",
+                "predicted_intent": "intellectual_property_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "How is intellectual property addressed in the legal agreement?",
+                "predicted_intent": "intellectual_property_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Are there any provisions in the legal agreement concerning intellectual property?",
+                "predicted_intent": "intellectual_property_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What are the legal implications for intellectual property under the agreement?",
+                "predicted_intent": "intellectual_property_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "How does the legal agreement protect my intellectual property?",
+                "predicted_intent": "intellectual_property_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What rights do I retain for my intellectual property under the legal agreement?",
+                "predicted_intent": "intellectual_property_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What are the restrictions on intellectual property outlined in the legal agreement?",
+                "predicted_intent": "intellectual_property_legal_statement",
+                "intent_correctly_predicted": true
+            }
+        ],
+        "test_questions": [],
+        "test_questions_advanced": [],
+        "train_questions_results": "11 out of 11 correct",
+        "total_correctness": 100
+    },
+    {
+        "correct_intent": "use_restrictions_legal_statement",
+        "train_questions": [
+            {
+                "question": "What are the restrictions on my use of the platform or service?",
+                "predicted_intent": "use_restrictions_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What limitations are there on my use of the platform or service?",
+                "predicted_intent": "use_restrictions_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Are there any restrictions or limitations on my use of the platform or service?",
+                "predicted_intent": "use_restrictions_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What are the terms and conditions for using the platform or service?",
+                "predicted_intent": "use_restrictions_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What are the rules for using the platform or service?",
+                "predicted_intent": "use_restrictions_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What usage restrictions are specified in the legal agreement?",
+                "predicted_intent": "use_restrictions_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What prohibitions or limitations apply to my use of the platform or service?",
+                "predicted_intent": "use_restrictions_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What are the terms of use for the platform or service?",
+                "predicted_intent": "use_restrictions_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What are the guidelines for using the platform or service?",
+                "predicted_intent": "use_restrictions_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What are the terms and conditions for accessing and using the platform or service?",
+                "predicted_intent": "use_restrictions_legal_statement",
+                "intent_correctly_predicted": true
+            }
+        ],
+        "test_questions": [],
+        "test_questions_advanced": [],
+        "train_questions_results": "10 out of 10 correct",
+        "total_correctness": 100
+    },
+    {
+        "correct_intent": "transfer_legal_statement",
+        "train_questions": [
+            {
+                "question": "Can I transfer my account or subscription to someone else?",
+                "predicted_intent": "transfer_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Is it possible to transfer my account or subscription to another person?",
+                "predicted_intent": "transfer_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Can I assign my account or subscription to someone else?",
+                "predicted_intent": "transfer_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Am I allowed to transfer ownership of my account or subscription to another individual?",
+                "predicted_intent": "transfer_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "How can I transfer my account or subscription to a different person?",
+                "predicted_intent": "transfer_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What is the process for transferring my account or subscription to someone else?",
+                "predicted_intent": "transfer_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Is there a way to change the ownership of my account or subscription to someone else's name?",
+                "predicted_intent": "transfer_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Can I give my account or subscription to another person as a gift?",
+                "predicted_intent": "transfer_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What are the requirements for transferring my account or subscription to another individual?",
+                "predicted_intent": "transfer_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Is it permissible to sell my account or subscription to someone else?",
+                "predicted_intent": "transfer_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Can I pass on my account or subscription to a family member or friend?",
+                "predicted_intent": "transfer_legal_statement",
+                "intent_correctly_predicted": true
+            }
+        ],
+        "test_questions": [],
+        "test_questions_advanced": [],
+        "train_questions_results": "11 out of 11 correct",
+        "total_correctness": 100
+    },
+    {
+        "correct_intent": "cancellation_legal_statement",
+        "train_questions": [
+            {
+                "question": "What is the cancellation policy for subscriptions or services?",
+                "predicted_intent": "cancellation_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "How can I cancel my subscription?",
+                "predicted_intent": "cancellation_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What is the process for cancelling a service?",
+                "predicted_intent": "cancellation_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Can I get a refund if I cancel my subscription?",
+                "predicted_intent": "cancellation_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Is there a fee for cancelling a subscription?",
+                "predicted_intent": "cancellation_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What happens to my subscription if I cancel before it ends?",
+                "predicted_intent": "cancellation_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Are there any restrictions on cancelling a subscription or service?",
+                "predicted_intent": "cancellation_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "When will my subscription be cancelled if I request it?",
+                "predicted_intent": "cancellation_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What information do I need to provide when cancelling my subscription?",
+                "predicted_intent": "cancellation_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Can I cancel my subscription at any time?",
+                "predicted_intent": "cancellation_legal_statement",
+                "intent_correctly_predicted": true
+            }
+        ],
+        "test_questions": [],
+        "test_questions_advanced": [],
+        "train_questions_results": "10 out of 10 correct",
+        "total_correctness": 100
+    },
+    {
+        "correct_intent": "warranty_disclaimers_legal_statement",
+        "train_questions": [
+            {
+                "question": "Are there any warranty disclaimers in the legal agreement?",
+                "predicted_intent": "warranty_disclaimers_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Does the legal agreement contain any disclaimers of warranties?",
+                "predicted_intent": "warranty_disclaimers_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Are there any warranty exemptions specified in the legal agreement?",
+                "predicted_intent": "warranty_disclaimers_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Are warranties disclaimed in the legal agreement?",
+                "predicted_intent": "warranty_disclaimers_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Does the legal agreement have any provisions that limit the warranties provided?",
+                "predicted_intent": "warranty_disclaimers_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Are there any warranty limitations in the legal agreement?",
+                "predicted_intent": "warranty_disclaimers_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What is the warranty disclaimer policy in the legal agreement?",
+                "predicted_intent": "warranty_disclaimers_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Are there any warranties that are not provided in the legal agreement?",
+                "predicted_intent": "warranty_disclaimers_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Does the legal agreement include a warranty disclaimer clause?",
+                "predicted_intent": "warranty_disclaimers_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Are there any warranties that are expressly disclaimed in the legal agreement?",
+                "predicted_intent": "warranty_disclaimers_legal_statement",
+                "intent_correctly_predicted": true
+            }
+        ],
+        "test_questions": [],
+        "test_questions_advanced": [],
+        "train_questions_results": "10 out of 10 correct",
+        "total_correctness": 100
+    },
+    {
+        "correct_intent": "limitations_of_liability_legal_statement",
+        "train_questions": [
+            {
+                "question": "What are the limitations of liability in the legal agreement?",
+                "predicted_intent": "limitations_of_liability_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What is the extent of liability limitations in the legal agreement?",
+                "predicted_intent": "limitations_of_liability_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "How does the legal agreement limit liability?",
+                "predicted_intent": "limitations_of_liability_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Are there any liability restrictions outlined in the legal agreement?",
+                "predicted_intent": "limitations_of_liability_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What liabilities are excluded or limited in the legal agreement?",
+                "predicted_intent": "limitations_of_liability_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What types of liability are exempted in the legal agreement?",
+                "predicted_intent": "limitations_of_liability_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Can you explain the liability limitations in the legal agreement?",
+                "predicted_intent": "limitations_of_liability_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What are the specific liability caps outlined in the legal agreement?",
+                "predicted_intent": "limitations_of_liability_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "How are liability limitations determined in the legal agreement?",
+                "predicted_intent": "limitations_of_liability_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Is there a section in the legal agreement that covers limitations of liability?",
+                "predicted_intent": "limitations_of_liability_legal_statement",
+                "intent_correctly_predicted": true
+            }
+        ],
+        "test_questions": [],
+        "test_questions_advanced": [],
+        "train_questions_results": "10 out of 10 correct",
+        "total_correctness": 100
+    },
+    {
+        "correct_intent": "third_party_content_legal_statement",
+        "train_questions": [
+            {
+                "question": "How does the legal agreement apply to third-party content or services?",
+                "predicted_intent": "third_party_content_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What is the legal agreement's stance on third-party content or services?",
+                "predicted_intent": "third_party_content_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Does the legal agreement cover third-party content or services?",
+                "predicted_intent": "third_party_content_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "How are third-party content or services addressed in the legal agreement?",
+                "predicted_intent": "third_party_content_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Are there any provisions in the legal agreement regarding third-party content or services?",
+                "predicted_intent": "third_party_content_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What are the legal implications of using third-party content or services under the legal agreement?",
+                "predicted_intent": "third_party_content_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Can you explain how the legal agreement applies to third-party content or services?",
+                "predicted_intent": "third_party_content_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What are the rules around using third-party content or services under the legal agreement?",
+                "predicted_intent": "third_party_content_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Is there any protection for users regarding third-party content or services under the legal agreement?",
+                "predicted_intent": "third_party_content_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "How does the legal agreement regulate the use of third-party content or services?",
+                "predicted_intent": "third_party_content_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What is the legal responsibility of users for third-party content or services under the legal agreement?",
+                "predicted_intent": "third_party_content_legal_statement",
+                "intent_correctly_predicted": true
+            }
+        ],
+        "test_questions": [],
+        "test_questions_advanced": [],
+        "train_questions_results": "11 out of 11 correct",
+        "total_correctness": 100
+    },
+    {
+        "correct_intent": "refunds_legal_statement",
+        "train_questions": [
+            {
+                "question": "What is the company's policy on refunds?",
+                "predicted_intent": "refunds_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What is the refund policy for this company?",
+                "predicted_intent": "refunds_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Can I get a refund on my purchase?",
+                "predicted_intent": "refunds_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "How do I request a refund?",
+                "predicted_intent": "refunds_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Are there any conditions for getting a refund?",
+                "predicted_intent": "refunds_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What are the refund options available to me?",
+                "predicted_intent": "refunds_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Is there a time limit for requesting a refund?",
+                "predicted_intent": "refunds_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What is the process for obtaining a refund?",
+                "predicted_intent": "refunds_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Does the company offer full or partial refunds?",
+                "predicted_intent": "refunds_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Are there any fees associated with requesting a refund?",
+                "predicted_intent": "refunds_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What are the criteria for a refund to be issued?",
+                "predicted_intent": "refunds_legal_statement",
+                "intent_correctly_predicted": true
+            }
+        ],
+        "test_questions": [],
+        "test_questions_advanced": [],
+        "train_questions_results": "11 out of 11 correct",
+        "total_correctness": 100
+    },
+    {
+        "correct_intent": "violations_legal_statement",
+        "train_questions": [
+            {
+                "question": "What happens if I violate the legal agreement?",
+                "predicted_intent": "violations_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What are the consequences of breaching the legal agreement?",
+                "predicted_intent": "violations_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What are the penalties for violating the legal agreement?",
+                "predicted_intent": "violations_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What actions will the company take if I violate the legal agreement?",
+                "predicted_intent": "violations_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Is there a penalty for breaking the legal agreement?",
+                "predicted_intent": "violations_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "How does the company respond to legal agreement violations?",
+                "predicted_intent": "violations_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What are the repercussions of not following the legal agreement?",
+                "predicted_intent": "violations_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Can I be penalized for violating the legal agreement?",
+                "predicted_intent": "violations_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What happens if I fail to comply with the legal agreement?",
+                "predicted_intent": "violations_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "How does the company enforce the legal agreement?",
+                "predicted_intent": "violations_legal_statement",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Are there any sanctions for not abiding by the legal agreement?",
+                "predicted_intent": "violations_legal_statement",
+                "intent_correctly_predicted": true
+            }
+        ],
+        "test_questions": [],
+        "test_questions_advanced": [],
+        "train_questions_results": "11 out of 11 correct",
+        "total_correctness": 100
+    },
+    {
+        "correct_intent": "location_password_change",
+        "train_questions": [
+            {
+                "question": "Where can I change my account password?",
+                "predicted_intent": "location_password_change",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "How can I modify my password?",
+                "predicted_intent": "location_password_change",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Is there a way to change my password?",
+                "predicted_intent": "location_password_change",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Can you tell me where to change my password?",
+                "predicted_intent": "location_password_change",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "How do I update my account password?",
+                "predicted_intent": "update_password_change",
+                "intent_correctly_predicted": false
+            },
+            {
+                "question": "What is the process for changing my password?",
+                "predicted_intent": "location_password_change",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "I would like to change my account password, where can I do that?",
+                "predicted_intent": "location_password_change",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Could you please guide me to the password modification section?",
+                "predicted_intent": "location_password_change",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What steps should I follow to change my account password?",
+                "predicted_intent": "location_password_change",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Is there a password update option available?",
+                "predicted_intent": "location_password_change",
+                "intent_correctly_predicted": true
+            }
+        ],
+        "test_questions": [],
+        "test_questions_advanced": [],
+        "train_questions_results": "9 out of 10 correct",
+        "total_correctness": 90
+    },
+    {
+        "correct_intent": "reset_password_change",
+        "train_questions": [
+            {
+                "question": "I forgot my password, how can I reset it?",
+                "predicted_intent": "reset_password_change",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What should I do if I forget my password?",
+                "predicted_intent": "reset_password_change",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "How do I recover my account if I forgot my password?",
+                "predicted_intent": "reset_password_change",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What are the steps to reset my forgotten password?",
+                "predicted_intent": "reset_password_change",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "I can't remember my password, how can I get a new one?",
+                "predicted_intent": "reset_password_change",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Is there a way to retrieve my password if I forgot it?",
+                "predicted_intent": "reset_password_change",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "How to reset my password if I can't remember it?",
+                "predicted_intent": "reset_password_change",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What is the process to recover a forgotten password?",
+                "predicted_intent": "reset_password_change",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Can you help me reset my password?",
+                "predicted_intent": "reset_password_change",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What's the procedure for resetting a lost password?",
+                "predicted_intent": "reset_password_change",
+                "intent_correctly_predicted": true
+            }
+        ],
+        "test_questions": [],
+        "test_questions_advanced": [],
+        "train_questions_results": "10 out of 10 correct",
+        "total_correctness": 100
+    },
+    {
+        "correct_intent": "update_password_change",
+        "train_questions": [
+            {
+                "question": "I need to update my password, how do I do that?",
+                "predicted_intent": "update_password_change",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "How can I change my password for my account?",
+                "predicted_intent": "update_password_change",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What is the process for updating my password?",
+                "predicted_intent": "update_password_change",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What are the steps to update my password?",
+                "predicted_intent": "update_password_change",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "How do I reset my account password?",
+                "predicted_intent": "update_password_change",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What is the procedure for changing my password?",
+                "predicted_intent": "location_password_change",
+                "intent_correctly_predicted": false
+            },
+            {
+                "question": "Can you guide me through changing my account password?",
+                "predicted_intent": "location_password_change",
+                "intent_correctly_predicted": false
+            },
+            {
+                "question": "How do I modify my password for my account?",
+                "predicted_intent": "update_password_change",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What is the method for updating my password?",
+                "predicted_intent": "update_password_change",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "I want to change my account password, what is the process?",
+                "predicted_intent": "location_password_change",
+                "intent_correctly_predicted": false
+            },
+            {
+                "question": "What do I need to do to update my password for my account?",
+                "predicted_intent": "update_password_change",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "How do I change my password?",
+                "predicted_intent": "location_password_change",
+                "intent_correctly_predicted": false
+            },
+            {
+                "question": "Is it possible for me to change my password?",
+                "predicted_intent": "location_password_change",
+                "intent_correctly_predicted": false
+            }
+        ],
+        "test_questions": [],
+        "test_questions_advanced": [],
+        "train_questions_results": "8 out of 13 correct",
+        "total_correctness": 62
+    },
+    {
+        "correct_intent": "problem_update_password_change",
+        "train_questions": [
+            {
+                "question": "Why can't I change my password?",
+                "predicted_intent": "problem_update_password_change",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What are the reasons I might not be able to change my password?",
+                "predicted_intent": "problem_update_password_change",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What could be preventing me from changing my password?",
+                "predicted_intent": "problem_update_password_change",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Is there a specific error message that appears when I try to change my password?",
+                "predicted_intent": "problem_update_password_change",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Are there any restrictions on changing passwords?",
+                "predicted_intent": "problem_update_password_change",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Is it possible that my account has been compromised and that's why I can't change my password?",
+                "predicted_intent": "problem_update_password_change",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Do I need to meet certain criteria to change my password?",
+                "predicted_intent": "problem_update_password_change",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Can you provide me with some troubleshooting steps if I can't change my password?",
+                "predicted_intent": "problem_update_password_change",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What steps should I take if I'm having trouble changing my password?",
+                "predicted_intent": "problem_update_password_change",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Is there a customer support team that can assist me with changing my password?",
+                "predicted_intent": "problem_update_password_change",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Are there any known issues with changing passwords that I should be aware of?",
+                "predicted_intent": "problem_update_password_change",
+                "intent_correctly_predicted": true
+            }
+        ],
+        "test_questions": [],
+        "test_questions_advanced": [],
+        "train_questions_results": "11 out of 11 correct",
+        "total_correctness": 100
+    },
+    {
+        "correct_intent": "visibility_publish_profile_status",
+        "train_questions": [
+            {
+                "question": "Can people see me?",
+                "predicted_intent": "visibility_publish_profile_status",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Am I visible for other people?",
+                "predicted_intent": "visibility_publish_profile_status",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Can other people find me?",
+                "predicted_intent": "visibility_publish_profile_status",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Can other people see me?",
+                "predicted_intent": "visibility_publish_profile_status",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Why can't other people see me?",
+                "predicted_intent": "visibility_publish_profile_status",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Why are other users uncapable of finding me?",
+                "predicted_intent": "visibility_publish_profile_status",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Why can't other people find me?",
+                "predicted_intent": "visibility_publish_profile_status",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Are other users able to see my profile?",
+                "predicted_intent": "visibility_publish_profile_status",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Are other people able to find my profile",
+                "predicted_intent": "visibility_publish_profile_status",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Are other people able to see my profile?",
+                "predicted_intent": "visibility_publish_profile_status",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Is my profile published?",
+                "predicted_intent": "visibility_publish_profile_status",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Did I publish my profile?",
+                "predicted_intent": "visibility_publish_profile_status",
+                "intent_correctly_predicted": true
+            }
+        ],
+        "test_questions": [],
+        "test_questions_advanced": [],
+        "train_questions_results": "12 out of 12 correct",
+        "total_correctness": 100
+    },
+    {
+        "correct_intent": "visibility_publish_profile_how_to",
+        "train_questions": [
+            {
+                "question": "How do I change my visibility?",
+                "predicted_intent": "visibility_publish_profile_how_to",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Where can I change my visibility settings?",
+                "predicted_intent": "visibility_publish_profile_how_to",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Can I change my visibility settings?",
+                "predicted_intent": "visibility_publish_profile_how_to",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Is it possible for me to change my visibility settings?",
+                "predicted_intent": "visibility_publish_profile_how_to",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Can I be visible for other users?",
+                "predicted_intent": "visibility_publish_profile_how_to",
+                "intent_correctly_predicted": true
+            }
+        ],
+        "test_questions": [],
+        "test_questions_advanced": [],
+        "train_questions_results": "5 out of 5 correct",
+        "total_correctness": 100
+    },
+    {
+        "correct_intent": "change_system_critical_notification_setting",
+        "train_questions": [
+            {
+                "question": "How can I enable system critical notifications?",
+                "predicted_intent": "change_system_critical_notification_setting",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Is there a way to receive system critical notifications?",
+                "predicted_intent": "change_system_critical_notification_setting",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What steps do I need to take to set up system critical notifications?",
+                "predicted_intent": "change_system_critical_notification_setting",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Where can I go to adjust the notification setting for system critical notifications?",
+                "predicted_intent": "change_system_critical_notification_setting",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "How do I change the platform setting to receive system critical notifications?",
+                "predicted_intent": "change_system_critical_notification_setting",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Can I customize the notification options for system critical events?",
+                "predicted_intent": "change_system_critical_notification_setting",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What is the process for modifying the platform setting related to receiving system critical notifications?",
+                "predicted_intent": "change_system_critical_notification_setting",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Can you guide me through the steps to enable system critical notifications?",
+                "predicted_intent": "change_system_critical_notification_setting",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Where can I find the option to change my preference for receiving system critical notifications?",
+                "predicted_intent": "change_system_critical_notification_setting",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "How do I enable or disable system critical notifications?",
+                "predicted_intent": "change_system_critical_notification_setting",
+                "intent_correctly_predicted": true
+            }
+        ],
+        "test_questions": [
+            {
+                "question": "Can I adjust the system critical notifications setting?",
+                "predicted_intent": "change_system_critical_notification_setting",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Is it possible to customize system critical notifications?",
+                "predicted_intent": "change_system_critical_notification_setting",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "How do I set up system critical notifications?",
+                "predicted_intent": "change_system_critical_notification_setting",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Where can I find the option to enable system critical notifications?",
+                "predicted_intent": "change_system_critical_notification_setting",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Can you explain the importance of system critical notifications?",
+                "predicted_intent": "change_system_critical_notification_setting",
+                "intent_correctly_predicted": true
+            }
+        ],
+        "test_questions_advanced": [
+            {
+                "question": "Can I adjust the system critical notifications setting?",
+                "predicted_intent": "change_system_critical_notification_setting",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Is it possible to customize system critical notifications?",
+                "predicted_intent": "change_system_critical_notification_setting",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "How do I set up system critical notifications?",
+                "predicted_intent": "change_system_critical_notification_setting",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Where can I find option to enable system critical notifications?",
+                "predicted_intent": "change_system_critical_notification_setting",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Can you explain importance of system critical notifications?",
+                "predicted_intent": "change_system_critical_notification_setting",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "How to enable or disable system critical notifications?",
+                "predicted_intent": "change_system_critical_notification_setting",
+                "intent_correctly_predicted": true
+            }
+        ],
+        "train_questions_results": "10 out of 10 correct",
+        "test_questions_results": "5 out of 5 correct",
+        "test_questions_advanced_results": "6 out of 6 correct",
+        "total_correctness": 100
+    },
+    {
+        "correct_intent": "change_iYYU_news_notification_setting",
+        "train_questions": [
+            {
+                "question": "How can I enable notifications for news shared by iYYU.com?",
+                "predicted_intent": "change_iYYU_news_notification_setting",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Is there a way to receive notifications about news updates from iYYU.com?",
+                "predicted_intent": "change_iYYU_news_notification_setting",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What steps do I need to take to set up notifications for news shared by iYYU.com?",
+                "predicted_intent": "change_iYYU_news_notification_setting",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Where can I go to adjust the notification setting for news updates from iYYU.com?",
+                "predicted_intent": "change_iYYU_news_notification_setting",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "How do I change the platform setting to receive notifications about news shared by iYYU.com?",
+                "predicted_intent": "change_iYYU_news_notification_setting",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Can I customize the notification options for news updates from iYYU.com?",
+                "predicted_intent": "change_iYYU_news_notification_setting",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What is the process for modifying the platform setting related to receiving notifications about news shared by iYYU.com?",
+                "predicted_intent": "change_iYYU_news_notification_setting",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Can you guide me through the steps to enable notifications for news updates from iYYU.com?",
+                "predicted_intent": "change_iYYU_news_notification_setting",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Where can I find the option to change my preference for receiving notifications about news shared by iYYU.com?",
+                "predicted_intent": "change_iYYU_news_notification_setting",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "How do I enable or disable notifications for news updates from iYYU.com?",
+                "predicted_intent": "change_iYYU_news_notification_setting",
+                "intent_correctly_predicted": true
+            }
+        ],
+        "test_questions": [
+            {
+                "question": "How do I set up notifications for news updates from iYYU.com?",
+                "predicted_intent": "change_iYYU_news_notification_setting",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Is there an option to receive notifications about news shared by iYYU.com?",
+                "predicted_intent": "change_iYYU_news_notification_setting",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What are the steps to customize notification settings for news updates from iYYU.com?",
+                "predicted_intent": "change_iYYU_news_notification_setting",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Where can I find the setting to control notifications for news updates from iYYU.com?",
+                "predicted_intent": "change_iYYU_news_notification_setting",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Can you explain how to enable or disable notifications for news updates?",
+                "predicted_intent": "change_update_notification_setting",
+                "intent_correctly_predicted": false
+            }
+        ],
+        "test_questions_advanced": [
+            {
+                "question": "How do I set up notificatons for news updates from iYYU.com?",
+                "predicted_intent": "change_iYYU_news_notification_setting",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Is there an option to receive notifications about news shared by iYYU.com?",
+                "predicted_intent": "change_iYYU_news_notification_setting",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What are steps to customize notification settings for news updates from iYYU.com?",
+                "predicted_intent": "change_iYYU_news_notification_setting",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Where can I find setting to control notifications for news updates from iYYU.com?",
+                "predicted_intent": "change_iYYU_news_notification_setting",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Can you explain how to enable or disable notifications for news updates?",
+                "predicted_intent": "change_update_notification_setting",
+                "intent_correctly_predicted": false
+            },
+            {
+                "question": "Where can I find option to change my preference for receiving notifications about news shared by iYYU.com?",
+                "predicted_intent": "change_iYYU_news_notification_setting",
+                "intent_correctly_predicted": true
+            }
+        ],
+        "train_questions_results": "10 out of 10 correct",
+        "test_questions_results": "4 out of 5 correct",
+        "test_questions_advanced_results": "5 out of 6 correct",
+        "total_correctness": 90
+    },
+    {
+        "correct_intent": "change_update_notification_setting",
+        "train_questions": [
+            {
+                "question": "How can I enable notifications for when updates are released?",
+                "predicted_intent": "change_update_notification_setting",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Is there a way to receive notifications when new updates are available?",
+                "predicted_intent": "change_update_notification_setting",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What steps do I need to take to set up notifications for released updates?",
+                "predicted_intent": "change_update_notification_setting",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Where can I go to adjust the notification setting for update releases?",
+                "predicted_intent": "change_update_notification_setting",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "How do I change the platform setting to receive notifications when updates are released?",
+                "predicted_intent": "change_update_notification_setting",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Can I customize the notification options for update releases?",
+                "predicted_intent": "change_update_notification_setting",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What is the process for modifying the platform setting related to receiving notifications for updates?",
+                "predicted_intent": "change_update_notification_setting",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Can you guide me through the steps to enable notifications for update releases?",
+                "predicted_intent": "change_update_notification_setting",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Where can I find the option to change my preference for receiving notifications when updates are released?",
+                "predicted_intent": "change_update_notification_setting",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "How do I enable or disable notifications for new updates?",
+                "predicted_intent": "change_update_notification_setting",
+                "intent_correctly_predicted": true
+            }
+        ],
+        "test_questions": [
+            {
+                "question": "How do I set up notifications for released updates?",
+                "predicted_intent": "change_update_notification_setting",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Is there an option to receive notifications when new updates are available?",
+                "predicted_intent": "change_update_notification_setting",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What are the steps to customize notification settings for update releases?",
+                "predicted_intent": "change_update_notification_setting",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Where can I find the setting to control notifications for update releases?",
+                "predicted_intent": "change_update_notification_setting",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Can you explain how to enable or disable notifications for updates?",
+                "predicted_intent": "change_update_notification_setting",
+                "intent_correctly_predicted": true
+            }
+        ],
+        "test_questions_advanced": [
+            {
+                "question": "How do I set up notificatons for released updates?",
+                "predicted_intent": "change_update_notification_setting",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Is there an option to receive notifications when new updates are available?",
+                "predicted_intent": "change_update_notification_setting",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What are steps to customize notification settings for update releases?",
+                "predicted_intent": "change_update_notification_setting",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Where can I find setting to control notifications for update releases?",
+                "predicted_intent": "change_update_notification_setting",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Can you explain how to enable or disable notifications for updates?",
+                "predicted_intent": "change_update_notification_setting",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Where can I find option to change my preference for receiving notifications when updates are released?",
+                "predicted_intent": "change_update_notification_setting",
+                "intent_correctly_predicted": true
+            }
+        ],
+        "train_questions_results": "10 out of 10 correct",
+        "test_questions_results": "5 out of 5 correct",
+        "test_questions_advanced_results": "6 out of 6 correct",
+        "total_correctness": 100
+    },
+    {
+        "correct_intent": "change_note_follower_notification_setting",
+        "train_questions": [
+            {
+                "question": "How can I enable notifications for when someone starts following my notes?",
+                "predicted_intent": "change_note_follower_notification_setting",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Is there a way to receive notifications when someone begins following my notes?",
+                "predicted_intent": "change_note_follower_notification_setting",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What steps do I need to take to set up notifications for followers of my notes?",
+                "predicted_intent": "change_note_follower_notification_setting",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Where can I go to adjust the notification setting for note followers?",
+                "predicted_intent": "change_note_follower_notification_setting",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "How do I change the platform setting to receive notifications when someone starts following my notes?",
+                "predicted_intent": "change_note_follower_notification_setting",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Can I customize the notification options for note followers?",
+                "predicted_intent": "change_note_follower_notification_setting",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What is the process for modifying the platform setting related to receiving notifications for note followers?",
+                "predicted_intent": "change_note_follower_notification_setting",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Can you guide me through the steps to enable notifications for note followers?",
+                "predicted_intent": "change_note_follower_notification_setting",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Where can I find the option to change my preference for receiving notifications when someone starts following my notes?",
+                "predicted_intent": "change_note_follower_notification_setting",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "How do I enable or disable notifications for followers of my notes?",
+                "predicted_intent": "change_note_follower_notification_setting",
+                "intent_correctly_predicted": true
+            }
+        ],
+        "test_questions": [
+            {
+                "question": "How do I set up notifications for followers of my notes?",
+                "predicted_intent": "change_note_follower_notification_setting",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Is there an option to receive notifications when someone begins following my notes?",
+                "predicted_intent": "change_note_follower_notification_setting",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What are the steps to customize notification settings for note followers?",
+                "predicted_intent": "change_note_follower_notification_setting",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Where can I find the setting to control notifications for note followers?",
+                "predicted_intent": "change_note_follower_notification_setting",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Can you explain how to enable or disable notifications for note followers?",
+                "predicted_intent": "change_note_follower_notification_setting",
+                "intent_correctly_predicted": true
+            }
+        ],
+        "test_questions_advanced": [
+            {
+                "question": "How do I set up notificatons for followers of my notes?",
+                "predicted_intent": "change_note_follower_notification_setting",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Is there an option to receive notifications when someone begins following my notes?",
+                "predicted_intent": "change_note_follower_notification_setting",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What are steps to customize notification settings for note followers?",
+                "predicted_intent": "change_note_follower_notification_setting",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Where can I find setting to control notifications for note followers?",
+                "predicted_intent": "change_note_follower_notification_setting",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Can you explain how to enable or disable notifications for note followers?",
+                "predicted_intent": "change_note_follower_notification_setting",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Where can I find option to change my preference for receiving notifications when someone starts following my notes?",
+                "predicted_intent": "change_note_follower_notification_setting",
+                "intent_correctly_predicted": true
+            }
+        ],
+        "train_questions_results": "10 out of 10 correct",
+        "test_questions_results": "5 out of 5 correct",
+        "test_questions_advanced_results": "6 out of 6 correct",
+        "total_correctness": 100
+    },
+    {
+        "correct_intent": "change_connection_response_notification_setting",
+        "train_questions": [
+            {
+                "question": "How can I enable notifications for when someone accepts or declines my connection request?",
+                "predicted_intent": "change_connection_response_notification_setting",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Is there a way to receive notifications when someone responds to my connection request?",
+                "predicted_intent": "change_connection_request_notification_setting",
+                "intent_correctly_predicted": false
+            },
+            {
+                "question": "What steps do I need to take to set up notifications for accepted or declined connection requests from other users?",
+                "predicted_intent": "change_connection_request_notification_setting",
+                "intent_correctly_predicted": false
+            },
+            {
+                "question": "Where can I go to adjust the notification setting for incoming connection responses?",
+                "predicted_intent": "change_connection_request_notification_setting",
+                "intent_correctly_predicted": false
+            },
+            {
+                "question": "How do I change the platform setting to receive notifications when someone accepts or declines my request to connect?",
+                "predicted_intent": "change_connection_request_notification_setting",
+                "intent_correctly_predicted": false
+            },
+            {
+                "question": "Can I customize the notification options for incoming connection responses?",
+                "predicted_intent": "change_connection_request_notification_setting",
+                "intent_correctly_predicted": false
+            },
+            {
+                "question": "What is the process for modifying the platform setting related to receiving notifications for accepted or declined connection requests?",
+                "predicted_intent": "change_connection_request_notification_setting",
+                "intent_correctly_predicted": false
+            },
+            {
+                "question": "Can you guide me through the steps to enable notifications for connection responses?",
+                "predicted_intent": "change_connection_request_notification_setting",
+                "intent_correctly_predicted": false
+            },
+            {
+                "question": "Where can I find the option to change my preference for receiving notifications when someone accepts or declines my connection request?",
+                "predicted_intent": "change_connection_response_notification_setting",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "How do I enable or disable notifications for incoming connection responses?",
+                "predicted_intent": "change_connection_request_notification_setting",
+                "intent_correctly_predicted": false
+            }
+        ],
+        "test_questions": [
+            {
+                "question": "How do I set up notifications for connection responses to my requests?",
+                "predicted_intent": "change_connection_request_notification_setting",
+                "intent_correctly_predicted": false
+            },
+            {
+                "question": "Is there an option to receive notifications when someone responds to my connection request?",
+                "predicted_intent": "change_connection_request_notification_setting",
+                "intent_correctly_predicted": false
+            },
+            {
+                "question": "What are the steps to customize notification settings for accepted or declined connection requests?",
+                "predicted_intent": "change_connection_request_notification_setting",
+                "intent_correctly_predicted": false
+            },
+            {
+                "question": "Where can I find the setting to control notifications for incoming connection responses?",
+                "predicted_intent": "change_connection_request_notification_setting",
+                "intent_correctly_predicted": false
+            },
+            {
+                "question": "Can you explain how to enable or disable notifications for connection responses?",
+                "predicted_intent": "change_connection_request_notification_setting",
+                "intent_correctly_predicted": false
+            }
+        ],
+        "test_questions_advanced": [
+            {
+                "question": "How do I set up notificatons for connection responses to my requests?",
+                "predicted_intent": "change_connection_request_notification_setting",
+                "intent_correctly_predicted": false
+            },
+            {
+                "question": "Is there an option to receive notifications when someone responds to my connection request?",
+                "predicted_intent": "change_connection_request_notification_setting",
+                "intent_correctly_predicted": false
+            },
+            {
+                "question": "What are steps to customize notification settings for accepted or declined connection requests?",
+                "predicted_intent": "change_connection_request_notification_setting",
+                "intent_correctly_predicted": false
+            },
+            {
+                "question": "Where can I find setting to control notifications for incoming connection responses?",
+                "predicted_intent": "change_connection_request_notification_setting",
+                "intent_correctly_predicted": false
+            },
+            {
+                "question": "Can you explain how to enable or disable notifications for connection responses?",
+                "predicted_intent": "change_connection_request_notification_setting",
+                "intent_correctly_predicted": false
+            },
+            {
+                "question": "Where can I find option to change my preference for receiving notifications when someone accepts or declines my connection request?",
+                "predicted_intent": "change_connection_request_notification_setting",
+                "intent_correctly_predicted": false
+            }
+        ],
+        "train_questions_results": "2 out of 10 correct",
+        "test_questions_results": "0 out of 5 correct",
+        "test_questions_advanced_results": "0 out of 6 correct",
+        "total_correctness": 10
+    },
+    {
+        "correct_intent": "change_connection_request_notification_setting",
+        "train_questions": [
+            {
+                "question": "How can I enable notifications for when someone wants to connect with me?",
+                "predicted_intent": "change_connection_request_notification_setting",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Is there a way to receive notifications when someone sends me a connection request?",
+                "predicted_intent": "change_connection_request_notification_setting",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What steps do I need to take to set up notifications for connection requests from other users?",
+                "predicted_intent": "change_connection_request_notification_setting",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Where can I go to adjust the notification setting for incoming connection requests?",
+                "predicted_intent": "change_connection_request_notification_setting",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "How do I change the platform setting to receive notifications when someone wants to connect with me?",
+                "predicted_intent": "change_connection_request_notification_setting",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Can I customize the notification options for incoming connection requests?",
+                "predicted_intent": "change_connection_request_notification_setting",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What is the process for modifying the platform setting related to receiving notifications for connection requests?",
+                "predicted_intent": "change_connection_request_notification_setting",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Can you guide me through the steps to enable notifications for connection requests?",
+                "predicted_intent": "change_connection_request_notification_setting",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Where can I find the option to change my preference for receiving notifications when someone wants to connect with me?",
+                "predicted_intent": "change_connection_request_notification_setting",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "How do I enable or disable notifications for incoming connection requests?",
+                "predicted_intent": "change_connection_request_notification_setting",
+                "intent_correctly_predicted": true
+            }
+        ],
+        "test_questions": [
+            {
+                "question": "How do I set up notifications for connection requests from other users?",
+                "predicted_intent": "change_connection_request_notification_setting",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Is there an option to receive notifications when someone sends me a connection request?",
+                "predicted_intent": "change_connection_request_notification_setting",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What are the steps to customize notification settings for incoming connection requests?",
+                "predicted_intent": "change_connection_request_notification_setting",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Where can I find the setting to control notifications for incoming connection requests?",
+                "predicted_intent": "change_connection_request_notification_setting",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Can you explain how to enable or disable notifications for connection requests?",
+                "predicted_intent": "change_connection_request_notification_setting",
+                "intent_correctly_predicted": true
+            }
+        ],
+        "test_questions_advanced": [
+            {
+                "question": "How do I set up notificatons for connection requests from other users?",
+                "predicted_intent": "change_connection_request_notification_setting",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Is there an option to receive notifications when someone sends me connection request?",
+                "predicted_intent": "change_connection_request_notification_setting",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What are steps to customize notification settings for incoming connection requests?",
+                "predicted_intent": "change_connection_request_notification_setting",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Where can I find setting to control notifications for incoming connection requests?",
+                "predicted_intent": "change_connection_request_notification_setting",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Can you explain how to enable or disable notifications for connection requests?",
+                "predicted_intent": "change_connection_request_notification_setting",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Where can I find option to change my preference for receiving notifications when someone wants to connect with me?",
+                "predicted_intent": "change_connection_request_notification_setting",
+                "intent_correctly_predicted": true
+            }
+        ],
+        "train_questions_results": "10 out of 10 correct",
+        "test_questions_results": "5 out of 5 correct",
+        "test_questions_advanced_results": "6 out of 6 correct",
+        "total_correctness": 100
+    },
+    {
+        "correct_intent": "change_followed_user_note_notification_setting",
+        "train_questions": [
+            {
+                "question": "How can I enable notifications for when someone I follow publishes a note?",
+                "predicted_intent": "change_followed_user_note_notification_setting",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Is there a way to receive notifications when someone I'm following posts a note?",
+                "predicted_intent": "change_followed_user_note_notification_setting",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What steps do I need to take to set up notifications for published notes from users I follow?",
+                "predicted_intent": "change_followed_user_note_notification_setting",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Where can I go to adjust the notification setting for notes published by people I follow?",
+                "predicted_intent": "change_followed_user_note_notification_setting",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "How do I change the platform setting to receive notifications when someone I follow publishes a note?",
+                "predicted_intent": "change_followed_user_note_notification_setting",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Can I customize the notification options for notes posted by users I follow?",
+                "predicted_intent": "change_followed_user_note_notification_setting",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What is the process for modifying the platform setting related to receiving notifications for published notes from followed users?",
+                "predicted_intent": "change_followed_user_note_notification_setting",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Can you guide me through the steps to enable notifications for notes published by the people I follow?",
+                "predicted_intent": "change_followed_user_note_notification_setting",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Where can I find the option to change my preference for receiving notifications when someone I follow publishes a note?",
+                "predicted_intent": "change_followed_user_note_notification_setting",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "How do I enable or disable notifications for published notes from the people I follow?",
+                "predicted_intent": "change_followed_user_note_notification_setting",
+                "intent_correctly_predicted": true
+            }
+        ],
+        "test_questions": [
+            {
+                "question": "How do I set up notifications for notes published by users I follow?",
+                "predicted_intent": "change_followed_user_note_notification_setting",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Is there an option to receive notifications when someone I follow posts a note?",
+                "predicted_intent": "change_followed_user_note_notification_setting",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What are the steps to customize notification settings for published notes from followed users?",
+                "predicted_intent": "change_followed_user_note_notification_setting",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Where can I find the setting to control notifications for notes published by people I follow?",
+                "predicted_intent": "change_followed_user_note_notification_setting",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Can you explain how to enable or disable notifications for published notes from followed users?",
+                "predicted_intent": "change_followed_user_note_notification_setting",
+                "intent_correctly_predicted": true
+            }
+        ],
+        "test_questions_advanced": [
+            {
+                "question": "How do I set up notificatons for notes published by users I follow?",
+                "predicted_intent": "change_followed_user_note_notification_setting",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Is there an option to receive notifications when someone I follow posts note?",
+                "predicted_intent": "change_followed_user_note_notification_setting",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What are steps to customize notification settings for published notes from followed users?",
+                "predicted_intent": "change_followed_user_note_notification_setting",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Where can I find the setting to control notifications for notes published by people I follow?",
+                "predicted_intent": "change_followed_user_note_notification_setting",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Can you explain how to enable or disable notifications for published notes from followed users?",
+                "predicted_intent": "change_followed_user_note_notification_setting",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Where can I find option to change my preference for receiving notifications when someone I follow publishes note?",
+                "predicted_intent": "change_followed_user_note_notification_setting",
+                "intent_correctly_predicted": true
+            }
+        ],
+        "train_questions_results": "10 out of 10 correct",
+        "test_questions_results": "5 out of 5 correct",
+        "test_questions_advanced_results": "6 out of 6 correct",
+        "total_correctness": 100
+    },
+    {
+        "correct_intent": "change_message_notification_preference",
+        "train_questions": [
+            {
+                "question": "How can I modify the setting to receive notifications when someone sends me a message?",
+                "predicted_intent": "change_message_notification_preference",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Is there a way to change the notification preference for incoming messages on this platform?",
+                "predicted_intent": "change_message_notification_preference",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What steps do I need to take to update my notification settings for incoming messages?",
+                "predicted_intent": "change_message_notification_preference",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Where can I go to adjust the setting that controls message notification alerts?",
+                "predicted_intent": "change_message_notification_preference",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "How do I change the platform setting to receive notifications when someone sends me a message?",
+                "predicted_intent": "change_message_notification_preference",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Is it possible to customize the notification options for incoming messages?",
+                "predicted_intent": "change_message_notification_preference",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What is the process for modifying the platform setting related to receiving message notifications?",
+                "predicted_intent": "change_message_notification_preference",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Can you guide me through the steps to alter the setting for message notification alerts?",
+                "predicted_intent": "change_message_notification_preference",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Where can I find the option to change my preference for receiving notifications when I receive a message?",
+                "predicted_intent": "change_message_notification_preference",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "How do I enable or disable the notification feature for incoming messages?",
+                "predicted_intent": "change_message_notification_preference",
+                "intent_correctly_predicted": true
+            }
+        ],
+        "test_questions": [
+            {
+                "question": "How do I adjust the platform setting for receiving message notifications?",
+                "predicted_intent": "change_message_notification_preference",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Is there a way to modify the notification preference for messages on this platform?",
+                "predicted_intent": "change_message_notification_preference",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What are the steps to update my message notification settings?",
+                "predicted_intent": "change_message_notification_preference",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Where can I find the option to control message notification alerts?",
+                "predicted_intent": "change_message_notification_preference",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Can you explain how to enable or disable notifications for incoming messages?",
+                "predicted_intent": "change_message_notification_preference",
+                "intent_correctly_predicted": true
+            }
+        ],
+        "test_questions_advanced": [
+            {
+                "question": "How do I ajust the platform setting for reciving message notifications?",
+                "predicted_intent": "change_message_notification_preference",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Is there way to modify notification preference for messages on this platform?",
+                "predicted_intent": "change_message_notification_preference",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What are steps to update my message notification settings?",
+                "predicted_intent": "change_message_notification_preference",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Where can I find option to control message notification alerts?",
+                "predicted_intent": "change_message_notification_preference",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Can you explain how to enable or disable notificatons for incoming messages?",
+                "predicted_intent": "change_message_notification_preference",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Where I find option to change my preference for receiving message notifications?",
+                "predicted_intent": "change_message_notification_preference",
+                "intent_correctly_predicted": true
+            }
+        ],
+        "train_questions_results": "10 out of 10 correct",
+        "test_questions_results": "5 out of 5 correct",
+        "test_questions_advanced_results": "6 out of 6 correct",
+        "total_correctness": 100
+    },
+    {
+        "correct_intent": "yes_response",
+        "train_questions": [
+            {
+                "question": "Yes, I am available tomorrow.",
+                "predicted_intent": "yes_response",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Absolutely! I will attend the event.",
+                "predicted_intent": "yes_response",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Yes, I want to proceed with the purchase.",
+                "predicted_intent": "yes_response",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Sure, I can meet you at 5 PM.",
+                "predicted_intent": "yes_response",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Yes, this is the correct address.",
+                "predicted_intent": "yes_response",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Yes, I would like a refill.",
+                "predicted_intent": "yes_response",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Yes, I received the package.",
+                "predicted_intent": "yes_response",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Definitely! I am interested in the new product.",
+                "predicted_intent": "yes_response",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Yes, I can confirm the reservation.",
+                "predicted_intent": "yes_response",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Yes, I agree with the terms and conditions.",
+                "predicted_intent": "yes_response",
+                "intent_correctly_predicted": true
+            }
+        ],
+        "test_questions": [
+            {
+                "question": "Can I change my availability for tomorrow?",
+                "predicted_intent": "yes_response",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Is there any additional information about the event?",
+                "predicted_intent": "yes_response",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "What is the process for canceling a purchase?",
+                "predicted_intent": "cancellation_legal_statement",
+                "intent_correctly_predicted": false
+            },
+            {
+                "question": "Can I reschedule the meeting for 6 PM?",
+                "predicted_intent": "yes_response",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Do you have any other delivery addresses?",
+                "predicted_intent": "change_connection_request_notification_setting",
+                "intent_correctly_predicted": false
+            }
+        ],
+        "test_questions_advanced": [
+            {
+                "question": "Can I chage my availabilty for tomorrow?",
+                "predicted_intent": "yes_response",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Is there any additonal information about event?",
+                "predicted_intent": "warranty_disclaimers_legal_statement",
+                "intent_correctly_predicted": false
+            },
+            {
+                "question": "What is process for canceling purchase?",
+                "predicted_intent": "cancellation_legal_statement",
+                "intent_correctly_predicted": false
+            },
+            {
+                "question": "Can I reschedul the meeting for 6 PM?",
+                "predicted_intent": "yes_response",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Do you have any other delivery addresses?",
+                "predicted_intent": "change_connection_request_notification_setting",
+                "intent_correctly_predicted": false
+            },
+            {
+                "question": "What time will you send confirmation email?",
+                "predicted_intent": "change_message_notification_preference",
+                "intent_correctly_predicted": false
+            }
+        ],
+        "train_questions_results": "10 out of 10 correct",
+        "test_questions_results": "3 out of 5 correct",
+        "test_questions_advanced_results": "2 out of 6 correct",
+        "total_correctness": 71
+    },
+    {
+        "correct_intent": "no_response",
+        "train_questions": [
+            {
+                "question": "No, I'm not available tomorrow.",
+                "predicted_intent": "no_response",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Sorry, I won't be able to attend the event.",
+                "predicted_intent": "no_response",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "No, I don't want to proceed with the purchase.",
+                "predicted_intent": "no_response",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Unfortunately, I can't meet you at 5 PM.",
+                "predicted_intent": "no_response",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "No, this is not the correct address.",
+                "predicted_intent": "no_response",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "No, I don't need a refill.",
+                "predicted_intent": "no_response",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "No, I haven't received the package.",
+                "predicted_intent": "no_response",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "No, I'm not interested in the new product.",
+                "predicted_intent": "no_response",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "Sorry, I can't confirm the reservation.",
+                "predicted_intent": "no_response",
+                "intent_correctly_predicted": true
+            },
+            {
+                "question": "No, I don't agree with the terms and conditions.",
+                "predicted_intent": "no_response",
+                "intent_correctly_predicted": true
+            }
+        ],
+        "test_questions": [
+            {
+                "question": "Can I reschedule the appointment?",
+                "predicted_intent": "yes_response",
+                "intent_correctly_predicted": false
+            },
+            {
+                "question": "Is there a refund policy?",
+                "predicted_intent": "refunds_legal_statement",
+                "intent_correctly_predicted": false
+            },
+            {
+                "question": "What are the available payment methods?",
+                "predicted_intent": "refunds_legal_statement",
+                "intent_correctly_predicted": false
+            },
+            {
+                "question": "Do you offer warranty for your products?",
+                "predicted_intent": "warranty_disclaimers_legal_statement",
+                "intent_correctly_predicted": false
+            },
+            {
+                "question": "Can you provide more details about the event?",
+                "predicted_intent": "liability_legal_statement",
+                "intent_correctly_predicted": false
+            }
+        ],
+        "test_questions_advanced": [
+            {
+                "question": "Cen I reschedul the appointment?",
+                "predicted_intent": "yes_response",
+                "intent_correctly_predicted": false
+            },
+            {
+                "question": "Is ther a refund policy?",
+                "predicted_intent": "refunds_legal_statement",
+                "intent_correctly_predicted": false
+            },
+            {
+                "question": "What are the availble payment methods?",
+                "predicted_intent": "refunds_legal_statement",
+                "intent_correctly_predicted": false
+            },
+            {
+                "question": "Do yu offer warranty for your products?",
+                "predicted_intent": "warranty_disclaimers_legal_statement",
+                "intent_correctly_predicted": false
+            },
+            {
+                "question": "Can you provide more details abot the event?",
+                "predicted_intent": "yes_response",
+                "intent_correctly_predicted": false
+            },
+            {
+                "question": "When will you send confirmation email?",
+                "predicted_intent": "change_message_notification_preference",
+                "intent_correctly_predicted": false
+            }
+        ],
+        "train_questions_results": "10 out of 10 correct",
+        "test_questions_results": "0 out of 5 correct",
+        "test_questions_advanced_results": "0 out of 6 correct",
+        "total_correctness": 48
+    }
+]
