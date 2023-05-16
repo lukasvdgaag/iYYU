@@ -2,7 +2,7 @@
     {
         "intent": "summarization_privacy",
         "category": "privacy_policy",
-        "text": [
+        "train_questions": [
             "Could you provide a summary of your privacy policy?",
             "What are the key points of your privacy policy?",
             "In a few sentences, what does your privacy policy say?",
@@ -16,7 +16,7 @@
     {
         "intent": "opt_out",
         "category": "privacy_policy",
-        "text": [
+        "train_questions": [
             "How do I opt out of data sharing?",
             "Is there a way to opt out of sharing my data?",
             "What are my options for opting out of data sharing?",
@@ -30,7 +30,7 @@
     {
         "intent": "third_parties",
         "category": "privacy_policy",
-        "text": [
+        "train_questions": [
             "Do you share my personal information with third parties?",
             "Who do you share my personal information with?",
             "Are there any third parties that have access to my personal information?",
@@ -44,7 +44,7 @@
     {
         "intent": "data_collection",
         "category": "privacy_policy",
-        "text": [
+        "train_questions": [
             "What kind of information does your privacy policy collect?",
             "What data do you collect through your privacy policy?",
             "What personal information is collected by your privacy policy?",
@@ -58,7 +58,7 @@
     {
         "intent": "personal_information",
         "category": "privacy_policy",
-        "text": [
+        "train_questions": [
             "How does the company use my personal information?",
             "What does the company do with my personal information?",
             "In what ways is my personal information used by the company?",
@@ -76,7 +76,7 @@
     {
         "intent": "personal_information_third_parties",
         "category": "privacy_policy",
-        "text": [
+        "train_questions": [
             "Is my personal information shared with third parties?",
             "Does the company share my personal information with anyone else?",
             "Who else has access to my personal information?",
@@ -94,7 +94,7 @@
     {
         "intent": "data_storage",
         "category": "privacy_policy",
-        "text": [
+        "train_questions": [
             "How is my personal information stored and secured?",
             "What measures does the company take to protect my personal information?",
             "What kind of security protocols are in place for my personal information?",
@@ -112,7 +112,7 @@
     {
         "intent": "personal_information_rights",
         "category": "privacy_policy",
-        "text": [
+        "train_questions": [
             "What are my rights regarding my personal information?",
             "Can I access my personal information?",
             "Can I update or correct my personal information?",
@@ -130,7 +130,7 @@
     {
         "intent": "access_personal_data",
         "category": "privacy_policy",
-        "text": [
+        "train_questions": [
             "How can I request access to my personal information?",
             "What is the process for requesting access to my personal information?",
             "How do I go about requesting access to my personal information?",
@@ -148,7 +148,7 @@
     {
         "intent": "update_personal_data",
         "category": "privacy_policy",
-        "text": [
+        "train_questions": [
             "How can I update my personal information?",
             "What is the process to update my personal information?",
             "How do I go about updating my personal information?",
@@ -166,7 +166,7 @@
     {
         "intent": "delete_personal_information",
         "category": "privacy_policy",
-        "text": [
+        "train_questions": [
             "How can I delete my personal information?",
             "What is the process to delete my personal information?",
             "How do I go about deleting my personal information?",
@@ -184,7 +184,7 @@
     {
         "intent": "cookie_policy",
         "category": "privacy_policy",
-        "text": [
+        "train_questions": [
             "What is the policy regarding cookies at this company?",
             "Can you explain the company's policy on cookies?",
             "What are the company's guidelines for cookies?",
@@ -202,7 +202,7 @@
     {
         "intent": "privacy_regulations",
         "category": "privacy_policy",
-        "text": [
+        "train_questions": [
             "Is the company in compliance with privacy regulations?",
             "Does the company follow privacy regulations?",
             "What is the company's stance on privacy regulations?",
@@ -220,7 +220,7 @@
     {
         "intent": "privacy_policy_updates",
         "category": "privacy_policy",
-        "text": [
+        "train_questions": [
             "How often is the privacy policy updated?",
             "What is the frequency of updates to the privacy policy?",
             "How frequently is the privacy policy updated?",
@@ -239,7 +239,7 @@
     {
         "intent": "minimum_age",
         "category": "privacy_policy",
-        "text": [
+        "train_questions": [
             "What is the minimum age requirement for using the company's services?",
             "What is the age limit for using the company's services?",
             "Is there a minimum age requirement to use the company's services?",
@@ -258,7 +258,7 @@
     {
         "intent": "data_breaches",
         "category": "privacy_policy",
-        "text": [
+        "train_questions": [
             "How does the company handle data breaches?",
             "What is the company's protocol for handling data breaches?",
             "In the event of a data breach, what steps does the company take?",
@@ -277,7 +277,7 @@
     {
         "intent": "opt_out_targeted_advertising",
         "category": "privacy_policy",
-        "text": [
+        "train_questions": [
             "Can I opt-out of targeted advertising?",
             "How can I opt-out of targeted advertising?",
             "Is it possible to stop receiving targeted ads?",
@@ -296,7 +296,7 @@
     {
         "intent": "contact_privacy_concerns",
         "category": "privacy_policy",
-        "text": [
+        "train_questions": [
             "How can I contact the company for privacy-related concerns?",
             "What are the ways to contact the company regarding privacy issues?",
             "Is there a specific contact point for privacy concerns within the company?",
@@ -315,7 +315,7 @@
     {
         "intent": "disagree_privacy_consequences",
         "category": "privacy_policy",
-        "text": [
+        "train_questions": [
             "What are the consequences of not agreeing to the privacy policy?",
             "Are there any repercussions for refusing to accept the privacy policy?",
             "What happens if I don't agree to the privacy policy?",
@@ -334,7 +334,7 @@
     {
         "intent": "selling_personal_data",
         "category": "privacy_policy",
-        "text": [
+        "train_questions": [
             "Does the company sell my personal information?",
             "Does the company share or sell my personal information?",
             "Is my personal information sold by the company?",
@@ -353,7 +353,7 @@
     {
         "intent": "personal_data_account_deletion",
         "category": "privacy_policy",
-        "text": [
+        "train_questions": [
             "What happens to my personal information when I terminate my account?",
             "What occurs with my personal information after I close my account?",
             "Does my personal information get deleted when I terminate my account?",
@@ -372,7 +372,7 @@
     {
         "intent": "question_answering",
         "category": "legal_statement",
-        "text": [
+        "train_questions": [
             "What are the terms of service for this platform?",
             "Where can I find the terms of service for this platform?",
             "What is covered in the platform's terms of service?",
@@ -390,7 +390,7 @@
     {
         "intent": "summarization_legal_statement",
         "category": "legal_statement",
-        "text": [
+        "train_questions": [
             "Can you summarize the liability section of the terms of service?",
             "Could you provide a brief overview of the liability section in the terms of service?",
             "How would you summarize the liability section of the terms of service?",
@@ -409,7 +409,7 @@
     {
         "intent": "terms_of_service_legal_statement",
         "category": "legal_statement",
-        "text": [
+        "train_questions": [
             "What are the terms of service for this platform?",
             "Where can I find the terms of service for this platform?",
             "Are there any specific terms I should be aware of for using this platform?",
@@ -427,7 +427,7 @@
     {
         "intent": "governing_law_legal_statement",
         "category": "legal_statement",
-        "text": [
+        "train_questions": [
             "What is the governing law for the legal agreement?",
             "Which law governs the legal agreement?",
             "Under which law is the legal agreement governed?",
@@ -445,7 +445,7 @@
     {
         "intent": "liability_legal_statement",
         "category": "legal_statement",
-        "text": [
+        "train_questions": [
             "Can you summarize the liability section of the legal agreement?",
             "Can you provide a brief summary of the liability section in the legal agreement?",
             "What is the liability section of the legal agreement about?",
@@ -464,7 +464,7 @@
     {
         "intent": "dispute_resolution_legal_statement",
         "category": "legal_statement",
-        "text": [
+        "train_questions": [
             "What is the dispute resolution process outlined in the legal agreement?",
             "Can you explain the dispute resolution process described in the legal agreement?",
             "What is the procedure for resolving disputes outlined in the legal agreement?",
@@ -483,7 +483,7 @@
     {
         "intent": "arbitration_legal_statement",
         "category": "legal_statement",
-        "text": [
+        "train_questions": [
             "Can I opt-out of arbitration?",
             "Is there an option to opt-out of arbitration?",
             "Can I choose not to participate in arbitration?",
@@ -502,7 +502,7 @@
     {
         "intent": "small_claims_court_legal_statement",
         "category": "legal_statement",
-        "text": [
+        "train_questions": [
             "How are disputes handled in small claims court?",
             "What is the process for small claims court?",
             "What is the procedure for small claims court?",
@@ -520,7 +520,7 @@
     {
         "intent": "user_obligations_legal_statement",
         "category": "legal_statement",
-        "text": [
+        "train_questions": [
             "What are my obligations as a user under the legal agreement?",
             "What am I required to do as a user according to the legal agreement?",
             "What are the user responsibilities outlined in the legal agreement?",
@@ -539,7 +539,7 @@
     {
         "intent": "intellectual_property_legal_statement",
         "category": "legal_statement",
-        "text": [
+        "train_questions": [
             "How does the legal agreement apply to intellectual property rights?",
             "What are the terms regarding intellectual property rights in the legal agreement?",
             "Can you explain how the legal agreement applies to intellectual property?",
@@ -558,7 +558,7 @@
     {
         "intent": "use_restrictions_legal_statement",
         "category": "legal_statement",
-        "text": [
+        "train_questions": [
             "What are the restrictions on my use of the platform or service?",
             "What limitations are there on my use of the platform or service?",
             "Are there any restrictions or limitations on my use of the platform or service?",
@@ -576,7 +576,7 @@
     {
         "intent": "transfer_legal_statement",
         "category": "legal_statement",
-        "text": [
+        "train_questions": [
             "Can I transfer my account or subscription to someone else?",
             "Is it possible to transfer my account or subscription to another person?",
             "Can I assign my account or subscription to someone else?",
@@ -595,7 +595,7 @@
     {
         "intent": "cancellation_legal_statement",
         "category": "legal_statement",
-        "text": [
+        "train_questions": [
             "What is the cancellation policy for subscriptions or services?",
             "How can I cancel my subscription?",
             "What is the process for cancelling a service?",
@@ -613,7 +613,7 @@
     {
         "intent": "warranty_disclaimers_legal_statement",
         "category": "legal_statement",
-        "text": [
+        "train_questions": [
             "Are there any warranty disclaimers in the legal agreement?",
             "Does the legal agreement contain any disclaimers of warranties?",
             "Are there any warranty exemptions specified in the legal agreement?",
@@ -631,7 +631,7 @@
     {
         "intent": "limitations_of_liability_legal_statement",
         "category": "legal_statement",
-        "text": [
+        "train_questions": [
             "What are the limitations of liability in the legal agreement?",
             "What is the extent of liability limitations in the legal agreement?",
             "How does the legal agreement limit liability?",
@@ -649,7 +649,7 @@
     {
         "intent": "third_party_content_legal_statement",
         "category": "legal_statement",
-        "text": [
+        "train_questions": [
             "How does the legal agreement apply to third-party content or services?",
             "What is the legal agreement's stance on third-party content or services?",
             "Does the legal agreement cover third-party content or services?",
@@ -668,7 +668,7 @@
     {
         "intent": "refunds_legal_statement",
         "category": "legal_statement",
-        "text": [
+        "train_questions": [
             "What is the company's policy on refunds?",
             "What is the refund policy for this company?",
             "Can I get a refund on my purchase?",
@@ -687,7 +687,7 @@
     {
         "intent": "violations_legal_statement",
         "category": "legal_statement",
-        "text": [
+        "train_questions": [
             "What happens if I violate the legal agreement?",
             "What are the consequences of breaching the legal agreement?",
             "What are the penalties for violating the legal agreement?",
@@ -706,7 +706,7 @@
     {
         "intent": "location_password_change",
         "category": "platform_settings",
-        "text": [
+        "train_questions": [
             "Where can I change my account password?",
             "How can I modify my password?",
             "Is there a way to change my password?",
@@ -726,7 +726,7 @@
     {
         "intent": "reset_password_change",
         "category": "platform_settings",
-        "text": [
+        "train_questions": [
             "I forgot my password, how can I reset it?",
             "What should I do if I forget my password?",
             "How do I recover my account if I forgot my password?",
@@ -746,7 +746,7 @@
     {
         "intent": "update_password_change",
         "category": "platform_settings",
-        "text": [
+        "train_questions": [
             "I need to update my password, how do I do that?",
             "How can I change my password for my account?",
             "What is the process for updating my password?",
@@ -769,7 +769,7 @@
     {
         "intent": "problem_update_password_change",
         "category": "platform_settings",
-        "text": [
+        "train_questions": [
             "Why can't I change my password?",
             "What are the reasons I might not be able to change my password?",
             "What could be preventing me from changing my password?",
@@ -790,7 +790,7 @@
     {
         "intent": "visibility_publish_profile_status",
         "category": "My_visibility_settings",
-        "text": [
+        "train_questions": [
             "Can people see me?",
             "Am I visible for other people?",
             "Can other people find me?",
@@ -812,7 +812,7 @@
     {
         "intent": "visibility_publish_profile_how_to",
         "category": "My_visibility_settings",
-        "text": [
+        "train_questions": [
             "How do I change my visibility?",
             "Where can I change my visibility settings?",
             "Can I change my visibility settings?",
@@ -828,7 +828,7 @@
         "intent": "change_system_critical_notification_setting",
         "category": "system notifications",
         "platform_setting": "system critical notifications",
-        "text": [
+        "train_questions": [
             "How can I enable system critical notifications?",
             "Is there a way to receive system critical notifications?",
             "What steps do I need to take to set up system critical notifications?",
@@ -864,7 +864,7 @@
         "intent": "change_iYYU_news_notification_setting",
         "category": "system notifications",
         "platform_setting": "receive notifications about news shared by iYYU.com",
-        "text": [
+        "train_questions": [
             "How can I enable notifications for news shared by iYYU.com?",
             "Is there a way to receive notifications about news updates from iYYU.com?",
             "What steps do I need to take to set up notifications for news shared by iYYU.com?",
@@ -900,7 +900,7 @@
         "intent": "change_update_notification_setting",
         "category": "system notifications",
         "platform_setting": "receive notifications when updates are released",
-        "text": [
+        "train_questions": [
             "How can I enable notifications for when updates are released?",
             "Is there a way to receive notifications when new updates are available?",
             "What steps do I need to take to set up notifications for released updates?",
@@ -936,7 +936,7 @@
         "intent": "change_note_follower_notification_setting",
         "category": "connect",
         "platform_setting": "receive a notification when someone starts following your notes",
-        "text": [
+        "train_questions": [
             "How can I enable notifications for when someone starts following my notes?",
             "Is there a way to receive notifications when someone begins following my notes?",
             "What steps do I need to take to set up notifications for followers of my notes?",
@@ -972,7 +972,7 @@
         "intent": "change_connection_response_notification_setting",
         "category": "connect",
         "platform_setting": "receive a notification when someone accepts or declines your request to connect",
-        "text": [
+        "train_questions": [
             "How can I enable notifications for when someone accepts or declines my connection request?",
             "Is there a way to receive notifications when someone responds to my connection request?",
             "What steps do I need to take to set up notifications for accepted or declined connection requests from other users?",
@@ -1008,7 +1008,7 @@
         "intent": "change_connection_request_notification_setting",
         "category": "connect",
         "platform_setting": "receive a notification when someone wants to connect with you",
-        "text": [
+        "train_questions": [
             "How can I enable notifications for when someone wants to connect with me?",
             "Is there a way to receive notifications when someone sends me a connection request?",
             "What steps do I need to take to set up notifications for connection requests from other users?",
@@ -1044,7 +1044,7 @@
         "intent": "change_followed_user_note_notification_setting",
         "category": "interact",
         "platform_setting": "receive notification when someone you follow publishes a note",
-        "text": [
+        "train_questions": [
             "How can I enable notifications for when someone I follow publishes a note?",
             "Is there a way to receive notifications when someone I'm following posts a note?",
             "What steps do I need to take to set up notifications for published notes from users I follow?",
@@ -1080,7 +1080,7 @@
         "intent": "change_message_notification_preference",
         "category": "interact",
         "platform_setting": "receive notification when someone sends you a message",
-        "text": [
+        "train_questions": [
             "How can I modify the setting to receive notifications when someone sends me a message?",
             "Is there a way to change the notification preference for incoming messages on this platform?",
             "What steps do I need to take to update my notification settings for incoming messages?",
@@ -1115,7 +1115,7 @@
     {
         "intent": "yes_response",
         "category": "generic",
-        "text": [
+        "train_questions": [
             "Yes, I am available tomorrow.",
             "Absolutely! I will attend the event.",
             "Yes, I want to proceed with the purchase.",
@@ -1150,7 +1150,7 @@
     {
         "intent": "no_response",
         "category": "generic",
-        "text": [
+        "train_questions": [
             "No, I'm not available tomorrow.",
             "Sorry, I won't be able to attend the event.",
             "No, I don't want to proceed with the purchase.",

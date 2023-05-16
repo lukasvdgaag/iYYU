@@ -6,40 +6,108 @@ from transformers import BertForSequenceClassification, BertTokenizer
 class IntentModel:
 
     def __init__(self,  train_data, label_map, labels):
-        self.initialize_model(label_map)
-        self.train_model(train_data, labels)
-        
-    
-    def initialize_model(self, label_map):
-        self.model_exists = os.path.exists("trained_bert.pth")
-        # Load the pre-trained BERT model and tokenizer
-        self.model = torch.load("trained_bert.pth") if self.model_exists else BertForSequenceClassification.from_pretrained("bert-base-uncased", num_labels=len(label_map))
+        self.train_data = train_data
+        self.label_map = label_map
+        self.labels = labels
         self.tokenizer = BertTokenizer.from_pretrained("bert-base-uncased")
 
-    def train_model(self, train_data, labels):
-        if not self.model_exists:
-            # Tokenize the training data and convert to tensors
-            inputs = self.tokenizer.batch_encode_plus([data[0] for data in train_data], padding=True, truncation=True, return_tensors="pt")
+        self.model = torch.load("trained_bert.pth") if os.path.exists("trained_bert.pth") else self.train_model()
+        
 
-            # Fine-tune the model on the training data
-            optimizer = torch.optim.Adam(self.model.parameters(), lr=5e-4) #default 5e-5
-            loss_fn = torch.nn.CrossEntropyLoss()
-            for epoch in range(20):
-                optimizer.zero_grad()
-                outputs = self.model(inputs["input_ids"], attention_mask=inputs["attention_mask"], labels=labels)
-                loss = outputs.loss
-                loss.backward()
-                optimizer.step()
+    def train_model(self):
+        model = BertForSequenceClassification.from_pretrained("bert-base-uncased", num_labels=len(self.label_map))
+        # Tokenize the training data and convert to tensors
+        inputs = self.tokenizer.batch_encode_plus([data[0] for data in self.train_data], padding=True, truncation=True, return_tensors="pt")
 
-                print(f"Epoch {epoch+1}, Loss: {loss.item()}")
+        # Fine-tune the model on the training data
+        optimizer = torch.optim.Adam(model.parameters(), lr=5e-4) #default 5e-5
+        loss_fn = torch.nn.CrossEntropyLoss()
+        for epoch in range(20):
+            optimizer.zero_grad()
+            outputs = model(inputs["input_ids"], attention_mask=inputs["attention_mask"], labels=self.labels)
+            loss = outputs.loss
+            loss.backward()
+            optimizer.step()
 
-                # Evaluate the model on the training data
-                predictions = outputs.logits.argmax(axis=1)
-                accuracy = (predictions == labels).sum()
-            torch.save(self.model, "trained_bert.pth")
+            print(f"Epoch {epoch+1}, Loss: {loss.item()}")
+
+            # Evaluate the model on the training data
+            predictions = outputs.logits.argmax(axis=1)
+            accuracy = (predictions == self.labels).sum()
+        
+        # Save the model
+        torch.save(model, "trained_bert.pth")
+
+        return model
         
     def get_model(self):
         return self.model
     
     def get_tokenizer(self):
         return self.tokenizer
+
+    def get_intent(self, question):
+        # Tokenize the test question and convert to tensors
+        inputs = self.tokenizer.encode_plus(question, padding=True, truncation=True, return_tensors="pt")
+
+        # Get the model's prediction for the test question
+        with torch.no_grad():
+            outputs = self.model(inputs["input_ids"], attention_mask=inputs["attention_mask"])
+        predictions = outputs.logits.argmax(axis=1)
+        predicted_label = list(self.label_map.keys())[list(self.label_map.values()).index(predictions[0].item())]
+        # print(f"Predicted intent: {predicted_label}")
+        return predicted_label
+
+
+    def evaluate_model(self, test_data):
+        results = []
+
+        for data in test_data:
+            correct_intent = data["intent"]
+
+            questions_results = {
+                "correct_intent": correct_intent,
+                "train_questions": [],
+                "test_questions": [],
+                "test_questions_advanced": []
+            }
+
+            total_correct_counts = 0
+            total_counts = 0
+
+            # Loop over the question keys
+            for key in ["train_questions", "test_questions", "test_questions_advanced"]:
+                correct_count = 0
+
+                # Check if questions array exists
+                if key in data:
+                    questions = data[key]
+                    total_count = len(questions)
+
+                    for question in questions:
+                        predicted_intent = self.get_intent(question)
+                        correctly_predicted = (predicted_intent == correct_intent)
+                        if correctly_predicted:
+                            correct_count += 1
+                        question_result = {
+                            "question": question,
+                            "predicted_intent": predicted_intent,
+                            "intent_correctly_predicted": correctly_predicted
+                        }
+        
+                        questions_results[key].append(question_result)
+
+                    questions_results[key + "_results"] = f"{correct_count} out of {total_count} correct"
+                    total_correct_counts += correct_count
+                    total_counts += total_count
+
+            questions_results["total_correctness"] = f"{(total_correct_counts / total_counts) * 100}%"
+            results.append(questions_results)
+
+        # Save results to a JSON file
+        with open('evaluation_results.json', 'w') as outfile:
+            json.dump(results, outfile, indent=4)
+
+        return results
+
+
