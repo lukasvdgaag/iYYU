@@ -71,42 +71,42 @@ class Settings:
         return None
 
     def set_user_calling_card_visibility(user_id, second_user_id):
-        
-        with open('user_profiles.json', 'r') as file:
-        user_profiles = json.load(file)
+        None
+    #     with open('user_profiles.json', 'r') as file:
+    #     user_profiles = json.load(file)
 
-    # Find the user by user_id
-    user_index = None
-    for i, user in enumerate(user_profiles):
-        if user['user_id'] == user_id:
-            user_index = i
-            break
+    # # Find the user by user_id
+    # user_index = None
+    # for i, user in enumerate(user_profiles):
+    #     if user['user_id'] == user_id:
+    #         user_index = i
+    #         break
 
-    if user_index is None:
-        print("User not found.")
-        return
+    # if user_index is None:
+    #     print("User not found.")
+    #     return
 
-    # Find the user by second_user_id
-    second_user_index = None
-    for i, viewability in enumerate(user_profiles[user_index]['individual_user_viewability']):
-        if viewability['user_id'] == second_user_id:
-            second_user_index = i
-            break
+    # # Find the user by second_user_id
+    # second_user_index = None
+    # for i, viewability in enumerate(user_profiles[user_index]['individual_user_viewability']):
+    #     if viewability['user_id'] == second_user_id:
+    #         second_user_index = i
+    #         break
 
-    if second_user_index is None:
-        print("Second user not found.")
-        return
+    # if second_user_index is None:
+    #     print("Second user not found.")
+    #     return
 
-    visibility = input("Enter visibility (true/false) for the calling card: ")
-    visibility = bool(visibility)
+    # visibility = input("Enter visibility (true/false) for the calling card: ")
+    # visibility = bool(visibility)
 
-    # Update the visibility for the second_user_id
-    user_profiles[user_index]['individual_user_viewability'][second_user_index]['profile_card_component_0_visible'] = visibility
+    # # Update the visibility for the second_user_id
+    # user_profiles[user_index]['individual_user_viewability'][second_user_index]['profile_card_component_0_visible'] = visibility
 
-    with open('user_profiles.json', 'w') as file:
-        json.dump(user_profiles, file, indent=4)
+    # with open('user_profiles.json', 'w') as file:
+    #     json.dump(user_profiles, file, indent=4)
     
-    def handle_setting_questions(self) :
+    # def handle_setting_questions(self) :
         
 
-        return "test"
+    #     return "test"
