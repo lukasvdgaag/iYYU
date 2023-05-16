@@ -1,3 +1,4 @@
+[
 {
     "intent": "news_and_updates",
     "category": "system_notifications",
@@ -54,4 +55,5 @@
         "To change your connecttion notifications, please open the settings and go to the Connect settings. You will see that you may select 3 different buttons. One button is to recieve a notification when someone wants to connect with you, the second one is a notification for when someone accepts or declines your request to connect and the last one is to get notified whenever someone follows your notes. You can click on the buttons to turn the notifications on or off. The colour of the buttons indicate if it's on or off. If the buttons are blue, it means that you will recieve notifications, if it's gray it means you will not."
     ],
     "use_gpt": false
-},
+}
+]
