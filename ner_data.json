@@ -1,0 +1,13 @@
+[
+    {
+      "question": "How do I turn on setting_name1?",
+      "setting_name": "setting_name1",
+      "state": "on"
+    },
+    {
+      "question": "How can I disable setting_name2?",
+      "setting_name": "setting_name2",
+      "state": "off"
+    }
+  ]
+  
