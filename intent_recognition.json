@@ -17,6 +17,18 @@
         "responses": [
             "What are the most important points of your privacy policy?"
         ],
+        "test_questions": [
+            "can you tell me the most important things from the privacy policy?",
+            "What important information do I need to know from the privacy policy?",
+            "What is the privacy policy about?",
+            "Where can I find the summary of the privacy policy"
+        ],
+        "test_questions_advanced": [
+            "can you tell me the most important things from the privacy policy?",
+            "What important information do I need to know from the privacy policy?",
+            "What is the privacy policy about?",
+            "Where can I find the summary of the privacy policy"
+        ],
         "use_gpt": true
     },
     {
@@ -36,6 +48,20 @@
         ],
         "responses": [
             "Is it possible to opt out of data sharing, and if so, how do I do this?"
+        ],
+        "test_questions": [
+            "Is there an option to opt out of having my data shared with third-party companies by iYYU?",
+            "How can I prevent iYYU from sharing my personal information with third-party companies?",
+            "Are there any privacy settings or preferences that allow me to control data sharing with third parties?",
+            "Does iYYU provide a mechanism for users to revoke consent for data sharing with third-party companies?",
+            "What steps should I take to ensure that my data is not shared with any third-party companies by iYYU?"
+        ],
+        "test_questions_advanced": [
+            "Is there an option to opt out of having my data shared with third-party companies by iYYU?",
+            "How can I prevent iYYU from sharing my personal information with third-party companies?",
+            "Are there any privacy settings or preferences that allow me to control data sharing with third parties?",
+            "Does iYYU provide a mechanism for users to revoke consent for data sharing with third-party companies?",
+            "What steps should I take to ensure that my data is not shared with any third-party companies by iYYU?"
         ],
         "use_gpt": true
     },
@@ -57,6 +83,20 @@
         "responses": [
             "Do you share my personal information with third parties? If so, which parties and how is my personal information protected when it's shared with these third parties?"
         ],
+        "test_questions": [
+            "Which third-party companies does iYYU share user data with, and for what purposes?",
+            "What types of user data does iYYU share with these third-party companies?",
+            "How does iYYU ensure the security and confidentiality of user data when sharing it with third parties?",
+            "How does iYYU select and evaluate the third-party companies it shares data with?",
+            "Can users access or view a list of the specific third-party companies that iYYU shares data with?"
+        ],
+        "test_questions_advanced": [
+            "Which third-party companies does iYYU share user data with, and for what purposes?",
+            "What types of user data does iYYU share with these third-party companies?",
+            "How does iYYU ensure the security and confidentiality of user data when sharing it with third parties?",
+            "How does iYYU select and evaluate the third-party companies it shares data with?",
+            "Can users access or view a list of the specific third-party companies that iYYU shares data with?"
+        ],
         "use_gpt": true
     },
     {
@@ -76,6 +116,20 @@
         ],
         "responses": [
             "Provide me with information about your privacy policy, including the possibility of opting out of data sharing, the details of information shared with third parties, and your data collection practices."
+        ],
+        "test_questions": [
+            "What kind of data did you collect from me?",
+            "Do you collect data from users?",
+            "What kind of user data do you save",
+            "do you collect any kind of user information?",
+            "What information do you collect from users?"
+        ],
+        "test_questions_advanced": [
+            "What kind of data did you collect from me?",
+            "Do you collect data from users?",
+            "What kind of user data do you save",
+            "do you collect any kind of user information?",
+            "What information do you collect from users?"
         ],
         "use_gpt": true
     },
@@ -97,6 +151,16 @@
         "responses": [
             "What are the company's practices and policies regarding the use of my personal information, including the types of information collected, the options to control its usage, retention periods, access within the company, and the fate of my personal information if I discontinue using the company's services?"
         ],
+        "test_questions": [
+            "What happens to my personal information?",
+            "Does iYYU save all my personal information?",
+            "Do I have control of how iYYU uses my personal data?"
+        ],
+        "test_questions_advanced": [
+            "What happens to my personal information?",
+            "Does iYYU save all my personal information?",
+            "Do I have control of how iYYU uses my personal data?"
+        ],
         "use_gpt": true
     },
     {
@@ -117,6 +181,24 @@
         "responses": [
             "What are the company's practices and protocols concerning the storage, security, access, encryption, backup frequency, retention period, and deletion of my personal information? Additionally, what measures are in place to protect my personal information in the event of a security breach?"
         ],
+        "test_questions": [
+            "Is my personal data stored safely?",
+            "Is my personal data hidden?",
+            "Where is my personal data stored?",
+            "Can other people find my personal data?",
+            "Can I delete my personal information?",
+            "is my personal information encrypted?",
+            "is my personal information savely stored?"
+        ],
+        "test_questions_advanced": [
+            "Is my personal data stored safely?",
+            "Is my personal data hidden?",
+            "Where is my personal data stored?",
+            "Can other people find my personal data?",
+            "Can I delete my personal information?",
+            "is my personal information encrypted?",
+            "is my personal information savely stored?"
+        ],
         "use_gpt": true
     },
     {
@@ -136,6 +218,20 @@
         ],
         "responses": [
             "What are my rights regarding my personal information, including access, updates, deletion, consequences of account deletion, requesting a copy, response times for information requests, required information for processing requests, objection to processing, and available recourse in case of personal information rights violations?"
+        ],
+        "test_questions": [
+            "Is it possible for me to access my personal information?",
+            "How do I change my personal information",
+            "Do I have any control over my personal information?",
+            "Can I change my personal information?",
+            "What can I do in cases of personal information violation?"
+        ],
+        "test_questions_advanced": [
+            "Is it possible for me to access my personal information?",
+            "How do I change my personal information",
+            "Do I have any control over my personal information?",
+            "Can I change my personal information?",
+            "What can I do in cases of personal information violation?"
         ],
         "use_gpt": true
     },
@@ -228,7 +324,7 @@
             "What is the company's stance on privacy regulations?",
             "Are the company's privacy policies in line with regulations?",
             "How does the company ensure compliance with privacy regulations?",
-            "Are there any privacy violations by the company?",
+            "Are there any privacy \s by the company?",
             "What measures has the company taken to comply with privacy regulations?",
             "Can you tell me if the company adheres to privacy regulations?",
             "What are the company's policies on privacy compliance?",
@@ -793,17 +889,6 @@
             "How to reset my password if I can't remember it?",
             "What is the process to recover a forgotten password?",
             "Can you help me reset my password?",
-            "What's the procedure for resetting a lost password?"
-        ],
-        "responses": [
-            "It is possible to change your password. You can go to the settings and click on...  "
-        ],
-        "use_gpt": false
-    },
-    {
-        "intent": "update_password_change",
-        "category": "platform_settings",
-        "train_questions": [
             "I need to update my password, how do I do that?",
             "How can I change my password for my account?",
             "What is the process for updating my password?",
@@ -816,10 +901,11 @@
             "I want to change my account password, what is the process?",
             "What do I need to do to update my password for my account?",
             "How do I change my password?",
-            "Is it possible for me to change my password?"
+            "Is it possible for me to change my password?",
+            "What's the procedure for resetting a lost password?"
         ],
         "responses": [
-            "It is possible to change your password. You can go to the settings and click on...  "
+            "If you forgot your password, or just want to change your password, please go to profile, then click on settings. Click on the change password and make sure to write a new one that is different from your last one"
         ],
         "use_gpt": false
     },
@@ -848,17 +934,17 @@
         "intent": "visibility_publish_profile_status",
         "category": "My_visibility_settings",
         "train_questions": [
-            "Can people see me?",
-            "Am I visible for other people?",
-            "Can other people find me?",
-            "Can other people see me?",
-            "Why can't other people see me?",
-            "Why are other users uncapable of finding me?",
-            "Why can't other people find me?",
+            "Can people see my profile?",
+            "Can other users find my profile?",
+            "Can other people find my profile?",
+            "Can other users see my profile?",
+            "Why can't other people see my profile?",
+            "Why can't other people find my profile?",
             "Are other users able to see my profile?",
             "Are other people able to find my profile",
             "Are other people able to see my profile?",
             "Is my profile published?",
+            "Is my profile visible to other users?",
             "Did I publish my profile?"
         ],
         "responses": [
@@ -1170,72 +1256,62 @@
         "use_gpt": false
     },
     {
-        "intent": "yes_response",
+    "intent": "hello_response",
         "category": "generic",
         "train_questions": [
-            "Yes, I am available tomorrow.",
-            "Absolutely! I will attend the event.",
-            "Yes, I want to proceed with the purchase.",
-            "Sure, I can meet you at 5 PM.",
-            "Yes, this is the correct address.",
-            "Yes, I would like a refill.",
-            "Yes, I received the package.",
-            "Definitely! I am interested in the new product.",
-            "Yes, I can confirm the reservation.",
-            "Yes, I agree with the terms and conditions."
+            "Hello!",
+            "Hi there!",
+            "Hey!",
+            "Good morning!",
+            "Good afternoon!",
+            "Good evening!"
         ],
         "responses": [
-            "Okay, understood"
+            "Hello! How can I assist you today?"
         ],
         "test_questions": [
-            "Can I change my availability for tomorrow?",
-            "Is there any additional information about the event?",
-            "What is the process for canceling a purchase?",
-            "Can I reschedule the meeting for 6 PM?",
-            "Do you have any other delivery addresses?"
+            "What's up",
+            "hey, I have a question",
+            "What's up",
+            "I have a question"
         ],
         "test_questions_advanced": [
-            "Can I chage my availabilty for tomorrow?",
-            "Is there any additonal information about event?",
-            "What is process for canceling purchase?",
-            "Can I reschedul the meeting for 6 PM?",
-            "Do you have any other delivery addresses?",
-            "What time will you send confirmation email?"
+            "What's up",
+            "hey, I have a question",
+            "What's up",
+            "I have a question"
         ],
         "use_gpt": false
     },
     {
-        "intent": "no_response",
+        "intent": "thanks_response",
         "category": "generic",
         "train_questions": [
-            "No, I'm not available tomorrow.",
-            "Sorry, I won't be able to attend the event.",
-            "No, I don't want to proceed with the purchase.",
-            "Unfortunately, I can't meet you at 5 PM.",
-            "No, this is not the correct address.",
-            "No, I don't need a refill.",
-            "No, I haven't received the package.",
-            "No, I'm not interested in the new product.",
-            "Sorry, I can't confirm the reservation.",
-            "No, I don't agree with the terms and conditions."
+            "Thank you!",
+            "Thanks a lot!",
+            "Appreciate it!",
+            "I'm grateful!",
+            "Many thanks!",
+            "Thank you so much!",
+            "Thank you very much!",
+            "My thanks"
         ],
         "responses": [
-            "Okay, understood"
+            "You're welcome! How can I assist you further?"
         ],
         "test_questions": [
-            "Can I reschedule the appointment?",
-            "Is there a refund policy?",
-            "What are the available payment methods?",
-            "Do you offer warranty for your products?",
-            "Can you provide more details about the event?"
+            "thanks but",
+            "I understand now",
+            "thanks",
+            "I appreciate it",
+            "Thank you for the information"
         ],
         "test_questions_advanced": [
-            "Cen I reschedul the appointment?",
-            "Is ther a refund policy?",
-            "What are the availble payment methods?",
-            "Do yu offer warranty for your products?",
-            "Can you provide more details abot the event?",
-            "When will you send confirmation email?"
+            "thanks but",
+            "I understand now",
+            "thanks",
+            "I appreciate it",
+            "Thank you for the information"
         ],
         "use_gpt": false
     }
