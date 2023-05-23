@@ -253,6 +253,18 @@
         "responses": [
             "What is the procedure for requesting access to my personal information, and how can I go about obtaining access? Can you guide me through the steps and provide instructions on how to request and access my personal data?"
         ],
+        "test_questions": [
+            "How can I access my personal information?",
+            "How can I access my personal data",
+            "How can I see all my personal data",
+            "Give me a list of my personal data"
+        ],
+        "test_questions_advanced": [
+            "How can I access my personal information?",
+            "How can I access my personal data",
+            "How can I see all my personal data",
+            "Give me a list of my personal data"
+        ],
         "use_gpt": true
     },
     {
@@ -272,6 +284,18 @@
         ],
         "responses": [
             "What is the process for updating my personal information, and how can I go about making changes? Can you guide me through the steps and provide instructions on how to update and modify my personal data?"
+        ],
+        "test_questions": [
+            "How can I update my personal data",
+            "How can I change my personal data",
+            "How can I edit my personal data",
+            "How can I update my personal data"
+        ],
+        "test_questions_advanced": [
+            "How can I update my personal data",
+            "How can I change my personal data",
+            "How can I edit my personal data",
+            "How can I update my personal data"
         ],
         "use_gpt": true
     },
@@ -293,6 +317,20 @@
         "responses": [
             "What is the process for deleting my personal information, and how can I go about requesting its removal? Can you guide me through the steps and provide instructions on how to delete and erase my personal data?"
         ],
+        "test_questions": [
+            "How do I delete my personal information",
+            "Can I delete all my personal data",
+            "Can I request data deletion?",
+            "Can my data get deleted?",
+            "Is it possible to delete my data?"
+        ],
+        "test_questions_advanced": [
+            "How do I delete my personal information",
+            "Can I delete all my personal data",
+            "Can I request data deletion?",
+            "Can my data get deleted?",
+            "Is it possible to delete my data?"
+        ],
         "use_gpt": true
     },
     {
@@ -312,6 +350,20 @@
         ],
         "responses": [
             "What is the company's policy regarding cookies, and how does the company handle them? Can you provide information on the company's guidelines, rules, regulations, and protocols for handling cookies?"
+        ],
+        "test_questions": [
+            "How does iYYU operate with cookies",
+            "What are the cookie policies?",
+            "Can you tell me about the cookies?",
+            "How do you handle cookies?",
+            "What are the cookie rules?"
+        ],
+        "test_questions_advanced": [
+            "How does iYYU operate with cookies",
+            "What are the cookie policies?",
+            "Can you tell me about the cookies?",
+            "How do you handle cookies?",
+            "What are the cookie rules?"
         ],
         "use_gpt": true
     },
@@ -333,6 +385,24 @@
         "responses": [
             "Is the company in compliance with privacy regulations? How does the company ensure compliance, and what measures has it taken to adhere to privacy regulations? Has the company faced any penalties or violations in relation to privacy regulations? Please provide information on the company's stance, policies, and actions regarding privacy compliance."
         ],
+        "test_questions": [
+            "What privacy regulations does iYYU comply with?"
+            "How does iYYU ensure compliance with privacy regulations in its data handling practices?",
+            "Can you provide an overview of the specific privacy regulations that govern iYYU's operations?",
+            "Are there any certifications or industry standards that iYYU adheres to regarding privacy and data protection?",
+            "Does iYYU have a designated privacy officer or team responsible for overseeing and enforcing privacy regulations?",
+            "How does iYYU handle cross-border data transfers in compliance with privacy regulations?",
+            "What steps does iYYU take to stay up to date with evolving privacy regulations and adapt its practices accordingly?"
+        ],
+        "test_questions_advanced": [
+            "What privacy regulations does iYYU comply with?"
+            "How does iYYU ensure compliance with privacy regulations in its data handling practices?",
+            "Can you provide an overview of the specific privacy regulations that govern iYYU's operations?",
+            "Are there any certifications or industry standards that iYYU adheres to regarding privacy and data protection?",
+            "Does iYYU have a designated privacy officer or team responsible for overseeing and enforcing privacy regulations?",
+            "How does iYYU handle cross-border data transfers in compliance with privacy regulations?",
+            "What steps does iYYU take to stay up to date with evolving privacy regulations and adapt its practices accordingly?"
+        ],
         "use_gpt": true
     },
     {
@@ -352,6 +422,22 @@
         ],
         "responses": [
             "What is the company's policy or schedule for updating the privacy policy? How often is the privacy policy reviewed and updated? Are there specific guidelines or rules in place for updating the privacy policy? Please provide information on the frequency and timeline for updates to the privacy policy."
+        ],
+        "test_questions": [
+              "Is there a specific schedule for updating the privacy policy?",
+              "How frequently does the privacy policy undergo updates?",
+              "Are there any guidelines or rules in place for updating the privacy policy?",
+              "Can you provide details on the timeline for privacy policy updates?",
+              "What is the typical frequency of changes to the privacy policy?",
+              "Do you have a set policy on how often the privacy policy is updated?"
+        ],
+        "test_questions_advanced": [
+              "Is there a specific schedule for updating the privacy policy?",
+              "How frequently does the privacy policy undergo updates?",
+              "Are there any guidelines or rules in place for updating the privacy policy?",
+              "Can you provide details on the timeline for privacy policy updates?",
+              "What is the typical frequency of changes to the privacy policy?",
+              "Do you have a set policy on how often the privacy policy is updated?"
         ],
         "use_gpt": true
     },
@@ -373,6 +459,22 @@
         "responses": [
             "What is the company's policy on the minimum age requirement for using its services? Are there any age restrictions or limits in place? Can you provide information on the age requirements, rules, and policies regarding the usage of the company's services?"
         ],
+        "test_questions": [
+              "Is there a specific minimum age requirement to access the company's services?",
+              "What is the age limit set by the company for using its services?",
+              "Are there any age restrictions imposed on users accessing the company's services?",
+              "What is the company's policy regarding the minimum age to use its services?",
+              "Is there an age limit that users must meet to utilize the company's services?",
+              "Can you provide details on the rules pertaining to the age limit for using the company's services?"
+        ],
+        "test_questions_advanced": [
+              "Is there a specific minimum age requirement to access the company's services?",
+              "What is the age limit set by the company for using its services?",
+              "Are there any age restrictions imposed on users accessing the company's services?",
+              "What is the company's policy regarding the minimum age to use its services?",
+              "Is there an age limit that users must meet to utilize the company's services?",
+              "Can you provide details on the rules pertaining to the age limit for using the company's services?"
+        ],
         "use_gpt": true
     },
     {
@@ -392,6 +494,22 @@
         ],
         "responses": [
             "What is the company's protocol or approach for handling data breaches? How does the company respond to data breaches, and what steps does it take in the event of a data breach? Can you explain the company's measures, policies, and plan of action for managing data breaches?"
+        ],
+        "test_questions": [
+              "What is the company's response protocol in the event of a data breach?",
+              "Can you explain the steps iYYU takes to handle data breaches?",
+              "What specific measures does iYYU have in place to mitigate and manage data breaches?",
+              "In the event of a data breach, what actions does iYYU typically take to address the situation?",
+              "How does iYYU ensure the security and protection of user data during a data breach?",
+              "What policies and procedures does iYYU follow to manage and respond to data breaches?"
+        ],
+        "test_questions_advanced": [
+              "What is the company's response protocol in the event of a data breach?",
+              "Can you explain the steps iYYU takes to handle data breaches?",
+              "What specific measures does iYYU have in place to mitigate and manage data breaches?",
+              "In the event of a data breach, what actions does iYYU typically take to address the situation?",
+              "How does iYYU ensure the security and protection of user data during a data breach?",
+              "What policies and procedures does iYYU follow to manage and respond to data breaches?"
         ],
         "use_gpt": true
     },
@@ -413,6 +531,22 @@
         "responses": [
             "Can you provide information on how to opt out of targeted advertising and the available tools or steps to prevent personalized ads?"
         ],
+        "test_questions": [
+              "Are there specific steps or instructions to opt out of targeted advertising?",
+              "Can you provide details on the process to disable personalized ads?",
+              "What tools or methods are available to block or avoid targeted advertising?",
+              "How can I prevent targeted ads from being displayed to me?",
+              "Is there a guide or tutorial on unsubscribing from personalized ads?",
+              "What options or settings can I adjust to stop receiving targeted ads?"
+        ],
+        "test_questions_advanced": [
+              "Are there specific steps or instructions to opt out of targeted advertising?",
+              "Can you provide details on the process to disable personalized ads?",
+              "What tools or methods are available to block or avoid targeted advertising?",
+              "How can I prevent targeted ads from being displayed to me?",
+              "Is there a guide or tutorial on unsubscribing from personalized ads?",
+              "What options or settings can I adjust to stop receiving targeted ads?"
+        ],
         "use_gpt": true
     },
     {
@@ -432,6 +566,22 @@
         ],
         "responses": [
             "What are the various ways to get in touch with the company regarding privacy issues, including specific contact points and channels to report privacy concerns?"
+        ],
+        "test_questions": [
+            "What are the contact details to reach out to the company regarding privacy-related concerns?",
+            "Can you provide information on the specific contact point within the company for privacy issues?",
+            "How can I report a privacy concern to the company's dedicated privacy department?",
+            "What are the available channels of communication to raise privacy concerns with the company?",
+            "Is there a designated process or procedure for contacting the company about privacy matters?",
+            "Who should I reach out to if I have privacy concerns with the company's services?"
+        ],
+        "test_questions_advanced": [
+            "What are the contact details to reach out to the company regarding privacy-related concerns?",
+            "Can you provide information on the specific contact point within the company for privacy issues?",
+            "How can I report a privacy concern to the company's dedicated privacy department?",
+            "What are the available channels of communication to raise privacy concerns with the company?",
+            "Is there a designated process or procedure for contacting the company about privacy matters?",
+            "Who should I reach out to if I have privacy concerns with the company's services?"
         ],
         "use_gpt": true
     },
@@ -453,6 +603,22 @@
         "responses": [
             "What are the potential implications and consequences of declining or not agreeing to the privacy policy?"
         ],
+        "test_questions": [
+            "What are the potential implications of not agreeing to the privacy policy?",
+            "Can you explain the possible consequences of declining the privacy policy?",
+            "Is accepting the privacy policy mandatory, and if not, what are the potential risks?",
+            "Are there any penalties or adverse effects for not accepting the privacy policy?",
+            "What happens if I choose not to accept the privacy policy? Are there any specific outcomes?",
+            "Could you provide more information about the risks or drawbacks of not agreeing to the privacy policy?"
+        ],
+        "test_questions_advanced": [
+            "What are the potential implications of not agreeing to the privacy policy?",
+            "Can you explain the possible consequences of declining the privacy policy?",
+            "Is accepting the privacy policy mandatory, and if not, what are the potential risks?",
+            "Are there any penalties or adverse effects for not accepting the privacy policy?",
+            "What happens if I choose not to accept the privacy policy? Are there any specific outcomes?",
+            "Could you provide more information about the risks or drawbacks of not agreeing to the privacy policy?"
+        ],
         "use_gpt": true
     },
     {
@@ -472,6 +638,22 @@
         ],
         "responses": [
             "What is the company's policy or stance on the sharing or selling of personal information, and how does it ensure the safety and consent of users' data?"
+        ],
+        "test_questions": [
+            "Does the company have a policy on sharing or selling personal information?",
+            "What measures does the company have in place to protect personal information from being sold?",
+            "Is my personal information safe from being shared or sold by the company?",
+            "Can the company sell my personal information without obtaining my consent?",
+            "What are the guidelines or restrictions on the company's handling of personal information in terms of selling it?",
+            "Does the company adhere to any specific regulations or laws regarding the sale of personal information?"
+        ],
+        "test_questions_advanced": [
+            "Does the company have a policy on sharing or selling personal information?",
+            "What measures does the company have in place to protect personal information from being sold?",
+            "Is my personal information safe from being shared or sold by the company?",
+            "Can the company sell my personal information without obtaining my consent?",
+            "What are the guidelines or restrictions on the company's handling of personal information in terms of selling it?",
+            "Does the company adhere to any specific regulations or laws regarding the sale of personal information?"
         ],
         "use_gpt": true
     },
@@ -493,6 +675,22 @@
         "responses": [
             "What is the iYYU's policy or process regarding the handling of personal information when a user terminates their account, including data retention and deletion?"
         ],
+        "test_questions": [
+            "What is the company's policy on the retention of personal information after an account termination?",
+            "Is my personal information deleted or retained when I terminate my account?",
+            "Can you provide details on how the company handles personal information after an account closure?",
+            "What specific actions are taken with my personal information once I cancel my account?",
+            "Will my personal data be permanently erased or stored after I end my account?",
+            "How long does the company retain personal information after an account termination?"
+        ],
+        "test_questions_advanced": [
+            "What is the company's policy on the retention of personal information after an account termination?",
+            "Is my personal information deleted or retained when I terminate my account?",
+            "Can you provide details on how the company handles personal information after an account closure?",
+            "What specific actions are taken with my personal information once I cancel my account?",
+            "Will my personal data be permanently erased or stored after I end my account?",
+            "How long does the company retain personal information after an account termination?"
+        ],
         "use_gpt": true
     },
     {
@@ -512,6 +710,26 @@
         ],
         "responses": [
             "What are the contents, location, rules, restrictions, user rights, agreement requirement, consequences of violations, and support available for understanding the platform's terms of service?"
+        ],
+        "test_questions": [
+            "Where can I access and read the platform's terms of service?",
+            "What are the key provisions or sections covered in the platform's terms of service?",
+            "Can you provide an overview or summary of the platform's terms of service?",
+            "Are there any specific obligations or responsibilities outlined in the platform's terms of service?",
+            "What rights do users have under the platform's terms of service?",
+            "Is it mandatory to agree to the terms of service prior to using the platform?",
+            "What are the potential consequences or penalties for violating the platform's terms of service?",
+            "Is there any support or assistance available if I have difficulty understanding the platform's terms of service?"
+        ],
+        "test_questions_advanced": [
+            "Where can I access and read the platform's terms of service?",
+            "What are the key provisions or sections covered in the platform's terms of service?",
+            "Can you provide an overview or summary of the platform's terms of service?",
+            "Are there any specific obligations or responsibilities outlined in the platform's terms of service?",
+            "What rights do users have under the platform's terms of service?",
+            "Is it mandatory to agree to the terms of service prior to using the platform?",
+            "What are the potential consequences or penalties for violating the platform's terms of service?",
+            "Is there any support or assistance available if I have difficulty understanding the platform's terms of service?"
         ],
         "use_gpt": true
     },
@@ -533,6 +751,20 @@
         "responses": [
             "Can you provide a concise summary of the liability section in the terms of service, outlining the key points related to user responsibilities, limitations, and the platform's liability?"
         ],
+        "test_questions": [
+            "What are the key points or provisions covered in the liability section of the terms of service?",
+            "Can you provide an overview or summary of the company's liability in the terms of service?",
+            "What is the scope of liability outlined in the terms of service and how can it be summarized?",
+            "Could you give me a brief summary of the liability section in the terms of service?",
+            "Can you explain the potential liabilities or limitations described in the terms of service's liability section?"
+        ],
+        "test_questions_advanced": [
+            "What are the key points or provisions covered in the liability section of the terms of service?",
+            "Can you provide an overview or summary of the company's liability in the terms of service?",
+            "What is the scope of liability outlined in the terms of service and how can it be summarized?",
+            "Could you give me a brief summary of the liability section in the terms of service?",
+            "Can you explain the potential liabilities or limitations described in the terms of service's liability section?"
+        ],
         "use_gpt": true
     },
     {
@@ -552,6 +784,25 @@
         ],
         "responses": [
             "What are the terms of service for this platform, where can they be accessed, are there any specific terms or guidelines users should be aware of, and what are the rights, responsibilities, rules, restrictions, and refund policy mentioned in the terms of service?"
+        ],
+        "test_questions": [
+            "Where can I locate and review the terms of service for this platform?",
+            "Are there any specific provisions or sections in the terms of service that users should pay attention to?",
+            "How can I access and familiarize myself with the terms of service for this platform?",
+            "Could you provide an overview or summary of the terms of service for this platform?",
+            "Does the terms of service for this platform include a refund policy or any provisions related to refunds?",
+            "What rights and responsibilities do users have under the terms of service for this platform?",
+            "Are there any specific restrictions or limitations on using this platform outlined in the terms of service?"
+        ],
+        "test_questions_advanced": [
+            "Where can I locate and review the terms of service for this platform?",
+            "Are there any specific provisions or sections in the terms of service that users should pay attention to?",
+            "How can I access and familiarize myself with the terms of service for this platform?",
+            "Could you provide an overview or summary of the terms of service for this platform?",
+            "Does the terms of service for this platform include a refund policy or any provisions related to refunds?",
+            "What rights and responsibilities do users have under the terms of service for this platform?",
+            "Are there any specific restrictions or limitations on using this platform outlined in the terms of service?"
+           
         ],
         "use_gpt": true
     },
@@ -573,6 +824,23 @@
         "responses": [
             "Which law governs or is applicable to the legal agreement?"
         ],
+        "test_questions": [
+            "Which jurisdiction's law is specified as the governing law in the legal agreement?",
+            "Can you provide information on the specific governing law mentioned in the legal agreement?",
+            "Under the legal agreement, which legal system or jurisdiction's laws apply?",
+            "What factors were considered in determining the governing law for the legal agreement?",
+            "Are there any specific provisions or clauses in the legal agreement related to the governing law?",
+            "Can you clarify how the choice of governing law in the legal agreement was determined?"
+        ],
+        "test_questions_advanced": [
+            "Which jurisdiction's law is specified as the governing law in the legal agreement?",
+            "Can you provide information on the specific governing law mentioned in the legal agreement?",
+            "Under the legal agreement, which legal system or jurisdiction's laws apply?",
+            "What factors were considered in determining the governing law for the legal agreement?",
+            "Are there any specific provisions or clauses in the legal agreement related to the governing law?",
+            "Can you clarify how the choice of governing law in the legal agreement was determined?"
+           
+        ],
         "use_gpt": true
     },
     {
@@ -592,6 +860,22 @@
         ],
         "responses": [
             "Can you provide a concise summary of the liability section in the legal agreement, outlining the key points related to responsibilities, limitations, and potential consequences?"
+        ],
+        "test_questions": [
+            "What are the main provisions or clauses covered in the liability section of the legal agreement?",
+            "Can you provide a summary of the company's liability as outlined in the legal agreement?",
+            "In simple terms, what does the liability section of the legal agreement entail?",
+            "Could you highlight the key responsibilities or obligations mentioned in the liability section of the legal                      agreement?",
+            "What are the potential liabilities or limitations specified in the liability section of the legal agreement?",
+            "Can you explain how the liability section of the legal agreement impacts the parties involved?"
+        ],
+        "test_questions_advanced": [
+            "What are the main provisions or clauses covered in the liability section of the legal agreement?",
+            "Can you provide a summary of the company's liability as outlined in the legal agreement?",
+            "In simple terms, what does the liability section of the legal agreement entail?",
+            "Could you highlight the key responsibilities or obligations mentioned in the liability section of the legal                      agreement?",
+            "What are the potential liabilities or limitations specified in the liability section of the legal agreement?",
+            "Can you explain how the liability section of the legal agreement impacts the parties involved?"
         ],
         "use_gpt": true
     },
@@ -613,6 +897,22 @@
         "responses": [
             "What is the procedure or process outlined in the legal agreement for resolving disputes, and what mechanisms or steps are in place to address conflicts or disagreements?"
         ],
+        "test_questions": [
+            "Can you provide an overview of the dispute resolution process described in the legal agreement?",
+            "What are the available methods or options for resolving disputes according to the legal agreement?",
+            "Are there any specific timelines or deadlines mentioned for the dispute resolution process in the legal agreement?",
+            "How does the legal agreement address the selection of arbitrators or mediators for dispute resolution?",
+            "What factors are considered in determining the jurisdiction or venue for dispute resolution as per the legal                      agreement?",
+            "Can you explain any provisions related to alternative dispute resolution methods mentioned in the legal agreement?"
+        ],
+        "test_questions_advanced": [
+            "Can you provide an overview of the dispute resolution process described in the legal agreement?",
+            "What are the available methods or options for resolving disputes according to the legal agreement?",
+            "Are there any specific timelines or deadlines mentioned for the dispute resolution process in the legal agreement?",
+            "How does the legal agreement address the selection of arbitrators or mediators for dispute resolution?",
+            "What factors are considered in determining the jurisdiction or venue for dispute resolution as per the legal                      agreement?",
+            "Can you explain any provisions related to alternative dispute resolution methods mentioned in the legal agreement?"
+        ],
         "use_gpt": true
     },
     {
@@ -632,6 +932,22 @@
         ],
         "responses": [
             "Is there an option to opt-out of arbitration, and what are the alternatives or choices available for individuals who prefer not to participate in the arbitration process?"
+        ],
+        "test_questions": [
+            "What is the process for opting out of arbitration as outlined in the legal agreement?",
+            "Can you explain the steps or requirements for opting out of arbitration?",
+            "Are there any specific deadlines or procedures for opting out of arbitration?",
+            "What are the consequences or implications of opting out of arbitration?",
+            "Can you provide information on the alternative dispute resolution methods available if I choose to opt-out of                    arbitration?",
+            "Is there any additional information I should know about opting out of arbitration in the legal agreement?"
+        ],
+        "test_questions_advanced": [
+            "What is the process for opting out of arbitration as outlined in the legal agreement?",
+            "Can you explain the steps or requirements for opting out of arbitration?",
+            "Are there any specific deadlines or procedures for opting out of arbitration?",
+            "What are the consequences or implications of opting out of arbitration?",
+            "Can you provide information on the alternative dispute resolution methods available if I choose to opt-out of                    arbitration?",
+            "Is there any additional information I should know about opting out of arbitration in the legal agreement?"
         ],
         "use_gpt": true
     },
@@ -653,6 +969,22 @@
         "responses": [
             "What is the process, procedure, jurisdiction, rules, and limitations of small claims court, and how does it work when resolving disputes?"
         ],
+        "test_questions": [
+            "What is the monetary limit for filing a claim in small claims court?",
+            "Can you explain the difference between small claims court and regular civil court?",
+            "Are there any restrictions on the types of cases that can be brought to small claims court?",
+            "How long does it typically take for a case to be resolved in small claims court?",
+            "What is the role of a judge in small claims court?",
+            "Can you provide examples of common disputes that are often resolved in small claims court?"
+        ],
+        "test_questions_advanced": [
+            "What is the monetary limit for filing a claim in small claims court?",
+            "Can you explain the difference between small claims court and regular civil court?",
+            "Are there any restrictions on the types of cases that can be brought to small claims court?",
+            "How long does it typically take for a case to be resolved in small claims court?",
+            "What is the role of a judge in small claims court?",
+            "Can you provide examples of common disputes that are often resolved in small claims court?"
+        ],
         "use_gpt": true
     },
     {
@@ -673,6 +1005,22 @@
         "responses": [
             "What are the obligations, responsibilities, duties, prohibited actions, rules, regulations, guidelines, limitations, and expectations outlined in the legal agreement for users?"
         ],
+        "test_questions": [
+            "Are there any restrictions on sharing confidential information as a user?",
+            "Can you provide examples of actions that are prohibited under the legal agreement?",
+            "What are the consequences for violating the user obligations outlined in the legal agreement?",
+            "Is there a code of conduct that users must adhere to according to the legal agreement?",
+            "Are there any limitations on user-generated content in the legal agreement?",
+            "What measures are in place to enforce user responsibilities in the legal agreement?"
+        ],
+        "test_questions_advanced": [
+            "Are there any restrictions on sharing confidential information as a user?",
+            "Can you provide examples of actions that are prohibited under the legal agreement?",
+            "What are the consequences for violating the user obligations outlined in the legal agreement?",
+            "Is there a code of conduct that users must adhere to according to the legal agreement?",
+            "Are there any limitations on user-generated content in the legal agreement?",
+            "What measures are in place to enforce user responsibilities in the legal agreement?"
+        ],
         "use_gpt": true
     },
     {
@@ -692,6 +1040,22 @@
         ],
         "responses": [
             "What are the terms, provisions, rights, protections, restrictions, and implications outlined in the legal agreement regarding intellectual property rights?"
+        ],
+        "test_questions": [
+            "Does the legal agreement grant the company any rights over my intellectual property?",
+            "What actions can the company take if there is a violation of intellectual property rights under the legal agreement?",
+            "Are there any limitations on the use of third-party intellectual property in the legal agreement?",
+            "How does the legal agreement define intellectual property?",
+            "Are there any provisions for resolving disputes related to intellectual property in the legal agreement?",
+            "Can you provide examples of intellectual property that are protected under the legal agreement?"
+        ],
+        "test_questions_advanced": [
+            "Does the legal agreement grant the company any rights over my intellectual property?",
+            "What actions can the company take if there is a violation of intellectual property rights under the legal agreement?",
+            "Are there any limitations on the use of third-party intellectual property in the legal agreement?",
+            "How does the legal agreement define intellectual property?",
+            "Are there any provisions for resolving disputes related to intellectual property in the legal agreement?",
+            "Can you provide examples of intellectual property that are protected under the legal agreement?"
         ],
         "use_gpt": true
     },
