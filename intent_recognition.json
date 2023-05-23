@@ -1246,27 +1246,14 @@
         "train_questions": [
             "I forgot my password, how can I reset it?",
             "What should I do if I forget my password?",
-            "How do I recover my account if I forgot my password?",
             "What are the steps to reset my forgotten password?",
             "I can't remember my password, how can I get a new one?",
             "Is there a way to retrieve my password if I forgot it?",
-            "How to reset my password if I can't remember it?",
-            "What is the process to recover a forgotten password?",
             "Can you help me reset my password?",
             "I need to update my password, how do I do that?",
             "How can I change my password for my account?",
             "What is the process for updating my password?",
-            "What are the steps to update my password?",
-            "How do I reset my account password?",
-            "What is the procedure for changing my password?",
-            "Can you guide me through changing my account password?",
-            "How do I modify my password for my account?",
-            "What is the method for updating my password?",
-            "I want to change my account password, what is the process?",
-            "What do I need to do to update my password for my account?",
-            "How do I change my password?",
-            "Is it possible for me to change my password?",
-            "What's the procedure for resetting a lost password?"
+            "What are the steps to update my password?"
         ],
         "responses": [
             "If you forgot your password, or just want to change your password, please go to profile, then click on settings. Click on the change password and make sure to write a new one that is different from your last one"
