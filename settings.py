@@ -7,10 +7,10 @@ class Settings:
         self.load_security_levels()
         self.current_user = None
 
-        print('User profiles:', self.user_profiles)
-        print('Low security:', self.low_security)
-        print('Medium security:', self.medium_security)
-        print('High security:', self.high_security)
+        # print('User profiles:', self.user_profiles)
+        # print('Low security:', self.low_security)
+        # print('Medium security:', self.medium_security)
+        # print('High security:', self.high_security)
 
     def load_user_data(self):
         with open('user_profiles.json', 'r') as file:
@@ -63,12 +63,29 @@ class Settings:
         return security
     
 
-    def update_user_setting(user_id, update_data):
+    def update_user_setting(self, user_id, setting_name, setting_state):
         '''
         This function should be called with the user_id and the setting that should be updated, the answer can be processed here to determine the new value it should have
         or it can be done else where as long as the actual update is done here. This can be done by using a json functionality to update the file
         '''
-        return None
+
+        with open('user_profiles.json', 'r') as file:
+            data = json.load(file)
+        print(data)
+
+        # Find the user with the specified user_id
+        for user in data:
+            print(user)
+            if user['user_id'] == user_id:
+                # Update the setting with the new state
+                user[setting_name] = setting_state
+                break
+        
+        # Save the updated JSON data to file
+        with open('user_profiles.json', 'w') as file:
+            json.dump(data, file)
+    
+    
 
     def set_user_calling_card_visibility(user_id, second_user_id):
         None

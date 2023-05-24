@@ -386,7 +386,7 @@
             "Is the company in compliance with privacy regulations? How does the company ensure compliance, and what measures has it taken to adhere to privacy regulations? Has the company faced any penalties or violations in relation to privacy regulations? Please provide information on the company's stance, policies, and actions regarding privacy compliance."
         ],
         "test_questions": [
-            "What privacy regulations does iYYU comply with?"
+            "What privacy regulations does iYYU comply with?",
             "How does iYYU ensure compliance with privacy regulations in its data handling practices?",
             "Can you provide an overview of the specific privacy regulations that govern iYYU's operations?",
             "Are there any certifications or industry standards that iYYU adheres to regarding privacy and data protection?",
@@ -395,7 +395,7 @@
             "What steps does iYYU take to stay up to date with evolving privacy regulations and adapt its practices accordingly?"
         ],
         "test_questions_advanced": [
-            "What privacy regulations does iYYU comply with?"
+            "What privacy regulations does iYYU comply with?",
             "How does iYYU ensure compliance with privacy regulations in its data handling practices?",
             "Can you provide an overview of the specific privacy regulations that govern iYYU's operations?",
             "Are there any certifications or industry standards that iYYU adheres to regarding privacy and data protection?",

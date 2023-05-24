@@ -56,10 +56,16 @@ class IntentModel:
         # Get the model's prediction for the test question
         with torch.no_grad():
             outputs = self.model(inputs["input_ids"], attention_mask=inputs["attention_mask"])
-        predictions = outputs.logits.argmax(axis=1)
+        
+        logits = outputs.logits
+        probabilities = torch.softmax(logits, dim=1)
+        
+        predictions = logits.argmax(axis=1)
         predicted_label = list(self.label_map.keys())[list(self.label_map.values()).index(predictions[0].item())]
-        # print(f"Predicted intent: {predicted_label}")
-        return predicted_label
+        
+        confidence_scores = probabilities.squeeze().tolist()  # Convert to a list of confidence scores
+        
+        return predicted_label, confidence_scores
 
 
     def evaluate_model(self, test_data):
