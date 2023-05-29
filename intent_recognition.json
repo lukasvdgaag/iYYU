@@ -386,7 +386,7 @@
             "Is the company in compliance with privacy regulations? How does the company ensure compliance, and what measures has it taken to adhere to privacy regulations? Has the company faced any penalties or violations in relation to privacy regulations? Please provide information on the company's stance, policies, and actions regarding privacy compliance."
         ],
         "test_questions": [
-            "What privacy regulations does iYYU comply with?"
+            "What privacy regulations does iYYU comply with?",
             "How does iYYU ensure compliance with privacy regulations in its data handling practices?",
             "Can you provide an overview of the specific privacy regulations that govern iYYU's operations?",
             "Are there any certifications or industry standards that iYYU adheres to regarding privacy and data protection?",
@@ -395,7 +395,7 @@
             "What steps does iYYU take to stay up to date with evolving privacy regulations and adapt its practices accordingly?"
         ],
         "test_questions_advanced": [
-            "What privacy regulations does iYYU comply with?"
+            "What privacy regulations does iYYU comply with?",
             "How does iYYU ensure compliance with privacy regulations in its data handling practices?",
             "Can you provide an overview of the specific privacy regulations that govern iYYU's operations?",
             "Are there any certifications or industry standards that iYYU adheres to regarding privacy and data protection?",
@@ -1077,6 +1077,22 @@
         "responses": [
             "What are the terms, conditions, rules, restrictions, limitations, usage restrictions, prohibitions, and guidelines outlined in the legal agreement for using the platform or service?"
         ],
+        "test_questions": [
+            "What are the limitations for accessing the platform or service?",
+            "Are there any guidelines for using the platform or service?",
+            "What am I not supposed to do on my use of the platform or service?",
+            "What are the specified usage restrictions in the legal agreement?",
+            "What rules apply to my use of the platform or service?",
+            "What are the terms and conditions for accessing and using the platform or service?"
+        ],
+        "test_questions_advanced": [
+            "What are the limitations for accessing the platform or service?",
+            "Are there any guidelines for using the platform or service?",
+            "What am I not supposed to do on my use of the platform or service?",
+            "What are the specified usage restrictions in the legal agreement?",
+            "What rules apply to my use of the platform or service?",
+            "What are the terms and conditions for accessing and using the platform or service?"
+        ],
         "use_gpt": true
     },
     {
@@ -1096,6 +1112,22 @@
         ],
         "responses": [
             "What is the policy, process, requirements, and permissibility of transferring ownership or assigning an account or subscription to another individual?"
+        ],
+        "test_questions": [
+            "Is it possible to transfer my subscription or account to a different person?",
+            "What is the process for changing the ownership of my account or subscription?",
+            "Am I allowed to sell my account or subscription to another individual?",
+            "Can I gift my account or subscription to someone else?",
+            "Are there any requirements for transferring my account or subscription to another person?",
+            "Can I assign my subscription or account to a family member or friend?"
+        ],
+        "test_questions_advanced": [
+            "Is it possible to transfer my subscription or account to a different person?",
+            "What is the process for changing the ownership of my account or subscription?",
+            "Am I allowed to sell my account or subscription to another individual?",
+            "Can I gift my account or subscription to someone else?",
+            "Are there any requirements for transferring my account or subscription to another person?",
+            "Can I assign my subscription or account to a family member or friend?"
         ],
         "use_gpt": true
     },
@@ -1117,6 +1149,22 @@
         "responses": [
             "What is the cancellation policy, process, refund eligibility, fees (if any), restrictions, timing, and required information when cancelling a subscription or service?"
         ],
+        "test_questions": [
+            "What is the refund policy if I cancel my subscription?",
+            "Do I have to pay when cancelling my subscription?",
+            "How will my subscription be affected if I cancel it before the end date?",
+            "Are there any limitations on cancelling a subscription or service?",
+            "When can I expect my subscription to be cancelled after making a request?",
+            "What details are required when requesting a subscription cancellation?"
+        ],
+        "test_questions_advanced": [
+            "What is the refund policy if I cancel my subscription?",
+            "Do I have to pay when cancelling my subscription?",
+            "How will my subscription be affected if I cancel it before the end date?",
+            "Are there any limitations on cancelling a subscription or service?",
+            "When can I expect my subscription to be cancelled after making a request?",
+            "What details are required when requesting a subscription cancellation?"
+        ],
         "use_gpt": true
     },
     {
@@ -1136,6 +1184,22 @@
         ],
         "responses": [
             "What are the provisions, clauses, policy, limitations, exemptions, and disclaimers related to warranties specified in the legal agreement?"
+        ],
+        "test_questions": [
+            "Are there any warranty provisions in the legal agreement?",
+            "Does the legal agreement provide any warranties?",
+            "Are there any limitations on warranties in the legal agreement?",
+            "What is the warranty policy in the legal agreement?",
+            "Are there any warranties that are explicitly stated in the legal agreement?",
+            "Does the legal agreement contain a warranty disclaimer clause?"
+        ],
+        "test_questions_advanced": [
+            "Are there any warranty provisions in the legal agreement?",
+            "Does the legal agreement provide any warranties?",
+            "Are there any limitations on warranties in the legal agreement?",
+            "What is the warranty policy in the legal agreement?",
+            "Are there any warranties that are explicitly stated in the legal agreement?",
+            "Does the legal agreement contain a warranty disclaimer clause?"
         ],
         "use_gpt": true
     },
@@ -1157,6 +1221,22 @@
         "responses": [
             "What are the provisions, restrictions, exemptions, caps, and determination methods for liability limitations outlined in the legal agreement?"
         ],
+        "test_questions": [
+            "Are there any provisions for liability in the legal agreement?",
+            "How does the legal agreement address liability concerns?",
+            "Are there any restrictions on liability in the legal agreement?",
+            "What liabilities are covered by the legal agreement?",
+            "Can you explain the liability limitations outlined in the legal agreement?",
+            "Is there a specific section in the legal agreement that discusses liability limitations?"
+        ],
+        "test_questions_advanced": [
+            "Are there any provisions for liability in the legal agreement?",
+            "How does the legal agreement address liability concerns?",
+            "Are there any restrictions on liability in the legal agreement?",
+            "What liabilities are covered by the legal agreement?",
+            "Can you explain the liability limitations outlined in the legal agreement?",
+            "Is there a specific section in the legal agreement that discusses liability limitations?"
+        ],
         "use_gpt": true
     },
     {
@@ -1177,6 +1257,34 @@
         "responses": [
             "What are the provisions, rules, legal implications, protection, responsibilities, and regulations outlined in the legal agreement regarding the use of third-party content or services?"
         ],
+        "test_questions": [
+            "Are third-party content or services addressed in the legal agreement?",
+            "What are the provisions regarding third-party content or services in the legal agreement?",
+            "How does the legal agreement handle the use of third-party content or services?",
+            "What legal implications are associated with using third-party content or services under the legal agreement?",
+            "Can you explain the rules governing the use of third-party content or services under the legal agreement?",
+            "What is the legal responsibility of users for third-party content or services according to the legal agreement?",
+            "Does the legal agreement cover content or services from other companies?",
+            "What happens if I use content or services from other companies?",
+            "Are there any rules about using content or services from other companies?",
+            "Do I have any protection when using content or services from other companies?",
+            "What are the terms for using content or services from other companies?",
+            "Can you explain how the legal agreement applies to content or services provided by other companies?"
+        ],
+        "test_questions_advanced": [
+            "Are third-party content or services addressed in the legal agreement?",
+            "What are the provisions regarding third-party content or services in the legal agreement?",
+            "How does the legal agreement handle the use of third-party content or services?",
+            "What legal implications are associated with using third-party content or services under the legal agreement?",
+            "Can you explain the rules governing the use of third-party content or services under the legal agreement?",
+            "What is the legal responsibility of users for third-party content or services according to the legal agreement?",
+            "Does the legal agreement cover content or services from other companies?",
+            "What happens if I use content or services from other companies?",
+            "Are there any rules about using content or services from other companies?",
+            "Do I have any protection when using content or services from other companies?",
+            "What are the terms for using content or services from other companies?",
+            "Can you explain how the legal agreement applies to content or services provided by other companies?"
+        ],
         "use_gpt": true
     },
     {
@@ -1196,6 +1304,22 @@
         ],
         "responses": [
             "What is the company's refund policy, including the process for requesting a refund, any conditions, available refund options, time limits, full or partial refund offerings, associated fees, and criteria for a refund to be issued?"
+        ],
+        "test_questions": [
+            "What is the company's policy regarding refunds?",
+            "How can I get a refund for my purchase?",
+            "Is there a deadline for requesting a refund?",
+            "Can you explain the process of requesting a refund?",
+            "Does the company offer full or partial refunds?",
+            "Are there any fees involved in the refund process?"
+        ],
+        "test_questions_advanced": [
+            "What is the company's policy regarding refunds?",
+            "How can I get a refund for my purchase?",
+            "Is there a deadline for requesting a refund?",
+            "Can you explain the process of requesting a refund?",
+            "Does the company offer full or partial refunds?",
+            "Are there any fees involved in the refund process?"
         ],
         "use_gpt": true
     },
@@ -1218,6 +1342,22 @@
         "responses": [
             "What are the potential consequences, penalties, actions, responses, repercussions, and enforcement measures that the company may take if a user violates the legal agreement?"
         ],
+        "test_questions": [
+            "What happens if I don't follow the rules in the legal agreement?",
+            "Can I get in trouble for breaking the legal agreement?",
+            "What actions can the company take if I violate the legal agreement?",
+            "Are there any penalties for not complying with the legal agreement?",
+            "What are the consequences if I fail to abide by the legal agreement?",
+            "How does the company ensure people follow the legal agreement?"
+        ],
+        "test_questions_advanced": [
+            "What happens if I don't follow the rules in the legal agreement?",
+            "Can I get in trouble for breaking the legal agreement?",
+            "What actions can the company take if I violate the legal agreement?",
+            "Are there any penalties for not complying with the legal agreement?",
+            "What are the consequences if I fail to abide by the legal agreement?",
+            "How does the company ensure people follow the legal agreement?"
+        ],
         "use_gpt": true
     },
     {
@@ -1237,6 +1377,20 @@
         ],
         "responses": [
             "To change your password, go into your account settings and click on..."
+        ],
+        "test_questions": [
+            "Is there a way to update my password?",
+            "Where can I find the option to change my password?",
+            "What are the steps to modify my account password?",
+            "Can you guide me on how to change my password?",
+            "Is there a password reset feature?"
+        ],
+        "test_questions_advanced": [
+            "Is there a way to update my password?",
+            "Where can I find the option to change my password?",
+            "What are the steps to modify my account password?",
+            "Can you guide me on how to change my password?",
+            "Is there a password reset feature?"
         ],
         "use_gpt": false
     },
@@ -1258,6 +1412,22 @@
         "responses": [
             "If you forgot your password, or just want to change your password, please go to profile, then click on settings. Click on the change password and make sure to write a new one that is different from your last one"
         ],
+        "test_questions": [
+            "I forgot my password, what should I do?",
+            "How can I recover a forgotten password?",
+            "Is there a way to reset a lost password?",
+            "Can you guide me through the password reset process?",
+            "What steps do I need to follow to retrieve a forgotten password?",
+            "I need help resetting my account password, can you assist?"
+        ],
+        "test_questions_advanced": [
+            "I forgot my password, what should I do?",
+            "How can I recover a forgotten password?",
+            "Is there a way to reset a lost password?",
+            "Can you guide me through the password reset process?",
+            "What steps do I need to follow to retrieve a forgotten password?",
+            "I need help resetting my account password, can you assist?"
+        ],
         "use_gpt": false
     },
     {
@@ -1278,6 +1448,22 @@
         ],
         "responses": [
             "If you are having trouble changing your password, please contact our customer support team at..."
+        ],
+        "test_questions": [
+            "What are some possible reasons for not being able to change my password?",
+            "Why am I encountering difficulties changing my password?",
+            "Are there any specific error messages I should look out for when trying to change my password?",
+            "Are there any restrictions or limitations on password changes?",
+            "What should I do if I suspect my account has been compromised and I can't change my password?",
+            "Are there any specific criteria I need to meet in order to change my password?"
+        ],
+        "test_questions_advanced": [
+            "What are some possible reasons for not being able to change my password?",
+            "Why am I encountering difficulties changing my password?",
+            "Are there any specific error messages I should look out for when trying to change my password?",
+            "Are there any restrictions or limitations on password changes?",
+            "What should I do if I suspect my account has been compromised and I can't change my password?",
+            "Are there any specific criteria I need to meet in order to change my password?"
         ],
         "use_gpt": false
     },
@@ -1301,6 +1487,22 @@
         "responses": [
             "Other people are currently able/unable to find your profile. To change it, go to the settings and please open the My visibility settings. After opening the My visibility settings, proceed to click on publish profile. If the background of the button is blue, it suggests that your profile is visible for other users. If it's grey, it suggests that your profile is not visible for other users. "
         ],
+        "test_questions": [
+            "Who can view my profile?",
+            "How can I make my profile visible to others?",
+            "What should I do if other users can't find my profile?",
+            "Is there a setting to control the visibility of my profile?",
+            "Why is my profile not visible to other users?",
+            "What steps can I take to ensure my profile is viewable by others?"
+        ],
+        "test_questions_advanced": [
+            "Who can view my profile?",
+            "How can I make my profile visible to others?",
+            "What should I do if other users can't find my profile?",
+            "Is there a setting to control the visibility of my profile?",
+            "Why is my profile not visible to other users?",
+            "What steps can I take to ensure my profile is viewable by others?"
+        ],
         "use_gpt": false
     },
     {
@@ -1315,6 +1517,22 @@
         ],
         "responses": [
             "To change your visibility settings, please go to the settings and open the My visibility settings. After opening the My visibility settings, proceed to click on publish profile. If the background of the button is blue, it suggests that your profile is visible for other users. If it's grey, it suggests that your profile is not visible for other users. "
+        ],
+        "test_questions": [
+            "How can I control who can see my profile?",
+            "Is there a way to adjust my visibility to other users?",
+            "Where can I find the option to modify my visibility settings?",
+            "What steps do I need to follow to change my visibility?",
+            "Can I choose to be visible to other users?",
+            "Is it possible to hide my profile from certain users?"
+        ],
+        "test_questions_advanced": [
+            "How can I control who can see my profile?",
+            "Is there a way to adjust my visibility to other users?",
+            "Where can I find the option to modify my visibility settings?",
+            "What steps do I need to follow to change my visibility?",
+            "Can I choose to be visible to other users?",
+            "Is it possible to hide my profile from certain users?"
         ],
         "use_gpt": false
     },
