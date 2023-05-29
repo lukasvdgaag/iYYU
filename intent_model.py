@@ -25,7 +25,7 @@ class IntentModel:
         # Fine-tune the model on the training data
         optimizer = torch.optim.Adam(model.parameters(), lr=5e-4) #default 5e-5
         loss_fn = torch.nn.CrossEntropyLoss()
-        for epoch in range(20):
+        for epoch in range(10):
             optimizer.zero_grad()
             outputs = model(inputs["input_ids"], attention_mask=inputs["attention_mask"], labels=self.labels)
             loss = outputs.loss
@@ -64,7 +64,7 @@ class IntentModel:
         predicted_label = list(self.label_map.keys())[list(self.label_map.values()).index(predictions[0].item())]
         
         confidence_scores = probabilities.squeeze().tolist()  # Convert to a list of confidence scores
-        
+
         return predicted_label, confidence_scores
 
 

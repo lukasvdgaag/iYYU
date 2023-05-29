@@ -151,6 +151,7 @@ class GPT:
             self,
             model="gpt-3.5-turbo",
             question="",
+            with_context=True,
             max_len=1800,
             size="ada",
             debug=False,
@@ -165,7 +166,7 @@ class GPT:
             question=question,
             max_len=1000,
             size=size,
-        )
+        ) if with_context else 'No context found.'
         # If debug, print the raw model response
         if debug:
             print("Context:\n" + context)
