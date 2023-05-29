@@ -9,3 +9,4 @@ models/trained_bert.pth
 *.pth
 
 __pycache__/
+__pycache__*
