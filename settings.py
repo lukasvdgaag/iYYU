@@ -80,7 +80,16 @@ class Settings:
         with open('user_profiles.json', 'w') as file:
             json.dump(data, file)
 
+
     
+    def estimate_user_security_level():
+        '''
+        Set up this function to ask the user a bunch of questions, and then based on the answers choose a secutiry level that suits them
+        then use the above pre-defined user profile security levels to set their security settings
+        since this will be a rule based approach it should just be a bunch of if statements and use the gradio chat to communicate with the user
+        '''
+        
+        
 
     # def set_user_calling_card_visibility(user_id, second_user_id):
     #     None

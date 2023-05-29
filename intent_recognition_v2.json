@@ -1,0 +1,752 @@
+[
+    {
+        "intent": "summarization_privacy_policy",
+        "category": "privacy_policy",
+        "train_questions": [
+            "Could you provide a summary of your privacy policy?",
+            "What are the main points covered in your privacy policy?",
+            "What are the key points of your privacy policy?",
+            "Can you give me a short description of what your privacy policy includes?",
+            "In a few sentences, what does your privacy policy say?",
+            "Could you provide an overview of your privacy policy?",
+            "What is your privacy policy about?",
+            "Can you give me a brief explanation of your privacy policy?",
+            "What is the essence of your privacy policy?",
+            "What does your privacy policy entail?"
+        ],
+        "responses": [
+            "What are the most important points of your privacy policy?"
+        ],
+        "test_questions": [
+            "can you tell me the most important things from the privacy policy?",
+            "What important information do I need to know from the privacy policy?",
+            "What is the privacy policy about?",
+            "Where can I find the summary of the privacy policy"
+        ],
+        "test_questions_advanced": [
+            "can you tell me the most important things from the privacy policy?",
+            "What important information do I need to know from the privacy policy?",
+            "What is the privacy policy about?",
+            "Where can I find the summary of the privacy policy"
+        ],
+        "use_gpt": true
+    },
+    {
+        "intent": "data_sharing_opt_out",
+        "category": "privacy_policy",
+        "train_questions": [
+            "Is there an option to opt out of sharing my data with third parties?",
+            "Can I choose not to have my data shared with third parties?",
+            "Do you provide a way to opt out of data sharing with third parties?",
+            "Is it possible for me to prevent my data from being shared with third parties?",
+            "What are the options available for opting out of data sharing with third parties?",
+            "Can I control whether my data is shared with third parties or not?",
+            "Do you offer an opt-out mechanism for data sharing with third parties?",
+            "Is there a way for me to limit or stop the sharing of my data with third parties?",
+            "Can I refuse consent for my data to be shared with third parties?",
+            "What steps can I take to prevent my data from being shared with third parties?"
+        ],
+        "responses": [
+            "Is it possible to opt out of data sharing, and if so, how do I do this?"
+        ],
+        "test_questions": [
+            "Is there an option to opt out of having my data shared with third-party companies by iYYU?",
+            "How can I prevent iYYU from sharing my personal information with third-party companies?",
+            "Are there any privacy settings or preferences that allow me to control data sharing with third parties?",
+            "Does iYYU provide a mechanism for users to revoke consent for data sharing with third-party companies?",
+            "What steps should I take to ensure that my data is not shared with any third-party companies by iYYU?"
+        ],
+        "test_questions_advanced": [
+            "Is there an option to opt out of having my data shared with third-party companies by iYYU?",
+            "How can I prevent iYYU from sharing my personal information with third-party companies?",
+            "Are there any privacy settings or preferences that allow me to control data sharing with third parties?",
+            "Does iYYU provide a mechanism for users to revoke consent for data sharing with third-party companies?",
+            "What steps should I take to ensure that my data is not shared with any third-party companies by iYYU?"
+        ],
+        "use_gpt": true
+    },
+    {
+        "intent": "third_parties",
+        "category": "privacy_policy",
+        "train_questions": [
+            "Do you share my personal information with third parties?",
+            "Who do you share my personal information with?",
+            "Are there any third parties that have access to my personal information?",
+            "What third parties have access to my personal information?",
+            "What happens to my personal information after it is shared with a third party?",
+            "How is my personal information protected when it is shared with third parties?",
+            "Can you explain the process of sharing my personal information with third parties?",
+            "What measures are in place to ensure the security of my personal information when shared with third parties?",
+            "Are the third parties that receive my personal information bound by confidentiality agreements?",
+            "Is my consent required before sharing my personal information with third parties?"
+        ],
+        "responses": [
+            "Do you share my personal information with third parties? If so, which parties and how is my personal information protected when it's shared with these third parties?"
+        ],
+        "test_questions": [
+            "Which third-party companies does iYYU share user data with, and for what purposes?",
+            "What types of user data does iYYU share with these third-party companies?",
+            "How does iYYU ensure the security and confidentiality of user data when sharing it with third parties?",
+            "How does iYYU select and evaluate the third-party companies it shares data with?",
+            "Can users access or view a list of the specific third-party companies that iYYU shares data with?"
+        ],
+        "test_questions_advanced": [
+            "Which third-party companies does iYYU share user data with, and for what purposes?",
+            "What types of user data does iYYU share with these third-party companies?",
+            "How does iYYU ensure the security and confidentiality of user data when sharing it with third parties?",
+            "How does iYYU select and evaluate the third-party companies it shares data with?",
+            "Can users access or view a list of the specific third-party companies that iYYU shares data with?"
+        ],
+        "use_gpt": true
+    },
+    {
+        "intent": "data_collection",
+        "category": "privacy_policy",
+        "train_questions": [
+            "What type of data do you collect from users?",
+            "How do you collect data from your users?",
+            "What methods do you use to gather user data?",
+            "What kind of information do you collect from visitors?",
+            "Do you collect personal information from users?",
+            "What purposes do you collect data for?",
+            "How long do you retain the data you collect?",
+            "Are there any specific categories of data that you prioritize collecting?",
+            "Do you collect data automatically or only when provided by users?",
+            "Are there any third parties involved in the data collection process?"
+        ],
+        "responses": [
+            "Provide me with information about your privacy policy, including the possibility of opting out of data sharing, the details of information shared with third parties, and your data collection practices."
+        ],
+        "test_questions": [
+            "What kind of data did you collect from me?",
+            "Do you collect data from users?",
+            "What kind of user data do you save",
+            "do you collect any kind of user information?",
+            "What information do you collect from users?"
+        ],
+        "test_questions_advanced": [
+            "What kind of data did you collect from me?",
+            "Do you collect data from users?",
+            "What kind of user data do you save",
+            "do you collect any kind of user information?",
+            "What information do you collect from users?"
+        ],
+        "use_gpt": true
+    },
+    {
+        "intent": "personal_information",
+        "category": "privacy_policy",
+        "train_questions": [
+            "How does the company use my personal information?",
+            "What does the company do with my personal information?",
+            "In what ways is my personal information used by the company?",
+            "What is the company's policy on using my personal information?",
+            "What kind of personal information does the company collect from me?",
+            "Can I choose how my personal information is used by the company?",
+            "Is my personal information used for any other purposes besides what I agreed to?",
+            "How long does the company retain my personal information?",
+            "Who within the company has access to my personal information?",
+            "What happens to my personal information if I stop using the company's services?"
+        ],
+        "responses": [
+            "What are the company's practices and policies regarding the use of my personal information, including the types of information collected, the options to control its usage, retention periods, access within the company, and the fate of my personal information if I discontinue using the company's services?"
+        ],
+        "test_questions": [
+            "What happens to my personal information?",
+            "Does iYYU save all my personal information?",
+            "Do I have control of how iYYU uses my personal data?"
+        ],
+        "test_questions_advanced": [
+            "What happens to my personal information?",
+            "Does iYYU save all my personal information?",
+            "Do I have control of how iYYU uses my personal data?"
+        ],
+        "use_gpt": true
+    },
+    {
+        "intent": "data_storage",
+        "category": "privacy_policy",
+        "train_questions": [
+            "How is my personal information stored and secured?",
+            "What measures does the company take to protect my personal information?",
+            "What kind of security protocols are in place for my personal information?",
+            "Who has access to my personal information?",
+            "How is my personal information encrypted?",
+            "Where is my personal information stored?",
+            "What happens to my personal information if there is a security breach?",
+            "How often is my personal information backed up?",
+            "How long is my personal information retained for?",
+            "Can I request that my personal information be deleted?"
+        ],
+        "responses": [
+            "What are the company's practices and protocols concerning the storage, security, access, encryption, backup frequency, retention period, and deletion of my personal information? Additionally, what measures are in place to protect my personal information in the event of a security breach?"
+        ],
+        "test_questions": [
+            "Is my personal data stored safely?",
+            "Is my personal data hidden?",
+            "Where is my personal data stored?",
+            "Can other people find my personal data?",
+            "Can I delete my personal information?",
+            "is my personal information encrypted?",
+            "is my personal information savely stored?"
+        ],
+        "test_questions_advanced": [
+            "Is my personal data stored safely?",
+            "Is my personal data hidden?",
+            "Where is my personal data stored?",
+            "Can other people find my personal data?",
+            "Can I delete my personal information?",
+            "is my personal information encrypted?",
+            "is my personal information savely stored?"
+        ],
+        "use_gpt": true
+    },
+    {
+        "intent": "access_personal_data",
+        "category": "privacy_policy",
+        "train_questions": [
+            "How can I request access to my personal information?",
+            "What is the process for requesting access to my personal information?",
+            "How do I go about requesting access to my personal information?",
+            "How can I access my personal information?",
+            "Can you tell me how to request access to my personal information?",
+            "What steps should I take to request access to my personal data?",
+            "How do I obtain access to my personal information?",
+            "What is the procedure to request access to my personal information?",
+            "How do I download my personal information?",
+            "What do I need to do to gain access to my personal information?"
+        ],
+        "responses": [
+            "What is the procedure for requesting access to my personal information, and how can I go about obtaining access? Can you guide me through the steps and provide instructions on how to request and access my personal data?"
+        ],
+        "test_questions": [
+            "How can I access my personal information?",
+            "How can I access my personal data",
+            "How can I see all my personal data",
+            "Give me a list of my personal data"
+        ],
+        "test_questions_advanced": [
+            "How can I access my personal information?",
+            "How can I access my personal data",
+            "How can I see all my personal data",
+            "Give me a list of my personal data"
+        ],
+        "use_gpt": true
+    },
+    {
+        "intent": "delete_personal_information",
+        "category": "privacy_policy",
+        "train_questions": [
+            "How can I delete my personal information?",
+            "What is the process to delete my personal information?",
+            "How do I go about deleting my information?",
+            "Can you tell me how to delete my personal information?",
+            "What steps should I take to delete my personal data?",
+            "How do I remove my personal information?",
+            "What is the procedure to delete my personal information?",
+            "Can you guide me on how to delete my personal information?",
+            "What do I need to do to erase my personal data?",
+            "How can I request the removal of my information?"
+        ],
+        "responses": [
+            "What is the process for deleting my personal information, and how can I go about requesting its removal? Can you guide me through the steps and provide instructions on how to delete and erase my personal data?"
+        ],
+        "test_questions": [
+            "How do I delete my personal information",
+            "Can I delete all my personal data",
+            "Can I request data deletion?",
+            "Can my data get deleted?",
+            "Is it possible to delete my data?"
+        ],
+        "test_questions_advanced": [
+            "How do I delete my personal information",
+            "Can I delete all my personal data",
+            "Can I request data deletion?",
+            "Can my data get deleted?",
+            "Is it possible to delete my data?"
+        ],
+        "use_gpt": true
+    },
+    {
+        "intent": "cookie_policy",
+        "category": "privacy_policy",
+        "train_questions": [
+            "What is the policy regarding cookies at this company?",
+            "Can you explain the company's policy on cookies?",
+            "What are the company's guidelines for cookies?",
+            "How does the company handle cookies?",
+            "Can you tell me about the company's cookie policies?",
+            "What is the official policy on cookies for the company?",
+            "What are the rules around cookies for this company?",
+            "What are the regulations for cookies at this company?",
+            "What are the company's protocols for handling cookies?",
+            "Can you provide information on the company's cookie policies?"
+        ],
+        "responses": [
+            "What is the company's policy regarding cookies, and how does the company handle them? Can you provide information on the company's guidelines, rules, regulations, and protocols for handling cookies?"
+        ],
+        "test_questions": [
+            "How does iYYU operate with cookies",
+            "What are the cookie policies?",
+            "Can you tell me about the cookies?",
+            "How do you handle cookies?",
+            "What are the cookie rules?"
+        ],
+        "test_questions_advanced": [
+            "How does iYYU operate with cookies",
+            "What are the cookie policies?",
+            "Can you tell me about the cookies?",
+            "How do you handle cookies?",
+            "What are the cookie rules?"
+        ],
+        "use_gpt": true
+    },
+    {
+        "intent": "privacy_policy_updates",
+        "category": "privacy_policy",
+        "train_questions": [
+            "How often is the privacy policy updated?",
+            "What is the frequency of updates to the privacy policy?",
+            "How frequently is the privacy policy updated?",
+            "Is there a regular schedule for updating the privacy policy?",
+            "What is the policy on updating the privacy policy?",
+            "How often are changes made to the privacy policy?",
+            "Are there any rules around updating the privacy policy?",
+            "What is the timeline for updating the privacy policy?",
+            "Can you provide information on the update frequency for the privacy policy?",
+            "What are the guidelines for updating the privacy policy?"
+        ],
+        "responses": [
+            "What is the company's policy or schedule for updating the privacy policy? How often is the privacy policy reviewed and updated? Are there specific guidelines or rules in place for updating the privacy policy? Please provide information on the frequency and timeline for updates to the privacy policy."
+        ],
+        "test_questions": [
+              "Is there a specific schedule for updating the privacy policy?",
+              "How frequently does the privacy policy undergo updates?",
+              "Are there any guidelines or rules in place for updating the privacy policy?",
+              "Can you provide details on the timeline for privacy policy updates?",
+              "What is the typical frequency of changes to the privacy policy?",
+              "Do you have a set policy on how often the privacy policy is updated?"
+        ],
+        "test_questions_advanced": [
+              "Is there a specific schedule for updating the privacy policy?",
+              "How frequently does the privacy policy undergo updates?",
+              "Are there any guidelines or rules in place for updating the privacy policy?",
+              "Can you provide details on the timeline for privacy policy updates?",
+              "What is the typical frequency of changes to the privacy policy?",
+              "Do you have a set policy on how often the privacy policy is updated?"
+        ],
+        "use_gpt": true
+    },
+    {
+        "intent": "minimum_age",
+        "category": "privacy_policy",
+        "train_questions": [
+            "What is the minimum age requirement for using the company's services?",
+            "What is the age limit for using the company's services?",
+            "Is there a minimum age requirement to use the company's services?",
+            "What is the company's policy on age requirements?",
+            "How old do you have to be to use the company's services?",
+            "Are there any age restrictions for using the company's services?",
+            "What is the company's policy on age restrictions?",
+            "Is there an age limit for accessing the company's services?",
+            "What is the minimum age to use the company's services?",
+            "What are the rules regarding the age limit for using the company's services?"
+        ],
+        "responses": [
+            "What is the company's policy on the minimum age requirement for using its services? Are there any age restrictions or limits in place? Can you provide information on the age requirements, rules, and policies regarding the usage of the company's services?"
+        ],
+        "test_questions": [
+              "Is there a specific minimum age requirement to access the company's services?",
+              "What is the age limit set by the company for using its services?",
+              "Are there any age restrictions imposed on users accessing the company's services?",
+              "What is the company's policy regarding the minimum age to use its services?",
+              "Is there an age limit that users must meet to utilize the company's services?",
+              "Can you provide details on the rules pertaining to the age limit for using the company's services?"
+        ],
+        "test_questions_advanced": [
+              "Is there a specific minimum age requirement to access the company's services?",
+              "What is the age limit set by the company for using its services?",
+              "Are there any age restrictions imposed on users accessing the company's services?",
+              "What is the company's policy regarding the minimum age to use its services?",
+              "Is there an age limit that users must meet to utilize the company's services?",
+              "Can you provide details on the rules pertaining to the age limit for using the company's services?"
+        ],
+        "use_gpt": true
+    },
+    {
+        "intent": "data_breaches",
+        "category": "privacy_policy",
+        "train_questions": [
+            "How do you handle data breaches?",
+            "What is the company's protocol for handling data breaches?",
+            "In the event of a data breach, what steps does iYYU take?",
+            "Can you explain the your approach to dealing with data breaches?",
+            "How does iYYU respond to data breaches?",
+            "What measures does the company have in place to handle data breaches?",
+            "If there is a data breach, what actions does iYYU take?",
+            "What policies do you have in place for managing data breaches?",
+            "What is the company's plan of action in the event of a data breach?",
+            "Can you tell me how the company manages data breaches?"
+        ],
+        "responses": [
+            "What is the company's protocol or approach for handling data breaches? How does the company respond to data breaches, and what steps does it take in the event of a data breach? Can you explain the company's measures, policies, and plan of action for managing data breaches?"
+        ],
+        "test_questions": [
+              "What is the company's response protocol in the event of a data breach?",
+              "Can you explain the steps iYYU takes to handle data breaches?",
+              "What specific measures does iYYU have in place to mitigate and manage data breaches?",
+              "In the event of a data breach, what actions does iYYU typically take to address the situation?",
+              "How does iYYU ensure the security and protection of user data during a data breach?",
+              "What policies and procedures does iYYU follow to manage and respond to data breaches?"
+        ],
+        "test_questions_advanced": [
+              "What is the company's response protocol in the event of a data breach?",
+              "Can you explain the steps iYYU takes to handle data breaches?",
+              "What specific measures does iYYU have in place to mitigate and manage data breaches?",
+              "In the event of a data breach, what actions does iYYU typically take to address the situation?",
+              "How does iYYU ensure the security and protection of user data during a data breach?",
+              "What policies and procedures does iYYU follow to manage and respond to data breaches?"
+        ],
+        "use_gpt": true
+    },
+    {
+        "intent": "contact_privacy_concerns",
+        "category": "privacy_policy",
+        "train_questions": [
+            "How can I contact the company for privacy-related concerns?",
+            "What are the ways to contact the company regarding privacy issues?",
+            "Is there a specific contact point for privacy concerns within the company?",
+            "How do I get in touch with the company if I have privacy-related questions?",
+            "Can you tell me how to contact the company for privacy concerns?",
+            "What is the process for contacting the company about privacy matters?",
+            "Who should I contact if I have privacy concerns with the company's services?",
+            "How can I report a privacy issue to the company?",
+            "Can you provide me with the contact information for the company's privacy department?",
+            "What are the available channels to raise privacy concerns with the company?"
+        ],
+        "responses": [
+            "What are the various ways to get in touch with the company regarding privacy issues, including specific contact points and channels to report privacy concerns?"
+        ],
+        "test_questions": [
+            "What are the contact details to reach out to the company regarding privacy-related concerns?",
+            "Can you provide information on the specific contact point within the company for privacy issues?",
+            "How can I report a privacy concern to the company's dedicated privacy department?",
+            "What are the available channels of communication to raise privacy concerns with the company?",
+            "Is there a designated process or procedure for contacting the company about privacy matters?",
+            "Who should I reach out to if I have privacy concerns with the company's services?"
+        ],
+        "test_questions_advanced": [
+            "What are the contact details to reach out to the company regarding privacy-related concerns?",
+            "Can you provide information on the specific contact point within the company for privacy issues?",
+            "How can I report a privacy concern to the company's dedicated privacy department?",
+            "What are the available channels of communication to raise privacy concerns with the company?",
+            "Is there a designated process or procedure for contacting the company about privacy matters?",
+            "Who should I reach out to if I have privacy concerns with the company's services?"
+        ],
+        "use_gpt": true
+    },
+    {
+        "intent": "selling_personal_data",
+        "category": "privacy_policy",
+        "train_questions": [
+            "Does the company sell my personal information?",
+            "Does the company share or sell my personal information?",
+            "Is my personal information sold by the company?",
+            "What happens to my personal information, is it sold by the company?",
+            "Can my personal information be sold by the company?",
+            "Is my personal information safe from being sold by the company?",
+            "Is the company permitted to sell my personal information?",
+            "Does the company have a policy on selling personal information?",
+            "How does the company handle the selling of personal information?",
+            "Is it possible for my personal information to be sold by the company without my consent?"
+        ],
+        "responses": [
+            "What is the company's policy or stance on the sharing or selling of personal information, and how does it ensure the safety and consent of users' data?"
+        ],
+        "test_questions": [
+            "Does the company have a policy on sharing or selling personal information?",
+            "What measures does the company have in place to protect personal information from being sold?",
+            "Is my personal information safe from being shared or sold by the company?",
+            "Can the company sell my personal information without obtaining my consent?",
+            "What are the guidelines or restrictions on the company's handling of personal information in terms of selling it?",
+            "Does the company adhere to any specific regulations or laws regarding the sale of personal information?"
+        ],
+        "test_questions_advanced": [
+            "Does the company have a policy on sharing or selling personal information?",
+            "What measures does the company have in place to protect personal information from being sold?",
+            "Is my personal information safe from being shared or sold by the company?",
+            "Can the company sell my personal information without obtaining my consent?",
+            "What are the guidelines or restrictions on the company's handling of personal information in terms of selling it?",
+            "Does the company adhere to any specific regulations or laws regarding the sale of personal information?"
+        ],
+        "use_gpt": true
+    },
+    {
+        "intent": "legal_statement_information",
+        "category": "legal_statement",
+        "train_questions": [
+            "What are the terms of service for this platform?",
+            "Where can I find the terms of service for this platform?",
+            "What is covered in the platform's terms of service?",
+            "Can you explain the terms of service for this platform?",
+            "What are the rules I need to follow according to the platform's terms of service?",
+            "Are there any restrictions outlined in the platform's terms of service?",
+            "What are my rights under the platform's terms of service?",
+            "Is it mandatory to agree to the terms of service before using the platform?",
+            "What are the consequences of violating the platform's terms of service?",
+            "What happens if I don't understand something in the platform's terms of service?"
+        ],
+        "responses": [
+            "What are the contents, location, rules, restrictions, user rights, agreement requirement, consequences of violations, and support available for understanding the platform's terms of service?"
+        ],
+        "test_questions": [
+            "Where can I access and read the platform's terms of service?",
+            "What are the key provisions or sections covered in the platform's terms of service?",
+            "Can you provide an overview or summary of the platform's terms of service?",
+            "Are there any specific obligations or responsibilities outlined in the platform's terms of service?",
+            "What rights do users have under the platform's terms of service?",
+            "Is it mandatory to agree to the terms of service prior to using the platform?",
+            "What are the potential consequences or penalties for violating the platform's terms of service?",
+            "Is there any support or assistance available if I have difficulty understanding the platform's terms of service?"
+        ],
+        "test_questions_advanced": [
+            "Where can I access and read the platform's terms of service?",
+            "What are the key provisions or sections covered in the platform's terms of service?",
+            "Can you provide an overview or summary of the platform's terms of service?",
+            "Are there any specific obligations or responsibilities outlined in the platform's terms of service?",
+            "What rights do users have under the platform's terms of service?",
+            "Is it mandatory to agree to the terms of service prior to using the platform?",
+            "What are the potential consequences or penalties for violating the platform's terms of service?",
+            "Is there any support or assistance available if I have difficulty understanding the platform's terms of service?"
+        ],
+        "use_gpt": true
+    },
+    {
+        "intent": "summarization_legal_statement",
+        "category": "legal_statement",
+        "train_questions": [
+            "Can you summarize the liability section of the terms of service?",
+            "Could you provide a brief overview of the liability section in the terms of service?",
+            "How would you summarize the liability section of the terms of service?",
+            "Can you give me a summary of the terms of service's liability section?",
+            "What is the liability section of the terms of service and can you summarize it?",
+            "Would you mind summarizing the liability section of the terms of service for me?",
+            "Can you provide a quick summary of the liability section in the terms of service?",
+            "Could you explain the liability section of the terms of service in a nutshell?",
+            "What does the liability section of the terms of service say, and could you summarize it for me?",
+            "I'm curious about the liability section of the terms of service. Would you be able to provide a summary?"
+        ],
+        "responses": [
+            "Can you provide a concise summary of the liability section in the terms of service, outlining the key points related to user responsibilities, limitations, and the platform's liability?"
+        ],
+        "test_questions": [
+            "What are the key points or provisions covered in the liability section of the terms of service?",
+            "Can you provide an overview or summary of the company's liability in the terms of service?",
+            "What is the scope of liability outlined in the terms of service and how can it be summarized?",
+            "Could you give me a brief summary of the liability section in the terms of service?",
+            "Can you explain the potential liabilities or limitations described in the terms of service's liability section?"
+        ],
+        "test_questions_advanced": [
+            "What are the key points or provisions covered in the liability section of the terms of service?",
+            "Can you provide an overview or summary of the company's liability in the terms of service?",
+            "What is the scope of liability outlined in the terms of service and how can it be summarized?",
+            "Could you give me a brief summary of the liability section in the terms of service?",
+            "Can you explain the potential liabilities or limitations described in the terms of service's liability section?"
+        ],
+        "use_gpt": true
+    },
+    {
+        "intent": "use_restrictions_legal_statement",
+        "category": "legal_statement",
+        "train_questions": [
+            "What are the restrictions on my use of the platform or service?",
+            "What limitations are there on my use of the platform or service?",
+            "Are there any restrictions or limitations on my use of the platform or service?",
+            "What are the terms and conditions for using the platform or service?",
+            "What are the rules for using the platform or service?",
+            "What usage restrictions are specified in the legal agreement?",
+            "What prohibitions or limitations apply to my use of the platform or service?",
+            "What are the terms of use for the platform or service?",
+            "What are the guidelines for using the platform or service?",
+            "What are the terms and conditions for accessing and using the platform or service?"
+        ],
+        "responses": [
+            "What are the terms, conditions, rules, restrictions, limitations, usage restrictions, prohibitions, and guidelines outlined in the legal agreement for using the platform or service?"
+        ],
+        "use_gpt": true
+    },
+    {
+        "intent": "transfer_legal_statement",
+        "category": "legal_statement",
+        "train_questions": [
+            "Can I transfer my account or subscription to someone else?",
+            "Can I assign my account or subscription to someone else?",
+            "Am I allowed to transfer ownership of my account or subscription to another individual?",
+            "How can I transfer my account or subscription to a different person?",
+            "What is the process for transferring my account or subscription to someone else?",
+            "Is there a way to change the ownership of my account or subscription to someone else's name?",
+            "Can I give my account or subscription to another person as a gift?",
+            "What are the requirements for transferring my account or subscription to another individual?",
+            "Is it permissible to sell my account or subscription to someone else?",
+            "Can I pass on my account or subscription to a family member or friend?"
+        ],
+        "responses": [
+            "What is the policy, process, requirements, and permissibility of transferring ownership or assigning an account or subscription to another individual?"
+        ],
+        "test_questions": [
+            "Is it possible to transfer my subscription or account to a different person?",
+            "What is the process for changing the ownership of my account or subscription?",
+            "Am I allowed to sell my account or subscription to another individual?",
+            "Can I gift my account or subscription to someone else?",
+            "Are there any requirements for transferring my account or subscription to another person?",
+            "Can I assign my subscription or account to a family member or friend?"
+        ],
+        "test_questions_advanced": [
+            "Is it possible to transfer my subscription or account to a different person?",
+            "What is the process for changing the ownership of my account or subscription?",
+            "Am I allowed to sell my account or subscription to another individual?",
+            "Can I gift my account or subscription to someone else?",
+            "Are there any requirements for transferring my account or subscription to another person?",
+            "Can I assign my subscription or account to a family member or friend?"
+        ],
+        "use_gpt": true
+    },
+    {
+        "intent": "cancellation_legal_statement",
+        "category": "legal_statement",
+        "train_questions": [
+            "What is the cancellation policy for subscriptions or services?",
+            "How can I cancel my subscription?",
+            "What is the process for cancelling a service?",
+            "Can I get a refund if I cancel my subscription?",
+            "Is there a fee for cancelling a subscription?",
+            "What happens to my subscription if I cancel before it ends?",
+            "Are there any restrictions on cancelling a subscription or service?",
+            "When will my subscription be cancelled if I request it?",
+            "What information do I need to provide when cancelling my subscription?",
+            "Can I cancel my subscription at any time?"
+        ],
+        "responses": [
+            "What is the cancellation policy, process, refund eligibility, fees (if any), restrictions, timing, and required information when cancelling a subscription or service?"
+        ],
+        "test_questions": [
+            "What is the refund policy if I cancel my subscription?",
+            "Do I have to pay when cancelling my subscription?",
+            "How will my subscription be affected if I cancel it before the end date?",
+            "Are there any limitations on cancelling a subscription or service?",
+            "When can I expect my subscription to be cancelled after making a request?",
+            "What details are required when requesting a subscription cancellation?"
+        ],
+        "test_questions_advanced": [
+            "What is the refund policy if I cancel my subscription?",
+            "Do I have to pay when cancelling my subscription?",
+            "How will my subscription be affected if I cancel it before the end date?",
+            "Are there any limitations on cancelling a subscription or service?",
+            "When can I expect my subscription to be cancelled after making a request?",
+            "What details are required when requesting a subscription cancellation?"
+        ],
+        "use_gpt": true
+    },
+    {
+        "intent": "refunds_legal_statement",
+        "category": "legal_statement",
+        "train_questions": [
+            "What is the company's policy on refunds?",
+            "What is the refund policy for this company?",
+            "Can I get a refund on my purchase?",
+            "How do I request a refund?",
+            "What are the refund options available to me?",
+            "Is there a time limit for requesting a refund?",
+            "What is the process for obtaining a refund?",
+            "Does the company offer full or partial refunds?",
+            "Are there any fees associated with requesting a refund?",
+            "What are the criteria for a refund to be issued?"
+        ],
+        "responses": [
+            "What is the company's refund policy, including the process for requesting a refund, any conditions, available refund options, time limits, full or partial refund offerings, associated fees, and criteria for a refund to be issued?"
+        ],
+        "test_questions": [
+            "What is the company's policy regarding refunds?",
+            "How can I get a refund for my purchase?",
+            "Is there a deadline for requesting a refund?",
+            "Can you explain the process of requesting a refund?",
+            "Does the company offer full or partial refunds?",
+            "Are there any fees involved in the refund process?"
+        ],
+        "test_questions_advanced": [
+            "What is the company's policy regarding refunds?",
+            "How can I get a refund for my purchase?",
+            "Is there a deadline for requesting a refund?",
+            "Can you explain the process of requesting a refund?",
+            "Does the company offer full or partial refunds?",
+            "Are there any fees involved in the refund process?"
+        ],
+        "use_gpt": true
+    },
+    {
+    "intent": "hello_response",
+        "category": "generic",
+        "train_questions": [
+            "Hello!",
+            "Hi there!",
+            "Hey!",
+            "Good morning!",
+            "Good afternoon!",
+            "Good evening!",
+            "Greetings",
+            "Howdy",
+            "Whats up",
+            "Hey, I have a question"
+        ],
+        "responses": [
+            "Hello! How can I assist you today?"
+        ],
+        "test_questions": [
+            "What's up",
+            "hey, I have a question",
+            "What's up",
+            "I have a question"
+        ],
+        "test_questions_advanced": [
+            "What's up",
+            "hey, I have a question",
+            "What's up",
+            "I have a question"
+        ],
+        "use_gpt": false
+    },
+    {
+        "intent": "thanks_response",
+        "category": "generic",
+        "train_questions": [
+            "Thank you!",
+            "Thanks a lot!",
+            "Appreciate it!",
+            "I'm grateful!",
+            "Many thanks!",
+            "Thank you so much!",
+            "Thank you very much!",
+            "My thanks",
+            "Thanks for your help",
+            "Thanks for your assistance"
+        ],
+        "responses": [
+            "You're welcome! How can I assist you further?"
+        ],
+        "test_questions": [
+            "thanks but",
+            "I understand now",
+            "thanks",
+            "I appreciate it",
+            "Thank you for the information"
+        ],
+        "test_questions_advanced": [
+            "thanks but",
+            "I understand now",
+            "thanks",
+            "I appreciate it",
+            "Thank you for the information"
+        ],
+        "use_gpt": false
+    }
+]
