@@ -4,6 +4,7 @@
 intent_recognition.pt
 models/trained_bert.pt
 models/trained_bert.pth
+processed/embeddings.csv
 
 # Not saving the model 
 *.pth
