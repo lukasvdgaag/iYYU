@@ -33,7 +33,7 @@ class IntentModel:
 
         # Fine-tune the model on the training data
         optimizer = torch.optim.Adam(model.parameters(), lr=learning_rate)
-
+        
         train_losses = []
         validation_losses = []
 
@@ -61,6 +61,7 @@ class IntentModel:
 
             print(f"Epoch {epoch+1}, Training Loss: {train_loss.item()}, Validation Loss: {validation_loss.item()}, Accuracy: {validation_accuracy.item()}")
 
+        torch.save(model, "trained_bert.pth")
         return model
 
 
@@ -189,6 +190,7 @@ class IntentModel:
 
                     for question in questions:
                         predicted_intent, confidence_scores = self.get_intent(question)
+                        print(f"Question: {question}, Predicted intent: {predicted_intent}, correct intent: {correct_intent}")
                         correctly_predicted = (predicted_intent == correct_intent)
                         if correctly_predicted:
                             correct_count += 1
