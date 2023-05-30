@@ -31,11 +31,11 @@ class Settings:
 
     
 
+    def update_user_setting(self, user_id, setting_name, setting_state):
         '''
         This function should be called with the user_id and the setting that should be updated, the answer can be processed here to determine the new value it should have
         or it can be done else where as long as the actual update is done here. This can be done by using a json functionality to update the file
         '''
-    def update_user_setting(self, user_id, setting_name, setting_state):
         with open('user_profiles.json', 'r') as file:
             data = json.load(file)
         print(data)
