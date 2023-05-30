@@ -667,50 +667,6 @@
         "use_gpt": true
     },
     {
-        "intent": "use_restrictions_legal_statement",
-        "category": "legal_statement",
-        "train_questions": [
-            "What are the restrictions on my use of the platform or service?",
-            "What limitations are there on my use of the platform or service?",
-            "Are there any restrictions or limitations on my use of the platform or service?",
-            "What are the terms and conditions for using the platform or service?",
-            "What are the rules for using the platform or service?",
-            "What usage restrictions are specified in the legal agreement?",
-            "What prohibitions or limitations apply to my use of the platform or service?",
-            "What are the terms of use for the platform or service?",
-            "What are the guidelines for using the platform or service?",
-            "What are the terms and conditions for accessing and using the platform or service?",
-            "What do you find illegal to do when i use the platform or service",
-            "What happens if I break the rules or restrictions on the platform or service?",
-            "Are there any rules or guidelines for how I should behave on the platform or service?",
-            "Is it possible to do something illegal while using this platform or service?",
-            "When i use this platform or service can i do something wrong?",
-            "Is it possible to abuse this platform or service?",
-            "Can i do something bad on the platform or service?",
-            "Do I need to follow any industry regulations or standards while using the platform or service?",
-            "What is not possible to do on the platform of service?",
-            "Can you show me what is illegal on the platform of service"
-        ],
-        "test_questions": [
-            "Can I abuse your platform?",
-            "What are the rules?",
-            "Are there any limiations when using the services?",
-            "Am I allowed to do illegal things on your platform?",
-            "Are there any restrictions on the platform?"
-        ],
-        "test_questions_advanced": [
-            "Can I abuse your platform?",
-            "What are the rules?",
-            "Are there any limiations when using the services?",
-            "Am I allowed to do illegal things on your platform?",
-            "Are there any restrictions on the platform?"
-        ],
-        "responses": [
-            "What are the terms, conditions, rules, restrictions, limitations, usage restrictions, prohibitions, and guidelines outlined in the legal agreement for using the platform or service?"
-        ],
-        "use_gpt": true
-    },
-    {
         "intent": "transfer_legal_statement",
         "category": "legal_statement",
         "train_questions": [
