@@ -7,12 +7,11 @@ from transformers import BertForSequenceClassification, BertTokenizer
 
 class IntentModel:
 
-    def __init__(self, train_data, validation_data, train_label_map, train_labels, validation_label_map, validation_labels):
+    def __init__(self, train_data, validation_data, label_map, train_labels, validation_labels):
         self.train_data = train_data
         self.validation_data = validation_data
-        self.train_label_map = train_label_map
+        self.label_map = label_map
         self.train_labels = train_labels
-        self.validation_label_map = validation_label_map
         self.validation_labels = validation_labels
         self.tokenizer = BertTokenizer.from_pretrained("bert-base-uncased")
 
@@ -22,7 +21,7 @@ class IntentModel:
         # Set a random seed for the models random number generator to ensure reproducibility
         torch.manual_seed(42)
 
-        model = BertForSequenceClassification.from_pretrained("bert-base-uncased", num_labels=len(self.train_label_map))
+        model = BertForSequenceClassification.from_pretrained("bert-base-uncased", num_labels=len(self.label_map))
         tokenizer = BertTokenizer.from_pretrained("bert-base-uncased")
 
         train_inputs = tokenizer.batch_encode_plus([data[0] for data in self.train_data], padding=True, truncation=True, return_tensors="pt")
@@ -33,7 +32,7 @@ class IntentModel:
 
         # Fine-tune the model on the training data
         optimizer = torch.optim.Adam(model.parameters(), lr=learning_rate)
-
+        
         train_losses = []
         validation_losses = []
 
@@ -61,6 +60,7 @@ class IntentModel:
 
             print(f"Epoch {epoch+1}, Training Loss: {train_loss.item()}, Validation Loss: {validation_loss.item()}, Accuracy: {validation_accuracy.item()}")
 
+        torch.save(model, "trained_bert.pth")
         return model
 
     def test_best_model(self):
@@ -77,7 +77,7 @@ class IntentModel:
 
         for num_epochs in num_epochs_list:
             for learning_rate in learning_rate_list:
-                model = BertForSequenceClassification.from_pretrained("bert-base-uncased", num_labels=len(self.train_label_map))
+                model = BertForSequenceClassification.from_pretrained("bert-base-uncased", num_labels=len(self.label_map))
                 tokenizer = BertTokenizer.from_pretrained("bert-base-uncased")
             
 
@@ -150,7 +150,7 @@ class IntentModel:
         probabilities = torch.softmax(logits, dim=1)
         
         predictions = logits.argmax(axis=1)
-        predicted_label = list(self.train_label_map.keys())[list(self.train_label_map.values()).index(predictions[0].item())]
+        predicted_label = list(self.label_map.keys())[list(self.label_map.values()).index(predictions[0].item())]
         
         confidence_scores = probabilities.squeeze().tolist()  # Convert to a list of confidence scores
 
@@ -187,6 +187,7 @@ class IntentModel:
 
                     for question in questions:
                         predicted_intent, confidence_scores = self.get_intent(question)
+                        print(f"Question: {question}, Predicted intent: {predicted_intent}, correct intent: {correct_intent}")
                         correctly_predicted = (predicted_intent == correct_intent)
                         if correctly_predicted:
                             correct_count += 1

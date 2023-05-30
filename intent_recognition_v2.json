@@ -417,20 +417,20 @@
             "What is the company's policy or schedule for updating the privacy policy? How often is the privacy policy reviewed and updated? Are there specific guidelines or rules in place for updating the privacy policy? Please provide information on the frequency and timeline for updates to the privacy policy."
         ],
         "test_questions": [
-              "Is there a specific schedule for updating the privacy policy?",
-              "How frequently does the privacy policy undergo updates?",
-              "Are there any guidelines or rules in place for updating the privacy policy?",
-              "Can you provide details on the timeline for privacy policy updates?",
-              "What is the typical frequency of changes to the privacy policy?",
-              "Do you have a set policy on how often the privacy policy is updated?"
+            "Is there a specific schedule for updating the privacy policy?",
+            "How frequently does the privacy policy undergo updates?",
+            "Are there any guidelines or rules in place for updating the privacy policy?",
+            "Can you provide details on the timeline for privacy policy updates?",
+            "What is the typical frequency of changes to the privacy policy?",
+            "Do you have a set policy on how often the privacy policy is updated?"
         ],
         "test_questions_advanced": [
-              "Is there a specific schedule for updating the privacy policy?",
-              "How frequently does the privacy policy undergo updates?",
-              "Are there any guidelines or rules in place for updating the privacy policy?",
-              "Can you provide details on the timeline for privacy policy updates?",
-              "What is the typical frequency of changes to the privacy policy?",
-              "Do you have a set policy on how often the privacy policy is updated?"
+            "Is there a specific schedule for updating the privacy policy?",
+            "How frequently does the privacy policy undergo updates?",
+            "Are there any guidelines or rules in place for updating the privacy policy?",
+            "Can you provide details on the timeline for privacy policy updates?",
+            "What is the typical frequency of changes to the privacy policy?",
+            "Do you have a set policy on how often the privacy policy is updated?"
         ],
         "use_gpt": true
     },
@@ -463,20 +463,20 @@
             "What is the company's policy on the minimum age requirement for using its services? Are there any age restrictions or limits in place? Can you provide information on the age requirements, rules, and policies regarding the usage of the company's services?"
         ],
         "test_questions": [
-              "Is there a specific minimum age requirement to access the company's services?",
-              "What is the age limit set by the company for using its services?",
-              "Are there any age restrictions imposed on users accessing the company's services?",
-              "What is the company's policy regarding the minimum age to use its services?",
-              "Is there an age limit that users must meet to utilize the company's services?",
-              "Can you provide details on the rules pertaining to the age limit for using the company's services?"
+            "Is there a specific minimum age requirement to access the company's services?",
+            "What is the age limit set by the company for using its services?",
+            "Are there any age restrictions imposed on users accessing the company's services?",
+            "What is the company's policy regarding the minimum age to use its services?",
+            "Is there an age limit that users must meet to utilize the company's services?",
+            "Can you provide details on the rules pertaining to the age limit for using the company's services?"
         ],
         "test_questions_advanced": [
-              "Is there a specific minimum age requirement to access the company's services?",
-              "What is the age limit set by the company for using its services?",
-              "Are there any age restrictions imposed on users accessing the company's services?",
-              "What is the company's policy regarding the minimum age to use its services?",
-              "Is there an age limit that users must meet to utilize the company's services?",
-              "Can you provide details on the rules pertaining to the age limit for using the company's services?"
+            "Is there a specific minimum age requirement to access the company's services?",
+            "What is the age limit set by the company for using its services?",
+            "Are there any age restrictions imposed on users accessing the company's services?",
+            "What is the company's policy regarding the minimum age to use its services?",
+            "Is there an age limit that users must meet to utilize the company's services?",
+            "Can you provide details on the rules pertaining to the age limit for using the company's services?"
         ],
         "use_gpt": true
     },
@@ -509,20 +509,20 @@
             "What is the company's protocol or approach for handling data breaches? How does the company respond to data breaches, and what steps does it take in the event of a data breach? Can you explain the company's measures, policies, and plan of action for managing data breaches?"
         ],
         "test_questions": [
-              "What is the company's response protocol in the event of a data breach?",
-              "Can you explain the steps iYYU takes to handle data breaches?",
-              "What specific measures does iYYU have in place to mitigate and manage data breaches?",
-              "In the event of a data breach, what actions does iYYU typically take to address the situation?",
-              "How does iYYU ensure the security and protection of user data during a data breach?",
-              "What policies and procedures does iYYU follow to manage and respond to data breaches?"
+            "What is the company's response protocol in the event of a data breach?",
+            "Can you explain the steps iYYU takes to handle data breaches?",
+            "What specific measures does iYYU have in place to mitigate and manage data breaches?",
+            "In the event of a data breach, what actions does iYYU typically take to address the situation?",
+            "How does iYYU ensure the security and protection of user data during a data breach?",
+            "What policies and procedures does iYYU follow to manage and respond to data breaches?"
         ],
         "test_questions_advanced": [
-              "What is the company's response protocol in the event of a data breach?",
-              "Can you explain the steps iYYU takes to handle data breaches?",
-              "What specific measures does iYYU have in place to mitigate and manage data breaches?",
-              "In the event of a data breach, what actions does iYYU typically take to address the situation?",
-              "How does iYYU ensure the security and protection of user data during a data breach?",
-              "What policies and procedures does iYYU follow to manage and respond to data breaches?"
+            "What is the company's response protocol in the event of a data breach?",
+            "Can you explain the steps iYYU takes to handle data breaches?",
+            "What specific measures does iYYU have in place to mitigate and manage data breaches?",
+            "In the event of a data breach, what actions does iYYU typically take to address the situation?",
+            "How does iYYU ensure the security and protection of user data during a data breach?",
+            "What policies and procedures does iYYU follow to manage and respond to data breaches?"
         ],
         "use_gpt": true
     },
@@ -576,26 +576,26 @@
         "intent": "legal_statement_information",
         "category": "legal_statement",
         "train_questions": [
-                "Could you provide a brief overview of the legal statement?",
-                "Can you give me a condensed summary of the legal statement?",
-                "In a nutshell, what does the legal statement entail?",
-                "Would you mind providing a concise summary of the legal statement?",
-                "Can you break down the key points of the legal statement for me?",
-                "I'd like a summarized version of the legal statement, if possible.",
-                "Could you give me a high-level summary of the legal statement?",
-                "Can you quickly outline the main points of the legal statement?",
-                "I'm looking for a condensed overview of the legal statement. Can you help?",
-                "Can you provide a brief rundown of the legal statement?",
-                "What are the main takeaways from the legal statement?",
-                "Could you summarize the main provisions of the legal statement?",
-                "In a few sentences, can you capture the essence of the legal statement?",
-                "I'm interested in a summarized version of the legal statement. Can you give me one?",
-                "Can you briefly explain the key elements of the legal statement?",
-                "Would you be able to give me a summary of the legal statement in simple terms?",
-                "Can you provide a condensed synopsis of the legal statement?",
-                "Can you give me a short recap of the legal statement?",
-                "What is the gist of the legal statement?",
-                "Can you offer a summarized overview of the legal statement?"
+            "Could you provide a brief overview of the legal statement?",
+            "Can you give me a condensed summary of the legal statement?",
+            "In a nutshell, what does the legal statement entail?",
+            "Would you mind providing a concise summary of the legal statement?",
+            "Can you break down the key points of the legal statement for me?",
+            "I'd like a summarized version of the legal statement, if possible.",
+            "Could you give me a high-level summary of the legal statement?",
+            "Can you quickly outline the main points of the legal statement?",
+            "I'm looking for a condensed overview of the legal statement. Can you help?",
+            "Can you provide a brief rundown of the legal statement?",
+            "What are the main takeaways from the legal statement?",
+            "Could you summarize the main provisions of the legal statement?",
+            "In a few sentences, can you capture the essence of the legal statement?",
+            "I'm interested in a summarized version of the legal statement. Can you give me one?",
+            "Can you briefly explain the key elements of the legal statement?",
+            "Would you be able to give me a summary of the legal statement in simple terms?",
+            "Can you provide a condensed synopsis of the legal statement?",
+            "Can you give me a short recap of the legal statement?",
+            "What is the gist of the legal statement?",
+            "Can you offer a summarized overview of the legal statement?"
         ],
         "responses": [
             "What are the contents, location, rules, restrictions, user rights, agreement requirement, consequences of violations, and support available for understanding the platform's terms of service?"
@@ -805,38 +805,6 @@
         "use_gpt": true
     },
     {
-    "intent": "hello_response",
-        "category": "generic",
-        "train_questions": [
-            "Hello!",
-            "Hi there!",
-            "Hey!",
-            "Good morning!",
-            "Good afternoon!",
-            "Good evening!",
-            "Greetings",
-            "Howdy",
-            "Whats up",
-            "Hey, I have a question"
-        ],
-        "responses": [
-            "Hello! How can I assist you today?"
-        ],
-        "test_questions": [
-            "What's up",
-            "hey, I have a question",
-            "What's up",
-            "I have a question"
-        ],
-        "test_questions_advanced": [
-            "What's up",
-            "hey, I have a question",
-            "What's up",
-            "I have a question"
-        ],
-        "use_gpt": false
-    },
-    {
         "intent": "thanks_response",
         "category": "generic",
         "train_questions": [
@@ -867,6 +835,38 @@
             "thanks",
             "I appreciate it",
             "Thank you for the information"
+        ],
+        "use_gpt": false
+    },
+    {
+        "intent": "hello_response",
+        "category": "generic",
+        "train_questions": [
+            "Hello!",
+            "Hi there!",
+            "Hey!",
+            "Good morning!",
+            "Good afternoon!",
+            "Good evening!",
+            "Greetings",
+            "Howdy",
+            "Whats up",
+            "Hey, I have a question"
+        ],
+        "responses": [
+            "Hello! How can I assist you today?"
+        ],
+        "test_questions": [
+            "What's up",
+            "hey, I have a question",
+            "What's up",
+            "I have a question"
+        ],
+        "test_questions_advanced": [
+            "What's up",
+            "hey, I have a question",
+            "What's up",
+            "I have a question"
         ],
         "use_gpt": false
     }
