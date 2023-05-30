@@ -493,7 +493,17 @@
             "If there is a data breach, what actions does iYYU take?",
             "What policies do you have in place for managing data breaches?",
             "What is the company's plan of action in the event of a data breach?",
-            "Can you tell me how the company manages data breaches?"
+            "Can you tell me how the company manages data breaches?",
+            "How can a data breach affect me?",
+            "How do you prevent a data breach?",
+            "Can i protect myself against a data breach?",
+            "Did IYYU have a data breach before?",
+            "What do you do when u get hacked?",
+            "Is it possible that IYYU's data gets breached and if so how do they handle it?",
+            "What are the procedures when the data has been breached?",
+            "How do you operate against potential threats?",
+            "What causes data breaches?",
+            "How can a data breach occur?"
         ],
         "responses": [
             "What is the company's protocol or approach for handling data breaches? How does the company respond to data breaches, and what steps does it take in the event of a data breach? Can you explain the company's measures, policies, and plan of action for managing data breaches?"
@@ -520,16 +530,26 @@
         "intent": "contact_privacy_concerns",
         "category": "privacy_policy",
         "train_questions": [
-            "How can I contact the company for privacy-related concerns?",
-            "What are the ways to contact the company regarding privacy issues?",
-            "Is there a specific contact point for privacy concerns within the company?",
-            "How do I get in touch with the company if I have privacy-related questions?",
+            "How can I contact IYYU for privacy-related concerns?",
+            "What are the ways to contact IYYU regarding privacy issues?",
+            "Is there a specific contact point for privacy concerns within IYYU?",
+            "How do I get in touch with IYYU if I have privacy-related questions?",
             "Can you tell me how to contact the company for privacy concerns?",
             "What is the process for contacting the company about privacy matters?",
             "Who should I contact if I have privacy concerns with the company's services?",
             "How can I report a privacy issue to the company?",
             "Can you provide me with the contact information for the company's privacy department?",
-            "What are the available channels to raise privacy concerns with the company?"
+            "What are the available channels to raise privacy concerns with the company?",
+            "How can I contact IYYU?",
+            "Do You have a phone number or email?",
+            "How can I reach customer support?",
+            "Are there any online forums or communities where I can seek assistance?",
+            "Can you contact IYYU regarding the privacy policy",
+            "What is the process for contacting IYYU",
+            "Can report a privacy issue to IYYU from me?",
+            "Is it possible to contact IYYU about a privacy issue?",
+            "Is there a live chat option available regarding the privacy policy",
+            "Is there a physical address where I can send correspondence?"
         ],
         "responses": [
             "What are the various ways to get in touch with the company regarding privacy issues, including specific contact points and channels to report privacy concerns?"
@@ -553,78 +573,52 @@
         "use_gpt": true
     },
     {
-        "intent": "selling_personal_data",
-        "category": "privacy_policy",
-        "train_questions": [
-            "Does the company sell my personal information?",
-            "Does the company share or sell my personal information?",
-            "Is my personal information sold by the company?",
-            "What happens to my personal information, is it sold by the company?",
-            "Can my personal information be sold by the company?",
-            "Is my personal information safe from being sold by the company?",
-            "Is the company permitted to sell my personal information?",
-            "Does the company have a policy on selling personal information?",
-            "How does the company handle the selling of personal information?",
-            "Is it possible for my personal information to be sold by the company without my consent?"
-        ],
-        "responses": [
-            "What is the company's policy or stance on the sharing or selling of personal information, and how does it ensure the safety and consent of users' data?"
-        ],
-        "test_questions": [
-            "Does the company have a policy on sharing or selling personal information?",
-            "What measures does the company have in place to protect personal information from being sold?",
-            "Is my personal information safe from being shared or sold by the company?",
-            "Can the company sell my personal information without obtaining my consent?",
-            "What are the guidelines or restrictions on the company's handling of personal information in terms of selling it?",
-            "Does the company adhere to any specific regulations or laws regarding the sale of personal information?"
-        ],
-        "test_questions_advanced": [
-            "Does the company have a policy on sharing or selling personal information?",
-            "What measures does the company have in place to protect personal information from being sold?",
-            "Is my personal information safe from being shared or sold by the company?",
-            "Can the company sell my personal information without obtaining my consent?",
-            "What are the guidelines or restrictions on the company's handling of personal information in terms of selling it?",
-            "Does the company adhere to any specific regulations or laws regarding the sale of personal information?"
-        ],
-        "use_gpt": true
-    },
-    {
         "intent": "legal_statement_information",
         "category": "legal_statement",
         "train_questions": [
-            "What are the terms of service for this platform?",
-            "Where can I find the terms of service for this platform?",
-            "What is covered in the platform's terms of service?",
-            "Can you explain the terms of service for this platform?",
-            "What are the rules I need to follow according to the platform's terms of service?",
-            "Are there any restrictions outlined in the platform's terms of service?",
-            "What are my rights under the platform's terms of service?",
-            "Is it mandatory to agree to the terms of service before using the platform?",
-            "What are the consequences of violating the platform's terms of service?",
-            "What happens if I don't understand something in the platform's terms of service?"
+                "Could you provide a brief overview of the legal statement?",
+                "Can you give me a condensed summary of the legal statement?",
+                "In a nutshell, what does the legal statement entail?",
+                "Would you mind providing a concise summary of the legal statement?",
+                "Can you break down the key points of the legal statement for me?",
+                "I'd like a summarized version of the legal statement, if possible.",
+                "Could you give me a high-level summary of the legal statement?",
+                "Can you quickly outline the main points of the legal statement?",
+                "I'm looking for a condensed overview of the legal statement. Can you help?",
+                "Can you provide a brief rundown of the legal statement?",
+                "What are the main takeaways from the legal statement?",
+                "Could you summarize the main provisions of the legal statement?",
+                "In a few sentences, can you capture the essence of the legal statement?",
+                "I'm interested in a summarized version of the legal statement. Can you give me one?",
+                "Can you briefly explain the key elements of the legal statement?",
+                "Would you be able to give me a summary of the legal statement in simple terms?",
+                "Can you provide a condensed synopsis of the legal statement?",
+                "Can you give me a short recap of the legal statement?",
+                "What is the gist of the legal statement?",
+                "Can you offer a summarized overview of the legal statement?"
         ],
         "responses": [
             "What are the contents, location, rules, restrictions, user rights, agreement requirement, consequences of violations, and support available for understanding the platform's terms of service?"
         ],
         "test_questions": [
-            "Where can I access and read the platform's terms of service?",
-            "What are the key provisions or sections covered in the platform's terms of service?",
-            "Can you provide an overview or summary of the platform's terms of service?",
-            "Are there any specific obligations or responsibilities outlined in the platform's terms of service?",
-            "What rights do users have under the platform's terms of service?",
-            "Is it mandatory to agree to the terms of service prior to using the platform?",
-            "What are the potential consequences or penalties for violating the platform's terms of service?",
-            "Is there any support or assistance available if I have difficulty understanding the platform's terms of service?"
+            "Where can I access and read the platform's legal legal terms?",
+            "What are the key provisions or sections covered in the platform's legal legal terms?",
+            "Can you provide an overview or summary of the platform's legal terms?",
+            "Are there any specific obligations or responsibilities outlined in the platform's legal terms?",
+            "What rights do users have under the platform's legal terms?",
+            "Is it mandatory to agree to the legal terms prior to using the platform?",
+            "What are the potential consequences or penalties for violating the platform's legal terms?",
+            "Is there any support or assistance available if I have difficulty understanding the platform's legal terms?"
         ],
         "test_questions_advanced": [
-            "Where can I access and read the platform's terms of service?",
-            "What are the key provisions or sections covered in the platform's terms of service?",
-            "Can you provide an overview or summary of the platform's terms of service?",
-            "Are there any specific obligations or responsibilities outlined in the platform's terms of service?",
-            "What rights do users have under the platform's terms of service?",
-            "Is it mandatory to agree to the terms of service prior to using the platform?",
-            "What are the potential consequences or penalties for violating the platform's terms of service?",
-            "Is there any support or assistance available if I have difficulty understanding the platform's terms of service?"
+            "Where can I access and read the platform's legal terms?",
+            "What are the key provisions or sections covered in the platform's legal terms?",
+            "Can you provide an overview or summary of the platform's legal terms?",
+            "Are there any specific obligations or responsibilities outlined in the platform's legal terms?",
+            "What rights do users have under the platform's legal terms?",
+            "Is it mandatory to agree to the legal terms prior to using the platform?",
+            "What are the potential consequences or penalties for violating the platform's legal terms?",
+            "Is there any support or assistance available if I have difficulty understanding the platform's legal terms?"
         ],
         "use_gpt": true
     },
@@ -641,7 +635,17 @@
             "Can you provide a quick summary of the liability section in the terms of service?",
             "Could you explain the liability section of the terms of service in a nutshell?",
             "What does the liability section of the terms of service say, and could you summarize it for me?",
-            "I'm curious about the liability section of the terms of service. Would you be able to provide a summary?"
+            "I'm curious about the liability section of the terms of service. Would you be able to provide a summary?",
+            "Summarize the liability section of the terms of service?",
+            "Is it possible to Summarize liability section of the terms of service?",
+            "What is the summarization of the liability section of the terms of service from IYYU?",
+            "Can you summarize the the liability section of the IYYU terms of service?",
+            "Can you summarize the the liability section for me?",
+            "Is it possible to summarize the the liability section?",
+            "Is it possible to summarize the the liability section of the IYYU terms of service?",
+            "Could it be possible to the liability section in the terms of service?",
+            "Can you give me the liability section in the terms of service and show only the most important sentences?",
+            "Can you Show me the Key phrases of the liability section in the terms of service?"
         ],
         "responses": [
             "Can you provide a concise summary of the liability section in the terms of service, outlining the key points related to user responsibilities, limitations, and the platform's liability?"
@@ -663,19 +667,59 @@
         "use_gpt": true
     },
     {
+        "intent": "use_restrictions_legal_statement",
+        "category": "legal_statement",
+        "train_questions": [
+            "What are the restrictions on my use of the platform or service?",
+            "What limitations are there on my use of the platform or service?",
+            "Are there any restrictions or limitations on my use of the platform or service?",
+            "What are the terms and conditions for using the platform or service?",
+            "What are the rules for using the platform or service?",
+            "What usage restrictions are specified in the legal agreement?",
+            "What prohibitions or limitations apply to my use of the platform or service?",
+            "What are the terms of use for the platform or service?",
+            "What are the guidelines for using the platform or service?",
+            "What are the terms and conditions for accessing and using the platform or service?",
+            "What do you find illegal to do when i use the platform or service",
+            "What happens if I break the rules or restrictions on the platform or service?",
+            "Are there any rules or guidelines for how I should behave on the platform or service?",
+            "Is it possible to do something illegal while using this platform or service?",
+            "When i use this platform or service can i do something wrong?",
+            "Is it possible to abuse this platform or service?",
+            "Can i do something bad on the platform or service?",
+            "Do I need to follow any industry regulations or standards while using the platform or service?",
+            "What is not possible to do on the platform of service?",
+            "Can you show me what is illegal on the platform of service"
+        ],
+        "responses": [
+            "What are the terms, conditions, rules, restrictions, limitations, usage restrictions, prohibitions, and guidelines outlined in the legal agreement for using the platform or service?"
+        ],
+        "use_gpt": true
+    },
+    {
         "intent": "transfer_legal_statement",
         "category": "legal_statement",
         "train_questions": [
             "Can I transfer my account or subscription to someone else?",
+            "Can you transfer my account or subscription to someone else?",
             "Can I assign my account or subscription to someone else?",
+            "Can You assign my account or subscription to someone else?",
             "Am I allowed to transfer ownership of my account or subscription to another individual?",
+            "Are you allowed to transfer ownership of my account or subscription to another individual?",
             "How can I transfer my account or subscription to a different person?",
+            "How can you transfer my account or subscription to a different person?",
             "What is the process for transferring my account or subscription to someone else?",
             "Is there a way to change the ownership of my account or subscription to someone else's name?",
             "Can I give my account or subscription to another person as a gift?",
             "What are the requirements for transferring my account or subscription to another individual?",
             "Is it permissible to sell my account or subscription to someone else?",
-            "Can I pass on my account or subscription to a family member or friend?"
+            "Can I pass on my account or subscription to a family member or friend?",
+            "Can my friend pass over his account or subscription to me?",
+            "Is it possible that i transfer my account or subscription to a friend?",
+            "Can i sell my account or subscription?",
+            "Can my friend sell his account or subscription to me?",
+            "Am I allowed to transfer my account or subscription?",
+            "Can i sell my account or subscription to IYYU?"
         ],
         "responses": [
             "What is the policy, process, requirements, and permissibility of transferring ownership or assigning an account or subscription to another individual?"
@@ -704,6 +748,7 @@
         "train_questions": [
             "What is the cancellation policy for subscriptions or services?",
             "How can I cancel my subscription?",
+            "Where can I cancel my subscription?",
             "What is the process for cancelling a service?",
             "Can I get a refund if I cancel my subscription?",
             "Is there a fee for cancelling a subscription?",
@@ -711,7 +756,16 @@
             "Are there any restrictions on cancelling a subscription or service?",
             "When will my subscription be cancelled if I request it?",
             "What information do I need to provide when cancelling my subscription?",
-            "Can I cancel my subscription at any time?"
+            "Can I cancel my subscription at any time?",
+            "Is it possible to cansel my subscription?",
+            "Where is it possible to cansel my subscription?",
+            "To cansel my subscription where can i do it?",
+            "Can i cansel my subscription?",
+            "where do i need to go to cansel my subscription?",
+            "Can you cansel my subscription?",
+            "Is it possible that You cansel my subscription?",
+            "Can you just cansel my subscription?",
+            "Cansel my subscription?"
         ],
         "responses": [
             "What is the cancellation policy, process, refund eligibility, fees (if any), restrictions, timing, and required information when cancelling a subscription or service?"
@@ -747,7 +801,17 @@
             "What is the process for obtaining a refund?",
             "Does the company offer full or partial refunds?",
             "Are there any fees associated with requesting a refund?",
-            "What are the criteria for a refund to be issued?"
+            "What are the criteria for a refund to be issued?",
+            "How can i do a refund?",
+            "Where can i refund?",
+            "Is it possible to refund my purchase?",
+            "Is it possible to do a refund for my purchase?",
+            "How can i get a refund for my purchase?",
+            "Is refunding possible?",
+            "Is a refund possible?",
+            "If i want to refund where can i do that?",
+            "If i want to refund is that possible?",
+            "If it is possible to refund where can i do that?"
         ],
         "responses": [
             "What is the company's refund policy, including the process for requesting a refund, any conditions, available refund options, time limits, full or partial refund offerings, associated fees, and criteria for a refund to be issued?"
