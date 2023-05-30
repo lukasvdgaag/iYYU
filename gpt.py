@@ -15,14 +15,19 @@ class GPT:
         load_dotenv()
         openai.api_key = os.getenv('OPENAI_API_KEY')
 
-        self.load_files()
-        self.data_preprocessing()
+        # Only recalculate the embeddings when the processed files do not exist yet.
+        if self.should_recreate_embeddings():
+            self.load_files()
+            self.data_preprocessing()
 
     def remove_newlines(self, serie):
         serie = serie.str.replace('\n', ' ')
         serie = serie.str.replace('\\n', ' ')
         serie = serie.str.replace('  ', ' ')
         return serie
+
+    def should_recreate_embeddings(self):
+        return os.path.exists("processed/embeddings.csv") and os.path.exists("processed/scraped.csv")
 
     def load_files(self):
         # Create a list to store the text files
