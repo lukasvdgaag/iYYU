@@ -1,13 +1,97 @@
 [
-    {
-      "question": "How do I turn on setting_name1?",
-      "setting_name": "setting_name1",
-      "state": "on"
-    },
-    {
-      "question": "How can I disable setting_name2?",
-      "setting_name": "setting_name2",
-      "state": "off"
-    }
-  ]
+  {
+    "text": ["How", "do", "I", "turn", "on", "the", "publish", "profile", "?"],
+    "ner": ["O", "O", "O", "state", "state", "O", "setting_name", "setting_name", "O"]
+},
+{
+    "text": ["Can", "I", "disable", "the", "publish", "profile", "?"],
+    "ner": ["O", "O", "state", "O", "setting_name", "setting_name", "O"]
+},
+{
+    "text": ["How", "do", "I", "enable", "the", "publish", "profile", "?"],
+    "ner": ["O", "O", "O", "state", "O", "setting_name", "setting_name", "O"]
+},
+{
+    "text": ["Can", "I", "turn", "off", "the", "publish", "profile", "?"],
+    "ner": ["O", "O", "state", "state", "O", "setting_name", "setting_name", "O"]
+},
+{
+  "text": ["How", "can", "I", "publish", "my", "profile", "?"],
+  "ner": ["O", "O", "O", "state", "O", "setting_name", "O"]
+},
+
+
+
+
+{
+  "text": ["Can", "I", "enable", "the", "connect", "with", "me", "setting", "?"],
+  "ner": ["O", "O", "state", "O", "setting_name", "setting_name", "setting_name", "O", "O"]
+},
+{
+  "text": ["How", "do", "I", "change", "the", "setting", "to", "allow", "people", "to", "connect", "with", "me", "?"],
+  "ner": ["O", "O", "O", "O", "O", "O", "O", "state", "O", "O", "setting_name", "setting_name", "setting_name", "O"]
+},
+{
+  "text": ["Can", "I", "enable", "the", "connect", "with", "me", "setting", "?"],
+  "ner": ["O", "O", "state", "O", "setting_name", "setting_name", "setting_name", "O", "O"]
+},
+{
+  "text": ["How", "can", "I", "disable", "the", "connect", "with", "me", "?"],
+  "ner": ["O", "O", "O", "state", "O", "setting_name", "setting_name", "setting_name", "O"]
+},
+{
+  "text": ["Can", "I", "restrict", "the", "ability", "for", "others", "to", "connect", "with", "me", "?"],
+  "ner": ["O", "O", "state", "O", "O", "O", "O", "O", "setting_name", "setting_name", "setting_name", "O"]
+},
+
+
+
+
+
+
+{
+  "text": ["How", "can", "I", "turn", "on", "the", "show", "up", "in", "search", "setting", "?"],
+  "ner": ["O", "O", "O", "state", "state", "O", "setting_name", "setting_name", "setting_name", "setting_name", "O", "O"]
+},
+{
+  "text": ["How", "do", "I", "make", "myself", "visible", "in", "the", "search", "?"],
+  "ner": ["O", "O", "O", "O", "O", "setting_name", "O", "O", "setting_name", "O"]
+},
+{
+  "text": ["Can", "I", "set", "my", "profile", "to", "be", "visible", "for", "search", "?"],
+  "ner": ["O", "O", "O", "O", "O", "O", "O", "state", "O", "setting_name", "O"]
+},
+{
+  "text": ["How", "can", "I", "enable", "the", "visibility", "of", "my", "profile", "in", "search", "?"],
+  "ner": ["O", "O", "O", "state", "O", "O", "O", "O", "O", "O", "setting_name", "O"]
+},
+{
+  "text": ["Can", "I", "make", "my", "profile", "discoverable", "in", "search", "?"],
+  "ner": ["O", "O", "O", "O", "O", "state", "O", "setting_name", "O"]
+},
+
+
+ 
+ 
   
+{
+  "text": ["How", "do", "I", "configure", "my", "profile", "to", "be", "visible", "only", "for", "logged", "on", "users", "?"],
+  "ner": ["O", "O", "O", "O", "O", "setting_name", "O", "O", "setting_name", "O", "O", "state", "state", "state", "O"]
+},
+{
+  "text": ["Can", "I", "set", "my", "profile", "to", "be", "findable", "only", "for", "logged", "in", "users", "?"],
+  "ner": ["O", "O", "O", "O", "O", "O", "O", "setting_name", "state", "O", "state", "state", "state", "O"]
+},
+{
+  "text": ["How", "can", "I", "restrict", "the", "visibility", "of", "my", "profile", "to", "only", "logged", "on", "users", "?"],
+  "ner": ["O", "O", "O", "O", "O", "setting_name", "O", "O", "setting_name", "O", "O", "state", "state", "state", "O"]
+},
+{
+  "text": ["Can", "I", "limit", "the", "discoverability", "of", "my", "profile", "to", "logged", "in", "users", "?"],
+  "ner": ["O", "O", "O", "O", "O", "O", "O", "setting_name", "O", "state", "state", "state", "O"]
+},
+{
+  "text": ["How", "do", "I", "allow", "only", "logged", "in", "users", "to", "find", "my", "profile", "?"],
+  "ner": ["O", "O", "O", "O", "state", "state", "state", "state", "O", "O", "O", "setting_name", "O"]
+}
+]

@@ -1,47 +1,118 @@
 import json
 import os
 import torch
+import random
 from transformers import BertForSequenceClassification, BertTokenizer
+
 
 class IntentModel:
 
-    def __init__(self,  train_data, label_map, labels):
+    def __init__(self, train_data, validation_data, train_label_map, train_labels, validation_label_map, validation_labels):
         self.train_data = train_data
-        self.label_map = label_map
-        self.labels = labels
+        self.validation_data = validation_data
+        self.train_label_map = train_label_map
+        self.train_labels = train_labels
+        self.validation_label_map = validation_label_map
+        self.validation_labels = validation_labels
         self.tokenizer = BertTokenizer.from_pretrained("bert-base-uncased")
 
         self.model = torch.load("trained_bert.pth") if os.path.exists("trained_bert.pth") else self.train_model()
-        
 
-    def train_model(self):
-        # Set a random see for the models random number generator to ensure reproducibility
+    def train_model(self, num_epochs=20, learning_rate=5e-4):
+        # Set a random seed for the models random number generator to ensure reproducibility
         torch.manual_seed(42)
 
-        model = BertForSequenceClassification.from_pretrained("bert-base-uncased", num_labels=len(self.label_map))
-        # Tokenize the training data and convert to tensors
-        inputs = self.tokenizer.batch_encode_plus([data[0] for data in self.train_data], padding=True, truncation=True, return_tensors="pt")
+        model = BertForSequenceClassification.from_pretrained("bert-base-uncased", num_labels=len(self.train_label_map))
+        tokenizer = BertTokenizer.from_pretrained("bert-base-uncased")
+
+        train_inputs = tokenizer.batch_encode_plus([data[0] for data in self.train_data], padding=True, truncation=True, return_tensors="pt")
+        validation_inputs = tokenizer.batch_encode_plus([data[0] for data in self.validation_data], padding=True, truncation=True, return_tensors="pt")
+
+        train_labels = self.train_labels
+        validation_labels = self.validation_labels
 
         # Fine-tune the model on the training data
-        optimizer = torch.optim.Adam(model.parameters(), lr=5e-4) #default 5e-5
-        loss_fn = torch.nn.CrossEntropyLoss()
-        for epoch in range(10):
+        optimizer = torch.optim.Adam(model.parameters(), lr=learning_rate)
+
+        train_losses = []
+        validation_losses = []
+
+        for epoch in range(num_epochs):
+            model.train()
             optimizer.zero_grad()
-            outputs = model(inputs["input_ids"], attention_mask=inputs["attention_mask"], labels=self.labels)
-            loss = outputs.loss
-            loss.backward()
+            train_outputs = model(train_inputs["input_ids"], attention_mask=train_inputs["attention_mask"], labels=train_labels)
+            train_loss = train_outputs.loss
+            train_loss.backward()
             optimizer.step()
 
-            print(f"Epoch {epoch+1}, Loss: {loss.item()}")
+            train_losses.append(train_loss.item())
 
-            # Evaluate the model on the training data
-            predictions = outputs.logits.argmax(axis=1)
-            accuracy = (predictions == self.labels).sum()
-        
-        # Save the model
-        torch.save(model, "trained_bert.pth")
+            # Randomize the validation labels for better evaluation
+            random.shuffle(validation_labels)
+
+            # Evaluate the model on the validation data
+            model.eval()
+            with torch.no_grad():
+                validation_outputs = model(validation_inputs["input_ids"], attention_mask=validation_inputs["attention_mask"], labels=validation_labels)
+                validation_loss = validation_outputs.loss
+                validation_losses.append(validation_loss.item())
+                validation_predictions = validation_outputs.logits.argmax(axis=1)
+                validation_accuracy = (validation_predictions == validation_labels).sum()
+
+            print(f"Epoch {epoch+1}, Training Loss: {train_loss.item()}, Validation Loss: {validation_loss.item()}, Accuracy: {validation_accuracy.item()}")
 
         return model
+
+
+    
+    def test_best_model(self):
+        print("Testing best model")
+        torch.manual_seed(42)
+
+        num_epochs_list = [10, 15, 20]
+        learning_rate_list = [5e-3, 5e-4, 5e-5, 5e-6]
+
+        best_model = None
+        best_accuracy = 0
+        best_epoch = 0
+        best_learning_rate = 0
+
+        for num_epochs in num_epochs_list:
+            for learning_rate in learning_rate_list:
+                model = BertForSequenceClassification.from_pretrained("bert-base-uncased", num_labels=len(self.label_map))
+                # Tokenize the training data and convert to tensors
+                inputs = self.tokenizer.batch_encode_plus([data[0] for data in self.train_data], padding=True, truncation=True, return_tensors="pt")
+
+                # Fine-tune the model on the training data
+                optimizer = torch.optim.Adam(model.parameters(), lr=learning_rate) 
+                loss_fn = torch.nn.CrossEntropyLoss()
+                for epoch in range(num_epochs):
+                    optimizer.zero_grad()
+                    outputs = model(inputs["input_ids"], attention_mask=inputs["attention_mask"], labels=self.labels)
+                    loss = outputs.loss
+                    loss.backward()
+                    optimizer.step()
+
+                    print(f"Epoch {epoch+1}, Loss: {loss.item()}")
+
+                    # Evaluate the model on the training data
+                    predictions = outputs.logits.argmax(axis=1)
+                    accuracy = (predictions == self.labels).sum()
+                
+                if accuracy > best_accuracy:
+                    best_accuracy = accuracy
+                    best_model = model
+                    best_epoch = num_epochs
+                    best_learning_rate = learning_rate
+
+
+        print(f"Best accuracy: {best_accuracy}")
+        print(f"Best epoch: {best_epoch}")
+        print(f"Best learning rate: {best_learning_rate}")
+
+        torch.save(best_model, "trained_bert.pth")
+        return best_model
+
         
     def get_model(self):
         return self.model
@@ -61,7 +132,7 @@ class IntentModel:
         probabilities = torch.softmax(logits, dim=1)
         
         predictions = logits.argmax(axis=1)
-        predicted_label = list(self.label_map.keys())[list(self.label_map.values()).index(predictions[0].item())]
+        predicted_label = list(self.train_label_map.keys())[list(self.train_label_map.values()).index(predictions[0].item())]
         
         confidence_scores = probabilities.squeeze().tolist()  # Convert to a list of confidence scores
 
@@ -97,7 +168,7 @@ class IntentModel:
                     total_count = len(questions)
 
                     for question in questions:
-                        predicted_intent = self.get_intent(question)
+                        predicted_intent, confidence_scores = self.get_intent(question)
                         correctly_predicted = (predicted_intent == correct_intent)
                         if correctly_predicted:
                             correct_count += 1

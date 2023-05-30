@@ -12,7 +12,16 @@
             "What is your privacy policy about?",
             "Can you give me a brief explanation of your privacy policy?",
             "What is the essence of your privacy policy?",
-            "What does your privacy policy entail?"
+            "What does your privacy policy entail?",
+            "Can I get a summary of the privacy statement?",
+            "Could you give me a summary of the privacy statement?",
+            "What are the most important things from your privacy statement?",
+            "What do I need to know about your privacy policy?",
+            "Can you tell me what your privacy policy is about?",
+            "What are the key notes from the privacy policy?",
+            "What is the privacy policy about?",
+            "Could you tell me the most important things from the privacy policy?",
+            "Where can I find the privacy policy?"
         ],
         "responses": [
             "What are the most important points of your privacy policy?"
@@ -37,14 +46,23 @@
         "train_questions": [
             "Is there an option to opt out of sharing my data with third parties?",
             "Can I choose not to have my data shared with third parties?",
-            "Do you provide a way to opt out of data sharing with third parties?",
+            "Do you provide a way to opt out of data sharing?",
             "Is it possible for me to prevent my data from being shared with third parties?",
-            "What are the options available for opting out of data sharing with third parties?",
+            "What are the options available for turning off data sharing with third parties?",
             "Can I control whether my data is shared with third parties or not?",
             "Do you offer an opt-out mechanism for data sharing with third parties?",
             "Is there a way for me to limit or stop the sharing of my data with third parties?",
             "Can I refuse consent for my data to be shared with third parties?",
-            "What steps can I take to prevent my data from being shared with third parties?"
+            "What steps can I take to prevent my data from being shared with third parties?",
+            "How can I disable data sharing?",
+            "Is it possible to turn off third party data sharing?",
+            "How can I prevent my data from being shared with third parties?",
+            "What are the steps to disabling data sharing?",
+            "Is there a way to turn off data sharing with third parties?",
+            "How do I disable third party sharing?",
+            "Can I revoke consent for data sharing with third parties?",
+            "How do I prevent my data from being shared with other companies?",
+            "Tell me how I can opt out of data sharing with third parties."
         ],
         "responses": [
             "Is it possible to opt out of data sharing, and if so, how do I do this?"
@@ -70,15 +88,25 @@
         "category": "privacy_policy",
         "train_questions": [
             "Do you share my personal information with third parties?",
-            "Who do you share my personal information with?",
+            "Who do you share my information with?",
             "Are there any third parties that have access to my personal information?",
-            "What third parties have access to my personal information?",
-            "What happens to my personal information after it is shared with a third party?",
+            "What third parties have access to my information?",
+            "What happens to my personal data after it is shared with a third party?",
             "How is my personal information protected when it is shared with third parties?",
-            "Can you explain the process of sharing my personal information with third parties?",
+            "Can you explain the process of sharing my personal data with third parties?",
             "What measures are in place to ensure the security of my personal information when shared with third parties?",
-            "Are the third parties that receive my personal information bound by confidentiality agreements?",
-            "Is my consent required before sharing my personal information with third parties?"
+            "Are the companies that receive my personal information bound by confidentiality agreements?",
+            "Is my consent required before sharing my personal data with third parties?",
+            "Are you sharing my data with third parties?",
+            "Do you share my information with other companies?",
+            "Can you tell me who else has access to my personal information?",
+            "What data of mine is shared with third parties?",
+            "What other companies can see my data?",
+            "Are there any other companies that have access to my personal data?",
+            "What are you doing to protect my personal data when sharing it with third parties?",
+            "Are you giving my personal data to other companies?",
+            "Is my information shared with third parties?",
+            "Which other companies have access to my personal information?"
         ],
         "responses": [
             "Do you share my personal information with third parties? If so, which parties and how is my personal information protected when it's shared with these third parties?"
@@ -112,7 +140,16 @@
             "How long do you retain the data you collect?",
             "Are there any specific categories of data that you prioritize collecting?",
             "Do you collect data automatically or only when provided by users?",
-            "Are there any third parties involved in the data collection process?"
+            "Are there any third parties involved in the data collection process?",
+            "Which information did you collect from me?",
+            "What information are you collection?",
+            "Are you collecting personal information from people?",
+            "How are you collecting my personal data?",
+            "Why are you collecting my information?",
+            "In what ways are you collecting my personal data?",
+            "What information do you collect from your users?",
+            "For how long do you keep the data that you store from users?",
+            "What data are you collecting from users?"
         ],
         "responses": [
             "Provide me with information about your privacy policy, including the possibility of opting out of data sharing, the details of information shared with third parties, and your data collection practices."
@@ -137,16 +174,26 @@
         "intent": "personal_information",
         "category": "privacy_policy",
         "train_questions": [
-            "How does the company use my personal information?",
-            "What does the company do with my personal information?",
-            "In what ways is my personal information used by the company?",
-            "What is the company's policy on using my personal information?",
-            "What kind of personal information does the company collect from me?",
-            "Can I choose how my personal information is used by the company?",
+            "How do you use my personal information?",
+            "What does iYYU do with my personal information?",
+            "In what ways is my personal information used by iYYU?",
+            "What is your policy on using my personal information?",
+            "What kind of personal information do you collect from me?",
+            "Can I choose how my personal information is used?",
             "Is my personal information used for any other purposes besides what I agreed to?",
-            "How long does the company retain my personal information?",
+            "How long does iYYU retain my personal information?",
             "Who within the company has access to my personal information?",
-            "What happens to my personal information if I stop using the company's services?"
+            "What happens to my personal information if I stop using the company's services?",
+            "What are you using my information for?",
+            "How are you using my personal information?",
+            "Are you using my data to improve your services?",
+            "What is your policy on using my personal data?",
+            "How long do you keep my personal data?",
+            "How are you using my data?",
+            "What happens to my personal data when I delete my account?",
+            "What kind of data are you collecting from me?",
+            "Is it possible to choose what my personal data is used for?",
+            "Does iYYU collect all my personal information?"
         ],
         "responses": [
             "What are the company's practices and policies regarding the use of my personal information, including the types of information collected, the options to control its usage, retention periods, access within the company, and the fate of my personal information if I discontinue using the company's services?"
@@ -170,16 +217,26 @@
             "How is my personal information stored and secured?",
             "What measures does the company take to protect my personal information?",
             "What kind of security protocols are in place for my personal information?",
-            "Who has access to my personal information?",
-            "How is my personal information encrypted?",
+            "How is my data encrypted?",
             "Where is my personal information stored?",
-            "What happens to my personal information if there is a security breach?",
             "How often is my personal information backed up?",
-            "How long is my personal information retained for?",
-            "Can I request that my personal information be deleted?"
+            "How are you securing my data?",
+            "How are you storing my personal information?",
+            "Is my information secured when I share it with iYYU?",
+            "Are you securely storing my personal data?",
+            "What actions did you take to make sure that my data is protected?",
+            "How are you protecting my data?",
+            "How can you make sure that my data is secure?",
+            "Is my personal information encrypted when it is stored?",
+            "How are you storing my information?",
+            "What security practices are in order regarding the storage of my personal data?",
+            "How can I be sure that my data is securely stored by iYYU?",
+            "Are you backing up my personal data?",
+            "How often are you making backups of my data?",
+            "Does iYYU keep a backup of my personal information?"
         ],
         "responses": [
-            "What are the company's practices and protocols concerning the storage, security, access, encryption, backup frequency, retention period, and deletion of my personal information? Additionally, what measures are in place to protect my personal information in the event of a security breach?"
+            "What are the company's practices and protocols concerning the storage, security, access, encryption, backup frequency, retention period of my personal information?"
         ],
         "test_questions": [
             "Is my personal data stored safely?",
@@ -214,7 +271,17 @@
             "How do I obtain access to my personal information?",
             "What is the procedure to request access to my personal information?",
             "How do I download my personal information?",
-            "What do I need to do to gain access to my personal information?"
+            "What do I need to do to gain access to my personal information?",
+            "Is it possible to view all the data that you have collected of me?",
+            "How can I download my personal data?",
+            "Can I request access to my personal data?",
+            "Am I allowed to view the data that you stored of me?",
+            "Can I get access to my personal information?",
+            "How do I request access to my data?",
+            "Could you tell me how I get access to my personal data?",
+            "How do I get access to my personal data?",
+            "Is it possible to download my personal information?",
+            "How can I request to see my personal data?"
         ],
         "responses": [
             "What is the procedure for requesting access to my personal information, and how can I go about obtaining access? Can you guide me through the steps and provide instructions on how to request and access my personal data?"
@@ -246,7 +313,17 @@
             "What is the procedure to delete my personal information?",
             "Can you guide me on how to delete my personal information?",
             "What do I need to do to erase my personal data?",
-            "How can I request the removal of my information?"
+            "How can I request the removal of my information?",
+            "Is it possible to delete my personal data?",
+            "How do I request my data to be deleted?",
+            "How can I request my information to be removed?",
+            "Can my data be removed?",
+            "Is it possible to remove my data?",
+            "Can you delete my data?",
+            "Can you explain the process of requesting data removal?",
+            "Is it possible to request a removal of my personal information?",
+            "Can you remove my personal information?",
+            "Is it possible that you remove my personal data?"
         ],
         "responses": [
             "What is the process for deleting my personal information, and how can I go about requesting its removal? Can you guide me through the steps and provide instructions on how to delete and erase my personal data?"
@@ -271,16 +348,26 @@
         "intent": "cookie_policy",
         "category": "privacy_policy",
         "train_questions": [
-            "What is the policy regarding cookies at this company?",
-            "Can you explain the company's policy on cookies?",
-            "What are the company's guidelines for cookies?",
-            "How does the company handle cookies?",
-            "Can you tell me about the company's cookie policies?",
-            "What is the official policy on cookies for the company?",
-            "What are the rules around cookies for this company?",
-            "What are the regulations for cookies at this company?",
+            "What is the policy regarding cookies?",
+            "Can you explain your policy on cookies?",
+            "What are the guidelines for cookies?",
+            "How does the iYYU handle cookies?",
+            "Can you tell me about the cookie policies?",
+            "What is the official policy on cookies?",
+            "What are the rules around cookies?",
+            "What are the regulations for cookies?",
             "What are the company's protocols for handling cookies?",
-            "Can you provide information on the company's cookie policies?"
+            "Can you provide information on the company's cookie policies?",
+            "What type of cookies do you collect?",
+            "What is the purpose of collecting cookies on your website?",
+            "For how long are you storing the cookies?",
+            "Is it possible to disable cookies for your website?",
+            "How do you ensure the security of the collected cookies?",
+            "What is your policy on collecting cookies?",
+            "How are you handling cookies?",
+            "What are your rules on cookies?",
+            "Can you tell me about the cookies that you collect?",
+            "Why are you collecting cookies?"
         ],
         "responses": [
             "What is the company's policy regarding cookies, and how does the company handle them? Can you provide information on the company's guidelines, rules, regulations, and protocols for handling cookies?"
@@ -314,7 +401,17 @@
             "Are there any rules around updating the privacy policy?",
             "What is the timeline for updating the privacy policy?",
             "Can you provide information on the update frequency for the privacy policy?",
-            "What are the guidelines for updating the privacy policy?"
+            "What are the guidelines for updating the privacy policy?",
+            "How often do you review and update your privacy policy?",
+            "Do you keep a history of previous privacy policies?",
+            "Do you have a schedule or timeline for updating the privacy policy?",
+            "Are you regularly reviewing the privacy statement?",
+            "Do I get notified when the privacy policy gets updated",
+            "Are you letting your users know when the privacy policy was updated?",
+            "How frequently do you update the privacy policy?",
+            "How often is the privacy policy getting updated?",
+            "How do you communicate privacy policy updated to your users or customers?",
+            "What would cause the privacy policy to be reviewed or updated?"
         ],
         "responses": [
             "What is the company's policy or schedule for updating the privacy policy? How often is the privacy policy reviewed and updated? Are there specific guidelines or rules in place for updating the privacy policy? Please provide information on the frequency and timeline for updates to the privacy policy."
@@ -343,14 +440,24 @@
         "train_questions": [
             "What is the minimum age requirement for using the company's services?",
             "What is the age limit for using the company's services?",
-            "Is there a minimum age requirement to use the company's services?",
-            "What is the company's policy on age requirements?",
-            "How old do you have to be to use the company's services?",
-            "Are there any age restrictions for using the company's services?",
-            "What is the company's policy on age restrictions?",
-            "Is there an age limit for accessing the company's services?",
-            "What is the minimum age to use the company's services?",
-            "What are the rules regarding the age limit for using the company's services?"
+            "Is there a minimum age requirement to use iYYU?",
+            "What is your policy on age requirements?",
+            "How old do you have to be to use the services?",
+            "Are there any age restrictions for using the services?",
+            "What is the policy on age restrictions?",
+            "Is there an age limit for accessing the platform?",
+            "What is the minimum age to use iYYU's services?",
+            "What are the rules regarding the age limit for using the company's services?",
+            "How old do I have to be to use the app?",
+            "Are there any age restrictions?",
+            "Is there a minimum age to sign up?",
+            "How old you have to be to use the platform?",
+            "Am I old enough to use the platform?",
+            "Can you tell me if I'm old enough to use the services?",
+            "What are the rules regarding age for the platform?",
+            "Are there any age restrictions for using the services?",
+            "Is there a specific minimum age to use the platform?",
+            "Is there a minimum age to use the service?"
         ],
         "responses": [
             "What is the company's policy on the minimum age requirement for using its services? Are there any age restrictions or limits in place? Can you provide information on the age requirements, rules, and policies regarding the usage of the company's services?"
