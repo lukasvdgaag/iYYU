@@ -24,7 +24,7 @@
             "Where can I find the privacy policy?"
         ],
         "responses": [
-            "What are the most important points of your privacy policy?"
+            "Give me a summary of the privacy statement."
         ],
         "test_questions": [
             "can you tell me the most important things from the privacy policy?",
@@ -142,7 +142,7 @@
             "Do you collect data automatically or only when provided by users?",
             "Are there any third parties involved in the data collection process?",
             "Which information did you collect from me?",
-            "What information are you collection?",
+            "What information are you collecting?",
             "Are you collecting personal information from people?",
             "How are you collecting my personal data?",
             "Why are you collecting my information?",

@@ -3,7 +3,8 @@
 
 intent_recognition.pt
 processed/*
-tests/evaluation_results.json
+
+evaluation_results.json
 
 # Not saving the model 
 *.pth

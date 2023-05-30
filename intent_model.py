@@ -17,7 +17,7 @@ class IntentModel:
 
         self.model = torch.load("trained_bert.pth") if os.path.exists("trained_bert.pth") else self.train_model()
 
-    def train_model(self, num_epochs=10, learning_rate=0.005):
+    def train_model(self, num_epochs=15, learning_rate=0.0005):
         # Set a random seed for the models random number generator to ensure reproducibility
         torch.manual_seed(42)
 
