@@ -1,5 +1,6 @@
 import json
 
+import gradio as gr
 
 class Settings:
     def __init__(self):
@@ -81,16 +82,51 @@ class Settings:
             json.dump(data, file)
 
 
-    
+
     def estimate_user_security_level():
+
         '''
         Set up this function to ask the user a bunch of questions, and then based on the answers choose a secutiry level that suits them
         then use the above pre-defined user profile security levels to set their security settings
         since this will be a rule based approach it should just be a bunch of if statements and use the gradio chat to communicate with the user
         '''
         
-        
+# Ask questions to determine the user's security level
+    print("Welcome! Let's estimate your security level.")
+    print("Please answer the following questions:")
 
+    # Initialize user's security level as None
+    user_security_level = None
+
+    # Ask questions and update user's security level based on answers
+    question_1 = gr_inputs.Radio(["Yes", "No"], label="Do you frequently access sensitive information?")
+    question_2 = gr_inputs.Radio(["Yes", "No"], label="Do you often use public networks or unsecured Wi-Fi?")
+    question_3 = gr_inputs.Radio(["Yes", "No"], label="Do you share your passwords with anyone")
+    question_4 = gr_inputs.Radio(["Yes", "No"], label="Do you enable two-factor authentication for your accounts?")
+    question_5 = gr_inputs.Radio(["Yes", "No"], label="Do you use strong and unique passwords for your accounts?")
+
+    questions = [question_1, question_2, question_3, question_4, question_5]
+
+    answers = gr.Interface(inputs=questions, outputs="text").run()
+
+    if answers["question_1"] == "Yes":
+        user_security_level = "high_security"
+    elif answers["question_2"] == "Yes":
+        user_security_level = "medium_security"
+    elif answers["question_3"] == "Yes":
+        user_security_level = "medium_security"
+    elif answers["question_4"] == "Yes":
+        user_security_level = "medium_security"
+    elif answers["question_5"] == "Yes":
+        user_security_level = "low_security"
+    else:
+        user_security_level = "low_security"
+
+    # Update user's security level in the settings
+    settings = Settings()
+    settings.update_user_setting(settings.current_user, "security_level", user_security_level)
+    
+    
     # def set_user_calling_card_visibility(user_id, second_user_id):
     #     None
     #     with open('user_profiles.json', 'r') as file:
