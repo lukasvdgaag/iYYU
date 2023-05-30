@@ -270,8 +270,8 @@
                 },
                 {
                     "question": "What steps should I take to ensure that my data is not shared with any third-party companies by iYYU?",
-                    "predicted_intent": "data_sharing_opt_out",
-                    "intent_correctly_predicted": true
+                    "predicted_intent": "third_parties",
+                    "intent_correctly_predicted": false
                 }
             ],
             "test_questions_advanced": [
@@ -297,14 +297,14 @@
                 },
                 {
                     "question": "What steps should I take to ensure that my data is not shared with any third-party companies by iYYU?",
-                    "predicted_intent": "data_sharing_opt_out",
-                    "intent_correctly_predicted": true
+                    "predicted_intent": "third_parties",
+                    "intent_correctly_predicted": false
                 }
             ],
             "train_questions_results": "19 out of 19 correct",
-            "test_questions_results": "4 out of 5 correct",
-            "test_questions_advanced_results": "4 out of 5 correct",
-            "total_correctness": 93.1
+            "test_questions_results": "3 out of 5 correct",
+            "test_questions_advanced_results": "3 out of 5 correct",
+            "total_correctness": 86.21
         },
         {
             "correct_intent": "third_parties",
@@ -423,8 +423,8 @@
                 },
                 {
                     "question": "How does iYYU ensure the security and confidentiality of user data when sharing it with third parties?",
-                    "predicted_intent": "data_sharing_opt_out",
-                    "intent_correctly_predicted": false
+                    "predicted_intent": "third_parties",
+                    "intent_correctly_predicted": true
                 },
                 {
                     "question": "How does iYYU select and evaluate the third-party companies it shares data with?",
@@ -450,8 +450,8 @@
                 },
                 {
                     "question": "How does iYYU ensure the security and confidentiality of user data when sharing it with third parties?",
-                    "predicted_intent": "data_sharing_opt_out",
-                    "intent_correctly_predicted": false
+                    "predicted_intent": "third_parties",
+                    "intent_correctly_predicted": true
                 },
                 {
                     "question": "How does iYYU select and evaluate the third-party companies it shares data with?",
@@ -465,9 +465,9 @@
                 }
             ],
             "train_questions_results": "20 out of 20 correct",
-            "test_questions_results": "4 out of 5 correct",
-            "test_questions_advanced_results": "4 out of 5 correct",
-            "total_correctness": 93.33
+            "test_questions_results": "5 out of 5 correct",
+            "test_questions_advanced_results": "5 out of 5 correct",
+            "total_correctness": 100.0
         },
         {
             "correct_intent": "data_collection",
@@ -581,8 +581,8 @@
                 },
                 {
                     "question": "What kind of user data do you save",
-                    "predicted_intent": "data_collection",
-                    "intent_correctly_predicted": true
+                    "predicted_intent": "summarization_legal_statement",
+                    "intent_correctly_predicted": false
                 },
                 {
                     "question": "do you collect any kind of user information?",
@@ -608,8 +608,8 @@
                 },
                 {
                     "question": "What kind of user data do you save",
-                    "predicted_intent": "data_collection",
-                    "intent_correctly_predicted": true
+                    "predicted_intent": "summarization_legal_statement",
+                    "intent_correctly_predicted": false
                 },
                 {
                     "question": "do you collect any kind of user information?",
@@ -623,9 +623,9 @@
                 }
             ],
             "train_questions_results": "18 out of 19 correct",
-            "test_questions_results": "4 out of 5 correct",
-            "test_questions_advanced_results": "4 out of 5 correct",
-            "total_correctness": 89.66
+            "test_questions_results": "3 out of 5 correct",
+            "test_questions_advanced_results": "3 out of 5 correct",
+            "total_correctness": 82.76
         },
         {
             "correct_intent": "personal_information",
@@ -672,8 +672,8 @@
                 },
                 {
                     "question": "Who within the company has access to my personal information?",
-                    "predicted_intent": "third_parties",
-                    "intent_correctly_predicted": false
+                    "predicted_intent": "personal_information",
+                    "intent_correctly_predicted": true
                 },
                 {
                     "question": "What happens to my personal information if I stop using the company's services?",
@@ -744,8 +744,8 @@
                 },
                 {
                     "question": "Do I have control of how iYYU uses my personal data?",
-                    "predicted_intent": "personal_information",
-                    "intent_correctly_predicted": true
+                    "predicted_intent": "access_personal_data",
+                    "intent_correctly_predicted": false
                 }
             ],
             "test_questions_advanced": [
@@ -761,14 +761,14 @@
                 },
                 {
                     "question": "Do I have control of how iYYU uses my personal data?",
-                    "predicted_intent": "personal_information",
-                    "intent_correctly_predicted": true
+                    "predicted_intent": "access_personal_data",
+                    "intent_correctly_predicted": false
                 }
             ],
-            "train_questions_results": "18 out of 20 correct",
-            "test_questions_results": "3 out of 3 correct",
-            "test_questions_advanced_results": "3 out of 3 correct",
-            "total_correctness": 92.31
+            "train_questions_results": "19 out of 20 correct",
+            "test_questions_results": "2 out of 3 correct",
+            "test_questions_advanced_results": "2 out of 3 correct",
+            "total_correctness": 88.46
         },
         {
             "correct_intent": "data_storage",
@@ -785,8 +785,8 @@
                 },
                 {
                     "question": "What kind of security protocols are in place for my personal information?",
-                    "predicted_intent": "data_storage",
-                    "intent_correctly_predicted": true
+                    "predicted_intent": "personal_information",
+                    "intent_correctly_predicted": false
                 },
                 {
                     "question": "How is my data encrypted?",
@@ -948,10 +948,10 @@
                     "intent_correctly_predicted": true
                 }
             ],
-            "train_questions_results": "20 out of 20 correct",
+            "train_questions_results": "19 out of 20 correct",
             "test_questions_results": "5 out of 7 correct",
             "test_questions_advanced_results": "5 out of 7 correct",
-            "total_correctness": 88.24
+            "total_correctness": 85.29
         },
         {
             "correct_intent": "access_personal_data",
@@ -1075,8 +1075,8 @@
                 },
                 {
                     "question": "Give me a list of my personal data",
-                    "predicted_intent": "access_personal_data",
-                    "intent_correctly_predicted": true
+                    "predicted_intent": "personal_information",
+                    "intent_correctly_predicted": false
                 }
             ],
             "test_questions_advanced": [
@@ -1097,14 +1097,14 @@
                 },
                 {
                     "question": "Give me a list of my personal data",
-                    "predicted_intent": "access_personal_data",
-                    "intent_correctly_predicted": true
+                    "predicted_intent": "personal_information",
+                    "intent_correctly_predicted": false
                 }
             ],
             "train_questions_results": "20 out of 20 correct",
-            "test_questions_results": "4 out of 4 correct",
-            "test_questions_advanced_results": "4 out of 4 correct",
-            "total_correctness": 100.0
+            "test_questions_results": "3 out of 4 correct",
+            "test_questions_advanced_results": "3 out of 4 correct",
+            "total_correctness": 92.86
         },
         {
             "correct_intent": "delete_personal_information",
@@ -1492,8 +1492,8 @@
                 },
                 {
                     "question": "Do you keep a history of previous privacy policies?",
-                    "predicted_intent": "privacy_policy_updates",
-                    "intent_correctly_predicted": true
+                    "predicted_intent": "summarization_privacy_policy",
+                    "intent_correctly_predicted": false
                 },
                 {
                     "question": "Do you have a schedule or timeline for updating the privacy policy?",
@@ -1600,10 +1600,10 @@
                     "intent_correctly_predicted": true
                 }
             ],
-            "train_questions_results": "20 out of 20 correct",
+            "train_questions_results": "19 out of 20 correct",
             "test_questions_results": "6 out of 6 correct",
             "test_questions_advanced_results": "6 out of 6 correct",
-            "total_correctness": 100.0
+            "total_correctness": 96.88
         },
         {
             "correct_intent": "minimum_age",
@@ -2231,8 +2231,8 @@
             "test_questions": [
                 {
                     "question": "Where can I access and read the platform's legal legal terms?",
-                    "predicted_intent": "legal_statement_information",
-                    "intent_correctly_predicted": true
+                    "predicted_intent": "use_restrictions_legal_statement",
+                    "intent_correctly_predicted": false
                 },
                 {
                     "question": "What are the key provisions or sections covered in the platform's legal legal terms?",
@@ -2266,7 +2266,7 @@
                 },
                 {
                     "question": "Is there any support or assistance available if I have difficulty understanding the platform's legal terms?",
-                    "predicted_intent": "use_restrictions_legal_statement",
+                    "predicted_intent": "contact_privacy_concerns",
                     "intent_correctly_predicted": false
                 }
             ],
@@ -2308,14 +2308,14 @@
                 },
                 {
                     "question": "Is there any support or assistance available if I have difficulty understanding the platform's legal terms?",
-                    "predicted_intent": "use_restrictions_legal_statement",
+                    "predicted_intent": "contact_privacy_concerns",
                     "intent_correctly_predicted": false
                 }
             ],
             "train_questions_results": "20 out of 20 correct",
-            "test_questions_results": "1 out of 8 correct",
+            "test_questions_results": "0 out of 8 correct",
             "test_questions_advanced_results": "0 out of 8 correct",
-            "total_correctness": 58.33
+            "total_correctness": 55.56
         },
         {
             "correct_intent": "summarization_legal_statement",
@@ -3161,9 +3161,225 @@
             "test_questions_results": "6 out of 6 correct",
             "test_questions_advanced_results": "6 out of 6 correct",
             "total_correctness": 100.0
+        },
+        {
+            "correct_intent": "thanks_response",
+            "train_questions": [
+                {
+                    "question": "Thank you!",
+                    "predicted_intent": "thanks_response",
+                    "intent_correctly_predicted": true
+                },
+                {
+                    "question": "Thanks a lot!",
+                    "predicted_intent": "thanks_response",
+                    "intent_correctly_predicted": true
+                },
+                {
+                    "question": "Appreciate it!",
+                    "predicted_intent": "thanks_response",
+                    "intent_correctly_predicted": true
+                },
+                {
+                    "question": "I'm grateful!",
+                    "predicted_intent": "thanks_response",
+                    "intent_correctly_predicted": true
+                },
+                {
+                    "question": "Many thanks!",
+                    "predicted_intent": "thanks_response",
+                    "intent_correctly_predicted": true
+                },
+                {
+                    "question": "Thank you so much!",
+                    "predicted_intent": "thanks_response",
+                    "intent_correctly_predicted": true
+                },
+                {
+                    "question": "Thank you very much!",
+                    "predicted_intent": "thanks_response",
+                    "intent_correctly_predicted": true
+                },
+                {
+                    "question": "My thanks",
+                    "predicted_intent": "thanks_response",
+                    "intent_correctly_predicted": true
+                },
+                {
+                    "question": "Thanks for your help",
+                    "predicted_intent": "thanks_response",
+                    "intent_correctly_predicted": true
+                },
+                {
+                    "question": "Thanks for your assistance",
+                    "predicted_intent": "thanks_response",
+                    "intent_correctly_predicted": true
+                }
+            ],
+            "test_questions": [
+                {
+                    "question": "thanks but",
+                    "predicted_intent": "thanks_response",
+                    "intent_correctly_predicted": true
+                },
+                {
+                    "question": "I understand now",
+                    "predicted_intent": "thanks_response",
+                    "intent_correctly_predicted": true
+                },
+                {
+                    "question": "thanks",
+                    "predicted_intent": "thanks_response",
+                    "intent_correctly_predicted": true
+                },
+                {
+                    "question": "I appreciate it",
+                    "predicted_intent": "thanks_response",
+                    "intent_correctly_predicted": true
+                },
+                {
+                    "question": "Thank you for the information",
+                    "predicted_intent": "thanks_response",
+                    "intent_correctly_predicted": true
+                }
+            ],
+            "test_questions_advanced": [
+                {
+                    "question": "thanks but",
+                    "predicted_intent": "thanks_response",
+                    "intent_correctly_predicted": true
+                },
+                {
+                    "question": "I understand now",
+                    "predicted_intent": "thanks_response",
+                    "intent_correctly_predicted": true
+                },
+                {
+                    "question": "thanks",
+                    "predicted_intent": "thanks_response",
+                    "intent_correctly_predicted": true
+                },
+                {
+                    "question": "I appreciate it",
+                    "predicted_intent": "thanks_response",
+                    "intent_correctly_predicted": true
+                },
+                {
+                    "question": "Thank you for the information",
+                    "predicted_intent": "thanks_response",
+                    "intent_correctly_predicted": true
+                }
+            ],
+            "train_questions_results": "10 out of 10 correct",
+            "test_questions_results": "5 out of 5 correct",
+            "test_questions_advanced_results": "5 out of 5 correct",
+            "total_correctness": 100.0
+        },
+        {
+            "correct_intent": "hello_response",
+            "train_questions": [
+                {
+                    "question": "Hello!",
+                    "predicted_intent": "hello_response",
+                    "intent_correctly_predicted": true
+                },
+                {
+                    "question": "Hi there!",
+                    "predicted_intent": "hello_response",
+                    "intent_correctly_predicted": true
+                },
+                {
+                    "question": "Hey!",
+                    "predicted_intent": "hello_response",
+                    "intent_correctly_predicted": true
+                },
+                {
+                    "question": "Good morning!",
+                    "predicted_intent": "hello_response",
+                    "intent_correctly_predicted": true
+                },
+                {
+                    "question": "Good afternoon!",
+                    "predicted_intent": "hello_response",
+                    "intent_correctly_predicted": true
+                },
+                {
+                    "question": "Good evening!",
+                    "predicted_intent": "hello_response",
+                    "intent_correctly_predicted": true
+                },
+                {
+                    "question": "Greetings",
+                    "predicted_intent": "hello_response",
+                    "intent_correctly_predicted": true
+                },
+                {
+                    "question": "Howdy",
+                    "predicted_intent": "hello_response",
+                    "intent_correctly_predicted": true
+                },
+                {
+                    "question": "Whats up",
+                    "predicted_intent": "hello_response",
+                    "intent_correctly_predicted": true
+                },
+                {
+                    "question": "Hey, I have a question",
+                    "predicted_intent": "hello_response",
+                    "intent_correctly_predicted": true
+                }
+            ],
+            "test_questions": [
+                {
+                    "question": "What's up",
+                    "predicted_intent": "hello_response",
+                    "intent_correctly_predicted": true
+                },
+                {
+                    "question": "hey, I have a question",
+                    "predicted_intent": "hello_response",
+                    "intent_correctly_predicted": true
+                },
+                {
+                    "question": "What's up",
+                    "predicted_intent": "hello_response",
+                    "intent_correctly_predicted": true
+                },
+                {
+                    "question": "I have a question",
+                    "predicted_intent": "hello_response",
+                    "intent_correctly_predicted": true
+                }
+            ],
+            "test_questions_advanced": [
+                {
+                    "question": "What's up",
+                    "predicted_intent": "hello_response",
+                    "intent_correctly_predicted": true
+                },
+                {
+                    "question": "hey, I have a question",
+                    "predicted_intent": "hello_response",
+                    "intent_correctly_predicted": true
+                },
+                {
+                    "question": "What's up",
+                    "predicted_intent": "hello_response",
+                    "intent_correctly_predicted": true
+                },
+                {
+                    "question": "I have a question",
+                    "predicted_intent": "hello_response",
+                    "intent_correctly_predicted": true
+                }
+            ],
+            "train_questions_results": "10 out of 10 correct",
+            "test_questions_results": "4 out of 4 correct",
+            "test_questions_advanced_results": "4 out of 4 correct",
+            "total_correctness": 100.0
         }
     ],
-    "total_correct_counts": 555,
-    "total_counts": 583,
-    "total_correctness": 95.2
+    "total_correct_counts": 585,
+    "total_counts": 621,
+    "total_correctness": 94.2
 }
