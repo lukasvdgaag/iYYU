@@ -423,8 +423,8 @@
                 },
                 {
                     "question": "How does iYYU ensure the security and confidentiality of user data when sharing it with third parties?",
-                    "predicted_intent": "third_parties",
-                    "intent_correctly_predicted": true
+                    "predicted_intent": "data_sharing_opt_out",
+                    "intent_correctly_predicted": false
                 },
                 {
                     "question": "How does iYYU select and evaluate the third-party companies it shares data with?",
@@ -450,8 +450,8 @@
                 },
                 {
                     "question": "How does iYYU ensure the security and confidentiality of user data when sharing it with third parties?",
-                    "predicted_intent": "third_parties",
-                    "intent_correctly_predicted": true
+                    "predicted_intent": "data_sharing_opt_out",
+                    "intent_correctly_predicted": false
                 },
                 {
                     "question": "How does iYYU select and evaluate the third-party companies it shares data with?",
@@ -465,9 +465,9 @@
                 }
             ],
             "train_questions_results": "20 out of 20 correct",
-            "test_questions_results": "5 out of 5 correct",
-            "test_questions_advanced_results": "5 out of 5 correct",
-            "total_correctness": 100.0
+            "test_questions_results": "4 out of 5 correct",
+            "test_questions_advanced_results": "4 out of 5 correct",
+            "total_correctness": 93.33
         },
         {
             "correct_intent": "data_collection",
@@ -524,8 +524,8 @@
                 },
                 {
                     "question": "Which information did you collect from me?",
-                    "predicted_intent": "data_collection",
-                    "intent_correctly_predicted": true
+                    "predicted_intent": "personal_information",
+                    "intent_correctly_predicted": false
                 },
                 {
                     "question": "What information are you collection?",
@@ -571,8 +571,8 @@
             "test_questions": [
                 {
                     "question": "What kind of data did you collect from me?",
-                    "predicted_intent": "data_collection",
-                    "intent_correctly_predicted": true
+                    "predicted_intent": "personal_information",
+                    "intent_correctly_predicted": false
                 },
                 {
                     "question": "Do you collect data from users?",
@@ -598,8 +598,8 @@
             "test_questions_advanced": [
                 {
                     "question": "What kind of data did you collect from me?",
-                    "predicted_intent": "data_collection",
-                    "intent_correctly_predicted": true
+                    "predicted_intent": "personal_information",
+                    "intent_correctly_predicted": false
                 },
                 {
                     "question": "Do you collect data from users?",
@@ -622,10 +622,10 @@
                     "intent_correctly_predicted": true
                 }
             ],
-            "train_questions_results": "19 out of 19 correct",
-            "test_questions_results": "5 out of 5 correct",
-            "test_questions_advanced_results": "5 out of 5 correct",
-            "total_correctness": 100.0
+            "train_questions_results": "18 out of 19 correct",
+            "test_questions_results": "4 out of 5 correct",
+            "test_questions_advanced_results": "4 out of 5 correct",
+            "total_correctness": 89.66
         },
         {
             "correct_intent": "personal_information",
@@ -652,8 +652,8 @@
                 },
                 {
                     "question": "What kind of personal information do you collect from me?",
-                    "predicted_intent": "data_collection",
-                    "intent_correctly_predicted": false
+                    "predicted_intent": "personal_information",
+                    "intent_correctly_predicted": true
                 },
                 {
                     "question": "Can I choose how my personal information is used?",
@@ -712,13 +712,13 @@
                 },
                 {
                     "question": "What happens to my personal data when I delete my account?",
-                    "predicted_intent": "access_personal_data",
+                    "predicted_intent": "delete_personal_information",
                     "intent_correctly_predicted": false
                 },
                 {
                     "question": "What kind of data are you collecting from me?",
-                    "predicted_intent": "data_collection",
-                    "intent_correctly_predicted": false
+                    "predicted_intent": "personal_information",
+                    "intent_correctly_predicted": true
                 },
                 {
                     "question": "Is it possible to choose what my personal data is used for?",
@@ -739,8 +739,8 @@
                 },
                 {
                     "question": "Does iYYU save all my personal information?",
-                    "predicted_intent": "data_storage",
-                    "intent_correctly_predicted": false
+                    "predicted_intent": "personal_information",
+                    "intent_correctly_predicted": true
                 },
                 {
                     "question": "Do I have control of how iYYU uses my personal data?",
@@ -756,8 +756,8 @@
                 },
                 {
                     "question": "Does iYYU save all my personal information?",
-                    "predicted_intent": "data_storage",
-                    "intent_correctly_predicted": false
+                    "predicted_intent": "personal_information",
+                    "intent_correctly_predicted": true
                 },
                 {
                     "question": "Do I have control of how iYYU uses my personal data?",
@@ -765,10 +765,10 @@
                     "intent_correctly_predicted": true
                 }
             ],
-            "train_questions_results": "16 out of 20 correct",
-            "test_questions_results": "2 out of 3 correct",
-            "test_questions_advanced_results": "2 out of 3 correct",
-            "total_correctness": 76.92
+            "train_questions_results": "18 out of 20 correct",
+            "test_questions_results": "3 out of 3 correct",
+            "test_questions_advanced_results": "3 out of 3 correct",
+            "total_correctness": 92.31
         },
         {
             "correct_intent": "data_storage",
@@ -2231,8 +2231,8 @@
             "test_questions": [
                 {
                     "question": "Where can I access and read the platform's legal legal terms?",
-                    "predicted_intent": "use_restrictions_legal_statement",
-                    "intent_correctly_predicted": false
+                    "predicted_intent": "legal_statement_information",
+                    "intent_correctly_predicted": true
                 },
                 {
                     "question": "What are the key provisions or sections covered in the platform's legal legal terms?",
@@ -2313,9 +2313,9 @@
                 }
             ],
             "train_questions_results": "20 out of 20 correct",
-            "test_questions_results": "0 out of 8 correct",
+            "test_questions_results": "1 out of 8 correct",
             "test_questions_advanced_results": "0 out of 8 correct",
-            "total_correctness": 55.56
+            "total_correctness": 58.33
         },
         {
             "correct_intent": "summarization_legal_statement",
@@ -2592,8 +2592,8 @@
                 },
                 {
                     "question": "What are the rules?",
-                    "predicted_intent": "cookie_policy",
-                    "intent_correctly_predicted": false
+                    "predicted_intent": "use_restrictions_legal_statement",
+                    "intent_correctly_predicted": true
                 },
                 {
                     "question": "Are there any limiations when using the services?",
@@ -2619,8 +2619,8 @@
                 },
                 {
                     "question": "What are the rules?",
-                    "predicted_intent": "cookie_policy",
-                    "intent_correctly_predicted": false
+                    "predicted_intent": "use_restrictions_legal_statement",
+                    "intent_correctly_predicted": true
                 },
                 {
                     "question": "Are there any limiations when using the services?",
@@ -2639,9 +2639,9 @@
                 }
             ],
             "train_questions_results": "20 out of 20 correct",
-            "test_questions_results": "4 out of 5 correct",
-            "test_questions_advanced_results": "4 out of 5 correct",
-            "total_correctness": 93.33
+            "test_questions_results": "5 out of 5 correct",
+            "test_questions_advanced_results": "5 out of 5 correct",
+            "total_correctness": 100.0
         },
         {
             "correct_intent": "transfer_legal_statement",
@@ -3163,7 +3163,7 @@
             "total_correctness": 100.0
         }
     ],
-    "total_correct_counts": 553,
+    "total_correct_counts": 555,
     "total_counts": 583,
-    "total_correctness": 94.85
+    "total_correctness": 95.2
 }
