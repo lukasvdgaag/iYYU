@@ -691,6 +691,20 @@
             "What is not possible to do on the platform of service?",
             "Can you show me what is illegal on the platform of service"
         ],
+        "test_questions": [
+            "Can I abuse your platform?",
+            "What are the rules?",
+            "Are there any limiations when using the services?",
+            "Am I allowed to do illegal things on your platform?",
+            "Are there any restrictions on the platform?"
+        ],
+        "test_questions_advanced": [
+            "Can I abuse your platform?",
+            "What are the rules?",
+            "Are there any limiations when using the services?",
+            "Am I allowed to do illegal things on your platform?",
+            "Are there any restrictions on the platform?"
+        ],
         "responses": [
             "What are the terms, conditions, rules, restrictions, limitations, usage restrictions, prohibitions, and guidelines outlined in the legal agreement for using the platform or service?"
         ],
