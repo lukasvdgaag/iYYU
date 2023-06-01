@@ -16,20 +16,15 @@ class Settings:
     def load_user_data(self):
         with open('user_profiles.json', 'r') as file:
             user_profiles = json.load(file)
-
-        self.user_profiles = user_profiles
+        self.user_profiles = {user['user_id']: user for user in user_profiles}
 
     def load_security_levels(self):
         with open('user_security_levels.json', 'r') as file:
             user_security_levels = json.load(file)
-
-        # Accessing the values
         self.low_security = user_security_levels['low_security']
         self.medium_security = user_security_levels['medium_security']
         self.high_security = user_security_levels['high_security']
-
-
-
+        
     
 
     def update_user_setting(self, user_id, setting_name, setting_state):
@@ -83,7 +78,7 @@ class Settings:
 
 
 
-    def estimate_user_security_level():
+    def estimate_user_security_level(self):
 
         '''
         Set up this function to ask the user a bunch of questions, and then based on the answers choose a secutiry level that suits them
@@ -91,7 +86,39 @@ class Settings:
         since this will be a rule based approach it should just be a bunch of if statements and use the gradio chat to communicate with the user
         '''
         
+    def estimate_user_security_level(self):
+        questions = [
+            "Do you want your profile to be visible to all users?",
+            "Do you want all your personal information to be visible to friends?",
+            "Do you want your account to be invisible for all users?"
+        ]
+        points = 0
 
+        for question in questions:
+            response = input(question + " (yes/no): ")
+            if response.lower() == "yes":
+                break
+            else:
+                points += 1
+
+        user_id = 0  # Change this based on the user's ID
+        self.current_user = self.user_profiles.get(user_id)
+        if self.current_user:
+            if points <= 1:
+                new_security_level = self.low_security
+            elif points == 2:
+                new_security_level = self.medium_security
+            else:
+                new_security_level = self.high_security
+
+            self.current_user['user_security_level'] = new_security_level
+
+            with open('user_profiles.json', 'w') as file:
+                json.dump(list(self.user_profiles.values()), file)
+
+            return "User security level updated to: " + new_security_level
+        else:
+            return "User not found in user profiles."
     
     
     # def set_user_calling_card_visibility(user_id, second_user_id):
