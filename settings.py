@@ -88,16 +88,16 @@ class Settings:
         
     def estimate_user_security_level(self):
         questions = [
-            "Do you want your profile to be visible to all users?",
-            "Do you want all your personal information to be visible to friends?",
-            "Do you want your account to be invisible for all users?"
+            "Do you want your profile to be published?",
+            "Do you want other users to be able to connect with you?",
+            "Do you want your account to be visible for search?"
         ]
         points = 0
 
         for question in questions:
             response = input(question + " (yes/no): ")
             if response.lower() == "yes":
-                break
+                points += 0
             else:
                 points += 1
 
