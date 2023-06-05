@@ -1,8 +1,8 @@
 .idea/
 .env
 
-intent_recognition.pt
-processed/*
+src/trained_models/**/*
+!src/trained_models/*/
 
 evaluation_results.json
 

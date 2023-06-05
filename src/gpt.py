@@ -29,16 +29,16 @@ class GPT:
         return serie
 
     def should_recreate_embeddings(self):
-        return not os.path.exists("processed/embeddings.csv") or not os.path.exists("processed/scraped.csv")
+        return not os.path.exists("trained_models/gpt/embeddings.csv") or not os.path.exists("trained_models/gpt/scraped.csv")
 
     def load_files(self):
         # Create a list to store the text files
         texts = []
 
         # Get all the text files in the text directory
-        for file in os.listdir("text/"):
+        for file in os.listdir("training_data/gpt/"):
             # Open the file and read the text
-            with open("text/" + file, "r") as f:
+            with open("training_data/gpt/" + file, "r") as f:
                 text = f.read()
 
                 texts.append((file, text))
@@ -48,19 +48,19 @@ class GPT:
 
         # Set the text column to be the raw text with the newlines removed
         self.df['text'] = self.remove_newlines(self.df.text)
-        self.df.to_csv('processed/scraped.csv')
+        self.df.to_csv('trained_models/gpt/scraped.csv')
 
     def data_preprocessing(self):
         # De embeddings inladen als we deze al hebben berekend.
         if not self.should_recreate_embeddings():
-            self.df = pd.read_csv('processed/embeddings.csv')
+            self.df = pd.read_csv('trained_models/gpt/embeddings.csv')
             self.df['embeddings'] = self.df['embeddings'].apply(ast.literal_eval)
             return
 
         # De cl100k_base tokenizer inladen, die is ontworpen om te werken met het ada-002 model.
         tokenizer = tiktoken.get_encoding("cl100k_base")
 
-        self.df = pd.read_csv('processed/scraped.csv', index_col=0)
+        self.df = pd.read_csv('trained_models/gpt/scraped.csv', index_col=0)
         self.df.columns = ['title', 'text']
 
         # Een nieuwe kolom genaamd 'n_tokens' toevoegen aan de dataframe, die de lengte van de tokenized text bevat.
@@ -126,7 +126,7 @@ class GPT:
 
         self.df['embeddings'] = self.df.text.apply(
             lambda x: openai.Embedding.create(input=x, engine='text-embedding-ada-002')['data'][0]['embedding'])
-        self.df.to_csv('processed/embeddings.csv')
+        self.df.to_csv('trained_models/gpt/embeddings.csv')
 
     def create_context(
             self, question, max_len=1800, size="ada"

@@ -7,6 +7,8 @@ from transformers import BertForSequenceClassification, BertTokenizer
 
 class IntentModel:
 
+    trained_bert_location = 'trained_models/intents/trained_bert.pth'
+
     def __init__(self, train_data, validation_data, label_map, train_labels, validation_labels):
         self.train_data = train_data
         self.validation_data = validation_data
@@ -15,7 +17,9 @@ class IntentModel:
         self.validation_labels = validation_labels
         self.tokenizer = BertTokenizer.from_pretrained("bert-base-uncased")
 
-        self.model = torch.load("trained_bert.pth") if os.path.exists("trained_bert.pth") else self.train_model()
+        
+
+        self.model = torch.load(self.trained_bert_location) if os.path.exists(self.trained_bert_location) else self.train_model()
 
     def train_model(self, num_epochs=15, learning_rate=0.0005):
         # Set a random seed for the models random number generator to ensure reproducibility
@@ -60,7 +64,7 @@ class IntentModel:
 
             print(f"Epoch {epoch+1}, Training Loss: {train_loss.item()}")
 
-        torch.save(model, "trained_bert.pth")
+        torch.save(model, self.trained_bert_location)
         return model
 
     def test_best_model(self):
@@ -128,7 +132,7 @@ class IntentModel:
         print(f"Best epoch: {best_epoch}")
         print(f"Best learning rate: {best_learning_rate}")
 
-        torch.save(best_model, "trained_bert.pth")
+        torch.save(best_model, self.trained_bert_location)
         return best_model
 
         
@@ -221,7 +225,7 @@ class IntentModel:
         }
 
         # Save results to a JSON file
-        with open('evaluation_results.json', 'w') as outfile:
+        with open('trained_models/intents/evaluation_results.json', 'w') as outfile:
             json.dump(combined_result, outfile, indent=4)
 
         return combined_result

@@ -1,8 +1,9 @@
 import json
 
-import gradio as gr
-
 class Settings:
+
+    user_data_location = 'assets/user_data.json'
+
     def __init__(self):
         self.load_user_data()
         self.load_security_levels()
@@ -14,25 +15,23 @@ class Settings:
         # print('High security:', self.high_security)
 
     def load_user_data(self):
-        with open('user_profiles.json', 'r') as file:
+        with open(self.user_data_location, 'r') as file:
             user_profiles = json.load(file)
         self.user_profiles = {user['user_id']: user for user in user_profiles}
 
     def load_security_levels(self):
-        with open('user_security_levels.json', 'r') as file:
+        with open('assets/user_security_levels.json', 'r') as file:
             user_security_levels = json.load(file)
         self.low_security = user_security_levels['low_security']
         self.medium_security = user_security_levels['medium_security']
         self.high_security = user_security_levels['high_security']
-        
-    
 
     def update_user_setting(self, user_id, setting_name, setting_state):
         '''
         This function should be called with the user_id and the setting that should be updated, the answer can be processed here to determine the new value it should have
         or it can be done else where as long as the actual update is done here. This can be done by using a json functionality to update the file
         '''
-        with open('user_profiles.json', 'r') as file:
+        with open(self.user_data_location, 'r') as file:
             data = json.load(file)
         print(data)
 
@@ -45,7 +44,7 @@ class Settings:
                 break
         
         # Save the updated JSON data to file
-        with open('user_profiles.json', 'w') as file:
+        with open(self.user_data_location, 'w') as file:
             json.dump(data, file)
     
     
@@ -59,7 +58,7 @@ class Settings:
         User Frank (id: 0) want User (Lukas id: 1) to only be able to see select elements of their calling card. This function does that by taking the user id's and updating the
         calling card visiblities accordingly to the intent that's recognised
         '''
-        with open('user_profiles.json', 'r') as file:
+        with open(self.user_data_location, 'r') as file:
             data = json.load(file)
 
         for user in data:
@@ -73,7 +72,7 @@ class Settings:
                             user_found = True
                             break
 
-        with open('user_profiles.json', 'w') as file:
+        with open(self.user_data_location, 'w') as file:
             json.dump(data, file)
         
     def estimate_user_security_level(self):
@@ -109,7 +108,7 @@ class Settings:
 
             self.current_user['user_security_level'] = new_security_level
 
-            with open('user_profiles.json', 'w') as file:
+            with open(self.user_data_location, 'w') as file:
                 json.dump(list(self.user_profiles.values()), file)
 
             return "User security level updated to: " + new_security_level
