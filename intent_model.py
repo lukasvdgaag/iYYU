@@ -58,7 +58,7 @@ class IntentModel:
                 validation_predictions = validation_outputs.logits.argmax(axis=1)
                 validation_accuracy = (validation_predictions == validation_labels).sum()
 
-            print(f"Epoch {epoch+1}, Training Loss: {train_loss.item()}, Validation Loss: {validation_loss.item()}, Accuracy: {validation_accuracy.item()}")
+            print(f"Epoch {epoch+1}, Training Loss: {train_loss.item()}")
 
         torch.save(model, "trained_bert.pth")
         return model
