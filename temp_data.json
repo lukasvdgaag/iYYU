@@ -55,5 +55,52 @@
         "To change your connecttion notifications, please open the settings and go to the Connect settings. You will see that you may select 3 different buttons. One button is to recieve a notification when someone wants to connect with you, the second one is a notification for when someone accepts or declines your request to connect and the last one is to get notified whenever someone follows your notes. You can click on the buttons to turn the notifications on or off. The colour of the buttons indicate if it's on or off. If the buttons are blue, it means that you will recieve notifications, if it's gray it means you will not."
     ],
     "use_gpt": false
+},
+
+
+
+
+
+
+
+
+
+
+
+
+{
+    "intent": "change_settings",
+    "category": "chatbot_settings",
+    "train_questions": [
+        "How can I make the chatbot change my privacy settings?",
+        "Can I make the chatbot change my privacy settings?",
+        "Is it possible to change my privcy settings with the chatbot?",
+        "Are you able to change the privacy settings for me?",
+        "Change the privacy settings for me please.",
+        "Can you change my privacy settings?"
+    ],
+    "responses": [
+        "The chatbot will modify your privacy settings trough three different questions. You need to answer them so the chatbot can change your settings to your liking!"
+    ],
+    "test_questions": [
+        "What can the chatbot do regarding privacy settings?",
+        "Is there any functionality to modify privacy settings using the chatbot?",
+        "Could you guide me on how to change my privacy settings with the chatbot?",
+        "Is it within the chatbot's capabilities to alter privacy settings?",
+        "How does the chatbot handle privacy settings changes?",
+        "Can you explain the process of changing privacy settings through the chatbot?"
+    ],
+    "test_questions_advanced": [
+        "What can the chatbot do regarding privacy settings?",
+        "Is there any functionality to modify privacy settings using the chatbot?",
+        "Could you guide me on how to change my privacy settings with the chatbot?",
+        "Is it within the chatbot's capabilities to alter privacy settings?",
+        "How does the chatbot handle privacy settings changes?",
+        "Can you explain the process of changing privacy settings through the chatbot?"
+    ],
+    "use_gpt": false,
+    "action": {
+        "function": "settings.estimate_user_security_level",
+        "print_result": true
 }
 ]
