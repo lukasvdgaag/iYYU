@@ -93,5 +93,114 @@
 {
   "text": ["How", "do", "I", "allow", "only", "logged", "in", "users", "to", "find", "my", "profile", "?"],
   "ner": ["O", "O", "O", "O", "state", "state", "state", "state", "O", "O", "O", "setting_name", "O"]
+},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+  "text": ["Is", "there", "a", "way", "to", "activate", "my", "profile", "publication", "?"],
+  "ner": ["O", "O", "O", "O", "O", "state", "O", "setting_name", "setting_name", "O"]
+},
+{
+  "text": ["I", "want", "to", "put", "my", "profile", "out", "there", ".", "How", "can", "I", "do", "it", "?"],
+  "ner": ["O", "O", "O", "state", "O", "setting_name", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+},
+
+
+{
+  "text": ["I", "want", "people", "to", "get", "in", "touch", "with", "me", ".", "What", "should", "I", "enable", "?"],
+  "ner": ["O", "O", "O", "O", "O", "O", "setting_name", "setting_name", "setting_name", "O", "O", "O", "O", "state", "O"]
+},
+{
+  "text": ["Can", "I", "prevent", "people", "from", "connecting", "with", "me", "?"],
+  "ner": ["O", "O", "state", "O", "O", "setting_name", "setting_name", "setting_name", "O"]
+},
+
+
+{
+  "text": ["I", "want", "to", "appear", "in", "the", "search", "results", ".", "What", "should", "I", "do", "?"],
+  "ner": ["O", "O", "O", "state", "O", "O", "setting_name", "setting_name", "O", "O", "O", "O", "O"]
+},
+{
+  "text": ["Can", "I", "hide", "myself", "from", "the", "search", "?"],
+  "ner": ["O", "O", "state", "O", "O", "O", "setting_name", "O"]
+},
+
+
+{
+  "text": ["How", "do", "I", "make", "my", "profile", "accessible", "only", "to", "those", "who", "are", "logged", "in", "?"],
+  "ner": ["O", "O", "O", "O", "O", "setting_name", "state", "O", "O", "O", "O", "O", "state", "state", "O"]
+},
+{
+  "text": ["I", "want", "only", "signed", "in", "users", "to", "see", "my", "profile", ".", "How", "do", "I", "do", "that", "?"],
+  "ner": ["O", "O", "O", "state", "state", "state", "O", "O", "O", "setting_name", "O", "O", "O", "O", "O", "O", "O"]
+},
+
+{
+  "text": ["What's", "the", "process", "for", "making", "my", "profile", "public", "?"],
+  "ner": ["O", "O", "O", "O", "state", "O", "setting_name", "setting_name", "O"]
+},
+{
+  "text": ["Can", "I", "hide", "my", "profile", "from", "public", "view", "?"],
+  "ner": ["O", "O", "state", "O", "setting_name", "O", "O", "O", "O"]
+},
+
+
+{
+  "text": ["I", "want", "to", "stop", "receiving", "connection", "requests", ".", "How", "do", "I", "do", "that", "?"],
+  "ner": ["O", "O", "O", "state", "O", "setting_name", "setting_name", "O", "O", "O", "O", "O", "O"]
+},
+{
+  "text": ["How", "do", "I", "allow", "connections", "from", "other", "users", "?"],
+  "ner": ["O", "O", "O", "state", "setting_name", "O", "O", "O", "O"]
+},
+
+
+{
+  "text": ["How", "do", "I", "get", "my", "profile", "to", "appear", "in", "searches", "?"],
+  "ner": ["O", "O", "O", "state", "O", "setting_name", "O", "O", "O", "setting_name", "O"]
+},
+{
+  "text": ["I", "don't", "want", "to", "show", "up", "in", "search", "results", ".", "What", "should", "I", "do", "?"],
+  "ner": ["O", "O", "state", "O", "O", "O", "O", "setting_name", "setting_name", "O", "O", "O", "O", "O"]
+},
+
+
+{
+  "text": ["I", "want", "my", "profile", "to", "be", "seen", "only", "by", "users", "who", "are", "signed", "in", ".", "Can", "I", "do", "that", "?"],
+  "ner": ["O", "O", "O", "setting_name", "O", "O", "state", "O", "O", "O", "O", "O", "state", "state", "O", "O", "O", "O", "O"]
+},
+{
+  "text": ["How", "do", "I", "restrict", "my", "profile", "access", "to", "only", "those", "who", "have", "logged", "in", "?"],
+  "ner": ["O", "O", "O", "state", "O", "setting_name", "setting_name", "O", "O", "O", "O", "O", "state", "state", "O"]
 }
 ]
