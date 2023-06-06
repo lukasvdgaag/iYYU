@@ -1,5 +1,6 @@
 import random
 
+
 class ChatbotLogic:
     def __init__(self, data, gpt_model, intent_model, minimum_confidence_score, privacy_level):
         self.data = data
@@ -11,8 +12,9 @@ class ChatbotLogic:
         self.dialogue = {'active': False, 'counter': 0}
 
         # Add welcome message
-        self.add_bot_response("Hello, I am the iYYU privacy bot. I am here to help you with your questions about the company. What can I help you with today?")
-        
+        self.add_bot_response(
+            "Hello, I am the iYYU privacy bot. I am here to help you with your questions about the company. What can I help you with today?")
+
     def get_object_by_intent(self, intent):
         for object in self.data:
             if object['intent'] == intent:
@@ -41,26 +43,52 @@ class ChatbotLogic:
     def add_bot_response(self, bot_response):
         self.history.append([None, bot_response])
         return self.history
-    
-    
-    
-    def determine_bot_response(self, user_message):
-        if(self.dialogue
-        response = '(Test): Starting dialogue'
-        
-                               
 
     def determine_bot_response(self, user_message):
         '''
         Condition numbers match up with the condition numbers in the chart
-        
         '''
+
+        # if self.current_user is None:
+        #     return None
+        #
+        # question_count = self.current_user['points']
+        # return self.get_security_level_questions(question_count)
+
         # Condition 1: Is the dialogue active?
         if (self.dialogue['active']):
             '''
                 Use an array of questions to have a dialogue with the user and use the users answers
             '''
             response = '(Test): Starting dialogue'
+
+            # 1 pakt counter value
+            count = self.dialogue['counter']
+            print(count)
+
+            # 2 aan de hand van counter vraagt vraag op
+
+            question = self.settings.get_security_level_question(count)
+
+            # 3 stuur de vraag
+
+            return self.add_bot_response(question)
+
+            # bij de laatste stap
+            if (count == 2):
+                if (give_suggestions):
+                    return "Aan de hand van je antwoorden, kan je beste deze instellingen aanpssen naar;"
+                else:
+                    self.submit_security_level_estimate()
+                    # estimate_user_security_level...
+                    return 'Aan de hand van je antwoorden, heb je het liefst veel privacy... We hebben je instellingen beranderd naar jou voorkeuren'
+            # question = self.settings.get_security_level_questions
+
+            if (count > 0):
+                self.settings.add_security_level_points(0 if user_message == 'yes' else 1)
+
+            if (user_message != 'yes' and user_message != 'no'):
+                return 'please respond with yes or no'
 
             # Condition 2: Are there dialogue questions left?
             dialogue_questions = ['test', 'test2', 'test3']
@@ -87,7 +115,7 @@ class ChatbotLogic:
             if confidence_score < self.minimum_confidence_score:
                 print('3: model is not confident on the intent')
                 # Condition 4: Does the user have a high or low privacy level?
-                if self.privacy_level > 1: 
+                if self.privacy_level > 1:
                     # tell user to rephrase
                     print('4: high privact level.')
                     response = "I'm sorry, I'm not sure I understand your question. Could you please rephrase it?"
@@ -95,6 +123,7 @@ class ChatbotLogic:
                     # send question to ChatGPT
                     print('4: low privacy level.')
                     response = self.gpt_model.answer_question(question=user_message)
+
             else:
                 print('3: model is confident!')
                 # Condition 5: Is there intent that requires a specific action?
@@ -116,12 +145,11 @@ class ChatbotLogic:
                         response = random.choice(intent_data['responses'])
                     else:
                         print('6: ChatGPT should answer.')
-                        if self.privacy_level > 1: 
+                        if self.privacy_level >= 1:
                             prompt_to_send = random.choice(intent_data['responses'])
                             response = self.gpt_model.answer_question(question=prompt_to_send)
                         else:
                             response = self.gpt_model.answer_question(question=user_message)
-
 
         # Finally return the response
         return response
