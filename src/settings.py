@@ -74,7 +74,22 @@ class Settings:
 
         with open(self.user_data_location, 'w') as file:
             json.dump(data, file)
+            
+    
+    def get_security_level_questions(self,count):
+        questions = [
+            "Do you want your profile to be published?",
+            "Do you want other users to be able to connect with you?",
+            "Do you want your account to be visible for search?"
+        ]
         
+        if count > len(questions):
+            return None
+        
+        return questions[count]
+            
+            
+            
     def estimate_user_security_level(self):
         '''
         Set up this function to ask the user a bunch of questions, and then based on the answers choose a secutiry level that suits them

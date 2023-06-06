@@ -41,7 +41,14 @@ class ChatbotLogic:
     def add_bot_response(self, bot_response):
         self.history.append([None, bot_response])
         return self.history
+    
+    
+    
+    def determine_bot_response(self, user_message):
+        if(self.dialogue
+        response = '(Test): Starting dialogue'
         
+                               
 
     def determine_bot_response(self, user_message):
         '''
@@ -80,7 +87,7 @@ class ChatbotLogic:
             if confidence_score < self.minimum_confidence_score:
                 print('3: model is not confident on the intent')
                 # Condition 4: Does the user have a high or low privacy level?
-                if self.privacy_level >= 1: 
+                if self.privacy_level > 1: 
                     # tell user to rephrase
                     print('4: high privact level.')
                     response = "I'm sorry, I'm not sure I understand your question. Could you please rephrase it?"
@@ -109,7 +116,7 @@ class ChatbotLogic:
                         response = random.choice(intent_data['responses'])
                     else:
                         print('6: ChatGPT should answer.')
-                        if self.privacy_level >= 1: 
+                        if self.privacy_level > 1: 
                             prompt_to_send = random.choice(intent_data['responses'])
                             response = self.gpt_model.answer_question(question=prompt_to_send)
                         else:
