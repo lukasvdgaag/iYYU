@@ -73,8 +73,9 @@ class ChatbotLogic:
 
             question = self.settings.get_security_level_question(count)
             
-            print(question)
-            
+            if intent_name == 'privacy_settings_response':
+                print(question)
+                print(user_message)
 #             self.add_bot_response(question)
             
 #             while(count !=2):
@@ -138,6 +139,18 @@ class ChatbotLogic:
 
             else:
                 print('3: model is confident!')
+                if intent_name == 'privacy_settings_response':
+                    # 1 pakt counter value
+                    count = self.dialogue['counter']
+                    print(count)
+
+                    # 2 aan de hand van counter vraagt vraag op
+
+                    question = self.settings.get_security_level_question(count)
+                    self.add_bot_response(question)
+                    print(user_message)
+                    
+                    
                 # Condition 5: Is there intent that requires a specific action?
                 if intent_name == 'initalize_user_settings':
                     # Logic to ask user questions to set the settings here
