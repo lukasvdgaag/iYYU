@@ -1,7 +1,9 @@
 import random
+from settings import Settings
 
 
 class ChatbotLogic:
+    
     def __init__(self, data, gpt_model, intent_model, minimum_confidence_score, privacy_level):
         self.data = data
         self.gpt_model = gpt_model
@@ -10,6 +12,7 @@ class ChatbotLogic:
         self.privacy_level = privacy_level
         self.history = []
         self.dialogue = {'active': False, 'counter': 0}
+        self.settings = Settings()
 
         # Add welcome message
         self.add_bot_response(
@@ -69,6 +72,15 @@ class ChatbotLogic:
             # 2 aan de hand van counter vraagt vraag op
 
             question = self.settings.get_security_level_question(count)
+            
+            print(question)
+            
+#             self.add_bot_response(question)
+            
+#             while(count !=2):
+#                 print(self.settings.get_security_level_question(count)),
+#                 count += 1
+           
 
             # 3 stuur de vraag
 

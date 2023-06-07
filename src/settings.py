@@ -75,17 +75,19 @@ class Settings:
         with open(self.user_data_location, 'w') as file:
             json.dump(data, file)
 
-    def get_security_level_questions(self,count):
+    def get_security_level_question(self, count):
+        # Implement the logic to retrieve a security level question based on the count
+        # Return the question string
+        # Example implementation:
         questions = [
             "Do you want your profile to be published?",
             "Do you want other users to be able to connect with you?",
             "Do you want your account to be visible for search?"
         ]
-
         if count < len(questions):
             return questions[count]
         else:
-            return None
+            return "No more questions available."
 
     def add_security_level_points(self, points):
         self.points += points
