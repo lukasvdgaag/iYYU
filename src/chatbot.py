@@ -51,6 +51,7 @@ class ChatbotLogic:
         '''
         Condition numbers match up with the condition numbers in the chart
         '''
+        count = self.dialogue['counter']
 
         # if self.current_user is None:
         #     return None
@@ -64,51 +65,42 @@ class ChatbotLogic:
                 Use an array of questions to have a dialogue with the user and use the users answers
             '''
             response = '(Test): Starting dialogue'
-
+            print("Teststs")
             # 1 pakt counter value
-            count = self.dialogue['counter']
-            print(count)
+
 
             # 2 aan de hand van counter vraagt vraag op
 
             question = self.settings.get_security_level_question(count)
-            
-            if intent_name == 'privacy_settings_response':
-                print(question)
-                print(user_message)
-#             self.add_bot_response(question)
-            
-#             while(count !=2):
-#                 print(self.settings.get_security_level_question(count)),
-#                 count += 1
-           
 
-            # 3 stuur de vraag
+            self.add_bot_response(question)
+            if (count == 0):
+                if(user_message == "yes"):
+                    count = 1
+                    question = self.settings.get_security_level_question(count)
+                    self.add_bot_response(question)
+                    print("yes")
+                elif(user_message == 'no'):
+                    count += 1
+                    print("no")
+                else: return
 
-            return self.add_bot_response(question)
+            elif (count == 1):
+                if(user_message == "yes"):
+                    count = 2
+                    question = self.settings.get_security_level_question(count)
+                    self.add_bot_response(question)
+                    print("yes2")
+                elif(user_message == 'no'):
+                    count += 1
+                    print("no2")
+                else: return
 
-            # bij de laatste stap
-            if (count == 2):
-                if (give_suggestions):
-                    return "Aan de hand van je antwoorden, kan je beste deze instellingen aanpssen naar;"
-                else:
-                    self.submit_security_level_estimate()
-                    # estimate_user_security_level...
-                    return 'Aan de hand van je antwoorden, heb je het liefst veel privacy... We hebben je instellingen beranderd naar jou voorkeuren'
-            # question = self.settings.get_security_level_questions
-
-            if (count > 0):
-                self.settings.add_security_level_points(0 if user_message == 'yes' else 1)
-
-            if (user_message != 'yes' and user_message != 'no'):
-                return 'please respond with yes or no'
-
-            # Condition 2: Are there dialogue questions left?
-            dialogue_questions = ['test', 'test2', 'test3']
-            if (self.dialogue['counter'] < len(dialogue_questions)):
-                response = '(Test): More dialogue questions'
-            else:
-                response = '(Test): Ran out of dialogue questions, computing answer then awaiting user input'
+            elif (count == 2):
+                print("test")
+                count = 2
+                question = self.settings.get_security_level_question(count)
+                self.add_bot_response(question)
 
         else:
             print('2')
@@ -121,7 +113,7 @@ class ChatbotLogic:
 
             # test implementation to test whether conversational dialogues work.
             if (user_message == 'lol'):
-                intent_name = 'initalize_user_settings'
+                intent_name = 'privacy_settings_response'
                 confidence_score = 1.0
 
             # Condition 3: Is the confidence score for the intent high enough to use it?
@@ -139,20 +131,20 @@ class ChatbotLogic:
 
             else:
                 print('3: model is confident!')
-                if intent_name == 'privacy_settings_response':
-                    # 1 pakt counter value
-                    count = self.dialogue['counter']
-                    print(count)
+                # if intent_name == 'privacy_settings_response':
+                #     # 1 pakt counter value
+                #     count = self.dialogue['counter']
+                #     print(count)
+                #
+                #     # 2 aan de hand van counter vraagt vraag op
+                #
+                #     question = self.settings.get_security_level_question(count)
+                #     self.add_bot_response(question)
+                #     print(user_message)
 
-                    # 2 aan de hand van counter vraagt vraag op
-
-                    question = self.settings.get_security_level_question(count)
-                    self.add_bot_response(question)
-                    print(user_message)
-                    
                     
                 # Condition 5: Is there intent that requires a specific action?
-                if intent_name == 'initalize_user_settings':
+                if intent_name == 'privacy_settings_response':
                     # Logic to ask user questions to set the settings here
                     response = '(Test): Specific intent, initialize settings'
 
