@@ -8,6 +8,7 @@ class Settings:
         self.load_user_data()
         self.load_security_levels()
         self.current_user = None
+        self.points = 0
 
         # print('User profiles:', self.user_profiles)
         # print('Low security:', self.low_security)

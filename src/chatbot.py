@@ -61,6 +61,8 @@ class ChatbotLogic:
             self.add_bot_response(question)
             return self.dialogue.update({'active': True, 'counter': count})
         count = self.dialogue['counter']
+        points = self.settings.points
+
         # question = self.settings.get_security_level_question(count)
 
 
@@ -91,42 +93,51 @@ class ChatbotLogic:
                     update_count(self, count)
                 elif(user_message == 'no'):
                     count += 1
+                    points += 1
+                    print(points)
+
+                    self.settings.add_security_level_points(points)
                     update_count(self, count)
                     print("no2")
                 else: return
-                # for word in input_words:
-                #     if word in self.yes_keywords:
-                #         count += 1
-                #         update_count(self, count)
-                #     elif word == self.no_keywords:
-                #         count += 1
-                #         print("no")
-                #     else:
-                #         self.add_bot_response("sorry i don't know")
-                #         return
 
             elif (count == 1):
                 if(user_message == "yes"):
                     count += 1
+                    print(points)
                     update_count(self, count)
                 elif(user_message == 'no'):
                     count += 1
+                    points += 1
+                    print(points)
+                    self.settings.add_security_level_points(points)
                     update_count(self, count)
                     print("no2")
                 else: return
 
             elif (count == 2):
-                self.dialogue.update({'active': False, 'counter': count})
+                self.dialogue.update({'active': False, 'counter': 0})
                 print("test")
                 if(user_message == "yes"):
-                    self.add_bot_response("We think that the best option for you is...")
+                    self.settings.add_security_level_points(count)
+                    self.settings.submit_security_level_estimate(self)
+                    print(points)
+                    self.add_bot_response(self.settings.generate_security_level_response())
+
+                    self.add_bot_response(self.settings.generate_security_level_response())
                 elif(user_message == 'no'):
-                    self.add_bot_response("We think that the best option for you is...")
+                    points += 1
+                    print(points)
+                    self.settings.add_security_level_points(points)
+                    self.settings.submit_security_level_estimate(self)
+                    self.settings.generate_security_level_response()
                     print("no2")
+                    self.add_bot_response(self.settings.generate_security_level_response())
                 else: return
 
 
         else:
+            self.settings.points = 0
             print('2')
             intent_name, confidence_score = self.intent_model.get_intent(question=user_message)
             confidence_score = max(confidence_score)
