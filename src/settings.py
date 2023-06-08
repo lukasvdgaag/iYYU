@@ -119,17 +119,21 @@ class Settings:
             self.low_security = True
             self.medium_security = False
             self.high_security = False
-            return "You have chosen a low privacy level. We changed your settings to your preferred combination"
+            response = "You have chosen a low privacy level. We changed your settings to your preferred combination"
         elif points == 2:
             self.low_security = False
             self.medium_security = True
             self.high_security = False
-            return "You have chosen a medium privacy level. We changed your settings to your preferred combination"
+            response = "You have chosen a medium privacy level. We changed your settings to your preferred combination"
         else:
             self.low_security = False
             self.medium_security = False
             self.high_security = True
-            return "You have chosen a high privacy level. We changed your settings to your preferred combination"
+            response = "You have chosen a high privacy level. We changed your settings to your preferred combination"
+        
+        self.update_user_setting(self.current_user['user_id'], 'security_level', points)
+        
+        return response
 
     def submit_security_level_estimate(self, points):
         user_id = 0  # Change this based on the user's ID
