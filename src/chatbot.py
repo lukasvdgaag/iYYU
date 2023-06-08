@@ -54,6 +54,8 @@ class ChatbotLogic:
 
 
     def determine_bot_response(self, user_message):
+        
+        give_suggestion = True
         ### Todo:
         #yes_response and no_response maken, zodat de gebruiker op verschillende manier zijn beslissing kan aanduiden
         '''
@@ -79,13 +81,13 @@ class ChatbotLogic:
             '''
                 Use an array of questions to have a dialogue with the user and use the users answers
             '''
+            suggestions = True
             response = None
             print("Teststs")
             # 1 pakt counter value
 
 
 
-            # 2 aan de hand van counter vraagt vraag op
             if count == 0:
                 if user_message.lower() == "yes":
                     count += 1
@@ -96,6 +98,8 @@ class ChatbotLogic:
                     self.settings.add_security_level_points(self.points)
                     update_count(self, count)
                 else:
+                    response = "Please respond with 'yes' or 'no'!"
+                    self.add_bot_response(response)
                     return
 
             elif count == 1:
@@ -108,21 +112,34 @@ class ChatbotLogic:
                     self.settings.add_security_level_points(self.points)
                     update_count(self, count)
                 else:
+                    response = "Please respond with 'yes' or 'no'!"
+                    self.add_bot_response(response)
                     return
 
             elif count == 2:
                 self.dialogue.update({"active": False, "counter": 0})
                 if user_message.lower() == "yes":
-                    self.settings.submit_security_level_estimate(self.points)
-                    response = self.settings.generate_security_level_response(self.points)
-                    self.add_bot_response(response)
+                    if suggestions:
+                        self.settings.submit_security_level_estimate(self.points)
+                        response = self.settings.generate_advice_response(self.points)
+                    else:
+                        self.settings.submit_security_level_estimate(self.points)
+                        response = self.settings.generate_security_level_response(self.points)
                 elif user_message.lower() == "no":
-                    self.points += 1  # Increment points for the final "no"
-                    self.settings.submit_security_level_estimate(self.points)
-                    response = self.settings.generate_security_level_response(self.points)
-                    self.add_bot_response(response)
+                    if suggestions:
+                        self.settings.submit_security_level_estimate(self.points)
+                        response = self.settings.generate_advice_response(self.points)
+                    else:
+                        self.points += 1  # Increment points for the final "no"
+                        self.settings.submit_security_level_estimate(self.points)
+                        response = self.settings.generate_security_level_response(self.points)
                 else:
+                    response = "Please respond with 'yes' or 'no'!"
+                    self.add_bot_response(response)
                     return
+
+            if response is not None:
+                self.add_bot_response(response)
 
 
         else:

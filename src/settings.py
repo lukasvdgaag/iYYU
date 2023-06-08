@@ -92,6 +92,24 @@ class Settings:
 
     def add_security_level_points(self, points):
         self.points += points
+        
+    def generate_advice_response(self, points):
+        
+        if points == 0 or points == 1:
+            self.low_security = True
+            self.medium_security = False
+            self.high_security = False
+            return "You have chosen a low privacy level. Please go to your settings page and open Privacy settings. and make sure all the fields on privacy are turned on"
+        elif points == 2:
+            self.low_security = False
+            self.medium_security = True
+            self.high_security = False
+            return "You have chosen a medium privacy level. Please go to your settings page and open Privacy settings. Turn off the option for all users to be able to find you, but keep the other options on"
+        else:
+            self.low_security = False
+            self.medium_security = False
+            self.high_security = True
+            return "You have chosen a high privacy level. Please go to your settings page and open Privacy settings. Make sure all of the settings are turned off."
 
     def generate_security_level_response(self, points):
 
@@ -101,17 +119,17 @@ class Settings:
             self.low_security = True
             self.medium_security = False
             self.high_security = False
-            return "You have chosen a low privacy level. That means that other users can find your profile and see..."
+            return "You have chosen a low privacy level. We changed your settings to your preferred combination"
         elif points == 2:
             self.low_security = False
             self.medium_security = True
             self.high_security = False
-            return "You have chosen a medium privacy level. That means..."
+            return "You have chosen a medium privacy level. We changed your settings to your preferred combination"
         else:
             self.low_security = False
             self.medium_security = False
             self.high_security = True
-            return "You have chosen a high privacy level. That means..."
+            return "You have chosen a high privacy level. We changed your settings to your preferred combination"
 
     def submit_security_level_estimate(self, points):
         user_id = 0  # Change this based on the user's ID
