@@ -51,6 +51,8 @@ class ChatbotLogic:
 
 
     def determine_bot_response(self, user_message):
+        ### Todo:
+        #yes_response and no_response maken, zodat de gebruiker op verschillende manier zijn beslissing kan aanduiden
         '''
         Condition numbers match up with the condition numbers in the chart
         '''
@@ -73,7 +75,7 @@ class ChatbotLogic:
             '''
                 Use an array of questions to have a dialogue with the user and use the users answers
             '''
-            response = '(Test): Starting dialogue'
+            response = None
             print("Teststs")
             # 1 pakt counter value
 
@@ -89,6 +91,7 @@ class ChatbotLogic:
                     update_count(self, count)
                 elif(user_message == 'no'):
                     count += 1
+                    update_count(self, count)
                     print("no2")
                 else: return
                 # for word in input_words:
@@ -108,12 +111,19 @@ class ChatbotLogic:
                     update_count(self, count)
                 elif(user_message == 'no'):
                     count += 1
+                    update_count(self, count)
                     print("no2")
                 else: return
 
             elif (count == 2):
                 self.dialogue.update({'active': False, 'counter': count})
                 print("test")
+                if(user_message == "yes"):
+                    self.add_bot_response("We think that the best option for you is...")
+                elif(user_message == 'no'):
+                    self.add_bot_response("We think that the best option for you is...")
+                    print("no2")
+                else: return
 
 
         else:
@@ -160,7 +170,7 @@ class ChatbotLogic:
                 # Condition 5: Is there intent that requires a specific action?
                 if intent_name == 'privacy_settings_response':
                     # Logic to ask user questions to set the settings here
-                    response = '(Test): Specific intent, initialize settings'
+                    response = None
                     update_count(self, count)
 
                     # self.dialogue.update({'active': True, 'counter': 0})
