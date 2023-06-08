@@ -93,16 +93,25 @@ class Settings:
     def add_security_level_points(self, points):
         self.points += points
 
-    def generate_security_level_response(self):
+    def generate_security_level_response(self, points):
 
         # Text aanpassen
 
-        if(self.low_security):
-            return 'You have chosen for a low privacy level. That means that other users can vind your profile see ...'
-        elif(self.medium_security):
-            return 'You have chosen for a medium privacy level. That means ...'
+        if points == 0 or points == 1:
+            self.low_security = True
+            self.medium_security = False
+            self.high_security = False
+            return "You have chosen a low privacy level. That means that other users can find your profile and see..."
+        elif points == 2:
+            self.low_security = False
+            self.medium_security = True
+            self.high_security = False
+            return "You have chosen a medium privacy level. That means..."
         else:
-            return 'You have chosen for a high security level. ....'
+            self.low_security = False
+            self.medium_security = False
+            self.high_security = True
+            return "You have chosen a high privacy level. That means..."
 
     def submit_security_level_estimate(self, points):
         user_id = 0  # Change this based on the user's ID

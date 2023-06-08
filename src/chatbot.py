@@ -86,49 +86,43 @@ class ChatbotLogic:
 
 
             # 2 aan de hand van counter vraagt vraag op
-            if (count == 0):
-                print("pakt de eeste")
-                print("hoooooi")
-                input_words = user_message.lower().split()
-                if(user_message == "yes"):
+            if count == 0:
+                if user_message.lower() == "yes":
                     count += 1
                     update_count(self, count)
-                elif(user_message == 'no'):
+                elif user_message.lower() == "no":
                     count += 1
-                    self.points += 1
-                    print(self.points)
-                    self.settings.generate_security_level_response(self.points)
+                    self.points = 1  # Set points to 1 when the first "no" is encountered
                     self.settings.add_security_level_points(self.points)
                     update_count(self, count)
-                else: return
+                else:
+                    return
 
-            elif (count == 1):
-                if(user_message == "yes"):
+            elif count == 1:
+                if user_message.lower() == "yes":
                     count += 1
-                    # print(points)
                     update_count(self, count)
-                elif(user_message == 'no'):
+                elif user_message.lower() == "no":
                     count += 1
-                    self.points += 1
+                    self.points += 1  # Increment points for each subsequent "no"
                     self.settings.add_security_level_points(self.points)
                     update_count(self, count)
-                    print("no2")
-                else: return
+                else:
+                    return
 
-            elif (count == 2):
-                self.dialogue.update({'active': False, 'counter': 0})
-                print("test")
-                if(user_message == "yes"):
+            elif count == 2:
+                self.dialogue.update({"active": False, "counter": 0})
+                if user_message.lower() == "yes":
                     self.settings.submit_security_level_estimate(self.points)
-                    print(self.points)
-                    self.add_bot_response(self.settings.generate_security_level_response(self))
-                elif(user_message == 'no'):
-                    self.points += 1
-                    print(self.points)
+                    response = self.settings.generate_security_level_response(self.points)
+                    self.add_bot_response(response)
+                elif user_message.lower() == "no":
+                    self.points += 1  # Increment points for the final "no"
                     self.settings.submit_security_level_estimate(self.points)
-                    print("no2")
-                    self.add_bot_response(self.settings.generate_security_level_response(self))
-                else: return
+                    response = self.settings.generate_security_level_response(self.points)
+                    self.add_bot_response(response)
+                else:
+                    return
 
 
         else:
