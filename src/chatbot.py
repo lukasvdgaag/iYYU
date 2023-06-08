@@ -22,9 +22,6 @@ class ChatbotLogic:
         self.add_bot_response(
             "Hello, I am the iYYU privacy bot. I am here to help you with your questions about the company. What can I help you with today?")
 
-    def __int__(self,points):
-        self.points = points
-
     def get_object_by_intent(self, intent):
         for object in self.data:
             if object['intent'] == intent:
@@ -122,17 +119,15 @@ class ChatbotLogic:
                 self.dialogue.update({'active': False, 'counter': 0})
                 print("test")
                 if(user_message == "yes"):
-                    self.settings.add_security_level_points(count)
                     self.settings.submit_security_level_estimate(self.points)
                     print(self.points)
-
-                    self.add_bot_response(self.settings.generate_security_level_response())
+                    self.add_bot_response(self.settings.generate_security_level_response(self))
                 elif(user_message == 'no'):
                     self.points += 1
                     print(self.points)
                     self.settings.submit_security_level_estimate(self.points)
                     print("no2")
-                    self.add_bot_response(self.settings.generate_security_level_response())
+                    self.add_bot_response(self.settings.generate_security_level_response(self))
                 else: return
 
 
