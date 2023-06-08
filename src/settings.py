@@ -1,6 +1,4 @@
 import json
-from chatbot import ChatbotLogic
-
 
 class Settings:
 
@@ -11,12 +9,11 @@ class Settings:
         self.load_security_levels()
         self.current_user = None
         self.points = 0
-        self.chatbot = ChatbotLogic(self.points)
+
         # print('User profiles:', self.user_profiles)
         # print('Low security:', self.low_security)
         # print('Medium security:', self.medium_security)
         # print('High security:', self.high_security)
-
 
     def load_user_data(self):
         with open(self.user_data_location, 'r') as file:
@@ -95,20 +92,10 @@ class Settings:
 
     def add_security_level_points(self, points):
         self.points += points
-        print(self.points)
 
+    def generate_security_level_response(self):
 
-    def generate_security_level_response(self,points):
-        print(self.chatbot.points)
-        print(self.points)
-        print(self.points)
-        print(self.points)
-        print(self.points)
-        print(self.points)
-        print(self.points)
-        print(self.points)
         # Text aanpassen
-        print(self.load_security_levels())
 
         if(self.low_security):
             return 'You have chosen for a low privacy level. That means that other users can vind your profile see ...'
@@ -150,14 +137,14 @@ def estimate_user_security_level(self):
         "Do you want other users to be able to connect with you?",
         "Do you want your account to be visible for search?"
     ]
-    count = 0
+    points = 0
 
     for question in questions:
         response = input(question + " (yes/no): ")
         if response.lower() == "yes":
-            count += 0
+            points += 0
         else:
-            count += 1
+            points += 1
 
 # def set_user_calling_card_visibility(user_id, second_user_id):
 #     None
