@@ -13,7 +13,8 @@ class ChatbotLogic:
         self.history = []
         self.dialogue = {'active': False, 'counter': 0}
         self.settings = Settings()
-
+        self.yes_keywords = {'Yes', 'of course', 'yeah', 'sure'}
+        self.no_keywords = {'no', 'of course not', 'nope'}
         # Add welcome message
         self.add_bot_response(
             "Hello, I am the iYYU privacy bot. I am here to help you with your questions about the company. What can I help you with today?")
@@ -47,11 +48,19 @@ class ChatbotLogic:
         self.history.append([None, bot_response])
         return self.history
 
+
+
     def determine_bot_response(self, user_message):
         '''
         Condition numbers match up with the condition numbers in the chart
         '''
+        def update_count(self, count):
+            question = self.settings.get_security_level_question(count)
+            self.add_bot_response(question)
+            return self.dialogue.update({'active': True, 'counter': count})
         count = self.dialogue['counter']
+        # question = self.settings.get_security_level_question(count)
+
 
         # if self.current_user is None:
         #     return None
@@ -69,38 +78,43 @@ class ChatbotLogic:
             # 1 pakt counter value
 
 
+
             # 2 aan de hand van counter vraagt vraag op
-
-            question = self.settings.get_security_level_question(count)
-
-            self.add_bot_response(question)
             if (count == 0):
+                print("pakt de eeste")
+                print("hoooooi")
+                input_words = user_message.lower().split()
                 if(user_message == "yes"):
-                    count = 1
-                    question = self.settings.get_security_level_question(count)
-                    self.add_bot_response(question)
-                    print("yes")
+                    count += 1
+                    update_count(self, count)
                 elif(user_message == 'no'):
                     count += 1
-                    print("no")
+                    print("no2")
                 else: return
+                # for word in input_words:
+                #     if word in self.yes_keywords:
+                #         count += 1
+                #         update_count(self, count)
+                #     elif word == self.no_keywords:
+                #         count += 1
+                #         print("no")
+                #     else:
+                #         self.add_bot_response("sorry i don't know")
+                #         return
 
             elif (count == 1):
                 if(user_message == "yes"):
-                    count = 2
-                    question = self.settings.get_security_level_question(count)
-                    self.add_bot_response(question)
-                    print("yes2")
+                    count += 1
+                    update_count(self, count)
                 elif(user_message == 'no'):
                     count += 1
                     print("no2")
                 else: return
 
             elif (count == 2):
+                self.dialogue.update({'active': False, 'counter': count})
                 print("test")
-                count = 2
-                question = self.settings.get_security_level_question(count)
-                self.add_bot_response(question)
+
 
         else:
             print('2')
@@ -142,14 +156,16 @@ class ChatbotLogic:
                 #     self.add_bot_response(question)
                 #     print(user_message)
 
-                    
+
                 # Condition 5: Is there intent that requires a specific action?
                 if intent_name == 'privacy_settings_response':
                     # Logic to ask user questions to set the settings here
                     response = '(Test): Specific intent, initialize settings'
+                    update_count(self, count)
 
-                    self.dialogue.update({'active': True, 'counter': 0})
+                    # self.dialogue.update({'active': True, 'counter': 0})
                     self.determine_bot_response(user_message)
+
                 elif intent_name == 'change_setting':
                     # NER keywoard recognition implementation here
                     response = '(Test): Specific intent, change specific setting'
