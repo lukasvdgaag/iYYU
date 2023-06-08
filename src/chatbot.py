@@ -13,6 +13,9 @@ class ChatbotLogic:
         self.history = []
         self.dialogue = {'active': False, 'counter': 0}
         self.settings = Settings()
+
+        self.points = self.settings.points
+
         self.yes_keywords = {'Yes', 'of course', 'yeah', 'sure'}
         self.no_keywords = {'no', 'of course not', 'nope'}
         # Add welcome message
@@ -61,7 +64,6 @@ class ChatbotLogic:
             self.add_bot_response(question)
             return self.dialogue.update({'active': True, 'counter': count})
         count = self.dialogue['counter']
-        points = self.settings.points
 
         # question = self.settings.get_security_level_question(count)
 
@@ -93,24 +95,22 @@ class ChatbotLogic:
                     update_count(self, count)
                 elif(user_message == 'no'):
                     count += 1
-                    points += 1
-                    print(points)
-
-                    self.settings.add_security_level_points(points)
+                    self.points += 1
+                    print(self.points)
+                    self.settings.generate_security_level_response(self.points)
+                    self.settings.add_security_level_points(self.points)
                     update_count(self, count)
-                    print("no2")
                 else: return
 
             elif (count == 1):
                 if(user_message == "yes"):
                     count += 1
-                    print(points)
+                    # print(points)
                     update_count(self, count)
                 elif(user_message == 'no'):
                     count += 1
-                    points += 1
-                    print(points)
-                    self.settings.add_security_level_points(points)
+                    self.points += 1
+                    self.settings.add_security_level_points(self.points)
                     update_count(self, count)
                     print("no2")
                 else: return
@@ -119,20 +119,15 @@ class ChatbotLogic:
                 self.dialogue.update({'active': False, 'counter': 0})
                 print("test")
                 if(user_message == "yes"):
-                    self.settings.add_security_level_points(count)
-                    self.settings.submit_security_level_estimate(self)
-                    print(points)
-                    self.add_bot_response(self.settings.generate_security_level_response())
-
-                    self.add_bot_response(self.settings.generate_security_level_response())
+                    self.settings.submit_security_level_estimate(self.points)
+                    print(self.points)
+                    self.add_bot_response(self.settings.generate_security_level_response(self))
                 elif(user_message == 'no'):
-                    points += 1
-                    print(points)
-                    self.settings.add_security_level_points(points)
-                    self.settings.submit_security_level_estimate(self)
-                    self.settings.generate_security_level_response()
+                    self.points += 1
+                    print(self.points)
+                    self.settings.submit_security_level_estimate(self.points)
                     print("no2")
-                    self.add_bot_response(self.settings.generate_security_level_response())
+                    self.add_bot_response(self.settings.generate_security_level_response(self))
                 else: return
 
 
