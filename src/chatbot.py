@@ -54,39 +54,17 @@ class ChatbotLogic:
 
 
     def determine_bot_response(self, user_message):
-        
         give_suggestion = True
-        ### Todo:
-        #yes_response and no_response maken, zodat de gebruiker op verschillende manier zijn beslissing kan aanduiden
-        '''
-        Condition numbers match up with the condition numbers in the chart
-        '''
         def update_count(self, count):
             question = self.settings.get_security_level_question(count)
             self.add_bot_response(question)
             return self.dialogue.update({'active': True, 'counter': count})
+
         count = self.dialogue['counter']
 
-        # question = self.settings.get_security_level_question(count)
-
-
-        # if self.current_user is None:
-        #     return None
-        #
-        # question_count = self.current_user['points']
-        # return self.get_security_level_questions(question_count)
-
-        # Condition 1: Is the dialogue active?
-        if (self.dialogue['active']):
-            '''
-                Use an array of questions to have a dialogue with the user and use the users answers
-            '''
+        if self.dialogue['active']:
             suggestions = True
             response = None
-            print("Teststs")
-            # 1 pakt counter value
-
-
 
             if count == 0:
                 if user_message.lower() == "yes":
@@ -94,13 +72,11 @@ class ChatbotLogic:
                     update_count(self, count)
                 elif user_message.lower() == "no":
                     count += 1
-                    self.points = 1  # Set points to 1 when the first "no" is encountered
+                    self.points = 1
                     self.settings.add_security_level_points(self.points)
                     update_count(self, count)
                 else:
                     response = "Please respond with 'yes' or 'no'!"
-                    self.add_bot_response(response)
-                    return
 
             elif count == 1:
                 if user_message.lower() == "yes":
@@ -108,13 +84,11 @@ class ChatbotLogic:
                     update_count(self, count)
                 elif user_message.lower() == "no":
                     count += 1
-                    self.points += 1  # Increment points for each subsequent "no"
+                    self.points += 1
                     self.settings.add_security_level_points(self.points)
                     update_count(self, count)
                 else:
                     response = "Please respond with 'yes' or 'no'!"
-                    self.add_bot_response(response)
-                    return
 
             elif count == 2:
                 self.dialogue.update({"active": False, "counter": 0})
@@ -130,16 +104,18 @@ class ChatbotLogic:
                         self.settings.submit_security_level_estimate(self.points)
                         response = self.settings.generate_advice_response(self.points)
                     else:
-                        self.points += 1  # Increment points for the final "no"
+                        self.points += 1
                         self.settings.submit_security_level_estimate(self.points)
                         response = self.settings.generate_security_level_response(self.points)
                 else:
                     response = "Please respond with 'yes' or 'no'!"
-                    self.add_bot_response(response)
-                    return
 
             if response is not None:
                 self.add_bot_response(response)
+                return
+
+            return
+
 
 
         else:
