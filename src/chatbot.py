@@ -2,13 +2,13 @@ import random
 import time
 from settings import Settings
 
-
 class ChatbotLogic:
     
-    def __init__(self, data, gpt_model, intent_model, minimum_confidence_score, privacy_level, give_suggestions):
+    def __init__(self, data, gpt_model, intent_model, ner_model, minimum_confidence_score, privacy_level, give_suggestions):
         self.data = data
         self.gpt_model = gpt_model
         self.intent_model = intent_model
+        self.ner_model = ner_model
         self.minimum_confidence_score = minimum_confidence_score
         self.privacy_level = privacy_level
         self.give_suggestions = give_suggestions
@@ -62,7 +62,7 @@ class ChatbotLogic:
     def add_user_message(self, user_message):
         self.history.append([user_message, None])
 
-        print(self.history)
+        # print(self.history)
         return self.history
 
     def bot(self, history):
@@ -157,7 +157,7 @@ class ChatbotLogic:
                 # Condition 4: Does the user have a high or low privacy level?
                 if self.privacy_level > 1:
                     # tell user to rephrase
-                    print('4: high privact level.')
+                    print('4: high privacy level.')
                     response = "I'm sorry, I'm not sure I understand your question. Could you please rephrase it?"
                 else:
                     # send question to ChatGPT
@@ -167,15 +167,25 @@ class ChatbotLogic:
             else:
                 print('3: model is confident!')
                 # Condition 5: Is there intent that requires a specific action?
-                if intent_name == 'privacy_settings_response':
+                if intent_name == 'quick_setup':
                     # Logic to ask user questions to set the settings here
                     response = None
                     self.add_bot_response('Sure, I can help you with that. I will ask you a few questions to determine your desired level of privacy.')
                     return self.update_count(0), False
 
-                elif intent_name == 'change_setting':
+                elif intent_name == 'change_specific_setting':
                     # NER keywoard recognition implementation here
-                    response = '(Test): Specific intent, change specific setting'
+                    print('Specific setting change')
+                    
+                    entities = self.ner_model.get_entities(user_message)
+                    state, setting = self.ner_model.get_keywords_from_entities(entities)
+
+                    success = self.settings.update_user_setting(0, setting, state)
+                    if success:
+                        response = f"Updating {setting} to {state} was successful"
+                    else:
+                        response = f"Updating {setting} to {state} was unsuccessful"
+
                 else:
                     print('5: intent is generic')
                     # Condition 6: Is the intent using GPT?
@@ -186,9 +196,11 @@ class ChatbotLogic:
                     else:
                         print('6: ChatGPT should answer.')
                         if self.privacy_level >= 1:
+                            print('high privacy level')
                             prompt_to_send = random.choice(intent_data['responses'])
                             response = self.gpt_model.answer_question(question=prompt_to_send)
                         else:
+                            print('low privacy level')
                             response = self.gpt_model.answer_question(question=user_message)
 
         # Finally return the response

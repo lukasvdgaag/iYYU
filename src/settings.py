@@ -10,7 +10,7 @@ class Settings:
         self.load_user_data()
         self.load_security_levels()
 
-        print(self.user_profiles)
+        # print(self.user_profiles)
 
         self.current_user = self.user_profiles.get(self.user_id)
         self.points = 0
@@ -39,19 +39,25 @@ class Settings:
         '''
         with open(self.user_data_location, 'r') as file:
             data = json.load(file)
-        print(data)
 
-        # Find the user with the specified user_id
+        # print(user_id, setting_name, setting_state)
+
         for user in data:
-            print(user)
             if user['user_id'] == user_id:
-                # Update the setting with the new state
+                if setting_state == 'enable':
+                    setting_state = True
+                elif setting_state == 'disable':
+                    setting_state = False
+                else:
+                    return False
                 user[setting_name] = setting_state
                 break
+        else:
+            return False  # User not found
 
-        # Save the updated JSON data to file
         with open(self.user_data_location, 'w') as file:
             json.dump(data, file)
+        return True
 
 
     def set_user_calling_card_visibility(self, user_id, individual_user_id, profile_card_component, component_state):
