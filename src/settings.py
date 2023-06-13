@@ -83,9 +83,8 @@ class Settings:
 
     def get_all_security_level_questions(self):
         return [
-            "Do you want your profile to be published?",
-            "Do you want other users to be able to connect with you?",
-            "Do you want your account to be visible for search?"
+            "Do you want your profile to be publicly visible?",
+            "Are you open to accepting new connections from other users?"
         ]
 
     def get_security_level_question(self, count):
@@ -102,9 +101,9 @@ class Settings:
         self.points += points
         
     def get_security_level_from_points(self, points):
-        if points <= 1:
+        if points == 0:
             return 1
-        elif points == 2:
+        elif points == 1:
             return 2
         else:
             return 3
