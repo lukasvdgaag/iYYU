@@ -101,12 +101,7 @@ class Settings:
         self.points += points
         
     def get_security_level_from_points(self, points):
-        if points == 0:
-            return 1
-        elif points == 1:
-            return 2
-        else:
-            return 3
+        return points +1
         
     def get_settings_from_security_level(self, level):
         if level == 1:
