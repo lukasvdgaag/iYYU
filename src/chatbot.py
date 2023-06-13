@@ -185,7 +185,7 @@ class ChatbotLogic:
                         response = random.choice(intent_data['responses'])
                     else:
                         print('6: ChatGPT should answer.')
-                        if self.privacy_level >= 1:
+                        if self.privacy_level > 1:
                             prompt_to_send = random.choice(intent_data['responses'])
                             response = self.gpt_model.answer_question(question=prompt_to_send)
                         else:
