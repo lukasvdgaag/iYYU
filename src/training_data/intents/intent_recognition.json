@@ -871,39 +871,91 @@
         "use_gpt": false
     },
     {
-      "intent": "privacy_settings_response",
-      "category": "settings",
-      "train_questions": [
-        "Can you change my settings?",
-        "Can you change my privacy settings?",
-        "Please change my privacy settings",
-        "Change my privacy settings",
-        "Change my settings",
-        "Can you publish my profile?",
-        "Can you make my account visible for search?",
-        "I don't want other people to see my account",
-        "Can you make me invisible to other people",
-        "Can you update my security"
-      ],
-      "responses": [
-        "Please answer my questions"
-      ],
-      "test_questions": [
-        "How can the bot change my settings?",
-        "What steps should I follow to have the bot change my privacy settings?",
-        "Can the bot please change my privacy settings?",
-        "What command should I give the bot to change my privacy settings?",
-        "Can the bot modify my settings?",
-        "How do I instruct the bot to publish my profile?"
-      ],
-      "test_questions_advanced": [
-        "How can the bot change my settings?",
-        "What steps should I follow to have the bot change my privacy settings?",
-        "Can the bot please change my privacy settings?",
-        "What command should I give the bot to change my privacy settings?",
-        "Can the bot modify my settings?",
-        "How do I instruct the bot to publish my profile?"
-      ],
-      "use_gpt": false
+        "intent": "quick_setup",
+        "category": "setup_profile",
+        "train_questions": [
+            "How can I quickly set up my security settings?",
+            "Can you guide me through a quick setup of my profile?",
+            "What is the process to initialize my security settings?",
+            "Can I use a predefined level to setup my profile?",
+            "Is there a quick way to set all user security settings?",
+            "Can I quickly configure my profile settings?",
+            "How to use the quick setup for my profile?",
+            "Can you help me setup my profile quickly?",
+            "How to configure security settings quickly?",
+            "How can I use a predefined security level for quick setup?",
+            "Is there a fast way to initialize my profile settings?",
+            "How to rapidly setup my security options?",
+            "Can you assist me in a quick profile setup?",
+            "What are the steps for a speedy security settings setup?",
+            "How do I use the chatbot's quick setup for profile configuration?",
+            "What's the fastest way to configure my profile security?",
+            "Can the chatbot help with a quick setup of my profile?",
+            "How can I use the quick setup option for my security settings?",
+            "Can I fast track my profile setup process?",
+            "How to leverage the quick setup feature for profile configuration?"
+        ],
+        "responses": [
+            "Sure, let's quickly set up your profile by choosing one of the predefined security levels. This will set all user security settings accordingly."
+        ],
+        "test_questions": [
+            "Can you help me with a quick setup of my security settings?",
+            "How can I fast track my profile setup?",
+            "What is the fastest way to setup my security settings?",
+            "Can I use a predefined level for a quick setup?",
+            "What's the easiest way to set up my security settings quickly?"
+        ],
+        "test_questions_advanced": [
+            "Is there a method for fast tracking the setup of my profile?",
+            "How can I use a predefined level for setting up my security quickly?",
+            "Can you guide me through a speedy setup of my profile?",
+            "How can I initialize my security settings quickly?",
+            "What's the fastest way to configure my profile settings?"
+        ],
+        "use_gpt": false
+    },
+    {
+        "intent": "change_specific_setting",
+        "category": "change_setting",
+        "train_questions": [
+            "How can I change the 'Publish profile' setting?",
+            "I want to change the visibility of my profile, how can I do that?",
+            "Can I adjust who can find me on this platform?",
+            "How to turn off the 'connect with me' feature?",
+            "How can I make my profile invisible for search?",
+            "How to modify who can find me to logged on only?",
+            "Can I turn on the 'Publish profile' feature?",
+            "How to switch off the 'visible for search' option?",
+            "Can I change the 'Who can find you' setting to everyone?",
+            "How to activate the 'connect with me' option?",
+            "Can I alter the 'Who can find you' option?",
+            "How to deactivate the 'Publish profile' setting?",
+            "How to set 'visible for search' to off?",
+            "Can I change 'connect with me' to on?",
+            "How do I modify the 'visible for search' setting?",
+            "Can I set 'Who can find you' to logged on only?",
+            "How do I change the 'connect with me' setting?",
+            "Can I modify the 'Publish profile' option?",
+            "How to change the 'visible for search' option?",
+            "Can I alter the 'Who can find you' setting to everyone?"
+        ],
+        "responses": [
+            "You can change the specific settings by navigating to your profile settings and adjusting the options for 'Publish profile', 'connect with me', 'visible for search' or 'Who can find you' as per your preference."
+        ],
+        "test_questions": [
+            "How do I adjust the 'Publish profile' setting?",
+            "Can I change the 'Who can find you' setting?",
+            "How do I turn the 'connect with me' feature on/off?",
+            "Can I make my profile not visible for search?",
+            "How can I change who can find me on this platform?"
+        ],
+        "test_questions_advanced": [
+            "How can I adjust the 'visible for search' option?",
+            "Can I modify the 'Who can find you' setting to logged on only?",
+            "How can I activate/deactivate the 'connect with me' feature?",
+            "Can I change the 'Publish profile' option?",
+            "Is there a way to modify the 'visible for search' setting?"
+        ],
+        "use_gpt": false
     }
 ]
