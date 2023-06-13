@@ -148,7 +148,7 @@ class ChatbotLogic:
 
             # test implementation to test whether conversational dialogues work.
             if (user_message == 'lol'):
-                intent_name = 'privacy_settings_response'
+                intent_name = 'change_specific_setting'
                 confidence_score = 1.0
 
             # Condition 3: Is the confidence score for the intent high enough to use it?
@@ -167,7 +167,7 @@ class ChatbotLogic:
             else:
                 print('3: model is confident!')
                 # Condition 5: Is there intent that requires a specific action?
-                if intent_name == 'privacy_settings_response':
+                if intent_name == 'change_specific_setting':
                     # Logic to ask user questions to set the settings here
                     response = None
                     self.add_bot_response('Sure, I can help you with that. I will ask you a few questions to determine your desired level of privacy.')
