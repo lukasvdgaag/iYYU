@@ -5,7 +5,7 @@ class Settings:
     user_data_location = 'assets/user_data.json'
 
     def __init__(self):
-        self.user_id = '0'
+        self.user_id = 0
 
         self.load_user_data()
         self.load_security_levels()
@@ -89,9 +89,8 @@ class Settings:
 
     def get_all_security_level_questions(self):
         return [
-            "Do you want your profile to be published?",
-            "Do you want other users to be able to connect with you?",
-            "Do you want your account to be visible for search?"
+            "Do you want your profile to be publicly visible?",
+            "Are you open to accepting new connections from other users?"
         ]
 
     def get_security_level_question(self, count):
@@ -108,12 +107,7 @@ class Settings:
         self.points += points
         
     def get_security_level_from_points(self, points):
-        if points <= 1:
-            return 1
-        elif points == 2:
-            return 2
-        else:
-            return 3
+        return points +1
         
     def get_settings_from_security_level(self, level):
         if level == 1:
@@ -139,6 +133,8 @@ class Settings:
 
         else:
             new_settings = self.get_settings_from_security_level(level)
+            print(self.current_user)
+            print(new_settings)
             self.current_user.update(new_settings)
 
             with open(self.user_data_location, 'w') as file:
