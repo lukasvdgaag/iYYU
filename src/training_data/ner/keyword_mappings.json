@@ -1,0 +1,25 @@
+{
+    "enable": [
+      "turn on",
+      "enable",
+      "publish",
+      "visible"
+    ],
+    "disable": [
+      "disable",
+      "turn off",
+      "restrict"
+    ],
+    "profile_published": [
+      "publish profile",
+      "profile"
+    ],
+    "open_to_connecting": [
+      "connect with me"
+    ],
+    "visibile_in_search": [
+      "show up in search"
+    ],
+    "findable_to": []
+  }
+  

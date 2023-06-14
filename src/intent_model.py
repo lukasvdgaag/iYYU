@@ -191,7 +191,7 @@ class IntentModel:
 
                     for question in questions:
                         predicted_intent, confidence_scores = self.get_intent(question)
-                        print(f"Question: {question}, Predicted intent: {predicted_intent}, correct intent: {correct_intent}")
+                        # print(f"Question: {question}, Predicted intent: {predicted_intent}, correct intent: {correct_intent}")
                         correctly_predicted = (predicted_intent == correct_intent)
                         if correctly_predicted:
                             correct_count += 1
