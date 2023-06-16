@@ -5,7 +5,7 @@ class Settings:
     user_data_location = 'assets/user_data.json'
 
     def __init__(self):
-        self.user_id = '0'
+        self.user_id = 0
 
         self.load_user_data()
         self.load_security_levels()
@@ -133,6 +133,8 @@ class Settings:
 
         else:
             new_settings = self.get_settings_from_security_level(level)
+            print(self.current_user)
+            print(new_settings)
             self.current_user.update(new_settings)
 
             with open(self.user_data_location, 'w') as file:
